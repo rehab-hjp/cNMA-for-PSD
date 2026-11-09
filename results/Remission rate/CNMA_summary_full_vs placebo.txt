@@ -1,0 +1,154 @@
+Additive model (common effects model):
+                                                                                treat1                                                                treat2      RR             95% CI     z p-value
+Alexopoulos 2012                                                     attention control                                             ecosystem focused therapy  0.2500 [0.0663;   0.9423] -2.05  0.0406
+He FJ 2023                                                           HFrTMS+usual care                                                       sham+usual care  2.8068 [0.8005;   9.8418]  1.61  0.1069
+Hu 2020                                                   HFrTMS+sertraline+usual care                                            sham+sertraline+usual care  1.1707 [1.0029;   1.3667]  2.00  0.0459
+Jorge 2004                                                                      HFrTMS                                                                  sham 11.0000 [0.6424; 188.3456]  1.65  0.0980
+Kim 2017                                                                  escitalopram                                                               placebo  2.8068 [0.8005;   9.8418]  1.61  0.1069
+Li 2013                                                  LFrTMS+mirtazapine+usual care                                                mirtazapine+usual care  2.8068 [0.8005;   9.8418]  1.61  0.1069
+Li 2015                                fluoxetine+psychological counselling+usual care                LFrTMS+fluoxetine+psychological counselling+usual care  0.7450 [0.6090;   0.9113] -2.86  0.0042
+Mitchell 2009                                                      behavioural therapy                                                            usual care  1.3423 [1.0973;   1.6421]  2.86  0.0042
+Valiengo 2017                                                                    dtDCS                                                                  sham  0.7450 [0.6090;   0.9113] -2.86  0.0042
+Wang 2014                              fluoxetine+psychological counselling+usual care                LFrTMS+fluoxetine+psychological counselling+usual care  1.4545 [0.7232;   2.9254]  1.05  0.2932
+Xu 2022                                                   HFrTMS+citalopram+usual care HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care  2.6364 [1.4226;   4.8858]  3.08  0.0021
+Xu 2022                                                   HFrTMS+citalopram+usual care        psychoeducation+supportive psychotherapy+citalopram+usual care  0.5517 [0.3277;   0.9290] -2.24  0.0253
+Xu 2022          HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care        psychoeducation+supportive psychotherapy+citalopram+usual care  1.7692 [1.0208;   3.0664]  2.03  0.0420
+
+Additive model (random effects model):
+                                                                                treat1                                                                treat2      RR             95% CI     z p-value
+Alexopoulos 2012                                                     attention control                                             ecosystem focused therapy  0.2500 [0.0663;   0.9423] -2.05  0.0406
+He FJ 2023                                                           HFrTMS+usual care                                                       sham+usual care  2.8068 [0.8005;   9.8418]  1.61  0.1069
+Hu 2020                                                   HFrTMS+sertraline+usual care                                            sham+sertraline+usual care  1.1707 [1.0029;   1.3667]  2.00  0.0459
+Jorge 2004                                                                      HFrTMS                                                                  sham 11.0000 [0.6424; 188.3456]  1.65  0.0980
+Kim 2017                                                                  escitalopram                                                               placebo  2.8068 [0.8005;   9.8418]  1.61  0.1069
+Li 2013                                                  LFrTMS+mirtazapine+usual care                                                mirtazapine+usual care  2.8068 [0.8005;   9.8418]  1.61  0.1069
+Li 2015                                fluoxetine+psychological counselling+usual care                LFrTMS+fluoxetine+psychological counselling+usual care  0.7450 [0.6090;   0.9113] -2.86  0.0042
+Mitchell 2009                                                      behavioural therapy                                                            usual care  1.3423 [1.0973;   1.6421]  2.86  0.0042
+Valiengo 2017                                                                    dtDCS                                                                  sham  0.7450 [0.6090;   0.9113] -2.86  0.0042
+Wang 2014                              fluoxetine+psychological counselling+usual care                LFrTMS+fluoxetine+psychological counselling+usual care  1.4545 [0.7232;   2.9254]  1.05  0.2932
+Xu 2022                                                   HFrTMS+citalopram+usual care HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care  2.6364 [1.4226;   4.8858]  3.08  0.0021
+Xu 2022                                                   HFrTMS+citalopram+usual care        psychoeducation+supportive psychotherapy+citalopram+usual care  0.5517 [0.3277;   0.9290] -2.24  0.0253
+Xu 2022          HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care        psychoeducation+supportive psychotherapy+citalopram+usual care  1.7692 [1.0208;   3.0664]  2.03  0.0420
+
+Number of studies: k = 11
+Number of pairwise comparisons: m = 13
+Number of treatments: n = 20
+Number of active components: c = 17
+Number of designs: d = 10
+Number of subnetworks: s = 9
+
+Common effects model
+
+Treatment estimate (sm = 'RR', comparison: other treatments vs 'placebo'):
+                                                                           RR             95% CI     z p-value
+attention control                                                      0.5410 [0.2774;   1.0551] -1.80  0.0714
+behavioural therapy                                                    1.4392 [1.0816;   1.9150]  2.50  0.0125
+dtDCS                                                                 11.1794 [0.4711; 265.2939]  1.49  0.1351
+ecosystem focused therapy                                              2.1640 [1.1096;   4.2203]  2.27  0.0235
+escitalopram                                                           1.1707 [1.0029;   1.3667]  2.00  0.0459
+fluoxetine+psychological counselling+usual care                        0.8135 [0.6113;   1.0824] -1.42  0.1566
+HFrTMS                                                                 2.8525 [1.5318;   5.3120]  3.30  0.0010
+HFrTMS+citalopram+usual care                                           2.1446 [1.0866;   4.2325]  2.20  0.0278
+HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care  3.8870 [1.5072;  10.0243]  2.81  0.0050
+HFrTMS+sertraline+usual care                                           2.1446 [1.0866;   4.2325]  2.20  0.0278
+HFrTMS+usual care                                                      2.1446 [1.0866;   4.2325]  2.20  0.0278
+LFrTMS+fluoxetine+psychological counselling+usual care                 1.0919 [0.7698;   1.5489]  0.49  0.6220
+LFrTMS+mirtazapine+usual care                                          1.0919 [0.7698;   1.5489]  0.49  0.6220
+mirtazapine+usual care                                                 0.8135 [0.6113;   1.0824] -1.42  0.1566
+placebo                                                                     .                  .     .       .
+psychoeducation+supportive psychotherapy+citalopram+usual care         1.4744 [0.8139;   2.6710]  1.28  0.2003
+sham                                                                   1.0163 [0.2506;   4.1223]  0.02  0.9819
+sham+sertraline+usual care                                             0.7641 [0.1834;   3.1832] -0.37  0.7117
+sham+usual care                                                        0.7641 [0.1834;   3.1832] -0.37  0.7117
+usual care                                                             0.8135 [0.6113;   1.0824] -1.42  0.1566
+
+Incremental effect for components:
+                              iRR             95% CI     z p-value
+attention control              NA                  .     .       .
+behavioural therapy            NA                  .     .       .
+citalopram                     NA                  .     .       .
+dtDCS                     10.3322 [0.4358; 244.9575]  1.45  0.1482
+ecosystem focused therapy      NA                  .     .       .
+escitalopram                   NA                  .     .       .
+fluoxetine                     NA                  .     .       .
+HFrTMS                     2.6364 [1.4226;   4.8858]  3.08  0.0021
+LFrTMS                     1.3423 [1.0973;   1.6421]  2.86  0.0042
+mirtazapine                    NA                  .     .       .
+placebo                        NA                  .     .       .
+psychoeducation                NA                  .     .       .
+psychological counselling      NA                  .     .       .
+sertraline                     NA                  .     .       .
+sham                       0.9393 [0.2321;   3.8017] -0.09  0.9300
+supportive psychotherapy       NA                  .     .       .
+usual care                     NA                  .     .       .
+
+Random effects model
+
+Treatment estimate (sm = 'RR', comparison: other treatments vs 'placebo'):
+                                                                           RR             95% CI     z p-value
+attention control                                                      0.5410 [0.2774;   1.0551] -1.80  0.0714
+behavioural therapy                                                    1.4392 [1.0816;   1.9150]  2.50  0.0125
+dtDCS                                                                 11.1794 [0.4711; 265.2939]  1.49  0.1351
+ecosystem focused therapy                                              2.1640 [1.1096;   4.2203]  2.27  0.0235
+escitalopram                                                           1.1707 [1.0029;   1.3667]  2.00  0.0459
+fluoxetine+psychological counselling+usual care                        0.8135 [0.6113;   1.0824] -1.42  0.1566
+HFrTMS                                                                 2.8525 [1.5318;   5.3120]  3.30  0.0010
+HFrTMS+citalopram+usual care                                           2.1446 [1.0866;   4.2325]  2.20  0.0278
+HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care  3.8870 [1.5072;  10.0243]  2.81  0.0050
+HFrTMS+sertraline+usual care                                           2.1446 [1.0866;   4.2325]  2.20  0.0278
+HFrTMS+usual care                                                      2.1446 [1.0866;   4.2325]  2.20  0.0278
+LFrTMS+fluoxetine+psychological counselling+usual care                 1.0919 [0.7698;   1.5489]  0.49  0.6220
+LFrTMS+mirtazapine+usual care                                          1.0919 [0.7698;   1.5489]  0.49  0.6220
+mirtazapine+usual care                                                 0.8135 [0.6113;   1.0824] -1.42  0.1566
+placebo                                                                     .                  .     .       .
+psychoeducation+supportive psychotherapy+citalopram+usual care         1.4744 [0.8139;   2.6710]  1.28  0.2003
+sham                                                                   1.0163 [0.2506;   4.1223]  0.02  0.9819
+sham+sertraline+usual care                                             0.7641 [0.1834;   3.1832] -0.37  0.7117
+sham+usual care                                                        0.7641 [0.1834;   3.1832] -0.37  0.7117
+usual care                                                             0.8135 [0.6113;   1.0824] -1.42  0.1566
+
+Incremental effect for components:
+                              iRR             95% CI     z p-value
+attention control              NA                  .     .       .
+behavioural therapy            NA                  .     .       .
+citalopram                     NA                  .     .       .
+dtDCS                     10.3322 [0.4358; 244.9575]  1.45  0.1482
+ecosystem focused therapy      NA                  .     .       .
+escitalopram                   NA                  .     .       .
+fluoxetine                     NA                  .     .       .
+HFrTMS                     2.6364 [1.4226;   4.8858]  3.08  0.0021
+LFrTMS                     1.3423 [1.0973;   1.6421]  2.86  0.0042
+mirtazapine                    NA                  .     .       .
+placebo                        NA                  .     .       .
+psychoeducation                NA                  .     .       .
+psychological counselling      NA                  .     .       .
+sertraline                     NA                  .     .       .
+sham                       0.9393 [0.2321;   3.8017] -0.09  0.9300
+supportive psychotherapy       NA                  .     .       .
+usual care                     NA                  .     .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 79.2%]
+
+Heterogeneity statistic:
+    Q df p-value
+ 0.16  4  0.9970
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- Component network meta-analysis
+- DerSimonian-Laird estimator for tau^2
+- Calculation of I^2 based on Q
+
+============================================================
+Additional network information
+============================================================
+
+A total of 20 treatments are included in the network.
+A total of 11 studies are included in this analysis.
+A total of 1296 participants are included in this analysis.
+The following studies were included in this analysis: Alexopoulos 2012 Jorge 2004 Kim 2017 Valiengo 2017 He FJ 2023 Hu 2020 Li 2015 Li 2013 Wang 2014 Xu 2022 Mitchell 2009
+
+Global test for inconsistency (standard model), p-value = NA (Q = NA, d.o.f. = NA)
+Global test for inconsistency (additive model), p-value = NA (Q = NA, d.o.f. = NA)
+Estimated heterogeneity tau-squared = 0
