@@ -1,0 +1,141 @@
+Additive model (common effects model):
+                                             treat1                                treat2     SMD            95% CI     z  p-value
+Bornheim 2020                      atDCS+usual care                       sham+usual care  0.4879 [-0.0986; 1.0744]  1.63   0.1030
+He 2023                      mindfulness+usual care                            usual care  0.2330 [-0.4321; 0.8981]  0.69   0.4923
+Kelleher 2025 behavioural activation+active control behavioural activation+mental imagery -0.0024 [-0.1817; 0.1769] -0.03   0.9790
+Kim 2017                               escitalopram                               placebo  1.3176 [ 0.9508; 1.6844]  7.04 < 0.0001
+Kootker 2017                                    CBT                    cognitive training -0.2202 [-0.7604; 0.3199] -0.80   0.4242
+Liu 2023                            GACT+usual care                            usual care -0.3944 [-1.0453; 0.2565] -1.19   0.2350
+Majumdar 2019                                  GACT                            usual care  2.4929 [ 1.8126; 3.1732]  7.18 < 0.0001
+Thomas 2019       behavioural activation+usual care                            usual care  0.5172 [ 0.0027; 1.0316]  1.97   0.0488
+Xu 2017                   Morita therapy+paroxetine                            paroxetine  0.0000 [-0.5934; 0.5934]  0.00   1.0000
+
+Additive model (random effects model):
+                                             treat1                                treat2     SMD            95% CI     z  p-value
+Bornheim 2020                      atDCS+usual care                       sham+usual care  0.4879 [-0.0986; 1.0744]  1.63   0.1030
+He 2023                      mindfulness+usual care                            usual care  0.2330 [-0.4321; 0.8981]  0.69   0.4923
+Kelleher 2025 behavioural activation+active control behavioural activation+mental imagery -0.0024 [-0.1817; 0.1769] -0.03   0.9790
+Kim 2017                               escitalopram                               placebo  1.3176 [ 0.9508; 1.6844]  7.04 < 0.0001
+Kootker 2017                                    CBT                    cognitive training -0.2202 [-0.7604; 0.3199] -0.80   0.4242
+Liu 2023                            GACT+usual care                            usual care -0.3944 [-1.0453; 0.2565] -1.19   0.2350
+Majumdar 2019                                  GACT                            usual care  2.4929 [ 1.8126; 3.1732]  7.18 < 0.0001
+Thomas 2019       behavioural activation+usual care                            usual care  0.5172 [ 0.0027; 1.0316]  1.97   0.0488
+Xu 2017                   Morita therapy+paroxetine                            paroxetine  0.0000 [-0.5934; 0.5934]  0.00   1.0000
+
+Number of studies: k = 9
+Number of pairwise comparisons: m = 9
+Number of treatments: n = 15
+Number of active components: c = 14
+Number of designs: d = 9
+Number of subnetworks: s = 6
+
+Common effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'usual care'):
+                                          SMD             95% CI     z  p-value
+atDCS+usual care                       0.2440 [-0.0493;  0.5372]  1.63   0.1030
+behavioural activation+active control -1.8158 [-2.7959; -0.8357] -3.63   0.0003
+behavioural activation+mental imagery -2.0488 [-3.0289; -1.0687] -4.10 < 0.0001
+behavioural activation+usual care     -0.3944 [-1.0453;  0.2565] -1.19   0.2350
+CBT                                   -1.5379 [-2.2550; -0.8207] -4.20 < 0.0001
+cognitive training                    -1.5379 [-2.2550; -0.8207] -4.20 < 0.0001
+escitalopram                          -1.5391 [-2.1981; -0.8800] -4.58 < 0.0001
+GACT                                  -0.2202 [-0.7604;  0.3199] -0.80   0.4242
+GACT+usual care                        1.3176 [ 0.9508;  1.6844]  7.04 < 0.0001
+mindfulness+usual care                 2.4929 [ 1.8126;  3.1732]  7.18 < 0.0001
+Morita therapy+paroxetine             -1.0207 [-1.8519; -0.1894] -2.41   0.0161
+paroxetine                            -1.5379 [-2.1908; -0.8849] -4.62 < 0.0001
+placebo                               -1.5367 [-2.1957; -0.8776] -4.57 < 0.0001
+sham+usual care                       -0.2440 [-0.5372;  0.0493] -1.63   0.1030
+usual care                                  .                  .     .        .
+
+Incremental effect for existing combinations:
+                                    iSMD           95% CI    z  p-value
+behavioural activation+usual care 1.1435 [0.2215; 2.0654] 2.43   0.0151
+GACT+usual care                   2.8555 [1.9445; 3.7665] 6.14 < 0.0001
+mindfulness+usual care            4.0308 [3.0878; 4.9737] 8.38 < 0.0001
+
+Incremental effect for components:
+                          iSMD            95% CI     z  p-value
+active control              NA                 .     .        .
+atDCS                       NA                 .     .        .
+behavioural activation -0.3944 [-1.0453; 0.2565] -1.19   0.2350
+CBT                         NA                 .     .        .
+cognitive training          NA                 .     .        .
+escitalopram                NA                 .     .        .
+GACT                    1.3176 [ 0.9508; 1.6844]  7.04 < 0.0001
+mental imagery              NA                 .     .        .
+mindfulness             2.4929 [ 1.8126; 3.1732]  7.18 < 0.0001
+Morita therapy          0.5172 [ 0.0027; 1.0316]  1.97   0.0488
+paroxetine                  NA                 .     .        .
+placebo                     NA                 .     .        .
+sham                        NA                 .     .        .
+usual care              1.5379 [ 0.8849; 2.1908]  4.62 < 0.0001
+
+Random effects model
+
+Treatment estimate (sm = 'SMD', comparison: other treatments vs 'usual care'):
+                                          SMD             95% CI     z  p-value
+atDCS+usual care                       0.2440 [-0.0493;  0.5372]  1.63   0.1030
+behavioural activation+active control -1.8158 [-2.7959; -0.8357] -3.63   0.0003
+behavioural activation+mental imagery -2.0488 [-3.0289; -1.0687] -4.10 < 0.0001
+behavioural activation+usual care     -0.3944 [-1.0453;  0.2565] -1.19   0.2350
+CBT                                   -1.5379 [-2.2550; -0.8207] -4.20 < 0.0001
+cognitive training                    -1.5379 [-2.2550; -0.8207] -4.20 < 0.0001
+escitalopram                          -1.5391 [-2.1981; -0.8800] -4.58 < 0.0001
+GACT                                  -0.2202 [-0.7604;  0.3199] -0.80   0.4242
+GACT+usual care                        1.3176 [ 0.9508;  1.6844]  7.04 < 0.0001
+mindfulness+usual care                 2.4929 [ 1.8126;  3.1732]  7.18 < 0.0001
+Morita therapy+paroxetine             -1.0207 [-1.8519; -0.1894] -2.41   0.0161
+paroxetine                            -1.5379 [-2.1908; -0.8849] -4.62 < 0.0001
+placebo                               -1.5367 [-2.1957; -0.8776] -4.57 < 0.0001
+sham+usual care                       -0.2440 [-0.5372;  0.0493] -1.63   0.1030
+usual care                                  .                  .     .        .
+
+Incremental effect for existing combinations:
+                                    iSMD           95% CI    z  p-value
+behavioural activation+usual care 1.1435 [0.2215; 2.0654] 2.43   0.0151
+GACT+usual care                   2.8555 [1.9445; 3.7665] 6.14 < 0.0001
+mindfulness+usual care            4.0308 [3.0878; 4.9737] 8.38 < 0.0001
+
+Incremental effect for components:
+                          iSMD            95% CI     z  p-value
+active control              NA                 .     .        .
+atDCS                       NA                 .     .        .
+behavioural activation -0.3944 [-1.0453; 0.2565] -1.19   0.2350
+CBT                         NA                 .     .        .
+cognitive training          NA                 .     .        .
+escitalopram                NA                 .     .        .
+GACT                    1.3176 [ 0.9508; 1.6844]  7.04 < 0.0001
+mental imagery              NA                 .     .        .
+mindfulness             2.4929 [ 1.8126; 3.1732]  7.18 < 0.0001
+Morita therapy          0.5172 [ 0.0027; 1.0316]  1.97   0.0488
+paroxetine                  NA                 .     .        .
+placebo                     NA                 .     .        .
+sham                        NA                 .     .        .
+usual care              1.5379 [ 0.8849; 2.1908]  4.62 < 0.0001
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Heterogeneity statistic:
+    Q df p-value
+ 0.00  0      --
+
+Details of network meta-analysis methods:
+- Frequentist graph-theoretical approach
+- Component network meta-analysis
+- DerSimonian-Laird estimator for tau^2
+
+============================================================
+Additional network information
+============================================================
+
+A total of 15 treatments are included in the network.
+A total of 9 studies are included in this analysis.
+A total of 951 participants are included in this analysis.
+The following studies were included in this analysis: Bornheim 2020 Kelleher 2025 Kim 2017 Liu 2023 Majumdar 2019 Thomas 2019 He 2023 Xu 2017 Kootker 2017
+
+Global test for inconsistency (standard model), p-value = NA (Q = NA, d.o.f. = NA)
+Global test for inconsistency (additive model), p-value = NA (Q = NA, d.o.f. = NA)
+Estimated heterogeneity tau-squared = NA
