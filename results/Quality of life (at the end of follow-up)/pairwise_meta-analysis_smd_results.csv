@@ -1,0 +1,10 @@
+"comparisons","Number.of.studies","SMD","lower.CI","upper.CI","tau.sq","I.sq","lower.I.sq","upper.I.sq","Q.st","p.val"
+"atDCS+usual care vs sham+usual care",1,0.4795,-0.1067,1.0658,,,,,0,
+"behavioural activation+active control vs behavioural activation+mental imagery",1,0.2277,-0.4373,0.8927,,,,,0,
+"escitalopram vs placebo",1,-0.0024,-0.1817,0.1769,,,,,0,
+"GACT+usual care vs usual care",1,1.3104,0.944,1.6768,,,,,0,
+"GACT vs usual care",1,-0.217,-0.7571,0.3231,,,,,0,
+"behavioural activation+usual care vs usual care",1,-0.3859,-1.0365,0.2647,,,,,0,
+"mindfulness+usual care vs usual care",1,2.46,1.7836,3.1364,,,,,0,
+"Morita therapy+paroxetine vs paroxetine",1,0.5105,-0.0038,1.0247,,,,,0,
+"CBT vs cognitive training",1,0,-0.5934,0.5934,,,,,0,
