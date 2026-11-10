@@ -1,0 +1,51 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                                 treat1                       treat2     TE   seTE
+Shi 2022 HFrTMS+escitalopram+usual care sham+escitalopram+usual care 0.3429 0.2107
+
+Number of treatment arms per study:
+         narms
+Shi 2022     2
+
+Results (common effects model):
+
+                                 treat1                       treat2     RR           95% CI    Q
+Shi 2022 HFrTMS+escitalopram+usual care sham+escitalopram+usual care 1.4091 [0.9324; 2.1294] 0.00
+         leverage
+Shi 2022     1.00
+
+Results (random effects model):
+
+                                 treat1                       treat2     RR           95% CI
+Shi 2022 HFrTMS+escitalopram+usual care sham+escitalopram+usual care 1.4091 [0.9324; 2.1294]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of observations: o = 120
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('sham+escitalopram+usual care' vs 'HFrTMS+escitalopram+usual care'):
+                                   RR           95% CI     z p-value
+HFrTMS+escitalopram+usual care      .                .     .       .
+sham+escitalopram+usual care   0.7097 [0.4696; 1.0725] -1.63  0.1035
+
+Random effects model
+
+Treatment estimate ('sham+escitalopram+usual care' vs 'HFrTMS+escitalopram+usual care'):
+                                   RR           95% CI     z p-value
+HFrTMS+escitalopram+usual care      .                .     .       .
+sham+escitalopram+usual care   0.7097 [0.4696; 1.0725] -1.63  0.1035
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 120 participants are included in this analysis.
+The following studies were included in this analysis: Shi 2022
+

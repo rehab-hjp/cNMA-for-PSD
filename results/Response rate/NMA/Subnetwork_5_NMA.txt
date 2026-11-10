@@ -1,0 +1,87 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                                treat1                       treat2      TE   seTE
+Wu 2023          fluoxetine+usual care HFrTMS+fluoxetine+usual care -0.2412 0.3093
+Dou 2022         fluoxetine+usual care HFrTMS+fluoxetine+usual care -0.2513 0.1253
+Li GB 2022 drTMS+fluoxetine+usual care        fluoxetine+usual care  0.1942 0.0978
+Ma 2015          fluoxetine+usual care HFrTMS+fluoxetine+usual care -0.6312 0.2444
+Zhang 2019       fluoxetine+usual care HFrTMS+fluoxetine+usual care -0.1731 0.0866
+Zhang 2014       fluoxetine+usual care   REBT+fluoxetine+usual care -0.2683 0.2969
+
+Number of treatment arms per study:
+           narms
+Wu 2023        2
+Dou 2022       2
+Li GB 2022     2
+Ma 2015        2
+Zhang 2019     2
+Zhang 2014     2
+
+Results (common effects model):
+
+                                treat1                       treat2     RR           95% CI    Q
+Wu 2023          fluoxetine+usual care HFrTMS+fluoxetine+usual care 0.7924 [0.6952; 0.9032] 0.00
+Dou 2022         fluoxetine+usual care HFrTMS+fluoxetine+usual care 0.7924 [0.6952; 0.9032] 0.02
+Li GB 2022 drTMS+fluoxetine+usual care        fluoxetine+usual care 1.2143 [1.0024; 1.4709] 0.00
+Ma 2015          fluoxetine+usual care HFrTMS+fluoxetine+usual care 0.7924 [0.6952; 0.9032] 2.66
+Zhang 2019       fluoxetine+usual care HFrTMS+fluoxetine+usual care 0.7924 [0.6952; 0.9032] 0.47
+Zhang 2014       fluoxetine+usual care   REBT+fluoxetine+usual care 0.7647 [0.4274; 1.3683] 0.00
+           leverage
+Wu 2023        0.05
+Dou 2022       0.28
+Li GB 2022     1.00
+Ma 2015        0.07
+Zhang 2019     0.59
+Zhang 2014     1.00
+
+Results (random effects model):
+
+                                treat1                       treat2     RR           95% CI
+Wu 2023          fluoxetine+usual care HFrTMS+fluoxetine+usual care 0.7888 [0.6868; 0.9060]
+Dou 2022         fluoxetine+usual care HFrTMS+fluoxetine+usual care 0.7888 [0.6868; 0.9060]
+Li GB 2022 drTMS+fluoxetine+usual care        fluoxetine+usual care 1.2143 [0.9905; 1.4886]
+Ma 2015          fluoxetine+usual care HFrTMS+fluoxetine+usual care 0.7888 [0.6868; 0.9060]
+Zhang 2019       fluoxetine+usual care HFrTMS+fluoxetine+usual care 0.7888 [0.6868; 0.9060]
+Zhang 2014       fluoxetine+usual care   REBT+fluoxetine+usual care 0.7647 [0.4256; 1.3739]
+
+Number of studies: k = 6
+Number of pairwise comparisons: m = 6
+Number of observations: o = 421
+Number of treatments: n = 4
+Number of designs: d = 3
+
+Common effects model
+
+Treatment estimate (other treatments vs 'fluoxetine+usual care'):
+                                 RR           95% CI    z p-value
+drTMS+fluoxetine+usual care  1.2143 [1.0024; 1.4709] 1.98  0.0472
+fluoxetine+usual care             .                .    .       .
+HFrTMS+fluoxetine+usual care 1.2620 [1.1072; 1.4385] 3.48  0.0005
+REBT+fluoxetine+usual care   1.3077 [0.7308; 2.3399] 0.90  0.3662
+
+Random effects model
+
+Treatment estimate (other treatments vs 'fluoxetine+usual care'):
+                                 RR           95% CI    z p-value            95% PI
+drTMS+fluoxetine+usual care  1.2143 [0.9905; 1.4886] 1.87  0.0617  [0.8565; 1.7215]
+fluoxetine+usual care             .                .    .       .                 .
+HFrTMS+fluoxetine+usual care 1.2677 [1.1038; 1.4559] 3.36  0.0008  [0.9863; 1.6293]
+REBT+fluoxetine+usual care   1.3077 [0.7279; 2.3494] 0.90  0.3695  [0.5018; 3.4079]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0012; tau = 0.0350; I^2 = 4.9% [0.0%; 85.4%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           3.15    3  0.3685
+Within designs  3.15    3  0.3685
+Between designs 0.00    0      --
+
+A total of 4 treatments are included in the network.
+A total of 6 studies are included in this analysis.
+A total of 421 participants are included in this analysis.
+The following studies were included in this analysis: Wu 2023 Dou 2022 Li GB 2022 Ma 2015 Zhang 2019 Zhang 2014
+Estimated heterogeneity tau-squared0.00
+

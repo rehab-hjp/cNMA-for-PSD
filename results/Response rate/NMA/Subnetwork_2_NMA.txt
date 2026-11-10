@@ -1,0 +1,161 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                                      treat1                             treat2
+Geng 2025                        CBT+escitalopram+usual care HFrTMS+escitalopram+CBT+usual care
+Li 2020                          CBT+escitalopram+usual care            escitalopram+usual care
+Li 2021 D                            escitalopram+usual care                         usual care
+Li 2021 D                     LFrTMS+escitalopram+usual care                         usual care
+Li 2021 D                            escitalopram+usual care     LFrTMS+escitalopram+usual care
+Lu 2018                 Morita therapy+paroxetine+usual care              paroxetine+usual care
+Luo 2012                 supportive psychotherapy+usual care                         usual care
+Ma 2008                               maprotiline+usual care              paroxetine+usual care
+Wan 2008  CBT+humanistic psychotherapy+paroxetine+usual care              paroxetine+usual care
+Wang 2019                            escitalopram+usual care     LFrTMS+escitalopram+usual care
+Ye 2006                                imipramine+usual care              paroxetine+usual care
+Ye 2006                                paroxetine+usual care                         usual care
+Ye 2006                                imipramine+usual care                         usual care
+               TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Geng 2025 -0.4480 0.1745     0.1745     0.1745     2         
+Li 2020    0.4013 0.0964     0.0964     0.0964     2         
+Li 2021 D  0.8575 0.7652     1.2373     1.2373     3        *
+Li 2021 D  1.4046 0.7194     0.8579     0.8579     3        *
+Li 2021 D -0.5472 0.4404     0.4605     0.4605     3        *
+Lu 2018    0.4855 0.2310     0.2310     0.2310     2         
+Luo 2012   0.7949 0.2652     0.2652     0.2652     2         
+Ma 2008   -0.1823 0.1812     0.1812     0.1812     2         
+Wan 2008   0.4893 0.2213     0.2213     0.2213     2         
+Wang 2019 -0.3857 0.2210     0.2210     0.2210     2         
+Ye 2006   -0.0488 0.1811     0.1889     0.1889     3        *
+Ye 2006    0.9651 0.3255     0.4203     0.4203     3        *
+Ye 2006    0.9163 0.3319     0.4786     0.4786     3        *
+
+Number of treatment arms per study (by decreasing number of arms):
+          narms multiarm
+Li 2021 D     3        *
+Ye 2006       3        *
+Geng 2025     2         
+Li 2020       2         
+Lu 2018       2         
+Luo 2012      2         
+Ma 2008       2         
+Wan 2008      2         
+Wang 2019     2         
+
+Results (common effects model):
+
+                                                      treat1                             treat2
+Geng 2025                        CBT+escitalopram+usual care HFrTMS+escitalopram+CBT+usual care
+Li 2020                          CBT+escitalopram+usual care            escitalopram+usual care
+Li 2021 D                            escitalopram+usual care                         usual care
+Li 2021 D                     LFrTMS+escitalopram+usual care                         usual care
+Li 2021 D                            escitalopram+usual care     LFrTMS+escitalopram+usual care
+Lu 2018                 Morita therapy+paroxetine+usual care              paroxetine+usual care
+Luo 2012                 supportive psychotherapy+usual care                         usual care
+Ma 2008                               maprotiline+usual care              paroxetine+usual care
+Wan 2008  CBT+humanistic psychotherapy+paroxetine+usual care              paroxetine+usual care
+Wang 2019                            escitalopram+usual care     LFrTMS+escitalopram+usual care
+Ye 2006                                imipramine+usual care              paroxetine+usual care
+Ye 2006                                paroxetine+usual care                         usual care
+Ye 2006                                imipramine+usual care                         usual care
+              RR            95% CI    Q leverage
+Geng 2025 0.6389 [0.4539;  0.8994] 0.00     1.00
+Li 2020   1.4937 [1.2367;  1.8042] 0.00     1.00
+Li 2021 D 2.5718 [0.6302; 10.4953] 0.00        .
+Li 2021 D 3.9069 [0.9755; 15.6470] 0.00        .
+Li 2021 D 0.6583 [0.4470;  0.9694] 0.08        .
+Lu 2018   1.6250 [1.0334;  2.5553] 0.00     1.00
+Luo 2012  2.2143 [1.3166;  3.7240] 0.00     1.00
+Ma 2008   0.8333 [0.5842;  1.1887] 0.00     1.00
+Wan 2008  1.6312 [1.0572;  2.5169] 0.00     1.00
+Wang 2019 0.6583 [0.4470;  0.9694] 0.02     0.80
+Ye 2006   0.9524 [0.6678;  1.3583] 0.00        .
+Ye 2006   2.6250 [1.3869;  4.9682] 0.00        .
+Ye 2006   2.5000 [1.3043;  4.7917] 0.00        .
+
+Results (random effects model):
+
+                                                      treat1                             treat2
+Geng 2025                        CBT+escitalopram+usual care HFrTMS+escitalopram+CBT+usual care
+Li 2020                          CBT+escitalopram+usual care            escitalopram+usual care
+Li 2021 D                            escitalopram+usual care                         usual care
+Li 2021 D                     LFrTMS+escitalopram+usual care                         usual care
+Li 2021 D                            escitalopram+usual care     LFrTMS+escitalopram+usual care
+Lu 2018                 Morita therapy+paroxetine+usual care              paroxetine+usual care
+Luo 2012                 supportive psychotherapy+usual care                         usual care
+Ma 2008                               maprotiline+usual care              paroxetine+usual care
+Wan 2008  CBT+humanistic psychotherapy+paroxetine+usual care              paroxetine+usual care
+Wang 2019                            escitalopram+usual care     LFrTMS+escitalopram+usual care
+Ye 2006                                imipramine+usual care              paroxetine+usual care
+Ye 2006                                paroxetine+usual care                         usual care
+Ye 2006                                imipramine+usual care                         usual care
+              RR            95% CI
+Geng 2025 0.6389 [0.4539;  0.8994]
+Li 2020   1.4937 [1.2367;  1.8042]
+Li 2021 D 2.5718 [0.6302; 10.4953]
+Li 2021 D 3.9069 [0.9755; 15.6470]
+Li 2021 D 0.6583 [0.4470;  0.9694]
+Lu 2018   1.6250 [1.0334;  2.5553]
+Luo 2012  2.2143 [1.3166;  3.7240]
+Ma 2008   0.8333 [0.5842;  1.1887]
+Wan 2008  1.6312 [1.0572;  2.5169]
+Wang 2019 0.6583 [0.4470;  0.9694]
+Ye 2006   0.9524 [0.6678;  1.3583]
+Ye 2006   2.6250 [1.3869;  4.9682]
+Ye 2006   2.5000 [1.3043;  4.7917]
+
+Number of studies: k = 9
+Number of pairwise comparisons: m = 13
+Number of observations: o = 1024
+Number of treatments: n = 11
+Number of designs: d = 9
+
+Common effects model
+
+Treatment estimate (other treatments vs 'paroxetine+usual care'):
+                                                       RR            95% CI     z p-value
+CBT+escitalopram+usual care                        1.4634 [0.3088;  6.9349]  0.48  0.6314
+CBT+humanistic psychotherapy+paroxetine+usual care 1.6312 [1.0572;  2.5169]  2.21  0.0270
+escitalopram+usual care                            0.9797 [0.2091;  4.5896] -0.03  0.9793
+HFrTMS+escitalopram+CBT+usual care                 2.2906 [0.4657; 11.2653]  1.02  0.3078
+imipramine+usual care                              0.9524 [0.6678;  1.3583] -0.27  0.7876
+LFrTMS+escitalopram+usual care                     1.4883 [0.3232;  6.8540]  0.51  0.6098
+maprotiline+usual care                             0.8333 [0.5842;  1.1887] -1.01  0.3144
+Morita therapy+paroxetine+usual care               1.6250 [1.0334;  2.5553]  2.10  0.0355
+paroxetine+usual care                                   .                 .     .       .
+supportive psychotherapy+usual care                0.8435 [0.3704;  1.9209] -0.41  0.6853
+usual care                                         0.3810 [0.2013;  0.7210] -2.96  0.0030
+
+Random effects model
+
+Treatment estimate (other treatments vs 'paroxetine+usual care'):
+                                                       RR            95% CI     z p-value  95% PI
+CBT+escitalopram+usual care                        1.4634 [0.3088;  6.9349]  0.48  0.6314        
+CBT+humanistic psychotherapy+paroxetine+usual care 1.6312 [1.0572;  2.5169]  2.21  0.0270        
+escitalopram+usual care                            0.9797 [0.2091;  4.5896] -0.03  0.9793        
+HFrTMS+escitalopram+CBT+usual care                 2.2906 [0.4657; 11.2653]  1.02  0.3078        
+imipramine+usual care                              0.9524 [0.6678;  1.3583] -0.27  0.7876        
+LFrTMS+escitalopram+usual care                     1.4883 [0.3232;  6.8540]  0.51  0.6098        
+maprotiline+usual care                             0.8333 [0.5842;  1.1887] -1.01  0.3144        
+Morita therapy+paroxetine+usual care               1.6250 [1.0334;  2.5553]  2.10  0.0355        
+paroxetine+usual care                                   .                 .     .       .       .
+supportive psychotherapy+usual care                0.8435 [0.3704;  1.9209] -0.41  0.6853        
+usual care                                         0.3810 [0.2013;  0.7210] -2.96  0.0030        
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0%
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           0.11    1  0.7430
+Within designs  0.00    0      --
+Between designs 0.11    1  0.7430
+
+A total of 11 treatments are included in the network.
+A total of 9 studies are included in this analysis.
+A total of 1024 participants are included in this analysis.
+The following studies were included in this analysis: Geng 2025 Li 2020 Li 2021 D Lu 2018 Luo 2012 Ma 2008 Wan 2008 Wang 2019 Ye 2006
+Estimated heterogeneity tau-squared0.00
+Global test for inconsistency, p-value = 0.743 (Q = 0.11, d.o.f. = 1)
+

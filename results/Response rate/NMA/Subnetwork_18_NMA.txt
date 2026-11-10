@@ -1,0 +1,49 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                               treat1                treat2     TE   seTE
+Zhu N 2022 REBT+sertraline+usual care sertraline+usual care 1.0704 0.5263
+
+Number of treatment arms per study:
+           narms
+Zhu N 2022     2
+
+Results (common effects model):
+
+                               treat1                treat2     RR           95% CI    Q leverage
+Zhu N 2022 REBT+sertraline+usual care sertraline+usual care 2.9167 [1.0397; 8.1822] 0.00     1.00
+
+Results (random effects model):
+
+                               treat1                treat2     RR           95% CI
+Zhu N 2022 REBT+sertraline+usual care sertraline+usual care 2.9167 [1.0397; 8.1822]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of observations: o = 71
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('sertraline+usual care' vs 'REBT+sertraline+usual care'):
+                               RR           95% CI     z p-value
+REBT+sertraline+usual care      .                .     .       .
+sertraline+usual care      0.3429 [0.1222; 0.9618] -2.03  0.0420
+
+Random effects model
+
+Treatment estimate ('sertraline+usual care' vs 'REBT+sertraline+usual care'):
+                               RR           95% CI     z p-value
+REBT+sertraline+usual care      .                .     .       .
+sertraline+usual care      0.3429 [0.1222; 0.9618] -2.03  0.0420
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 71 participants are included in this analysis.
+The following studies were included in this analysis: Zhu N 2022
+

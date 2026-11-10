@@ -1,0 +1,70 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                     treat1         treat2      TE   seTE
+Chen 2018 HFrTMS+paroxetine     paroxetine  0.3390 0.3030
+Ding 2005        paroxetine paroxetine+CBT -0.4055 0.1838
+Liu 2020  HFrTMS+paroxetine     paroxetine  0.4568 0.1647
+Zhu 2018  HFrTMS+paroxetine     paroxetine  0.4568 0.1647
+
+Number of treatment arms per study:
+          narms
+Chen 2018     2
+Ding 2005     2
+Liu 2020      2
+Zhu 2018      2
+
+Results (common effects model):
+
+                     treat1         treat2     RR           95% CI    Q leverage
+Chen 2018 HFrTMS+paroxetine     paroxetine 1.5552 [1.2567; 1.9246] 0.11     0.13
+Ding 2005        paroxetine paroxetine+CBT 0.6667 [0.4650; 0.9557] 0.00     1.00
+Liu 2020  HFrTMS+paroxetine     paroxetine 1.5552 [1.2567; 1.9246] 0.01     0.44
+Zhu 2018  HFrTMS+paroxetine     paroxetine 1.5552 [1.2567; 1.9246] 0.01     0.44
+
+Results (random effects model):
+
+                     treat1         treat2     RR           95% CI
+Chen 2018 HFrTMS+paroxetine     paroxetine 1.5552 [1.2567; 1.9246]
+Ding 2005        paroxetine paroxetine+CBT 0.6667 [0.4650; 0.9557]
+Liu 2020  HFrTMS+paroxetine     paroxetine 1.5552 [1.2567; 1.9246]
+Zhu 2018  HFrTMS+paroxetine     paroxetine 1.5552 [1.2567; 1.9246]
+
+Number of studies: k = 4
+Number of pairwise comparisons: m = 4
+Number of observations: o = 243
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'paroxetine'):
+                      RR           95% CI    z  p-value
+HFrTMS+paroxetine 1.5552 [1.2567; 1.9246] 4.06 < 0.0001
+paroxetine             .                .    .        .
+paroxetine+CBT    1.5000 [1.0463; 2.1504] 2.21   0.0274
+
+Random effects model
+
+Treatment estimate (other treatments vs 'paroxetine'):
+                      RR           95% CI    z  p-value            95% PI
+HFrTMS+paroxetine 1.5552 [1.2567; 1.9246] 4.06 < 0.0001  [0.9741; 2.4829]
+paroxetine             .                .    .        .                 .
+paroxetine+CBT    1.5000 [1.0463; 2.1504] 2.21   0.0274  [0.6803; 3.3073]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 89.6%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           0.13    2  0.9363
+Within designs  0.13    2  0.9363
+Between designs 0.00    0      --
+
+A total of 3 treatments are included in the network.
+A total of 4 studies are included in this analysis.
+A total of 243 participants are included in this analysis.
+The following studies were included in this analysis: Chen 2018 Ding 2005 Liu 2020 Zhu 2018
+Estimated heterogeneity tau-squared0.00
+

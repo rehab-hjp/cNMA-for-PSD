@@ -1,0 +1,61 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                               treat1                 treat2     TE   seTE
+Li 2013 LFrTMS+mirtazapine+usual care mirtazapine+usual care 0.2136 0.1393
+Li 2018    CBT+mirtazapine+usual care mirtazapine+usual care 0.0770 0.1747
+
+Number of treatment arms per study:
+        narms
+Li 2013     2
+Li 2018     2
+
+Results (common effects model):
+
+                               treat1                 treat2     RR           95% CI    Q leverage
+Li 2013 LFrTMS+mirtazapine+usual care mirtazapine+usual care 1.2381 [0.9422; 1.6269] 0.00     1.00
+Li 2018    CBT+mirtazapine+usual care mirtazapine+usual care 1.0800 [0.7668; 1.5210] 0.00     1.00
+
+Results (random effects model):
+
+                               treat1                 treat2     RR           95% CI
+Li 2013 LFrTMS+mirtazapine+usual care mirtazapine+usual care 1.2381 [0.9422; 1.6269]
+Li 2018    CBT+mirtazapine+usual care mirtazapine+usual care 1.0800 [0.7668; 1.5210]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of observations: o = 146
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'mirtazapine+usual care'):
+                                  RR           95% CI    z p-value
+CBT+mirtazapine+usual care    1.0800 [0.7668; 1.5210] 0.44  0.6596
+LFrTMS+mirtazapine+usual care 1.2381 [0.9422; 1.6269] 1.53  0.1253
+mirtazapine+usual care             .                .    .       .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'mirtazapine+usual care'):
+                                  RR           95% CI    z p-value
+CBT+mirtazapine+usual care    1.0800 [0.7668; 1.5210] 0.44  0.6596
+LFrTMS+mirtazapine+usual care 1.2381 [0.9422; 1.6269] 1.53  0.1253
+mirtazapine+usual care             .                .    .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 146 participants are included in this analysis.
+The following studies were included in this analysis: Li 2013 Li 2018
+

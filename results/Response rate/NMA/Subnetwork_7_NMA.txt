@@ -1,0 +1,58 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                        treat1                       treat2      TE   seTE
+Gao 2021 duloxetine+usual care HFrTMS+duloxetine+usual care -0.2076 0.1043
+Lu 2016  duloxetine+usual care HFrTMS+duloxetine+usual care -0.3429 0.1665
+
+Number of treatment arms per study:
+         narms
+Gao 2021     2
+Lu 2016      2
+
+Results (common effects model):
+
+                        treat1                       treat2     RR           95% CI    Q leverage
+Gao 2021 duloxetine+usual care HFrTMS+duloxetine+usual care 0.7821 [0.6576; 0.9300] 0.13     0.72
+Lu 2016  duloxetine+usual care HFrTMS+duloxetine+usual care 0.7821 [0.6576; 0.9300] 0.34     0.28
+
+Results (random effects model):
+
+                        treat1                       treat2     RR           95% CI
+Gao 2021 duloxetine+usual care HFrTMS+duloxetine+usual care 0.7821 [0.6576; 0.9300]
+Lu 2016  duloxetine+usual care HFrTMS+duloxetine+usual care 0.7821 [0.6576; 0.9300]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of observations: o = 148
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('HFrTMS+duloxetine+usual care' vs 'duloxetine+usual care'):
+                                 RR           95% CI    z p-value
+duloxetine+usual care             .                .    .       .
+HFrTMS+duloxetine+usual care 1.2786 [1.0752; 1.5206] 2.78  0.0054
+
+Random effects model
+
+Treatment estimate ('HFrTMS+duloxetine+usual care' vs 'duloxetine+usual care'):
+                                 RR           95% CI    z p-value  95% PI
+duloxetine+usual care             .                .    .       .       .
+HFrTMS+duloxetine+usual care 1.2786 [1.0752; 1.5206] 2.78  0.0054        
+
+Quantifying heterogeneity:
+tau^2 = 0; tau = 0; I^2 = 0%
+
+Test of heterogeneity:
+    Q d.f. p-value
+ 0.47    1  0.4910
+
+A total of 2 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 148 participants are included in this analysis.
+The following studies were included in this analysis: Gao 2021 Lu 2016
+Estimated heterogeneity tau-squared0.00
+
