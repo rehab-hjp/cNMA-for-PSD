@@ -1,0 +1,104 @@
+Additive model (common effects model):
+
+Incremental effect for components:
+                                   iSMD             95% CI     z  p-value
+ACT                              0.1006 [-0.3682;  0.5694]  0.42   0.6740
+agomelatine                      0.9743 [ 0.5728;  1.3758]  4.76 < 0.0001
+atDCS                            0.8543 [ 0.5733;  1.1354]  5.96 < 0.0001
+attention control                0.8473 [ 0.5385;  1.1561]  5.38 < 0.0001
+behavioural therapy             10.2233 [ 8.3712; 12.0753] 10.82 < 0.0001
+CBT                              0.7448 [ 0.5405;  0.9490]  7.15 < 0.0001
+CES                              1.6785 [ 1.3182;  2.0389]  9.13 < 0.0001
+citalopram                       0.0310 [-0.3661;  0.4281]  0.15   0.8785
+cognitive restructuring          4.8565 [ 3.8725;  5.8405]  9.67 < 0.0001
+cognitive training               1.1125 [ 0.6912;  1.5337]  5.18 < 0.0001
+desipramine                     -1.1241 [-2.4670;  0.2188] -1.64   0.1009
+dextroamphetamine                0.2228 [-0.3400;  0.7856]  0.78   0.4378
+dtDCS                            0.3274 [-0.1262;  0.7810]  1.41   0.1572
+duloxetine                           NA                  .     .        .
+escitalopram                     0.3917 [ 0.1662;  0.6173]  3.40   0.0007
+fluoxetine                       0.4138 [ 0.0815;  0.7460]  2.44   0.0147
+GACT                            -0.4814 [-0.9261; -0.0367] -2.12   0.0339
+group psychotherapy                  NA                  .     .        .
+HFrTMS                           1.0909 [ 0.9688;  1.2131] 17.51 < 0.0001
+humanistic psychotherapy        -0.0845 [-0.5271;  0.3581] -0.37   0.7082
+imipramine                       0.9187 [ 0.3811;  1.4562]  3.35   0.0008
+interpersonal psychotherapy      1.9039 [ 1.2774;  2.5304]  5.96 < 0.0001
+iTBS                             0.7852 [ 0.3814;  1.1890]  3.81   0.0001
+knowledge and behaviour therapy -0.1306 [-0.6139;  0.3526] -0.53   0.5962
+LFrTMS                           1.2509 [ 1.1217;  1.3801] 18.97 < 0.0001
+maprotiline                     -0.3678 [-1.0624;  0.3269] -1.04   0.2994
+methylphenidate                  0.2188 [-0.3676;  0.8051]  0.73   0.4646
+mindfulness                      0.5160 [ 0.2535;  0.7786]  3.85   0.0001
+mirtazapine                          NA                  .     .        .
+Morita therapy                       NA                  .     .        .
+nortriptyline                    0.4896 [-0.2288;  1.2080]  1.34   0.1816
+paroxetine                       1.9949 [ 1.4084;  2.5814]  6.67 < 0.0001
+peer support                         NA                  .     .        .
+placebo                          0.0392 [-0.2359;  0.3143]  0.28   0.7799
+PST                              1.4344 [ 1.0443;  1.8244]  7.21 < 0.0001
+psychoeducation                      NA                  .     .        .
+psychological counselling            NA                  .     .        .
+REBT                             0.6693 [ 0.1912;  1.1474]  2.74   0.0061
+reminiscence therapy             0.8665 [ 0.5104;  1.2226]  4.77 < 0.0001
+sertraline                       0.7308 [ 0.4602;  1.0014]  5.29 < 0.0001
+SFBT                             1.2484 [ 0.8541;  1.6427]  6.21 < 0.0001
+sham                             0.1442 [-0.0425;  0.3308]  1.51   0.1301
+supportive psychotherapy        -0.8858 [-1.5047; -0.2670] -2.81   0.0050
+taVNS                           -0.7188 [-1.2136; -0.2241] -2.85   0.0044
+trazodone                       -0.0823 [-1.4004;  1.2357] -0.12   0.9026
+usual care                       1.0366 [ 0.6768;  1.3964]  5.65 < 0.0001
+venlafaxine                      2.1229 [ 1.4368;  2.8090]  6.06 < 0.0001
+
+
+Random effects model:
+
+Incremental effect for components:
+                                   iSMD             95% CI     z  p-value
+ACT                              0.1006 [-1.6266;  1.8278]  0.11   0.9091
+agomelatine                      1.3794 [-0.1991;  2.9579]  1.71   0.0868
+atDCS                            0.6309 [-0.3421;  1.6039]  1.27   0.2038
+attention control                0.8150 [-0.5103;  2.1403]  1.21   0.2281
+behavioural therapy             10.2299 [ 7.1609; 13.2989]  6.53 < 0.0001
+CBT                              0.7381 [ 0.0288;  1.4475]  2.04   0.0414
+CES                              1.6785 [-0.0225;  3.3795]  1.93   0.0531
+citalopram                      -0.8625 [-2.7935;  1.0685] -0.88   0.3814
+cognitive restructuring          4.8631 [ 2.2256;  7.5007]  3.61   0.0003
+cognitive training               1.1125 [-0.6025;  2.8274]  1.27   0.2036
+desipramine                     -1.8863 [-4.3094;  0.5369] -1.53   0.1271
+dextroamphetamine               -0.6833 [-2.7462;  1.3795] -0.65   0.5162
+dtDCS                            0.0254 [-1.3524;  1.4033]  0.04   0.9712
+duloxetine                           NA                  .     .        .
+escitalopram                     0.4930 [-0.2831;  1.2690]  1.25   0.2131
+fluoxetine                      -0.3484 [-1.5379;  0.8412] -0.57   0.5660
+GACT                            -0.4814 [-2.2022;  1.2394] -0.55   0.5835
+group psychotherapy                  NA                  .     .        .
+HFrTMS                           1.1241 [ 0.7040;  1.5441]  5.25 < 0.0001
+humanistic psychotherapy        -0.0779 [-1.9275;  1.7717] -0.08   0.9342
+imipramine                       0.9187 [-0.8285;  2.6658]  1.03   0.3027
+interpersonal psychotherapy      1.9935 [-0.0535;  4.0405]  1.91   0.0563
+iTBS                             0.7816 [-0.4805;  2.0436]  1.21   0.2248
+knowledge and behaviour therapy -0.1306 [-1.8618;  1.6006] -0.15   0.8824
+LFrTMS                           1.3784 [ 0.9410;  1.8158]  6.18 < 0.0001
+maprotiline                     -1.2041 [-3.1126;  0.7043] -1.24   0.2162
+methylphenidate                 -0.5094 [-2.2216;  1.2028] -0.58   0.5598
+mindfulness                      0.5184 [-0.4710;  1.5078]  1.03   0.3045
+mirtazapine                          NA                  .     .        .
+Morita therapy                       NA                  .     .        .
+nortriptyline                   -0.3459 [-2.2630;  1.5713] -0.35   0.7237
+paroxetine                       1.9949 [ 0.2321;  3.7577]  2.22   0.0266
+peer support                         NA                  .     .        .
+placebo                         -0.8669 [-1.9852;  0.2514] -1.52   0.1287
+PST                              1.4344 [-0.2732;  3.1419]  1.65   0.0997
+psychoeducation                      NA                  .     .        .
+psychological counselling            NA                  .     .        .
+REBT                             0.6693 [-1.0604;  2.3991]  0.76   0.4482
+reminiscence therapy             0.8274 [-0.4017;  2.0566]  1.32   0.1870
+sertraline                       0.8777 [-0.0549;  1.8103]  1.84   0.0651
+SFBT                             1.2896 [-0.0410;  2.6202]  1.90   0.0575
+sham                            -0.1166 [-0.7028;  0.4696] -0.39   0.6966
+supportive psychotherapy        -0.8925 [-2.7919;  1.0070] -0.92   0.3571
+taVNS                           -0.9797 [-2.8010;  0.8416] -1.05   0.2918
+trazodone                       -0.8445 [-3.2539;  1.5650] -0.69   0.4921
+usual care                       1.0726 [-0.2190;  2.3642]  1.63   0.1036
+venlafaxine                      1.2168 [-0.8830;  3.3166]  1.14   0.2561
