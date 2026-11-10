@@ -1,0 +1,65 @@
+Additive model (common effects model):
+
+Incremental effect for components:
+                             iRR            95% CI     z  p-value
+CBT                       1.4181 [1.2501;  1.6087]  5.43 < 0.0001
+citalopram                    NA                 .     .        .
+drTMS                     1.2143 [1.0024;  1.4709]  1.98   0.0472
+dtDCS                     7.7088 [1.0400; 57.1394]  2.00   0.0457
+duloxetine                    NA                 .     .        .
+escitalopram              2.7763 [0.6937; 11.1112]  1.44   0.1490
+fluoxetine                    NA                 .     .        .
+fluvoxamine                   NA                 .     .        .
+HFrTMS                    1.3875 [1.2881;  1.4946]  8.63 < 0.0001
+humanistic psychotherapy  1.1503 [0.7323;  1.8070]  0.61   0.5434
+imipramine                2.5000 [1.3043;  4.7917]  2.76   0.0058
+iTBS                      1.7630 [1.3232;  2.3489]  3.87   0.0001
+LFrTMS                    1.3564 [1.1397;  1.6142]  3.43   0.0006
+maprotiline               2.1875 [1.0540;  4.5401]  2.10   0.0356
+MES                       1.3500 [1.0206;  1.7858]  2.10   0.0355
+mirtazapine                   NA                 .     .        .
+Morita therapy            1.6250 [1.0334;  2.5553]  2.10   0.0355
+nortriptyline                 NA                 .     .        .
+paroxetine                2.6250 [1.3869;  4.9682]  2.96   0.0030
+placebo                       NA                 .     .        .
+psychoeducation           0.5473 [0.3167;  0.9460] -2.16   0.0309
+psychological counselling     NA                 .     .        .
+REBT                      1.5871 [0.9561;  2.6344]  1.79   0.0740
+sertraline                2.8831 [0.7117; 11.6799]  1.48   0.1380
+sham                      0.8565 [0.6646;  1.1039] -1.20   0.2315
+supportive psychotherapy  2.2143 [1.3166;  3.7240]  3.00   0.0027
+usual care                    NA                 .     .        .
+venlafaxine                   NA                 .     .        .
+
+Random effects model:
+
+Incremental effect for components:
+                             iRR            95% CI     z  p-value
+CBT                       1.4100 [1.2222;  1.6267]  4.71 < 0.0001
+citalopram                    NA                 .     .        .
+drTMS                     1.2143 [0.9619;  1.5328]  1.63   0.1024
+dtDCS                     7.7898 [1.0438; 58.1350]  2.00   0.0453
+duloxetine                    NA                 .     .        .
+escitalopram              2.7668 [0.6873; 11.1374]  1.43   0.1521
+fluoxetine                    NA                 .     .        .
+fluvoxamine                   NA                 .     .        .
+HFrTMS                    1.4084 [1.2945;  1.5322]  7.96 < 0.0001
+humanistic psychotherapy  1.1569 [0.7192;  1.8611]  0.60   0.5479
+imipramine                2.5000 [1.2871;  4.8559]  2.71   0.0068
+iTBS                      1.7964 [1.3139;  2.4562]  3.67   0.0002
+LFrTMS                    1.3614 [1.1254;  1.6469]  3.18   0.0015
+maprotiline               2.1875 [1.0294;  4.6485]  2.04   0.0418
+MES                       1.3500 [0.9907;  1.8396]  1.90   0.0573
+mirtazapine                   NA                 .     .        .
+Morita therapy            1.6250 [1.0140;  2.6042]  2.02   0.0436
+nortriptyline                 NA                 .     .        .
+paroxetine                2.6250 [1.3682;  5.0361]  2.90   0.0037
+placebo                       NA                 .     .        .
+psychoeducation           0.5466 [0.3073;  0.9722] -2.06   0.0398
+psychological counselling     NA                 .     .        .
+REBT                      1.5951 [0.9506;  2.6765]  1.77   0.0770
+sertraline                2.8732 [0.7008; 11.7799]  1.47   0.1426
+sham                      0.8655 [0.6591;  1.1366] -1.04   0.2989
+supportive psychotherapy  2.2143 [1.2950;  3.7862]  2.90   0.0037
+usual care                    NA                 .     .        .
+venlafaxine                   NA                 .     .        .
