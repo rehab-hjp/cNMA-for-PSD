@@ -1,0 +1,53 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                                      treat1                             treat2      TE   seTE
+Li 2025 HFrTMS+cognitive training+usual care sham+cognitive training+usual care -1.6094 1.5070
+
+Number of treatment arms per study:
+        narms
+Li 2025     2
+
+Results (common effects model):
+
+                                      treat1                             treat2     RR
+Li 2025 HFrTMS+cognitive training+usual care sham+cognitive training+usual care 0.2000
+                  95% CI    Q leverage
+Li 2025 [0.0104; 3.8350] 0.00     1.00
+
+Results (random effects model):
+
+                                      treat1                             treat2     RR
+Li 2025 HFrTMS+cognitive training+usual care sham+cognitive training+usual care 0.2000
+                  95% CI
+Li 2025 [0.0104; 3.8350]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of observations: o = 30
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('sham+cognitive training+usual care' vs 'HFrTMS+cognitive training+usual care'):
+                                         RR            95% CI    z p-value
+HFrTMS+cognitive training+usual care      .                 .    .       .
+sham+cognitive training+usual care   5.0000 [0.2608; 95.8755] 1.07  0.2855
+
+Random effects model
+
+Treatment estimate ('sham+cognitive training+usual care' vs 'HFrTMS+cognitive training+usual care'):
+                                         RR            95% CI    z p-value
+HFrTMS+cognitive training+usual care      .                 .    .       .
+sham+cognitive training+usual care   5.0000 [0.2608; 95.8755] 1.07  0.2855
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 30 participants are included in this analysis.
+The following studies were included in this analysis: Li 2025
+

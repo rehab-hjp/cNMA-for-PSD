@@ -1,0 +1,95 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                treat1                       treat2      TE   seTE seTE.adj.c
+Shan 2022 HFrTMS+sertraline+usual care LFrTMS+sertraline+usual care -0.6931 0.8374     0.9007
+Shan 2022  drTMS+sertraline+usual care HFrTMS+sertraline+usual care -0.6931 1.2047     1.8729
+Shan 2022  drTMS+sertraline+usual care LFrTMS+sertraline+usual care -1.3863 1.0960     1.2900
+Dong 2023   iTBS+sertraline+usual care   sham+sertraline+usual care  0.0000 1.3693     1.3693
+Hu 2020   HFrTMS+sertraline+usual care   sham+sertraline+usual care  1.2690 1.4793     1.4793
+Li T 2021  dtDCS+sertraline+usual care   sham+sertraline+usual care -0.0000 0.9487     0.9487
+          seTE.adj.r narms multiarm
+Shan 2022     0.9007     3        *
+Shan 2022     1.8729     3        *
+Shan 2022     1.2900     3        *
+Dong 2023     1.3693     2         
+Hu 2020       1.4793     2         
+Li T 2021     0.9487     2         
+
+Number of treatment arms per study (by decreasing number of arms):
+          narms multiarm
+Shan 2022     3        *
+Dong 2023     2         
+Hu 2020       2         
+Li T 2021     2         
+
+Results (common effects model):
+
+                                treat1                       treat2     RR            95% CI    Q
+Shan 2022 HFrTMS+sertraline+usual care LFrTMS+sertraline+usual care 0.5000 [0.0969;  2.5808] 0.00
+Shan 2022  drTMS+sertraline+usual care HFrTMS+sertraline+usual care 0.5000 [0.0472;  5.3013] 0.00
+Shan 2022  drTMS+sertraline+usual care LFrTMS+sertraline+usual care 0.2500 [0.0292;  2.1422] 0.00
+Dong 2023   iTBS+sertraline+usual care   sham+sertraline+usual care 1.0000 [0.0683; 14.6405] 0.00
+Hu 2020   HFrTMS+sertraline+usual care   sham+sertraline+usual care 3.5574 [0.1959; 64.6154] 0.00
+Li T 2021  dtDCS+sertraline+usual care   sham+sertraline+usual care 1.0000 [0.1558;  6.4198] 0.00
+          leverage
+Shan 2022        .
+Shan 2022        .
+Shan 2022        .
+Dong 2023     1.00
+Hu 2020       1.00
+Li T 2021     1.00
+
+Results (random effects model):
+
+                                treat1                       treat2     RR            95% CI
+Shan 2022 HFrTMS+sertraline+usual care LFrTMS+sertraline+usual care 0.5000 [0.0969;  2.5808]
+Shan 2022  drTMS+sertraline+usual care HFrTMS+sertraline+usual care 0.5000 [0.0472;  5.3013]
+Shan 2022  drTMS+sertraline+usual care LFrTMS+sertraline+usual care 0.2500 [0.0292;  2.1422]
+Dong 2023   iTBS+sertraline+usual care   sham+sertraline+usual care 1.0000 [0.0683; 14.6405]
+Hu 2020   HFrTMS+sertraline+usual care   sham+sertraline+usual care 3.5574 [0.1959; 64.6154]
+Li T 2021  dtDCS+sertraline+usual care   sham+sertraline+usual care 1.0000 [0.1558;  6.4198]
+
+Number of studies: k = 4
+Number of pairwise comparisons: m = 6
+Number of observations: o = 240
+Number of treatments: n = 6
+Number of designs: d = 4
+
+Common effects model
+
+Treatment estimate (other treatments vs 'HFrTMS+sertraline+usual care'):
+                                 RR            95% CI     z p-value
+drTMS+sertraline+usual care  0.5000 [0.0472;  5.3013] -0.58  0.5650
+dtDCS+sertraline+usual care  0.2811 [0.0090;  8.8056] -0.72  0.4702
+HFrTMS+sertraline+usual care      .                 .     .       .
+iTBS+sertraline+usual care   0.2811 [0.0054; 14.6121] -0.63  0.5290
+LFrTMS+sertraline+usual care 2.0000 [0.3875; 10.3232]  0.83  0.4078
+sham+sertraline+usual care   0.2811 [0.0155;  5.1059] -0.86  0.3910
+
+Random effects model
+
+Treatment estimate (other treatments vs 'HFrTMS+sertraline+usual care'):
+                                 RR            95% CI     z p-value
+drTMS+sertraline+usual care  0.5000 [0.0472;  5.3013] -0.58  0.5650
+dtDCS+sertraline+usual care  0.2811 [0.0090;  8.8056] -0.72  0.4702
+HFrTMS+sertraline+usual care      .                 .     .       .
+iTBS+sertraline+usual care   0.2811 [0.0054; 14.6121] -0.63  0.5290
+LFrTMS+sertraline+usual care 2.0000 [0.3875; 10.3232]  0.83  0.4078
+sham+sertraline+usual care   0.2811 [0.0155;  5.1059] -0.86  0.3910
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 6 treatments are included in the network.
+A total of 4 studies are included in this analysis.
+A total of 240 participants are included in this analysis.
+The following studies were included in this analysis: Shan 2022 Dong 2023 Hu 2020 Li T 2021
+

@@ -1,0 +1,69 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                     treat1            treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Xu 2024   HFrTMS+paroxetine LFrTMS+paroxetine -0.3254 0.7126     1.0670     1.0670     3        *
+Xu 2024   LFrTMS+paroxetine   sham+paroxetine -0.6822 0.5576     0.6180     0.6180     3        *
+Xu 2024   HFrTMS+paroxetine   sham+paroxetine -1.0076 0.6290     0.7313     0.7313     3        *
+Chen 2018 HFrTMS+paroxetine        paroxetine  1.0986 1.6028     1.6028     1.6028     2         
+
+Number of treatment arms per study (by decreasing number of arms):
+          narms multiarm
+Xu 2024       3        *
+Chen 2018     2         
+
+Results (common effects model):
+
+                     treat1            treat2     RR            95% CI    Q leverage
+Xu 2024   HFrTMS+paroxetine LFrTMS+paroxetine 0.7222 [0.1787;  2.9192] 0.00        .
+Xu 2024   LFrTMS+paroxetine   sham+paroxetine 0.5055 [0.1695;  1.5078] 0.00        .
+Xu 2024   HFrTMS+paroxetine   sham+paroxetine 0.3651 [0.1064;  1.2526] 0.00        .
+Chen 2018 HFrTMS+paroxetine        paroxetine 3.0000 [0.1297; 69.4167] 0.00     1.00
+
+Results (random effects model):
+
+                     treat1            treat2     RR            95% CI
+Xu 2024   HFrTMS+paroxetine LFrTMS+paroxetine 0.7222 [0.1787;  2.9192]
+Xu 2024   LFrTMS+paroxetine   sham+paroxetine 0.5055 [0.1695;  1.5078]
+Xu 2024   HFrTMS+paroxetine   sham+paroxetine 0.3651 [0.1064;  1.2526]
+Chen 2018 HFrTMS+paroxetine        paroxetine 3.0000 [0.1297; 69.4167]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 4
+Number of observations: o = 116
+Number of treatments: n = 4
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'HFrTMS+paroxetine'):
+                      RR           95% CI     z p-value
+HFrTMS+paroxetine      .                .     .       .
+LFrTMS+paroxetine 1.3846 [0.3426; 5.5965]  0.46  0.6479
+paroxetine        0.3333 [0.0144; 7.7130] -0.69  0.4931
+sham+paroxetine   2.7391 [0.7983; 9.3981]  1.60  0.1092
+
+Random effects model
+
+Treatment estimate (other treatments vs 'HFrTMS+paroxetine'):
+                      RR           95% CI     z p-value
+HFrTMS+paroxetine      .                .     .       .
+LFrTMS+paroxetine 1.3846 [0.3426; 5.5965]  0.46  0.6479
+paroxetine        0.3333 [0.0144; 7.7130] -0.69  0.4931
+sham+paroxetine   2.7391 [0.7983; 9.3981]  1.60  0.1092
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 4 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 116 participants are included in this analysis.
+The following studies were included in this analysis: Xu 2024 Chen 2018
+

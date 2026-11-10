@@ -1,0 +1,51 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                                    treat1                     treat2      TE   seTE
+Jiang LL 2021 HFrTMS+paroxetine+usual care sham+paroxetine+usual care -0.0000 1.3856
+
+Number of treatment arms per study:
+              narms
+Jiang LL 2021     2
+
+Results (common effects model):
+
+                                    treat1                     treat2     RR            95% CI    Q
+Jiang LL 2021 HFrTMS+paroxetine+usual care sham+paroxetine+usual care 1.0000 [0.0662; 15.1168] 0.00
+              leverage
+Jiang LL 2021     1.00
+
+Results (random effects model):
+
+                                    treat1                     treat2     RR            95% CI
+Jiang LL 2021 HFrTMS+paroxetine+usual care sham+paroxetine+usual care 1.0000 [0.0662; 15.1168]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of observations: o = 50
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('sham+paroxetine+usual care' vs 'HFrTMS+paroxetine+usual care'):
+                                 RR            95% CI    z p-value
+HFrTMS+paroxetine+usual care      .                 .    .       .
+sham+paroxetine+usual care   1.0000 [0.0662; 15.1168] 0.00  1.0000
+
+Random effects model
+
+Treatment estimate ('sham+paroxetine+usual care' vs 'HFrTMS+paroxetine+usual care'):
+                                 RR            95% CI    z p-value
+HFrTMS+paroxetine+usual care      .                 .    .       .
+sham+paroxetine+usual care   1.0000 [0.0662; 15.1168] 0.00  1.0000
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 50 participants are included in this analysis.
+The following studies were included in this analysis: Jiang LL 2021
+

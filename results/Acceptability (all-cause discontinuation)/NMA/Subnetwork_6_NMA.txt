@@ -1,0 +1,107 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                      treat1        treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Andersen 1994     citalopram       placebo  1.2528 0.7631     0.7631     0.7631     2         
+Fruehwald 2003    fluoxetine       placebo -0.0741 0.9622     0.9622     0.9622     2         
+Kim 2017        escitalopram       placebo  0.2869 0.2184     0.2184     0.2184     2         
+Kimura 2000    nortriptyline       placebo  2.1550 1.4837     1.4837     1.4837     2         
+Li 2008           fluoxetine       placebo -0.6931 0.9747     0.9747     0.9747     2         
+Lipsey 1984    nortriptyline       placebo -0.1542 0.6418     0.6418     0.6418     2         
+Murray 2005          placebo    sertraline  0.2394 0.2061     0.2061     0.2061     2         
+Robinson 2000     fluoxetine nortriptyline  0.7357 0.5818     0.6590     0.6590     3        *
+Robinson 2000     fluoxetine       placebo  0.5086 0.5087     0.5537     0.5537     3        *
+Robinson 2000  nortriptyline       placebo -0.2271 0.6797     1.1080     1.1080     3        *
+Wiart 2000        fluoxetine       placebo  1.5469 1.5083     1.5083     1.5083     2         
+Yan 2024        escitalopram    sertraline  0.0000 0.9661     0.9661     0.9661     2         
+
+Number of treatment arms per study (by decreasing number of arms):
+               narms multiarm
+Robinson 2000      3        *
+Andersen 1994      2         
+Fruehwald 2003     2         
+Kim 2017           2         
+Kimura 2000        2         
+Li 2008            2         
+Lipsey 1984        2         
+Murray 2005        2         
+Wiart 2000         2         
+Yan 2024           2         
+
+Results (common effects model):
+
+                      treat1        treat2     RR            95% CI    Q leverage
+Andersen 1994     citalopram       placebo 3.5000 [0.7844; 15.6164] 0.00     1.00
+Fruehwald 2003    fluoxetine       placebo 1.4579 [0.7042;  3.0185] 0.22     0.15
+Kim 2017        escitalopram       placebo 1.3001 [0.8559;  1.9746] 0.01     0.95
+Kimura 2000    nortriptyline       placebo 0.9345 [0.4004;  2.1811] 2.24     0.08
+Li 2008           fluoxetine       placebo 1.4579 [0.7042;  3.0185] 1.21     0.15
+Lipsey 1984    nortriptyline       placebo 0.9345 [0.4004;  2.1811] 0.02     0.45
+Murray 2005          placebo    sertraline 1.2430 [0.8370;  1.8460] 0.01     0.96
+Robinson 2000     fluoxetine nortriptyline 1.5601 [0.6234;  3.9040] 0.19        .
+Robinson 2000     fluoxetine       placebo 1.4579 [0.7042;  3.0185] 0.06        .
+Robinson 2000  nortriptyline       placebo 0.9345 [0.4004;  2.1811] 0.02        .
+Wiart 2000        fluoxetine       placebo 1.4579 [0.7042;  3.0185] 0.60     0.06
+Yan 2024        escitalopram    sertraline 1.6160 [0.9212;  2.8349] 0.25     0.09
+
+Results (random effects model):
+
+                      treat1        treat2     RR            95% CI
+Andersen 1994     citalopram       placebo 3.5000 [0.7844; 15.6164]
+Fruehwald 2003    fluoxetine       placebo 1.4579 [0.7042;  3.0185]
+Kim 2017        escitalopram       placebo 1.3001 [0.8559;  1.9746]
+Kimura 2000    nortriptyline       placebo 0.9345 [0.4004;  2.1811]
+Li 2008           fluoxetine       placebo 1.4579 [0.7042;  3.0185]
+Lipsey 1984    nortriptyline       placebo 0.9345 [0.4004;  2.1811]
+Murray 2005          placebo    sertraline 1.2430 [0.8370;  1.8460]
+Robinson 2000     fluoxetine nortriptyline 1.5601 [0.6234;  3.9040]
+Robinson 2000     fluoxetine       placebo 1.4579 [0.7042;  3.0185]
+Robinson 2000  nortriptyline       placebo 0.9345 [0.4004;  2.1811]
+Wiart 2000        fluoxetine       placebo 1.4579 [0.7042;  3.0185]
+Yan 2024        escitalopram    sertraline 1.6160 [0.9212;  2.8349]
+
+Number of studies: k = 10
+Number of pairwise comparisons: m = 12
+Number of observations: o = 1039
+Number of treatments: n = 6
+Number of designs: d = 7
+
+Common effects model
+
+Treatment estimate (other treatments vs 'placebo'):
+                  RR            95% CI     z p-value
+citalopram    3.5000 [0.7844; 15.6164]  1.64  0.1006
+escitalopram  1.3001 [0.8559;  1.9746]  1.23  0.2185
+fluoxetine    1.4579 [0.7042;  3.0185]  1.02  0.3099
+nortriptyline 0.9345 [0.4004;  2.1811] -0.16  0.8756
+placebo            .                 .     .       .
+sertraline    0.8045 [0.5417;  1.1947] -1.08  0.2809
+
+Random effects model
+
+Treatment estimate (other treatments vs 'placebo'):
+                  RR            95% CI     z p-value             95% PI
+citalopram    3.5000 [0.7844; 15.6164]  1.64  0.1006  [0.5410; 22.6439]
+escitalopram  1.3001 [0.8559;  1.9746]  1.23  0.2185  [0.7715;  2.1907]
+fluoxetine    1.4579 [0.7042;  3.0185]  1.02  0.3099  [0.5877;  3.6167]
+nortriptyline 0.9345 [0.4004;  2.1811] -0.16  0.8756  [0.3244;  2.6923]
+placebo            .                 .     .       .                  .
+sertraline    0.8045 [0.5417;  1.1947] -1.08  0.2809  [0.4910;  1.3181]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 70.8%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           4.83    6  0.5655
+Within designs  3.60    3  0.3083
+Between designs 1.23    3  0.7447
+
+A total of 6 treatments are included in the network.
+A total of 10 studies are included in this analysis.
+A total of 1039 participants are included in this analysis.
+The following studies were included in this analysis: Andersen 1994 Fruehwald 2003 Kim 2017 Kimura 2000 Li 2008 Lipsey 1984 Murray 2005 Robinson 2000 Wiart 2000 Yan 2024
+Estimated heterogeneity tau-squared0.00
+Global test for inconsistency, p-value = 0.7447 (Q = 1.2, d.o.f. = 3)
+

@@ -1,0 +1,61 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                         treat1           treat2     TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Moshtaghi 2024        CBT+atDCS CBT+escitalopram 0.0000 0.6283     0.7695     0.7695     3        *
+Moshtaghi 2024        CBT+atDCS     no treatment 0.0000 0.6283     0.7695     0.7695     3        *
+Moshtaghi 2024 CBT+escitalopram     no treatment 0.0000 0.6283     0.7695     0.7695     3        *
+
+Number of treatment arms per study:
+               narms multiarm
+Moshtaghi 2024     3        *
+
+Results (common effects model):
+
+                         treat1           treat2     RR           95% CI    Q
+Moshtaghi 2024        CBT+atDCS CBT+escitalopram 1.0000 [0.2919; 3.4260] 0.00
+Moshtaghi 2024        CBT+atDCS     no treatment 1.0000 [0.2919; 3.4260] 0.00
+Moshtaghi 2024 CBT+escitalopram     no treatment 1.0000 [0.2919; 3.4260] 0.00
+
+Results (random effects model):
+
+                         treat1           treat2     RR           95% CI
+Moshtaghi 2024        CBT+atDCS CBT+escitalopram 1.0000 [0.2919; 3.4260]
+Moshtaghi 2024        CBT+atDCS     no treatment 1.0000 [0.2919; 3.4260]
+Moshtaghi 2024 CBT+escitalopram     no treatment 1.0000 [0.2919; 3.4260]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 3
+Number of observations: o = 57
+Number of treatments: n = 3
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate (other treatments vs 'CBT+atDCS'):
+                     RR           95% CI    z p-value
+CBT+atDCS             .                .    .       .
+CBT+escitalopram 1.0000 [0.2919; 3.4260] 0.00  1.0000
+no treatment     1.0000 [0.2919; 3.4260] 0.00  1.0000
+
+Random effects model
+
+Treatment estimate (other treatments vs 'CBT+atDCS'):
+                     RR           95% CI    z p-value
+CBT+atDCS             .                .    .       .
+CBT+escitalopram 1.0000 [0.2919; 3.4260] 0.00  1.0000
+no treatment     1.0000 [0.2919; 3.4260] 0.00  1.0000
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+Test of heterogeneity:
+ Q d.f. p-value
+ 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 57 participants are included in this analysis.
+The following studies were included in this analysis: Moshtaghi 2024
+
