@@ -1,0 +1,39 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                          comparison k prop  nma direct indir. Diff z p-value
+ atDCS+usual care:HFrTMS+mindfulness 0    0 0.29      .   0.29    . .       .
+   atDCS+usual care:sham+mindfulness 0    0 0.47      .   0.47    . .       .
+    atDCS+usual care:sham+usual care 1 1.00 0.56   0.56      .    . .       .
+ HFrTMS+mindfulness:sham+mindfulness 1 1.00 0.18   0.18      .    . .       .
+  HFrTMS+mindfulness:sham+usual care 1 1.00 0.27   0.27      .    . .       .
+    sham+mindfulness:sham+usual care 1 1.00 0.09   0.09      .    . .       .
+
+Random effects model: 
+
+                          comparison k prop  nma direct indir. Diff z p-value
+ atDCS+usual care:HFrTMS+mindfulness 0    0 0.29      .   0.29    . .       .
+   atDCS+usual care:sham+mindfulness 0    0 0.47      .   0.47    . .       .
+    atDCS+usual care:sham+usual care 1 1.00 0.56   0.56      .    . .       .
+ HFrTMS+mindfulness:sham+mindfulness 1 1.00 0.18   0.18      .    . .       .
+  HFrTMS+mindfulness:sham+usual care 1 1.00 0.27   0.27      .    . .       .
+    sham+mindfulness:sham+usual care 1 1.00 0.09   0.09      .    . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Common effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: Not estimable (0 comparisons with an estimable test).
+
+Random effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: Not estimable (0 comparisons with an estimable test).
+
