@@ -1,0 +1,63 @@
+Network meta-analysis on subnet 1.
+
+Original data:
+
+                             treat1                treat2      TE   seTE
+Yang 2023 ACT+sertraline+usual care sertraline+usual care  0.4677 0.2423
+Tao 2014          LFrTMS+usual care sertraline+usual care -0.5236 0.2525
+
+Number of treatment arms per study:
+          narms
+Yang 2023     2
+Tao 2014      2
+
+Results (common effects model):
+
+                             treat1                treat2     SMD             95% CI    Q leverage
+Yang 2023 ACT+sertraline+usual care sertraline+usual care  0.4677 [-0.0072;  0.9425] 0.00     1.00
+Tao 2014          LFrTMS+usual care sertraline+usual care -0.5236 [-1.0186; -0.0286] 0.00     1.00
+
+Results (random effects model):
+
+                             treat1                treat2     SMD             95% CI
+Yang 2023 ACT+sertraline+usual care sertraline+usual care  0.4677 [-0.0072;  0.9425]
+Tao 2014          LFrTMS+usual care sertraline+usual care -0.5236 [-1.0186; -0.0286]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'sertraline+usual care'):
+                              SMD             95% CI     z p-value
+ACT+sertraline+usual care  0.4677 [-0.0072;  0.9425]  1.93  0.0536
+LFrTMS+usual care         -0.5236 [-1.0186; -0.0286] -2.07  0.0381
+sertraline+usual care           .                  .     .       .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'sertraline+usual care'):
+                              SMD             95% CI     z p-value
+ACT+sertraline+usual care  0.4677 [-0.0072;  0.9425]  1.93  0.0536
+LFrTMS+usual care         -0.5236 [-1.0186; -0.0286] -2.07  0.0381
+sertraline+usual care           .                  .     .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 135 participants are included in this analysis.
+The following studies were included in this analysis: Yang 2023 Tao 2014
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10
