@@ -1,0 +1,63 @@
+Network meta-analysis on subnet 6.
+
+Original data:
+
+                                    treat1                     treat2      TE   seTE
+Jiang LL 2021 HFrTMS+paroxetine+usual care sham+paroxetine+usual care -1.9424 0.3502
+Meng 2024      atDCS+paroxetine+usual care sham+paroxetine+usual care -0.7648 0.2316
+
+Number of treatment arms per study:
+              narms
+Jiang LL 2021     2
+Meng 2024         2
+
+Results (common effects model):
+
+                                    treat1                     treat2     SMD             95% CI    Q leverage
+Jiang LL 2021 HFrTMS+paroxetine+usual care sham+paroxetine+usual care -1.9424 [-2.6287; -1.2560] 0.00     1.00
+Meng 2024      atDCS+paroxetine+usual care sham+paroxetine+usual care -0.7648 [-1.2188; -0.3108] 0.00     1.00
+
+Results (random effects model):
+
+                                    treat1                     treat2     SMD             95% CI
+Jiang LL 2021 HFrTMS+paroxetine+usual care sham+paroxetine+usual care -1.9424 [-2.6287; -1.2560]
+Meng 2024      atDCS+paroxetine+usual care sham+paroxetine+usual care -0.7648 [-1.2188; -0.3108]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'sham+paroxetine+usual care'):
+                                 SMD             95% CI     z  p-value
+atDCS+paroxetine+usual care  -0.7648 [-1.2188; -0.3108] -3.30   0.0010
+HFrTMS+paroxetine+usual care -1.9424 [-2.6287; -1.2560] -5.55 < 0.0001
+sham+paroxetine+usual care         .                  .     .        .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'sham+paroxetine+usual care'):
+                                 SMD             95% CI     z  p-value
+atDCS+paroxetine+usual care  -0.7648 [-1.2188; -0.3108] -3.30   0.0010
+HFrTMS+paroxetine+usual care -1.9424 [-2.6287; -1.2560] -5.55 < 0.0001
+sham+paroxetine+usual care         .                  .     .        .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 128 participants are included in this analysis.
+The following studies were included in this analysis: Jiang LL 2021 Meng 2024
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10

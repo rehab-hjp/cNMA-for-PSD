@@ -1,0 +1,51 @@
+Network meta-analysis on subnet 22.
+
+Original data:
+
+                      treat1      treat2      TE   seTE
+Meng 2022 HFrTMS+mirtazapine mirtazapine -0.8132 0.2327
+
+Number of treatment arms per study:
+          narms
+Meng 2022     2
+
+Results (common effects model):
+
+                      treat1      treat2     SMD             95% CI    Q leverage
+Meng 2022 HFrTMS+mirtazapine mirtazapine -0.8132 [-1.2692; -0.3572] 0.00     1.00
+
+Results (random effects model):
+
+                      treat1      treat2     SMD             95% CI
+Meng 2022 HFrTMS+mirtazapine mirtazapine -0.8132 [-1.2692; -0.3572]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('mirtazapine' vs 'HFrTMS+mirtazapine'):
+                      SMD           95% CI    z p-value
+HFrTMS+mirtazapine      .                .    .       .
+mirtazapine        0.8132 [0.3572; 1.2692] 3.50  0.0005
+
+Random effects model
+
+Treatment estimate ('mirtazapine' vs 'HFrTMS+mirtazapine'):
+                      SMD           95% CI    z p-value
+HFrTMS+mirtazapine      .                .    .       .
+mirtazapine        0.8132 [0.3572; 1.2692] 3.50  0.0005
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 80 participants are included in this analysis.
+The following studies were included in this analysis: Meng 2022
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10

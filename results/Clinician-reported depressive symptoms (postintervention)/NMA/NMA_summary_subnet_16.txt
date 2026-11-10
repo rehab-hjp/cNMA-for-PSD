@@ -1,0 +1,63 @@
+Network meta-analysis on subnet 16.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                       treat1               treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Fu 2026 dtDCS+CMDT+usual care tACS+CMDT+usual care -0.2382 0.2989     0.3468     0.3468     3        *
+Fu 2026 dtDCS+CMDT+usual care sham+CMDT+usual care -1.8776 0.3357     0.4351     0.4351     3        *
+Fu 2026  sham+CMDT+usual care tACS+CMDT+usual care  1.6394 0.3235     0.3975     0.3975     3        *
+
+Number of treatment arms per study:
+        narms multiarm
+Fu 2026     3        *
+
+Results (common effects model):
+
+                       treat1               treat2     SMD             95% CI    Q
+Fu 2026 dtDCS+CMDT+usual care tACS+CMDT+usual care -0.2382 [-0.8240;  0.3476] 0.00
+Fu 2026 dtDCS+CMDT+usual care sham+CMDT+usual care -1.8776 [-2.5355; -1.2197] 0.00
+Fu 2026  sham+CMDT+usual care tACS+CMDT+usual care  1.6394 [ 1.0055;  2.2734] 0.00
+
+Results (random effects model):
+
+                       treat1               treat2     SMD             95% CI
+Fu 2026 dtDCS+CMDT+usual care tACS+CMDT+usual care -0.2382 [-0.8240;  0.3476]
+Fu 2026 dtDCS+CMDT+usual care sham+CMDT+usual care -1.8776 [-2.5355; -1.2197]
+Fu 2026  sham+CMDT+usual care tACS+CMDT+usual care  1.6394 [ 1.0055;  2.2734]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 3
+Number of treatments: n = 3
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate (other treatments vs 'dtDCS+CMDT+usual care'):
+                         SMD            95% CI    z  p-value
+dtDCS+CMDT+usual care      .                 .    .        .
+sham+CMDT+usual care  1.8776 [ 1.2197; 2.5355] 5.59 < 0.0001
+tACS+CMDT+usual care  0.2382 [-0.3476; 0.8240] 0.80   0.4255
+
+Random effects model
+
+Treatment estimate (other treatments vs 'dtDCS+CMDT+usual care'):
+                         SMD            95% CI    z  p-value
+dtDCS+CMDT+usual care      .                 .    .        .
+sham+CMDT+usual care  1.8776 [ 1.2197; 2.5355] 5.59 < 0.0001
+tACS+CMDT+usual care  0.2382 [-0.3476; 0.8240] 0.80   0.4255
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+Test of heterogeneity:
+ Q d.f. p-value
+ 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 69 participants are included in this analysis.
+The following studies were included in this analysis: Fu 2026
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10

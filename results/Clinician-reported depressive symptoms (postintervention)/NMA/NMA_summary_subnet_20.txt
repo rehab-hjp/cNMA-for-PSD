@@ -1,0 +1,63 @@
+Network meta-analysis on subnet 20.
+
+Original data:
+
+                                                   treat1                                                 treat2     TE   seTE
+Li 2015   fluoxetine+psychological counselling+usual care LFrTMS+fluoxetine+psychological counselling+usual care 1.6977 0.2062
+Wang 2014 fluoxetine+psychological counselling+usual care LFrTMS+fluoxetine+psychological counselling+usual care 1.1068 0.2029
+Xing 2016 fluoxetine+psychological counselling+usual care LFrTMS+fluoxetine+psychological counselling+usual care 1.8268 0.2173
+
+Number of treatment arms per study:
+          narms
+Li 2015       2
+Wang 2014     2
+Xing 2016     2
+
+Results (common effects model):
+
+                                                   treat1                                                 treat2    SMD           95% CI    Q leverage
+Li 2015   fluoxetine+psychological counselling+usual care LFrTMS+fluoxetine+psychological counselling+usual care 1.5293 [1.2933; 1.7653] 0.67     0.34
+Wang 2014 fluoxetine+psychological counselling+usual care LFrTMS+fluoxetine+psychological counselling+usual care 1.5293 [1.2933; 1.7653] 4.33     0.35
+Xing 2016 fluoxetine+psychological counselling+usual care LFrTMS+fluoxetine+psychological counselling+usual care 1.5293 [1.2933; 1.7653] 1.87     0.31
+
+Results (random effects model):
+
+                                                   treat1                                                 treat2    SMD           95% CI
+Li 2015   fluoxetine+psychological counselling+usual care LFrTMS+fluoxetine+psychological counselling+usual care 1.5395 [1.1016; 1.9775]
+Wang 2014 fluoxetine+psychological counselling+usual care LFrTMS+fluoxetine+psychological counselling+usual care 1.5395 [1.1016; 1.9775]
+Xing 2016 fluoxetine+psychological counselling+usual care LFrTMS+fluoxetine+psychological counselling+usual care 1.5395 [1.1016; 1.9775]
+
+Number of studies: k = 3
+Number of pairwise comparisons: m = 3
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('LFrTMS+fluoxetine+psychological counselling+usual care' vs 'fluoxetine+psychological counselling+usual care'):
+                                                           SMD             95% CI      z  p-value
+fluoxetine+psychological counselling+usual care              .                  .      .        .
+LFrTMS+fluoxetine+psychological counselling+usual care -1.5293 [-1.7653; -1.2933] -12.70 < 0.0001
+
+Random effects model
+
+Treatment estimate ('LFrTMS+fluoxetine+psychological counselling+usual care' vs 'fluoxetine+psychological counselling+usual care'):
+                                                           SMD             95% CI     z  p-value             95% PI
+fluoxetine+psychological counselling+usual care              .                  .     .        .                  .
+LFrTMS+fluoxetine+psychological counselling+usual care -1.5395 [-1.9775; -1.1016] -6.89 < 0.0001  [-3.2397; 0.1606]
+
+Quantifying heterogeneity:
+tau^2 = 0.1062; tau = 0.3259; I^2 = 70.9% [1.0%; 91.5%]
+
+Test of heterogeneity:
+    Q d.f. p-value
+ 6.88    2  0.0321
+
+A total of 2 treatments are included in the network.
+A total of 3 studies are included in this analysis.
+A total of 360 participants are included in this analysis.
+The following studies were included in this analysis: Li 2015 Wang 2014 Xing 2016
+Estimated heterogeneity tau-squared0.11
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10

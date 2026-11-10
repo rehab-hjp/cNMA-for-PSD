@@ -1,0 +1,83 @@
+Network meta-analysis on subnet 17.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                           treat1                      treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Su 2025                    HFrTMS                      LFrTMS -0.1802 0.6067     0.6067     0.6067     2         
+Li HY 2018       dtDCS+sertraline             sham+sertraline -0.3550 0.4315     0.4315     0.4315     2         
+Wang 2023                  HFrTMS reminiscence therapy+HFrTMS  1.1892 0.2426     0.2426     0.2426     2         
+Terachinda 2021            HFrTMS             sham+sertraline  0.0000 0.6708     0.8253     0.8253     3        *
+Terachinda 2021            HFrTMS           HFrTMS+sertraline  0.6768 0.6453     0.7678     0.7678     3        *
+Terachinda 2021 HFrTMS+sertraline             sham+sertraline -0.6768 0.6829     0.8584     0.8584     3        *
+
+Number of treatment arms per study (by decreasing number of arms):
+                narms multiarm
+Terachinda 2021     3        *
+Su 2025             2         
+Li HY 2018          2         
+Wang 2023           2         
+
+Results (common effects model):
+
+                           treat1                      treat2     SMD            95% CI    Q leverage
+Su 2025                    HFrTMS                      LFrTMS -0.1802 [-1.3694; 1.0090] 0.00     1.00
+Li HY 2018       dtDCS+sertraline             sham+sertraline -0.3550 [-1.2008; 0.4907] 0.00     1.00
+Wang 2023                  HFrTMS reminiscence therapy+HFrTMS  1.1892 [ 0.7138; 1.6646] 0.00     1.00
+Terachinda 2021            HFrTMS             sham+sertraline -0.0000 [-1.3148; 1.3148] 0.00        .
+Terachinda 2021            HFrTMS           HFrTMS+sertraline  0.6768 [-0.5879; 1.9415] 0.00        .
+Terachinda 2021 HFrTMS+sertraline             sham+sertraline -0.6768 [-2.0153; 0.6616] 0.00        .
+
+Results (random effects model):
+
+                           treat1                      treat2     SMD            95% CI
+Su 2025                    HFrTMS                      LFrTMS -0.1802 [-1.3694; 1.0090]
+Li HY 2018       dtDCS+sertraline             sham+sertraline -0.3550 [-1.2008; 0.4907]
+Wang 2023                  HFrTMS reminiscence therapy+HFrTMS  1.1892 [ 0.7138; 1.6646]
+Terachinda 2021            HFrTMS             sham+sertraline -0.0000 [-1.3148; 1.3148]
+Terachinda 2021            HFrTMS           HFrTMS+sertraline  0.6768 [-0.5879; 1.9415]
+Terachinda 2021 HFrTMS+sertraline             sham+sertraline -0.6768 [-2.0153; 0.6616]
+
+Number of studies: k = 4
+Number of pairwise comparisons: m = 6
+Number of treatments: n = 6
+Number of designs: d = 4
+
+Common effects model
+
+Treatment estimate (other treatments vs 'HFrTMS'):
+                                SMD             95% CI     z  p-value
+dtDCS+sertraline            -0.3550 [-1.9183;  1.2083] -0.45   0.6562
+HFrTMS                            .                  .     .        .
+HFrTMS+sertraline           -0.6768 [-1.9415;  0.5879] -1.05   0.2942
+LFrTMS                       0.1802 [-1.0090;  1.3694]  0.30   0.7665
+reminiscence therapy+HFrTMS -1.1892 [-1.6646; -0.7138] -4.90 < 0.0001
+sham+sertraline              0.0000 [-1.3148;  1.3148]  0.00   1.0000
+
+Random effects model
+
+Treatment estimate (other treatments vs 'HFrTMS'):
+                                SMD             95% CI     z  p-value
+dtDCS+sertraline            -0.3550 [-1.9183;  1.2083] -0.45   0.6562
+HFrTMS                            .                  .     .        .
+HFrTMS+sertraline           -0.6768 [-1.9415;  0.5879] -1.05   0.2942
+LFrTMS                       0.1802 [-1.0090;  1.3694]  0.30   0.7665
+reminiscence therapy+HFrTMS -1.1892 [-1.6646; -0.7138] -4.90 < 0.0001
+sham+sertraline              0.0000 [-1.3148;  1.3148]  0.00   1.0000
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 6 treatments are included in the network.
+A total of 4 studies are included in this analysis.
+A total of 127 participants are included in this analysis.
+The following studies were included in this analysis: Su 2025 Li HY 2018 Wang 2023 Terachinda 2021
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10

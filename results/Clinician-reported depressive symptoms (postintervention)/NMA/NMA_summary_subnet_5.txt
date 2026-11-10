@@ -1,0 +1,89 @@
+Network meta-analysis on subnet 5.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                                                             treat1                                                                treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Rampello 2004                                                 citalopram+usual care                                                 reboxetine+usual care -0.3562 0.2445     0.2445     0.2445     2         
+Zhu 2022                                               HFrTMS+citalopram+usual care                                            sham+citalopram+usual care -1.0032 0.2122     0.2122     0.2122     2         
+Su 2017                                                 atDCS+citalopram+usual care                                            sham+citalopram+usual care -0.6642 0.2997     0.2997     0.2997     2         
+Wang 2015                                                     citalopram+usual care                                          HFrTMS+citalopram+usual care  0.2667 0.2401     0.2401     0.2401     2         
+Xu 2022                                                HFrTMS+citalopram+usual care        psychoeducation+supportive psychotherapy+citalopram+usual care -0.6268 0.1649     0.1935     0.1935     3        *
+Xu 2022       HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care        psychoeducation+supportive psychotherapy+citalopram+usual care -1.7679 0.1821     0.2384     0.2384     3        *
+Xu 2022                                                HFrTMS+citalopram+usual care HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care  1.1411 0.1708     0.2055     0.2055     3        *
+
+Number of treatment arms per study (by decreasing number of arms):
+              narms multiarm
+Xu 2022           3        *
+Rampello 2004     2         
+Zhu 2022          2         
+Su 2017           2         
+Wang 2015         2         
+
+Results (common effects model):
+
+                                                                             treat1                                                                treat2     SMD             95% CI    Q leverage
+Rampello 2004                                                 citalopram+usual care                                                 reboxetine+usual care -0.3562 [-0.8353;  0.1229] 0.00     1.00
+Zhu 2022                                               HFrTMS+citalopram+usual care                                            sham+citalopram+usual care -1.0032 [-1.4191; -0.5873] 0.00     1.00
+Su 2017                                                 atDCS+citalopram+usual care                                            sham+citalopram+usual care -0.6642 [-1.2517; -0.0768] 0.00     1.00
+Wang 2015                                                     citalopram+usual care                                          HFrTMS+citalopram+usual care  0.2667 [-0.2039;  0.7373] 0.00     1.00
+Xu 2022                                                HFrTMS+citalopram+usual care        psychoeducation+supportive psychotherapy+citalopram+usual care -0.6268 [-0.9499; -0.3037] 0.00        .
+Xu 2022       HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care        psychoeducation+supportive psychotherapy+citalopram+usual care -1.7679 [-2.1249; -1.4109] 0.00        .
+Xu 2022                                                HFrTMS+citalopram+usual care HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care  1.1411 [ 0.8063;  1.4759] 0.00        .
+
+Results (random effects model):
+
+                                                                             treat1                                                                treat2     SMD             95% CI
+Rampello 2004                                                 citalopram+usual care                                                 reboxetine+usual care -0.3562 [-0.8353;  0.1229]
+Zhu 2022                                               HFrTMS+citalopram+usual care                                            sham+citalopram+usual care -1.0032 [-1.4191; -0.5873]
+Su 2017                                                 atDCS+citalopram+usual care                                            sham+citalopram+usual care -0.6642 [-1.2517; -0.0768]
+Wang 2015                                                     citalopram+usual care                                          HFrTMS+citalopram+usual care  0.2667 [-0.2039;  0.7373]
+Xu 2022                                                HFrTMS+citalopram+usual care        psychoeducation+supportive psychotherapy+citalopram+usual care -0.6268 [-0.9499; -0.3037]
+Xu 2022       HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care        psychoeducation+supportive psychotherapy+citalopram+usual care -1.7679 [-2.1249; -1.4109]
+Xu 2022                                                HFrTMS+citalopram+usual care HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care  1.1411 [ 0.8063;  1.4759]
+
+Number of studies: k = 5
+Number of pairwise comparisons: m = 7
+Number of treatments: n = 7
+Number of designs: d = 5
+
+Common effects model
+
+Treatment estimate (other treatments vs 'HFrTMS+citalopram+usual care'):
+                                                                          SMD             95% CI     z  p-value
+atDCS+citalopram+usual care                                            0.3390 [-0.3808;  1.0588]  0.92   0.3560
+citalopram+usual care                                                  0.2667 [-0.2039;  0.7373]  1.11   0.2668
+HFrTMS+citalopram+usual care                                                .                  .     .        .
+HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care -1.1411 [-1.4759; -0.8063] -6.68 < 0.0001
+psychoeducation+supportive psychotherapy+citalopram+usual care         0.6268 [ 0.3037;  0.9499]  3.80   0.0001
+reboxetine+usual care                                                  0.6229 [-0.0487;  1.2944]  1.82   0.0691
+sham+citalopram+usual care                                             1.0032 [ 0.5873;  1.4191]  4.73 < 0.0001
+
+Random effects model
+
+Treatment estimate (other treatments vs 'HFrTMS+citalopram+usual care'):
+                                                                          SMD             95% CI     z  p-value
+atDCS+citalopram+usual care                                            0.3390 [-0.3808;  1.0588]  0.92   0.3560
+citalopram+usual care                                                  0.2667 [-0.2039;  0.7373]  1.11   0.2668
+HFrTMS+citalopram+usual care                                                .                  .     .        .
+HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care -1.1411 [-1.4759; -0.8063] -6.68 < 0.0001
+psychoeducation+supportive psychotherapy+citalopram+usual care         0.6268 [ 0.3037;  0.9499]  3.80   0.0001
+reboxetine+usual care                                                  0.6229 [-0.0487;  1.2944]  1.82   0.0691
+sham+citalopram+usual care                                             1.0032 [ 0.5873;  1.4191]  4.73 < 0.0001
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 7 treatments are included in the network.
+A total of 5 studies are included in this analysis.
+A total of 513 participants are included in this analysis.
+The following studies were included in this analysis: Rampello 2004 Zhu 2022 Su 2017 Wang 2015 Xu 2022
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10

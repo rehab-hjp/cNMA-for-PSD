@@ -1,0 +1,63 @@
+Network meta-analysis on subnet 26.
+
+Original data:
+
+                                                     treat1                                        treat2      TE   seTE
+Li YM 2022  HFrTMS+sertraline+cognitive training+usual care sham+sertraline+cognitive training+usual care -0.9310 0.3844
+Mo 2019     HFrTMS+sertraline+cognitive training+usual care sham+sertraline+cognitive training+usual care -0.6881 0.3255
+Wang Z 2023 HFrTMS+sertraline+cognitive training+usual care sham+sertraline+cognitive training+usual care -0.9310 0.3844
+
+Number of treatment arms per study:
+            narms
+Li YM 2022      2
+Mo 2019         2
+Wang Z 2023     2
+
+Results (common effects model):
+
+                                                     treat1                                        treat2     SMD             95% CI    Q leverage
+Li YM 2022  HFrTMS+sertraline+cognitive training+usual care sham+sertraline+cognitive training+usual care -0.8312 [-1.2401; -0.4223] 0.07     0.29
+Mo 2019     HFrTMS+sertraline+cognitive training+usual care sham+sertraline+cognitive training+usual care -0.8312 [-1.2401; -0.4223] 0.19     0.41
+Wang Z 2023 HFrTMS+sertraline+cognitive training+usual care sham+sertraline+cognitive training+usual care -0.8312 [-1.2401; -0.4223] 0.07     0.29
+
+Results (random effects model):
+
+                                                     treat1                                        treat2     SMD             95% CI
+Li YM 2022  HFrTMS+sertraline+cognitive training+usual care sham+sertraline+cognitive training+usual care -0.8312 [-1.2401; -0.4223]
+Mo 2019     HFrTMS+sertraline+cognitive training+usual care sham+sertraline+cognitive training+usual care -0.8312 [-1.2401; -0.4223]
+Wang Z 2023 HFrTMS+sertraline+cognitive training+usual care sham+sertraline+cognitive training+usual care -0.8312 [-1.2401; -0.4223]
+
+Number of studies: k = 3
+Number of pairwise comparisons: m = 3
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('sham+sertraline+cognitive training+usual care' vs 'HFrTMS+sertraline+cognitive training+usual care'):
+                                                   SMD           95% CI    z  p-value
+HFrTMS+sertraline+cognitive training+usual care      .                .    .        .
+sham+sertraline+cognitive training+usual care   0.8312 [0.4223; 1.2401] 3.98 < 0.0001
+
+Random effects model
+
+Treatment estimate ('sham+sertraline+cognitive training+usual care' vs 'HFrTMS+sertraline+cognitive training+usual care'):
+                                                   SMD           95% CI    z  p-value             95% PI
+HFrTMS+sertraline+cognitive training+usual care      .                .    .        .                  .
+sham+sertraline+cognitive training+usual care   0.8312 [0.4223; 1.2401] 3.98 < 0.0001  [-0.0664; 1.7289]
+
+Quantifying heterogeneity:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 89.6%]
+
+Test of heterogeneity:
+    Q d.f. p-value
+ 0.33    2  0.8486
+
+A total of 2 treatments are included in the network.
+A total of 3 studies are included in this analysis.
+A total of 100 participants are included in this analysis.
+The following studies were included in this analysis: Li YM 2022 Mo 2019 Wang Z 2023
+Estimated heterogeneity tau-squared0.00
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10

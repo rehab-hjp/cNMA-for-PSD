@@ -1,0 +1,71 @@
+Network meta-analysis on subnet 8.
+
+Original data:
+
+                                 treat1                 treat2      TE   seTE
+Chen 2015 LFrTMS+mirtazapine+usual care mirtazapine+usual care -0.7559 0.2375
+Li 2013   LFrTMS+mirtazapine+usual care mirtazapine+usual care -0.3843 0.2606
+Li 2018      CBT+mirtazapine+usual care mirtazapine+usual care -0.9194 0.2268
+Tang 2019    CBT+mirtazapine+usual care mirtazapine+usual care -0.6475 0.2163
+
+Number of treatment arms per study:
+          narms
+Chen 2015     2
+Li 2013       2
+Li 2018       2
+Tang 2019     2
+
+Results (common effects model):
+
+                                 treat1                 treat2     SMD             95% CI    Q leverage
+Chen 2015 LFrTMS+mirtazapine+usual care mirtazapine+usual care -0.5873 [-0.9313; -0.2433] 0.50     0.55
+Li 2013   LFrTMS+mirtazapine+usual care mirtazapine+usual care -0.5873 [-0.9313; -0.2433] 0.61     0.45
+Li 2018      CBT+mirtazapine+usual care mirtazapine+usual care -0.7770 [-1.0838; -0.4703] 0.39     0.48
+Tang 2019    CBT+mirtazapine+usual care mirtazapine+usual care -0.7770 [-1.0838; -0.4703] 0.36     0.52
+
+Results (random effects model):
+
+                                 treat1                 treat2     SMD             95% CI
+Chen 2015 LFrTMS+mirtazapine+usual care mirtazapine+usual care -0.5873 [-0.9313; -0.2433]
+Li 2013   LFrTMS+mirtazapine+usual care mirtazapine+usual care -0.5873 [-0.9313; -0.2433]
+Li 2018      CBT+mirtazapine+usual care mirtazapine+usual care -0.7770 [-1.0838; -0.4703]
+Tang 2019    CBT+mirtazapine+usual care mirtazapine+usual care -0.7770 [-1.0838; -0.4703]
+
+Number of studies: k = 4
+Number of pairwise comparisons: m = 4
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'mirtazapine+usual care'):
+                                  SMD             95% CI     z  p-value
+CBT+mirtazapine+usual care    -0.7770 [-1.0838; -0.4703] -4.96 < 0.0001
+LFrTMS+mirtazapine+usual care -0.5873 [-0.9313; -0.2433] -3.35   0.0008
+mirtazapine+usual care              .                  .     .        .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'mirtazapine+usual care'):
+                                  SMD             95% CI     z  p-value              95% PI
+CBT+mirtazapine+usual care    -0.7770 [-1.0838; -0.4703] -4.96 < 0.0001  [-1.4504; -0.1036]
+LFrTMS+mirtazapine+usual care -0.5873 [-0.9313; -0.2433] -3.35   0.0008  [-1.3425;  0.1679]
+mirtazapine+usual care              .                  .     .        .                   .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 89.6%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           1.86    2  0.3938
+Within designs  1.86    2  0.3938
+Between designs 0.00    0      --
+
+A total of 3 treatments are included in the network.
+A total of 4 studies are included in this analysis.
+A total of 312 participants are included in this analysis.
+The following studies were included in this analysis: Chen 2015 Li 2013 Li 2018 Tang 2019
+Estimated heterogeneity tau-squared0.00
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10

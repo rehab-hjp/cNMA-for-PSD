@@ -1,0 +1,51 @@
+Network meta-analysis on subnet 7.
+
+Original data:
+
+                            treat1                    treat2     TE   seTE
+Alexopoulos 2012 attention control ecosystem focused therapy 0.8288 0.4254
+
+Number of treatment arms per study:
+                 narms
+Alexopoulos 2012     2
+
+Results (common effects model):
+
+                            treat1                    treat2    SMD            95% CI    Q leverage
+Alexopoulos 2012 attention control ecosystem focused therapy 0.8288 [-0.0050; 1.6626] 0.00     1.00
+
+Results (random effects model):
+
+                            treat1                    treat2    SMD            95% CI
+Alexopoulos 2012 attention control ecosystem focused therapy 0.8288 [-0.0050; 1.6626]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('ecosystem focused therapy' vs 'attention control'):
+                              SMD            95% CI     z p-value
+attention control               .                 .     .       .
+ecosystem focused therapy -0.8288 [-1.6626; 0.0050] -1.95  0.0514
+
+Random effects model
+
+Treatment estimate ('ecosystem focused therapy' vs 'attention control'):
+                              SMD            95% CI     z p-value
+attention control               .                 .     .       .
+ecosystem focused therapy -0.8288 [-1.6626; 0.0050] -1.95  0.0514
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 24 participants are included in this analysis.
+The following studies were included in this analysis: Alexopoulos 2012
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10

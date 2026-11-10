@@ -1,0 +1,93 @@
+Network meta-analysis on subnet 23.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                treat1                treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Xu 2024              HFrTMS+paroxetine     LFrTMS+paroxetine -0.3587 0.2817     0.3311     2.5724     3        *
+Xu 2024              LFrTMS+paroxetine       sham+paroxetine -0.9257 0.2962     0.3619     2.5772     3        *
+Xu 2024              HFrTMS+paroxetine       sham+paroxetine -1.2844 0.3076     0.3949     2.5813     3        *
+Ding 2005                   paroxetine        paroxetine+CBT  0.9283 0.2553     0.2553     2.0988     2         
+Liu 2020             HFrTMS+paroxetine            paroxetine -4.1454 0.4303     0.4303     2.1272     2         
+Wang QQ 2019                paroxetine relaxation+paroxetine  2.8079 0.3151     0.3151     2.1069     2         
+Xu 2017      Morita therapy+paroxetine            paroxetine -0.8696 0.2701     0.2701     2.1007     2         
+Zhu 2018             HFrTMS+paroxetine            paroxetine -1.1565 0.2620     0.2620     2.0997     2         
+
+Number of treatment arms per study (by decreasing number of arms):
+             narms multiarm
+Xu 2024          3        *
+Ding 2005        2         
+Liu 2020         2         
+Wang QQ 2019     2         
+Xu 2017          2         
+Zhu 2018         2         
+
+Results (common effects model):
+
+                                treat1                treat2     SMD             95% CI     Q leverage
+Xu 2024              HFrTMS+paroxetine     LFrTMS+paroxetine -0.3587 [-0.9107;  0.1934]  0.00        .
+Xu 2024              LFrTMS+paroxetine       sham+paroxetine -0.9257 [-1.5063; -0.3452]  0.00        .
+Xu 2024              HFrTMS+paroxetine       sham+paroxetine -1.2844 [-1.8873; -0.6815]  0.00        .
+Ding 2005                   paroxetine        paroxetine+CBT  0.9283 [ 0.4280;  1.4286]  0.00     1.00
+Liu 2020             HFrTMS+paroxetine            paroxetine -1.9650 [-2.4036; -1.5263] 25.67     0.27
+Wang QQ 2019                paroxetine relaxation+paroxetine  2.8079 [ 2.1903;  3.4254]  0.00     1.00
+Xu 2017      Morita therapy+paroxetine            paroxetine -0.8696 [-1.3990; -0.3401]  0.00     1.00
+Zhu 2018             HFrTMS+paroxetine            paroxetine -1.9650 [-2.4036; -1.5263]  9.52     0.73
+
+Results (random effects model):
+
+                                treat1                treat2     SMD            95% CI
+Xu 2024              HFrTMS+paroxetine     LFrTMS+paroxetine -0.3587 [-4.4789; 3.7616]
+Xu 2024              LFrTMS+paroxetine       sham+paroxetine -0.9257 [-5.0499; 3.1984]
+Xu 2024              HFrTMS+paroxetine       sham+paroxetine -1.2844 [-5.4117; 2.8430]
+Ding 2005                   paroxetine        paroxetine+CBT  0.9283 [-3.1853; 5.0419]
+Liu 2020             HFrTMS+paroxetine            paroxetine -2.6315 [-5.5603; 0.2974]
+Wang QQ 2019                paroxetine relaxation+paroxetine  2.8079 [-1.3216; 6.9374]
+Xu 2017      Morita therapy+paroxetine            paroxetine -0.8696 [-4.9868; 3.2477]
+Zhu 2018             HFrTMS+paroxetine            paroxetine -2.6315 [-5.5603; 0.2974]
+
+Number of studies: k = 6
+Number of pairwise comparisons: m = 8
+Number of treatments: n = 7
+Number of designs: d = 5
+
+Common effects model
+
+Treatment estimate (other treatments vs 'paroxetine'):
+                              SMD             95% CI     z  p-value
+HFrTMS+paroxetine         -1.9650 [-2.4036; -1.5263] -8.78 < 0.0001
+LFrTMS+paroxetine         -1.6063 [-2.3114; -0.9012] -4.47 < 0.0001
+Morita therapy+paroxetine -0.8696 [-1.3990; -0.3401] -3.22   0.0013
+paroxetine                      .                  .     .        .
+paroxetine+CBT            -0.9283 [-1.4286; -0.4280] -3.64   0.0003
+relaxation+paroxetine     -2.8079 [-3.4254; -2.1903] -8.91 < 0.0001
+sham+paroxetine           -0.6806 [-1.4262;  0.0650] -1.79   0.0736
+
+Random effects model
+
+Treatment estimate (other treatments vs 'paroxetine'):
+                              SMD            95% CI     z p-value  95% PI
+HFrTMS+paroxetine         -2.6315 [-5.5603; 0.2974] -1.76  0.0782        
+LFrTMS+paroxetine         -2.2728 [-7.3279; 2.7823] -0.88  0.3782        
+Morita therapy+paroxetine -0.8696 [-4.9868; 3.2477] -0.41  0.6789        
+paroxetine                      .                 .     .       .       .
+paroxetine+CBT            -0.9283 [-5.0419; 3.1853] -0.44  0.6583        
+relaxation+paroxetine     -2.8079 [-6.9374; 1.3216] -1.33  0.1826        
+sham+paroxetine           -1.3471 [-6.4080; 3.7138] -0.52  0.6019        
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 4.3399; tau = 2.0832; I^2 = 97.2% [92.7%; 98.9%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f.  p-value
+Total           35.19    1 < 0.0001
+Within designs  35.19    1 < 0.0001
+Between designs  0.00    0       --
+
+A total of 7 treatments are included in the network.
+A total of 6 studies are included in this analysis.
+A total of 418 participants are included in this analysis.
+The following studies were included in this analysis: Xu 2024 Ding 2005 Liu 2020 Wang QQ 2019 Xu 2017 Zhu 2018
+Estimated heterogeneity tau-squared4.34
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10

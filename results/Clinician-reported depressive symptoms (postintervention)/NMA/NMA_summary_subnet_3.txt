@@ -1,0 +1,77 @@
+Network meta-analysis on subnet 3.
+
+Original data:
+
+                             treat1            treat2      TE   seTE
+Li 2009               amitriptyline amitriptyline+CBT  1.1741 0.3424
+Wang SQ 2020     HFrTMS+venlafaxine       venlafaxine -1.1887 0.2712
+Wang SQ 2020 JCP HFrTMS+venlafaxine       venlafaxine -1.0830 0.2597
+Yu 2024          HFrTMS+venlafaxine       venlafaxine -1.8228 0.2428
+Zhang 2001            amitriptyline       venlafaxine  0.2961 0.2339
+
+Number of treatment arms per study:
+                 narms
+Li 2009              2
+Wang SQ 2020         2
+Wang SQ 2020 JCP     2
+Yu 2024              2
+Zhang 2001           2
+
+Results (common effects model):
+
+                             treat1            treat2     SMD             95% CI    Q leverage
+Li 2009               amitriptyline amitriptyline+CBT  1.1741 [ 0.5030;  1.8451] 0.00     1.00
+Wang SQ 2020     HFrTMS+venlafaxine       venlafaxine -1.3911 [-1.6820; -1.1001] 0.56     0.30
+Wang SQ 2020 JCP HFrTMS+venlafaxine       venlafaxine -1.3911 [-1.6820; -1.1001] 1.41     0.33
+Yu 2024          HFrTMS+venlafaxine       venlafaxine -1.3911 [-1.6820; -1.1001] 3.16     0.37
+Zhang 2001            amitriptyline       venlafaxine  0.2961 [-0.1622;  0.7545] 0.00     1.00
+
+Results (random effects model):
+
+                             treat1            treat2     SMD             95% CI
+Li 2009               amitriptyline amitriptyline+CBT  1.1741 [ 0.2528;  2.0953]
+Wang SQ 2020     HFrTMS+venlafaxine       venlafaxine -1.3747 [-1.8415; -0.9079]
+Wang SQ 2020 JCP HFrTMS+venlafaxine       venlafaxine -1.3747 [-1.8415; -0.9079]
+Yu 2024          HFrTMS+venlafaxine       venlafaxine -1.3747 [-1.8415; -0.9079]
+Zhang 2001            amitriptyline       venlafaxine  0.2961 [-0.4839;  1.0762]
+
+Number of studies: k = 5
+Number of pairwise comparisons: m = 5
+Number of treatments: n = 4
+Number of designs: d = 3
+
+Common effects model
+
+Treatment estimate (other treatments vs 'venlafaxine'):
+                       SMD             95% CI     z  p-value
+amitriptyline       0.2961 [-0.1622;  0.7545]  1.27   0.2054
+amitriptyline+CBT  -0.8779 [-1.6906; -0.0653] -2.12   0.0342
+HFrTMS+venlafaxine -1.3911 [-1.6820; -1.1001] -9.37 < 0.0001
+venlafaxine              .                  .     .        .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'venlafaxine'):
+                       SMD             95% CI     z  p-value             95% PI
+amitriptyline       0.2961 [-0.4839;  1.0762]  0.74   0.4568  [-1.9067; 2.4989]
+amitriptyline+CBT  -0.8779 [-2.0851;  0.3292] -1.43   0.1540  [-3.8684; 2.1125]
+HFrTMS+venlafaxine -1.3747 [-1.8415; -0.9079] -5.77 < 0.0001  [-3.0981; 0.3487]
+venlafaxine              .                  .     .        .                  .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.1037; tau = 0.3220; I^2 = 61% [0.0%; 88.9%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           5.12    2  0.0771
+Within designs  5.12    2  0.0771
+Between designs 0.00    0      --
+
+A total of 4 treatments are included in the network.
+A total of 5 studies are included in this analysis.
+A total of 342 participants are included in this analysis.
+The following studies were included in this analysis: Li 2009 Wang SQ 2020 Wang SQ 2020 JCP Yu 2024 Zhang 2001
+Estimated heterogeneity tau-squared0.10
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10
