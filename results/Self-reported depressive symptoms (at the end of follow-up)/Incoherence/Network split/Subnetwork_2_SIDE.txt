@@ -1,0 +1,183 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                                                                                 comparison k prop   nma direct indir.  Diff     z p-value
+                                        attention control:behavioural activation+usual care 0    0  0.42      .   0.42     .     .       .
+                                                                      attention control:CBT 1 1.00 -0.06  -0.06      .     .     .       .
+                       attention control:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  1.17      .   1.17     .     .       .
+                                  attention control:CBT+humanistic psychotherapy+usual care 0    0  0.73      .   0.73     .     .       .
+                                                           attention control:CBT+usual care 0    0  0.57      .   0.57     .     .       .
+                                                       attention control:cognitive training 0    0  0.06      .   0.06     .     .       .
+                                                    attention control:fluoxetine+usual care 0    0  0.58      .   0.58     .     .       .
+                                                                     attention control:GACT 0    0 -0.08      .  -0.08     .     .       .
+                                                              attention control:mindfulness 0    0  0.37      .   0.37     .     .       .
+                                                   attention control:mindfulness+usual care 0    0  0.72      .   0.72     .     .       .
+                                                attention control:motivational interviewing 0    0 -0.25      .  -0.25     .     .       .
+                                                               attention control:usual care 1 1.00 -0.29  -0.29      .     .     .       .
+                                                      behavioural activation+usual care:CBT 0    0 -0.48      .  -0.48     .     .       .
+       behavioural activation+usual care:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  0.75      .   0.75     .     .       .
+                  behavioural activation+usual care:CBT+humanistic psychotherapy+usual care 0    0  0.30      .   0.30     .     .       .
+                                           behavioural activation+usual care:CBT+usual care 0    0  0.15      .   0.15     .     .       .
+                                       behavioural activation+usual care:cognitive training 0    0 -0.36      .  -0.36     .     .       .
+                                    behavioural activation+usual care:fluoxetine+usual care 0    0  0.15      .   0.15     .     .       .
+                                                     behavioural activation+usual care:GACT 0    0 -0.51      .  -0.51     .     .       .
+                                              behavioural activation+usual care:mindfulness 0    0 -0.05      .  -0.05     .     .       .
+                                   behavioural activation+usual care:mindfulness+usual care 0    0  0.29      .   0.29     .     .       .
+                                behavioural activation+usual care:motivational interviewing 0    0 -0.67      .  -0.67     .     .       .
+                                               behavioural activation+usual care:usual care 1 1.00 -0.72  -0.72      .     .     .       .
+                                     CBT:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  1.23      .   1.23     .     .       .
+                                                CBT:CBT+humanistic psychotherapy+usual care 0    0  0.78      .   0.78     .     .       .
+                                                                         CBT:CBT+usual care 0    0  0.63      .   0.63     .     .       .
+                                                                     CBT:cognitive training 1 1.00  0.12   0.12      .     .     .       .
+                                                                  CBT:fluoxetine+usual care 0    0  0.63      .   0.63     .     .       .
+                                                                                   CBT:GACT 0    0 -0.02      .  -0.02     .     .       .
+                                                                            CBT:mindfulness 0    0  0.43      .   0.43     .     .       .
+                                                                 CBT:mindfulness+usual care 0    0  0.78      .   0.78     .     .       .
+                                                              CBT:motivational interviewing 0    0 -0.19      .  -0.19     .     .       .
+                                                                             CBT:usual care 1 1.00 -0.24  -0.24      .     .     .       .
+ CBT+humanistic psychotherapy+fluoxetine+usual care:CBT+humanistic psychotherapy+usual care 1 0.90 -0.44  -0.47  -0.18 -0.30 -0.35  0.7239
+                          CBT+humanistic psychotherapy+fluoxetine+usual care:CBT+usual care 0    0 -0.60      .  -0.60     .     .       .
+                      CBT+humanistic psychotherapy+fluoxetine+usual care:cognitive training 0    0 -1.10      .  -1.10     .     .       .
+                   CBT+humanistic psychotherapy+fluoxetine+usual care:fluoxetine+usual care 1 1.00 -0.59  -0.59  -4.58  3.99  0.35  0.7239
+                                    CBT+humanistic psychotherapy+fluoxetine+usual care:GACT 0    0 -1.25      .  -1.25     .     .       .
+                             CBT+humanistic psychotherapy+fluoxetine+usual care:mindfulness 0    0 -0.79      .  -0.79     .     .       .
+                  CBT+humanistic psychotherapy+fluoxetine+usual care:mindfulness+usual care 0    0 -0.45      .  -0.45     .     .       .
+               CBT+humanistic psychotherapy+fluoxetine+usual care:motivational interviewing 0    0 -1.42      .  -1.42     .     .       .
+                              CBT+humanistic psychotherapy+fluoxetine+usual care:usual care 1 0.86 -1.46  -1.43  -1.69  0.26  0.35  0.7239
+                                     CBT+humanistic psychotherapy+usual care:CBT+usual care 0    0 -0.16      .  -0.16     .     .       .
+                                 CBT+humanistic psychotherapy+usual care:cognitive training 0    0 -0.66      .  -0.66     .     .       .
+                              CBT+humanistic psychotherapy+usual care:fluoxetine+usual care 1 0.89 -0.15  -0.12  -0.39  0.27  0.35  0.7239
+                                               CBT+humanistic psychotherapy+usual care:GACT 0    0 -0.81      .  -0.81     .     .       .
+                                        CBT+humanistic psychotherapy+usual care:mindfulness 0    0 -0.35      .  -0.35     .     .       .
+                             CBT+humanistic psychotherapy+usual care:mindfulness+usual care 0    0 -0.01      .  -0.01     .     .       .
+                          CBT+humanistic psychotherapy+usual care:motivational interviewing 0    0 -0.97      .  -0.97     .     .       .
+                                         CBT+humanistic psychotherapy+usual care:usual care 2 1.00 -1.02  -1.02      .     .     .       .
+                                                          CBT+usual care:cognitive training 0    0 -0.50      .  -0.50     .     .       .
+                                                       CBT+usual care:fluoxetine+usual care 0    0  0.01      .   0.01     .     .       .
+                                                                        CBT+usual care:GACT 0    0 -0.65      .  -0.65     .     .       .
+                                                                 CBT+usual care:mindfulness 0    0 -0.19      .  -0.19     .     .       .
+                                                      CBT+usual care:mindfulness+usual care 0    0  0.15      .   0.15     .     .       .
+                                                   CBT+usual care:motivational interviewing 0    0 -0.82      .  -0.82     .     .       .
+                                                                  CBT+usual care:usual care 1 1.00 -0.86  -0.86      .     .     .       .
+                                                   cognitive training:fluoxetine+usual care 0    0  0.51      .   0.51     .     .       .
+                                                                    cognitive training:GACT 0    0 -0.15      .  -0.15     .     .       .
+                                                             cognitive training:mindfulness 0    0  0.31      .   0.31     .     .       .
+                                                  cognitive training:mindfulness+usual care 0    0  0.65      .   0.65     .     .       .
+                                               cognitive training:motivational interviewing 0    0 -0.31      .  -0.31     .     .       .
+                                                              cognitive training:usual care 0    0 -0.36      .  -0.36     .     .       .
+                                                                 fluoxetine+usual care:GACT 0    0 -0.66      .  -0.66     .     .       .
+                                                          fluoxetine+usual care:mindfulness 0    0 -0.20      .  -0.20     .     .       .
+                                               fluoxetine+usual care:mindfulness+usual care 0    0  0.14      .   0.14     .     .       .
+                                            fluoxetine+usual care:motivational interviewing 0    0 -0.82      .  -0.82     .     .       .
+                                                           fluoxetine+usual care:usual care 1 0.87 -0.87  -0.84  -1.10  0.26  0.35  0.7239
+                                                                           GACT:mindfulness 0    0  0.46      .   0.46     .     .       .
+                                                                GACT:mindfulness+usual care 0    0  0.80      .   0.80     .     .       .
+                                                             GACT:motivational interviewing 0    0 -0.16      .  -0.16     .     .       .
+                                                                            GACT:usual care 1 1.00 -0.21  -0.21      .     .     .       .
+                                                         mindfulness:mindfulness+usual care 0    0  0.34      .   0.34     .     .       .
+                                                      mindfulness:motivational interviewing 0    0 -0.62      .  -0.62     .     .       .
+                                                                     mindfulness:usual care 1 1.00 -0.67  -0.67      .     .     .       .
+                                           mindfulness+usual care:motivational interviewing 0    0 -0.96      .  -0.96     .     .       .
+                                                          mindfulness+usual care:usual care 1 1.00 -1.01  -1.01      .     .     .       .
+                                                       motivational interviewing:usual care 1 1.00 -0.05  -0.05      .     .     .       .
+
+Random effects model: 
+
+                                                                                 comparison k prop   nma direct indir.  Diff     z p-value
+                                        attention control:behavioural activation+usual care 0    0  0.42      .   0.42     .     .       .
+                                                                      attention control:CBT 1 1.00 -0.06  -0.06      .     .     .       .
+                       attention control:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  1.17      .   1.17     .     .       .
+                                  attention control:CBT+humanistic psychotherapy+usual care 0    0  0.73      .   0.73     .     .       .
+                                                           attention control:CBT+usual care 0    0  0.57      .   0.57     .     .       .
+                                                       attention control:cognitive training 0    0  0.06      .   0.06     .     .       .
+                                                    attention control:fluoxetine+usual care 0    0  0.58      .   0.58     .     .       .
+                                                                     attention control:GACT 0    0 -0.08      .  -0.08     .     .       .
+                                                              attention control:mindfulness 0    0  0.37      .   0.37     .     .       .
+                                                   attention control:mindfulness+usual care 0    0  0.72      .   0.72     .     .       .
+                                                attention control:motivational interviewing 0    0 -0.25      .  -0.25     .     .       .
+                                                               attention control:usual care 1 1.00 -0.29  -0.29      .     .     .       .
+                                                      behavioural activation+usual care:CBT 0    0 -0.48      .  -0.48     .     .       .
+       behavioural activation+usual care:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  0.75      .   0.75     .     .       .
+                  behavioural activation+usual care:CBT+humanistic psychotherapy+usual care 0    0  0.30      .   0.30     .     .       .
+                                           behavioural activation+usual care:CBT+usual care 0    0  0.15      .   0.15     .     .       .
+                                       behavioural activation+usual care:cognitive training 0    0 -0.36      .  -0.36     .     .       .
+                                    behavioural activation+usual care:fluoxetine+usual care 0    0  0.15      .   0.15     .     .       .
+                                                     behavioural activation+usual care:GACT 0    0 -0.51      .  -0.51     .     .       .
+                                              behavioural activation+usual care:mindfulness 0    0 -0.05      .  -0.05     .     .       .
+                                   behavioural activation+usual care:mindfulness+usual care 0    0  0.29      .   0.29     .     .       .
+                                behavioural activation+usual care:motivational interviewing 0    0 -0.67      .  -0.67     .     .       .
+                                               behavioural activation+usual care:usual care 1 1.00 -0.72  -0.72      .     .     .       .
+                                     CBT:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  1.23      .   1.23     .     .       .
+                                                CBT:CBT+humanistic psychotherapy+usual care 0    0  0.78      .   0.78     .     .       .
+                                                                         CBT:CBT+usual care 0    0  0.63      .   0.63     .     .       .
+                                                                     CBT:cognitive training 1 1.00  0.12   0.12      .     .     .       .
+                                                                  CBT:fluoxetine+usual care 0    0  0.63      .   0.63     .     .       .
+                                                                                   CBT:GACT 0    0 -0.02      .  -0.02     .     .       .
+                                                                            CBT:mindfulness 0    0  0.43      .   0.43     .     .       .
+                                                                 CBT:mindfulness+usual care 0    0  0.78      .   0.78     .     .       .
+                                                              CBT:motivational interviewing 0    0 -0.19      .  -0.19     .     .       .
+                                                                             CBT:usual care 1 1.00 -0.24  -0.24      .     .     .       .
+ CBT+humanistic psychotherapy+fluoxetine+usual care:CBT+humanistic psychotherapy+usual care 1 0.90 -0.44  -0.47  -0.18 -0.30 -0.35  0.7239
+                          CBT+humanistic psychotherapy+fluoxetine+usual care:CBT+usual care 0    0 -0.60      .  -0.60     .     .       .
+                      CBT+humanistic psychotherapy+fluoxetine+usual care:cognitive training 0    0 -1.10      .  -1.10     .     .       .
+                   CBT+humanistic psychotherapy+fluoxetine+usual care:fluoxetine+usual care 1 1.00 -0.59  -0.59  -4.58  3.99  0.35  0.7239
+                                    CBT+humanistic psychotherapy+fluoxetine+usual care:GACT 0    0 -1.25      .  -1.25     .     .       .
+                             CBT+humanistic psychotherapy+fluoxetine+usual care:mindfulness 0    0 -0.79      .  -0.79     .     .       .
+                  CBT+humanistic psychotherapy+fluoxetine+usual care:mindfulness+usual care 0    0 -0.45      .  -0.45     .     .       .
+               CBT+humanistic psychotherapy+fluoxetine+usual care:motivational interviewing 0    0 -1.42      .  -1.42     .     .       .
+                              CBT+humanistic psychotherapy+fluoxetine+usual care:usual care 1 0.86 -1.46  -1.43  -1.69  0.26  0.35  0.7239
+                                     CBT+humanistic psychotherapy+usual care:CBT+usual care 0    0 -0.16      .  -0.16     .     .       .
+                                 CBT+humanistic psychotherapy+usual care:cognitive training 0    0 -0.66      .  -0.66     .     .       .
+                              CBT+humanistic psychotherapy+usual care:fluoxetine+usual care 1 0.89 -0.15  -0.12  -0.39  0.27  0.35  0.7239
+                                               CBT+humanistic psychotherapy+usual care:GACT 0    0 -0.81      .  -0.81     .     .       .
+                                        CBT+humanistic psychotherapy+usual care:mindfulness 0    0 -0.35      .  -0.35     .     .       .
+                             CBT+humanistic psychotherapy+usual care:mindfulness+usual care 0    0 -0.01      .  -0.01     .     .       .
+                          CBT+humanistic psychotherapy+usual care:motivational interviewing 0    0 -0.97      .  -0.97     .     .       .
+                                         CBT+humanistic psychotherapy+usual care:usual care 2 1.00 -1.02  -1.02      .     .     .       .
+                                                          CBT+usual care:cognitive training 0    0 -0.50      .  -0.50     .     .       .
+                                                       CBT+usual care:fluoxetine+usual care 0    0  0.01      .   0.01     .     .       .
+                                                                        CBT+usual care:GACT 0    0 -0.65      .  -0.65     .     .       .
+                                                                 CBT+usual care:mindfulness 0    0 -0.19      .  -0.19     .     .       .
+                                                      CBT+usual care:mindfulness+usual care 0    0  0.15      .   0.15     .     .       .
+                                                   CBT+usual care:motivational interviewing 0    0 -0.82      .  -0.82     .     .       .
+                                                                  CBT+usual care:usual care 1 1.00 -0.86  -0.86      .     .     .       .
+                                                   cognitive training:fluoxetine+usual care 0    0  0.51      .   0.51     .     .       .
+                                                                    cognitive training:GACT 0    0 -0.15      .  -0.15     .     .       .
+                                                             cognitive training:mindfulness 0    0  0.31      .   0.31     .     .       .
+                                                  cognitive training:mindfulness+usual care 0    0  0.65      .   0.65     .     .       .
+                                               cognitive training:motivational interviewing 0    0 -0.31      .  -0.31     .     .       .
+                                                              cognitive training:usual care 0    0 -0.36      .  -0.36     .     .       .
+                                                                 fluoxetine+usual care:GACT 0    0 -0.66      .  -0.66     .     .       .
+                                                          fluoxetine+usual care:mindfulness 0    0 -0.20      .  -0.20     .     .       .
+                                               fluoxetine+usual care:mindfulness+usual care 0    0  0.14      .   0.14     .     .       .
+                                            fluoxetine+usual care:motivational interviewing 0    0 -0.82      .  -0.82     .     .       .
+                                                           fluoxetine+usual care:usual care 1 0.87 -0.87  -0.84  -1.10  0.26  0.35  0.7239
+                                                                           GACT:mindfulness 0    0  0.46      .   0.46     .     .       .
+                                                                GACT:mindfulness+usual care 0    0  0.80      .   0.80     .     .       .
+                                                             GACT:motivational interviewing 0    0 -0.16      .  -0.16     .     .       .
+                                                                            GACT:usual care 1 1.00 -0.21  -0.21      .     .     .       .
+                                                         mindfulness:mindfulness+usual care 0    0  0.34      .   0.34     .     .       .
+                                                      mindfulness:motivational interviewing 0    0 -0.62      .  -0.62     .     .       .
+                                                                     mindfulness:usual care 1 1.00 -0.67  -0.67      .     .     .       .
+                                           mindfulness+usual care:motivational interviewing 0    0 -0.96      .  -0.96     .     .       .
+                                                          mindfulness+usual care:usual care 1 1.00 -1.01  -1.01      .     .     .       .
+                                                       motivational interviewing:usual care 1 1.00 -0.05  -0.05      .     .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Common effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 5 comparisons).
+
+Random effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 5 comparisons).
+
