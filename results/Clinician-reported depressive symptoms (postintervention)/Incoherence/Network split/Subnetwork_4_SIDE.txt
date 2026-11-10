@@ -1,0 +1,299 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                                        comparison k prop   nma direct indir.  Diff     z  p-value
+                          atDCS:atDCS+escitalopram 1 1.00  1.68   1.68      .     .     .        .
+                              atDCS:CBT+sertraline 0    0  0.67      .   0.67     .     .        .
+                                  atDCS:citalopram 0    0  0.31      .   0.31     .     .        .
+                                atDCS:escitalopram 1 1.00 -0.01  -0.01      .     .     .        .
+                            atDCS:escitalopram+CBT 0    0  0.83      .   0.83     .     .        .
+                                  atDCS:fluoxetine 0    0  0.31      .   0.31     .     .        .
+                         atDCS:HFrTMS+escitalopram 0    0  0.96      .   0.96     .     .        .
+                           atDCS:HFrTMS+fluoxetine 0    0  7.69      .   7.69     .     .        .
+                           atDCS:iTBS+escitalopram 0    0  1.23      .   1.23     .     .        .
+                              atDCS:MES+citalopram 0    0  2.49      .   2.49     .     .        .
+                              atDCS:MES+fluoxetine 0    0  1.54      .   1.54     .     .        .
+                               atDCS:nortriptyline 0    0  0.75      .   0.75     .     .        .
+                                     atDCS:placebo 0    0 -0.24      .  -0.24     .     .        .
+                                  atDCS:reboxetine 0    0  5.69      .   5.69     .     .        .
+                                  atDCS:sertraline 0    0 -0.16      .  -0.16     .     .        .
+               atDCS:sertraline+cognitive training 0    0  1.02      .   1.02     .     .        .
+                 atDCS+escitalopram:CBT+sertraline 0    0 -1.02      .  -1.02     .     .        .
+                     atDCS+escitalopram:citalopram 0    0 -1.37      .  -1.37     .     .        .
+                   atDCS+escitalopram:escitalopram 1 1.00 -1.70  -1.70      .     .     .        .
+               atDCS+escitalopram:escitalopram+CBT 0    0 -0.86      .  -0.86     .     .        .
+                     atDCS+escitalopram:fluoxetine 0    0 -1.37      .  -1.37     .     .        .
+            atDCS+escitalopram:HFrTMS+escitalopram 0    0 -0.72      .  -0.72     .     .        .
+              atDCS+escitalopram:HFrTMS+fluoxetine 0    0  6.01      .   6.01     .     .        .
+              atDCS+escitalopram:iTBS+escitalopram 0    0 -0.45      .  -0.45     .     .        .
+                 atDCS+escitalopram:MES+citalopram 0    0  0.81      .   0.81     .     .        .
+                 atDCS+escitalopram:MES+fluoxetine 0    0 -0.15      .  -0.15     .     .        .
+                  atDCS+escitalopram:nortriptyline 0    0 -0.94      .  -0.94     .     .        .
+                        atDCS+escitalopram:placebo 0    0 -1.92      .  -1.92     .     .        .
+                     atDCS+escitalopram:reboxetine 0    0  4.00      .   4.00     .     .        .
+                     atDCS+escitalopram:sertraline 0    0 -1.85      .  -1.85     .     .        .
+  atDCS+escitalopram:sertraline+cognitive training 0    0 -0.66      .  -0.66     .     .        .
+                         CBT+sertraline:citalopram 0    0 -0.35      .  -0.35     .     .        .
+                       CBT+sertraline:escitalopram 0    0 -0.68      .  -0.68     .     .        .
+                   CBT+sertraline:escitalopram+CBT 0    0  0.16      .   0.16     .     .        .
+                         CBT+sertraline:fluoxetine 0    0 -0.35      .  -0.35     .     .        .
+                CBT+sertraline:HFrTMS+escitalopram 0    0  0.30      .   0.30     .     .        .
+                  CBT+sertraline:HFrTMS+fluoxetine 0    0  7.02      .   7.02     .     .        .
+                  CBT+sertraline:iTBS+escitalopram 0    0  0.56      .   0.56     .     .        .
+                     CBT+sertraline:MES+citalopram 0    0  1.82      .   1.82     .     .        .
+                     CBT+sertraline:MES+fluoxetine 0    0  0.87      .   0.87     .     .        .
+                      CBT+sertraline:nortriptyline 0    0  0.08      .   0.08     .     .        .
+                            CBT+sertraline:placebo 0    0 -0.90      .  -0.90     .     .        .
+                         CBT+sertraline:reboxetine 0    0  5.02      .   5.02     .     .        .
+                         CBT+sertraline:sertraline 1 1.00 -0.83  -0.83      .     .     .        .
+      CBT+sertraline:sertraline+cognitive training 0    0  0.36      .   0.36     .     .        .
+                           citalopram:escitalopram 0    0 -0.33      .  -0.33     .     .        .
+                       citalopram:escitalopram+CBT 0    0  0.51      .   0.51     .     .        .
+                             citalopram:fluoxetine 0    0 -0.00      .  -0.00     .     .        .
+                    citalopram:HFrTMS+escitalopram 0    0  0.65      .   0.65     .     .        .
+                      citalopram:HFrTMS+fluoxetine 0    0  7.38      .   7.38     .     .        .
+                      citalopram:iTBS+escitalopram 0    0  0.92      .   0.92     .     .        .
+                         citalopram:MES+citalopram 1 1.00  2.18   2.18      .     .     .        .
+                         citalopram:MES+fluoxetine 0    0  1.22      .   1.22     .     .        .
+                          citalopram:nortriptyline 0    0  0.44      .   0.44     .     .        .
+                                citalopram:placebo 1 1.00 -0.55  -0.55      .     .     .        .
+                             citalopram:reboxetine 0    0  5.37      .   5.37     .     .        .
+                             citalopram:sertraline 0    0 -0.48      .  -0.48     .     .        .
+          citalopram:sertraline+cognitive training 0    0  0.71      .   0.71     .     .        .
+                     escitalopram:escitalopram+CBT 1 1.00  0.84   0.84      .     .     .        .
+                           escitalopram:fluoxetine 0    0  0.33      .   0.33     .     .        .
+                  escitalopram:HFrTMS+escitalopram 2 1.00  0.98   0.98      .     .     .        .
+                    escitalopram:HFrTMS+fluoxetine 0    0  7.70      .   7.70     .     .        .
+                    escitalopram:iTBS+escitalopram 1 0.87  1.24   0.99   3.03 -2.04 -2.92   0.0036
+                       escitalopram:MES+citalopram 0    0  2.50      .   2.50     .     .        .
+                       escitalopram:MES+fluoxetine 0    0  1.55      .   1.55     .     .        .
+                        escitalopram:nortriptyline 0    0  0.76      .   0.76     .     .        .
+                              escitalopram:placebo 1 0.92 -0.22  -0.20  -0.51  0.31  0.94   0.3473
+                           escitalopram:reboxetine 0    0  5.70      .   5.70     .     .        .
+                           escitalopram:sertraline 1 0.38 -0.15  -0.34  -0.03 -0.31 -0.94   0.3473
+        escitalopram:sertraline+cognitive training 0    0  1.04      .   1.04     .     .        .
+                       escitalopram+CBT:fluoxetine 0    0 -0.51      .  -0.51     .     .        .
+              escitalopram+CBT:HFrTMS+escitalopram 0    0  0.14      .   0.14     .     .        .
+                escitalopram+CBT:HFrTMS+fluoxetine 0    0  6.86      .   6.86     .     .        .
+                escitalopram+CBT:iTBS+escitalopram 0    0  0.40      .   0.40     .     .        .
+                   escitalopram+CBT:MES+citalopram 0    0  1.66      .   1.66     .     .        .
+                   escitalopram+CBT:MES+fluoxetine 0    0  0.71      .   0.71     .     .        .
+                    escitalopram+CBT:nortriptyline 0    0 -0.08      .  -0.08     .     .        .
+                          escitalopram+CBT:placebo 0    0 -1.06      .  -1.06     .     .        .
+                       escitalopram+CBT:reboxetine 0    0  4.86      .   4.86     .     .        .
+                       escitalopram+CBT:sertraline 0    0 -0.99      .  -0.99     .     .        .
+    escitalopram+CBT:sertraline+cognitive training 0    0  0.20      .   0.20     .     .        .
+                    fluoxetine:HFrTMS+escitalopram 0    0  0.65      .   0.65     .     .        .
+                      fluoxetine:HFrTMS+fluoxetine 1 1.00  7.38   7.38      .     .     .        .
+                      fluoxetine:iTBS+escitalopram 0    0  0.92      .   0.92     .     .        .
+                         fluoxetine:MES+citalopram 0    0  2.18      .   2.18     .     .        .
+                         fluoxetine:MES+fluoxetine 1 1.00  1.23   1.23      .     .     .        .
+                          fluoxetine:nortriptyline 1 0.34  0.44   1.56  -0.13  1.69  3.25   0.0012
+                                fluoxetine:placebo 4 0.98 -0.55  -0.57   0.23 -0.80 -0.78   0.4333
+                             fluoxetine:reboxetine 0    0  5.37      .   5.37     .     .        .
+                             fluoxetine:sertraline 0    0 -0.48      .  -0.48     .     .        .
+          fluoxetine:sertraline+cognitive training 0    0  0.71      .   0.71     .     .        .
+             HFrTMS+escitalopram:HFrTMS+fluoxetine 0    0  6.73      .   6.73     .     .        .
+             HFrTMS+escitalopram:iTBS+escitalopram 1 0.89  0.27   0.50  -1.68  2.17  2.92   0.0036
+                HFrTMS+escitalopram:MES+citalopram 0    0  1.53      .   1.53     .     .        .
+                HFrTMS+escitalopram:MES+fluoxetine 0    0  0.58      .   0.58     .     .        .
+                 HFrTMS+escitalopram:nortriptyline 0    0 -0.21      .  -0.21     .     .        .
+                       HFrTMS+escitalopram:placebo 0    0 -1.20      .  -1.20     .     .        .
+                    HFrTMS+escitalopram:reboxetine 0    0  4.72      .   4.72     .     .        .
+                    HFrTMS+escitalopram:sertraline 0    0 -1.13      .  -1.13     .     .        .
+ HFrTMS+escitalopram:sertraline+cognitive training 0    0  0.06      .   0.06     .     .        .
+               HFrTMS+fluoxetine:iTBS+escitalopram 0    0 -6.46      .  -6.46     .     .        .
+                  HFrTMS+fluoxetine:MES+citalopram 0    0 -5.20      .  -5.20     .     .        .
+                  HFrTMS+fluoxetine:MES+fluoxetine 0    0 -6.15      .  -6.15     .     .        .
+                   HFrTMS+fluoxetine:nortriptyline 0    0 -6.94      .  -6.94     .     .        .
+                         HFrTMS+fluoxetine:placebo 0    0 -7.93      .  -7.93     .     .        .
+                      HFrTMS+fluoxetine:reboxetine 0    0 -2.00      .  -2.00     .     .        .
+                      HFrTMS+fluoxetine:sertraline 0    0 -7.85      .  -7.85     .     .        .
+   HFrTMS+fluoxetine:sertraline+cognitive training 0    0 -6.66      .  -6.66     .     .        .
+                  iTBS+escitalopram:MES+citalopram 0    0  1.26      .   1.26     .     .        .
+                  iTBS+escitalopram:MES+fluoxetine 0    0  0.31      .   0.31     .     .        .
+                   iTBS+escitalopram:nortriptyline 0    0 -0.48      .  -0.48     .     .        .
+                         iTBS+escitalopram:placebo 0    0 -1.47      .  -1.47     .     .        .
+                      iTBS+escitalopram:reboxetine 0    0  4.46      .   4.46     .     .        .
+                      iTBS+escitalopram:sertraline 0    0 -1.39      .  -1.39     .     .        .
+   iTBS+escitalopram:sertraline+cognitive training 0    0 -0.21      .  -0.21     .     .        .
+                     MES+citalopram:MES+fluoxetine 0    0 -0.95      .  -0.95     .     .        .
+                      MES+citalopram:nortriptyline 0    0 -1.74      .  -1.74     .     .        .
+                            MES+citalopram:placebo 0    0 -2.73      .  -2.73     .     .        .
+                         MES+citalopram:reboxetine 0    0  3.19      .   3.19     .     .        .
+                         MES+citalopram:sertraline 0    0 -2.66      .  -2.66     .     .        .
+      MES+citalopram:sertraline+cognitive training 0    0 -1.47      .  -1.47     .     .        .
+                      MES+fluoxetine:nortriptyline 0    0 -0.79      .  -0.79     .     .        .
+                            MES+fluoxetine:placebo 0    0 -1.78      .  -1.78     .     .        .
+                         MES+fluoxetine:reboxetine 0    0  4.15      .   4.15     .     .        .
+                         MES+fluoxetine:sertraline 0    0 -1.70      .  -1.70     .     .        .
+      MES+fluoxetine:sertraline+cognitive training 0    0 -0.51      .  -0.51     .     .        .
+                             nortriptyline:placebo 3 0.95 -0.99  -0.77  -4.74  3.97  4.32 < 0.0001
+                          nortriptyline:reboxetine 0    0  4.94      .   4.94     .     .        .
+                          nortriptyline:sertraline 0    0 -0.91      .  -0.91     .     .        .
+       nortriptyline:sertraline+cognitive training 0    0  0.28      .   0.28     .     .        .
+                                reboxetine:placebo 1 1.00 -5.92  -5.92      .     .     .        .
+                                sertraline:placebo 1 0.70 -0.07  -0.17   0.14 -0.31 -0.94   0.3473
+             sertraline+cognitive training:placebo 0    0 -1.26      .  -1.26     .     .        .
+                             reboxetine:sertraline 0    0 -5.85      .  -5.85     .     .        .
+          reboxetine:sertraline+cognitive training 0    0 -4.66      .  -4.66     .     .        .
+          sertraline:sertraline+cognitive training 1 1.00  1.19   1.19      .     .     .        .
+
+Random effects model: 
+
+                                        comparison k prop   nma direct indir.  Diff     z p-value
+                          atDCS:atDCS+escitalopram 1 1.00  1.68   1.68      .     .     .       .
+                              atDCS:CBT+sertraline 0    0  0.58      .   0.58     .     .       .
+                                  atDCS:citalopram 0    0  0.24      .   0.24     .     .       .
+                                atDCS:escitalopram 1 1.00 -0.01  -0.01      .     .     .       .
+                            atDCS:escitalopram+CBT 0    0  0.83      .   0.83     .     .       .
+                                  atDCS:fluoxetine 0    0  0.06      .   0.06     .     .       .
+                         atDCS:HFrTMS+escitalopram 0    0  0.98      .   0.98     .     .       .
+                           atDCS:HFrTMS+fluoxetine 0    0  7.43      .   7.43     .     .       .
+                           atDCS:iTBS+escitalopram 0    0  1.23      .   1.23     .     .       .
+                              atDCS:MES+citalopram 0    0  2.42      .   2.42     .     .       .
+                              atDCS:MES+fluoxetine 0    0  1.28      .   1.28     .     .       .
+                               atDCS:nortriptyline 0    0  0.70      .   0.70     .     .       .
+                                     atDCS:placebo 0    0 -0.31      .  -0.31     .     .       .
+                                  atDCS:reboxetine 0    0  5.61      .   5.61     .     .       .
+                                  atDCS:sertraline 0    0 -0.25      .  -0.25     .     .       .
+               atDCS:sertraline+cognitive training 0    0  0.94      .   0.94     .     .       .
+                 atDCS+escitalopram:CBT+sertraline 0    0 -1.10      .  -1.10     .     .       .
+                     atDCS+escitalopram:citalopram 0    0 -1.44      .  -1.44     .     .       .
+                   atDCS+escitalopram:escitalopram 1 1.00 -1.70  -1.70      .     .     .       .
+               atDCS+escitalopram:escitalopram+CBT 0    0 -0.86      .  -0.86     .     .       .
+                     atDCS+escitalopram:fluoxetine 0    0 -1.63      .  -1.63     .     .       .
+            atDCS+escitalopram:HFrTMS+escitalopram 0    0 -0.70      .  -0.70     .     .       .
+              atDCS+escitalopram:HFrTMS+fluoxetine 0    0  5.75      .   5.75     .     .       .
+              atDCS+escitalopram:iTBS+escitalopram 0    0 -0.46      .  -0.46     .     .       .
+                 atDCS+escitalopram:MES+citalopram 0    0  0.73      .   0.73     .     .       .
+                 atDCS+escitalopram:MES+fluoxetine 0    0 -0.40      .  -0.40     .     .       .
+                  atDCS+escitalopram:nortriptyline 0    0 -0.99      .  -0.99     .     .       .
+                        atDCS+escitalopram:placebo 0    0 -1.99      .  -1.99     .     .       .
+                     atDCS+escitalopram:reboxetine 0    0  3.93      .   3.93     .     .       .
+                     atDCS+escitalopram:sertraline 0    0 -1.93      .  -1.93     .     .       .
+  atDCS+escitalopram:sertraline+cognitive training 0    0 -0.74      .  -0.74     .     .       .
+                         CBT+sertraline:citalopram 0    0 -0.34      .  -0.34     .     .       .
+                       CBT+sertraline:escitalopram 0    0 -0.60      .  -0.60     .     .       .
+                   CBT+sertraline:escitalopram+CBT 0    0  0.24      .   0.24     .     .       .
+                         CBT+sertraline:fluoxetine 0    0 -0.53      .  -0.53     .     .       .
+                CBT+sertraline:HFrTMS+escitalopram 0    0  0.40      .   0.40     .     .       .
+                  CBT+sertraline:HFrTMS+fluoxetine 0    0  6.85      .   6.85     .     .       .
+                  CBT+sertraline:iTBS+escitalopram 0    0  0.64      .   0.64     .     .       .
+                     CBT+sertraline:MES+citalopram 0    0  1.83      .   1.83     .     .       .
+                     CBT+sertraline:MES+fluoxetine 0    0  0.70      .   0.70     .     .       .
+                      CBT+sertraline:nortriptyline 0    0  0.11      .   0.11     .     .       .
+                            CBT+sertraline:placebo 0    0 -0.89      .  -0.89     .     .       .
+                         CBT+sertraline:reboxetine 0    0  5.03      .   5.03     .     .       .
+                         CBT+sertraline:sertraline 1 1.00 -0.83  -0.83      .     .     .       .
+      CBT+sertraline:sertraline+cognitive training 0    0  0.36      .   0.36     .     .       .
+                           citalopram:escitalopram 0    0 -0.25      .  -0.25     .     .       .
+                       citalopram:escitalopram+CBT 0    0  0.59      .   0.59     .     .       .
+                             citalopram:fluoxetine 0    0 -0.18      .  -0.18     .     .       .
+                    citalopram:HFrTMS+escitalopram 0    0  0.74      .   0.74     .     .       .
+                      citalopram:HFrTMS+fluoxetine 0    0  7.19      .   7.19     .     .       .
+                      citalopram:iTBS+escitalopram 0    0  0.99      .   0.99     .     .       .
+                         citalopram:MES+citalopram 1 1.00  2.18   2.18      .     .     .       .
+                         citalopram:MES+fluoxetine 0    0  1.04      .   1.04     .     .       .
+                          citalopram:nortriptyline 0    0  0.46      .   0.46     .     .       .
+                                citalopram:placebo 1 1.00 -0.55  -0.55      .     .     .       .
+                             citalopram:reboxetine 0    0  5.37      .   5.37     .     .       .
+                             citalopram:sertraline 0    0 -0.49      .  -0.49     .     .       .
+          citalopram:sertraline+cognitive training 0    0  0.70      .   0.70     .     .       .
+                     escitalopram:escitalopram+CBT 1 1.00  0.84   0.84      .     .     .       .
+                           escitalopram:fluoxetine 0    0  0.07      .   0.07     .     .       .
+                  escitalopram:HFrTMS+escitalopram 2 1.00  1.00   1.00      .     .     .       .
+                    escitalopram:HFrTMS+fluoxetine 0    0  7.45      .   7.45     .     .       .
+                    escitalopram:iTBS+escitalopram 1 0.87  1.24   0.99   3.03 -2.04 -1.10  0.2730
+                       escitalopram:MES+citalopram 0    0  2.43      .   2.43     .     .       .
+                       escitalopram:MES+fluoxetine 0    0  1.30      .   1.30     .     .       .
+                        escitalopram:nortriptyline 0    0  0.71      .   0.71     .     .       .
+                              escitalopram:placebo 1 0.69 -0.30  -0.20  -0.51  0.31  0.28  0.7795
+                           escitalopram:reboxetine 0    0  5.63      .   5.63     .     .       .
+                           escitalopram:sertraline 1 0.64 -0.23  -0.34  -0.03 -0.31 -0.28  0.7795
+        escitalopram:sertraline+cognitive training 0    0  0.96      .   0.96     .     .       .
+                       escitalopram+CBT:fluoxetine 0    0 -0.77      .  -0.77     .     .       .
+              escitalopram+CBT:HFrTMS+escitalopram 0    0  0.16      .   0.16     .     .       .
+                escitalopram+CBT:HFrTMS+fluoxetine 0    0  6.61      .   6.61     .     .       .
+                escitalopram+CBT:iTBS+escitalopram 0    0  0.40      .   0.40     .     .       .
+                   escitalopram+CBT:MES+citalopram 0    0  1.59      .   1.59     .     .       .
+                   escitalopram+CBT:MES+fluoxetine 0    0  0.46      .   0.46     .     .       .
+                    escitalopram+CBT:nortriptyline 0    0 -0.13      .  -0.13     .     .       .
+                          escitalopram+CBT:placebo 0    0 -1.14      .  -1.14     .     .       .
+                       escitalopram+CBT:reboxetine 0    0  4.79      .   4.79     .     .       .
+                       escitalopram+CBT:sertraline 0    0 -1.07      .  -1.07     .     .       .
+    escitalopram+CBT:sertraline+cognitive training 0    0  0.12      .   0.12     .     .       .
+                    fluoxetine:HFrTMS+escitalopram 0    0  0.93      .   0.93     .     .       .
+                      fluoxetine:HFrTMS+fluoxetine 1 1.00  7.38   7.38      .     .     .       .
+                      fluoxetine:iTBS+escitalopram 0    0  1.17      .   1.17     .     .       .
+                         fluoxetine:MES+citalopram 0    0  2.36      .   2.36     .     .       .
+                         fluoxetine:MES+fluoxetine 1 1.00  1.23   1.23      .     .     .       .
+                          fluoxetine:nortriptyline 1 0.42  0.64   1.56  -0.03  1.58  1.62  0.1051
+                                fluoxetine:placebo 4 0.96 -0.37  -0.39   0.27 -0.66 -0.38  0.7034
+                             fluoxetine:reboxetine 0    0  5.56      .   5.56     .     .       .
+                             fluoxetine:sertraline 0    0 -0.30      .  -0.30     .     .       .
+          fluoxetine:sertraline+cognitive training 0    0  0.89      .   0.89     .     .       .
+             HFrTMS+escitalopram:HFrTMS+fluoxetine 0    0  6.45      .   6.45     .     .       .
+             HFrTMS+escitalopram:iTBS+escitalopram 1 0.88  0.24   0.50  -1.56  2.06  1.10  0.2730
+                HFrTMS+escitalopram:MES+citalopram 0    0  1.43      .   1.43     .     .       .
+                HFrTMS+escitalopram:MES+fluoxetine 0    0  0.30      .   0.30     .     .       .
+                 HFrTMS+escitalopram:nortriptyline 0    0 -0.29      .  -0.29     .     .       .
+                       HFrTMS+escitalopram:placebo 0    0 -1.29      .  -1.29     .     .       .
+                    HFrTMS+escitalopram:reboxetine 0    0  4.63      .   4.63     .     .       .
+                    HFrTMS+escitalopram:sertraline 0    0 -1.23      .  -1.23     .     .       .
+ HFrTMS+escitalopram:sertraline+cognitive training 0    0 -0.04      .  -0.04     .     .       .
+               HFrTMS+fluoxetine:iTBS+escitalopram 0    0 -6.21      .  -6.21     .     .       .
+                  HFrTMS+fluoxetine:MES+citalopram 0    0 -5.02      .  -5.02     .     .       .
+                  HFrTMS+fluoxetine:MES+fluoxetine 0    0 -6.15      .  -6.15     .     .       .
+                   HFrTMS+fluoxetine:nortriptyline 0    0 -6.74      .  -6.74     .     .       .
+                         HFrTMS+fluoxetine:placebo 0    0 -7.74      .  -7.74     .     .       .
+                      HFrTMS+fluoxetine:reboxetine 0    0 -1.82      .  -1.82     .     .       .
+                      HFrTMS+fluoxetine:sertraline 0    0 -7.68      .  -7.68     .     .       .
+   HFrTMS+fluoxetine:sertraline+cognitive training 0    0 -6.49      .  -6.49     .     .       .
+                  iTBS+escitalopram:MES+citalopram 0    0  1.19      .   1.19     .     .       .
+                  iTBS+escitalopram:MES+fluoxetine 0    0  0.05      .   0.05     .     .       .
+                   iTBS+escitalopram:nortriptyline 0    0 -0.53      .  -0.53     .     .       .
+                         iTBS+escitalopram:placebo 0    0 -1.54      .  -1.54     .     .       .
+                      iTBS+escitalopram:reboxetine 0    0  4.39      .   4.39     .     .       .
+                      iTBS+escitalopram:sertraline 0    0 -1.47      .  -1.47     .     .       .
+   iTBS+escitalopram:sertraline+cognitive training 0    0 -0.29      .  -0.29     .     .       .
+                     MES+citalopram:MES+fluoxetine 0    0 -1.14      .  -1.14     .     .       .
+                      MES+citalopram:nortriptyline 0    0 -1.72      .  -1.72     .     .       .
+                            MES+citalopram:placebo 0    0 -2.73      .  -2.73     .     .       .
+                         MES+citalopram:reboxetine 0    0  3.19      .   3.19     .     .       .
+                         MES+citalopram:sertraline 0    0 -2.66      .  -2.66     .     .       .
+      MES+citalopram:sertraline+cognitive training 0    0 -1.48      .  -1.48     .     .       .
+                      MES+fluoxetine:nortriptyline 0    0 -0.58      .  -0.58     .     .       .
+                            MES+fluoxetine:placebo 0    0 -1.59      .  -1.59     .     .       .
+                         MES+fluoxetine:reboxetine 0    0  4.33      .   4.33     .     .       .
+                         MES+fluoxetine:sertraline 0    0 -1.53      .  -1.53     .     .       .
+      MES+fluoxetine:sertraline+cognitive training 0    0 -0.34      .  -0.34     .     .       .
+                             nortriptyline:placebo 3 0.93 -1.01  -0.77  -4.32  3.55  2.21  0.0272
+                          nortriptyline:reboxetine 0    0  4.91      .   4.91     .     .       .
+                          nortriptyline:sertraline 0    0 -0.94      .  -0.94     .     .       .
+       nortriptyline:sertraline+cognitive training 0    0  0.24      .   0.24     .     .       .
+                                reboxetine:placebo 1 1.00 -5.92  -5.92      .     .     .       .
+                                sertraline:placebo 1 0.67 -0.06  -0.17   0.14 -0.31 -0.28  0.7795
+             sertraline+cognitive training:placebo 0    0 -1.25      .  -1.25     .     .       .
+                             reboxetine:sertraline 0    0 -5.86      .  -5.86     .     .       .
+          reboxetine:sertraline+cognitive training 0    0 -4.67      .  -4.67     .     .       .
+          sertraline:sertraline+cognitive training 1 1.00  1.19   1.19      .     .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Common effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 50 (4 out of 8 comparisons).
+
+Random effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 12.5 (1 out of 8 comparisons).
+

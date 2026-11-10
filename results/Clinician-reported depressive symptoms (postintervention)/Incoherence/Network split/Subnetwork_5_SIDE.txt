@@ -1,0 +1,69 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                                                                                                                           comparison k prop   nma direct indir. Diff z p-value
+                                                                                    atDCS+citalopram+usual care:citalopram+usual care 0    0  0.07      .   0.07    . .       .
+                                                                             atDCS+citalopram+usual care:HFrTMS+citalopram+usual care 0    0  0.34      .   0.34    . .       .
+                                    atDCS+citalopram+usual care:HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care 0    0  1.48      .   1.48    . .       .
+                                           atDCS+citalopram+usual care:psychoeducation+supportive psychotherapy+citalopram+usual care 0    0 -0.29      .  -0.29    . .       .
+                                                                                    atDCS+citalopram+usual care:reboxetine+usual care 0    0 -0.28      .  -0.28    . .       .
+                                                                               atDCS+citalopram+usual care:sham+citalopram+usual care 1 1.00 -0.66  -0.66      .    . .       .
+                                                                                   citalopram+usual care:HFrTMS+citalopram+usual care 1 1.00  0.27   0.27      .    . .       .
+                                          citalopram+usual care:HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care 0    0  1.41      .   1.41    . .       .
+                                                 citalopram+usual care:psychoeducation+supportive psychotherapy+citalopram+usual care 0    0 -0.36      .  -0.36    . .       .
+                                                                                          citalopram+usual care:reboxetine+usual care 1 1.00 -0.36  -0.36      .    . .       .
+                                                                                     citalopram+usual care:sham+citalopram+usual care 0    0 -0.74      .  -0.74    . .       .
+                                   HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care:HFrTMS+citalopram+usual care 1 1.00 -1.14  -1.14      .    . .       .
+                                          psychoeducation+supportive psychotherapy+citalopram+usual care:HFrTMS+citalopram+usual care 1 1.00  0.63   0.63      .    . .       .
+                                                                                   reboxetine+usual care:HFrTMS+citalopram+usual care 0    0  0.62      .   0.62    . .       .
+                                                                              sham+citalopram+usual care:HFrTMS+citalopram+usual care 1 1.00  1.00   1.00      .    . .       .
+ HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care:psychoeducation+supportive psychotherapy+citalopram+usual care 1 1.00 -1.77  -1.77      .    . .       .
+                                          HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care:reboxetine+usual care 0    0 -1.76      .  -1.76    . .       .
+                                     HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care:sham+citalopram+usual care 0    0 -2.14      .  -2.14    . .       .
+                                                 psychoeducation+supportive psychotherapy+citalopram+usual care:reboxetine+usual care 0    0  0.00      .   0.00    . .       .
+                                            psychoeducation+supportive psychotherapy+citalopram+usual care:sham+citalopram+usual care 0    0 -0.38      .  -0.38    . .       .
+                                                                                     reboxetine+usual care:sham+citalopram+usual care 0    0 -0.38      .  -0.38    . .       .
+
+Random effects model: 
+
+                                                                                                                           comparison k prop   nma direct indir. Diff z p-value
+                                                                                    atDCS+citalopram+usual care:citalopram+usual care 0    0  0.07      .   0.07    . .       .
+                                                                             atDCS+citalopram+usual care:HFrTMS+citalopram+usual care 0    0  0.34      .   0.34    . .       .
+                                    atDCS+citalopram+usual care:HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care 0    0  1.48      .   1.48    . .       .
+                                           atDCS+citalopram+usual care:psychoeducation+supportive psychotherapy+citalopram+usual care 0    0 -0.29      .  -0.29    . .       .
+                                                                                    atDCS+citalopram+usual care:reboxetine+usual care 0    0 -0.28      .  -0.28    . .       .
+                                                                               atDCS+citalopram+usual care:sham+citalopram+usual care 1 1.00 -0.66  -0.66      .    . .       .
+                                                                                   citalopram+usual care:HFrTMS+citalopram+usual care 1 1.00  0.27   0.27      .    . .       .
+                                          citalopram+usual care:HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care 0    0  1.41      .   1.41    . .       .
+                                                 citalopram+usual care:psychoeducation+supportive psychotherapy+citalopram+usual care 0    0 -0.36      .  -0.36    . .       .
+                                                                                          citalopram+usual care:reboxetine+usual care 1 1.00 -0.36  -0.36      .    . .       .
+                                                                                     citalopram+usual care:sham+citalopram+usual care 0    0 -0.74      .  -0.74    . .       .
+                                   HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care:HFrTMS+citalopram+usual care 1 1.00 -1.14  -1.14      .    . .       .
+                                          psychoeducation+supportive psychotherapy+citalopram+usual care:HFrTMS+citalopram+usual care 1 1.00  0.63   0.63      .    . .       .
+                                                                                   reboxetine+usual care:HFrTMS+citalopram+usual care 0    0  0.62      .   0.62    . .       .
+                                                                              sham+citalopram+usual care:HFrTMS+citalopram+usual care 1 1.00  1.00   1.00      .    . .       .
+ HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care:psychoeducation+supportive psychotherapy+citalopram+usual care 1 1.00 -1.77  -1.77      .    . .       .
+                                          HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care:reboxetine+usual care 0    0 -1.76      .  -1.76    . .       .
+                                     HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care:sham+citalopram+usual care 0    0 -2.14      .  -2.14    . .       .
+                                                 psychoeducation+supportive psychotherapy+citalopram+usual care:reboxetine+usual care 0    0  0.00      .   0.00    . .       .
+                                            psychoeducation+supportive psychotherapy+citalopram+usual care:sham+citalopram+usual care 0    0 -0.38      .  -0.38    . .       .
+                                                                                     reboxetine+usual care:sham+citalopram+usual care 0    0 -0.38      .  -0.38    . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Common effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: Not estimable (0 comparisons with an estimable test).
+
+Random effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: Not estimable (0 comparisons with an estimable test).
+

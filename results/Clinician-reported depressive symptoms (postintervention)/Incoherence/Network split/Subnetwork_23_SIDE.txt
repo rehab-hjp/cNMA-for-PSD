@@ -1,0 +1,69 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                                      comparison k prop   nma direct indir. Diff z p-value
+             HFrTMS+paroxetine:LFrTMS+paroxetine 1 1.00 -0.36  -0.36      .    . .       .
+     HFrTMS+paroxetine:Morita therapy+paroxetine 0    0 -1.10      .  -1.10    . .       .
+                    HFrTMS+paroxetine:paroxetine 2 1.00 -1.96  -1.96      .    . .       .
+                HFrTMS+paroxetine:paroxetine+CBT 0    0 -1.04      .  -1.04    . .       .
+         HFrTMS+paroxetine:relaxation+paroxetine 0    0  0.84      .   0.84    . .       .
+               HFrTMS+paroxetine:sham+paroxetine 1 1.00 -1.28  -1.28      .    . .       .
+     LFrTMS+paroxetine:Morita therapy+paroxetine 0    0 -0.74      .  -0.74    . .       .
+                    LFrTMS+paroxetine:paroxetine 0    0 -1.61      .  -1.61    . .       .
+                LFrTMS+paroxetine:paroxetine+CBT 0    0 -0.68      .  -0.68    . .       .
+         LFrTMS+paroxetine:relaxation+paroxetine 0    0  1.20      .   1.20    . .       .
+               LFrTMS+paroxetine:sham+paroxetine 1 1.00 -0.93  -0.93      .    . .       .
+            Morita therapy+paroxetine:paroxetine 1 1.00 -0.87  -0.87      .    . .       .
+        Morita therapy+paroxetine:paroxetine+CBT 0    0  0.06      .   0.06    . .       .
+ Morita therapy+paroxetine:relaxation+paroxetine 0    0  1.94      .   1.94    . .       .
+       Morita therapy+paroxetine:sham+paroxetine 0    0 -0.19      .  -0.19    . .       .
+                       paroxetine+CBT:paroxetine 1 1.00 -0.93  -0.93      .    . .       .
+                relaxation+paroxetine:paroxetine 1 1.00 -2.81  -2.81      .    . .       .
+                      sham+paroxetine:paroxetine 0    0 -0.68      .  -0.68    . .       .
+            paroxetine+CBT:relaxation+paroxetine 0    0  1.88      .   1.88    . .       .
+                  paroxetine+CBT:sham+paroxetine 0    0 -0.25      .  -0.25    . .       .
+           relaxation+paroxetine:sham+paroxetine 0    0 -2.13      .  -2.13    . .       .
+
+Random effects model: 
+
+                                      comparison k prop   nma direct indir. Diff z p-value
+             HFrTMS+paroxetine:LFrTMS+paroxetine 1 1.00 -0.36  -0.36      .    . .       .
+     HFrTMS+paroxetine:Morita therapy+paroxetine 0    0 -1.76      .  -1.76    . .       .
+                    HFrTMS+paroxetine:paroxetine 2 1.00 -2.63  -2.63      .    . .       .
+                HFrTMS+paroxetine:paroxetine+CBT 0    0 -1.70      .  -1.70    . .       .
+         HFrTMS+paroxetine:relaxation+paroxetine 0    0  0.18      .   0.18    . .       .
+               HFrTMS+paroxetine:sham+paroxetine 1 1.00 -1.28  -1.28      .    . .       .
+     LFrTMS+paroxetine:Morita therapy+paroxetine 0    0 -1.40      .  -1.40    . .       .
+                    LFrTMS+paroxetine:paroxetine 0    0 -2.27      .  -2.27    . .       .
+                LFrTMS+paroxetine:paroxetine+CBT 0    0 -1.34      .  -1.34    . .       .
+         LFrTMS+paroxetine:relaxation+paroxetine 0    0  0.54      .   0.54    . .       .
+               LFrTMS+paroxetine:sham+paroxetine 1 1.00 -0.93  -0.93      .    . .       .
+            Morita therapy+paroxetine:paroxetine 1 1.00 -0.87  -0.87      .    . .       .
+        Morita therapy+paroxetine:paroxetine+CBT 0    0  0.06      .   0.06    . .       .
+ Morita therapy+paroxetine:relaxation+paroxetine 0    0  1.94      .   1.94    . .       .
+       Morita therapy+paroxetine:sham+paroxetine 0    0  0.48      .   0.48    . .       .
+                       paroxetine+CBT:paroxetine 1 1.00 -0.93  -0.93      .    . .       .
+                relaxation+paroxetine:paroxetine 1 1.00 -2.81  -2.81      .    . .       .
+                      sham+paroxetine:paroxetine 0    0 -1.35      .  -1.35    . .       .
+            paroxetine+CBT:relaxation+paroxetine 0    0  1.88      .   1.88    . .       .
+                  paroxetine+CBT:sham+paroxetine 0    0  0.42      .   0.42    . .       .
+           relaxation+paroxetine:sham+paroxetine 0    0 -1.46      .  -1.46    . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Common effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: Not estimable (0 comparisons with an estimable test).
+
+Random effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: Not estimable (0 comparisons with an estimable test).
+

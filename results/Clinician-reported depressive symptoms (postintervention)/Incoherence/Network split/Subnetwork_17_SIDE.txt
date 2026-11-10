@@ -1,0 +1,57 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                                    comparison k prop   nma direct indir. Diff z p-value
+                       dtDCS+sertraline:HFrTMS 0    0 -0.36      .  -0.36    . .       .
+            dtDCS+sertraline:HFrTMS+sertraline 0    0  0.32      .   0.32    . .       .
+                       dtDCS+sertraline:LFrTMS 0    0 -0.54      .  -0.54    . .       .
+  dtDCS+sertraline:reminiscence therapy+HFrTMS 0    0  0.83      .   0.83    . .       .
+              dtDCS+sertraline:sham+sertraline 1 1.00 -0.36  -0.36      .    . .       .
+                      HFrTMS+sertraline:HFrTMS 1 1.00 -0.68  -0.68      .    . .       .
+                                 LFrTMS:HFrTMS 1 1.00  0.18   0.18      .    . .       .
+            reminiscence therapy+HFrTMS:HFrTMS 1 1.00 -1.19  -1.19      .    . .       .
+                        sham+sertraline:HFrTMS 1 1.00  0.00  -0.00      .    . .       .
+                      HFrTMS+sertraline:LFrTMS 0    0 -0.86      .  -0.86    . .       .
+ HFrTMS+sertraline:reminiscence therapy+HFrTMS 0    0  0.51      .   0.51    . .       .
+             HFrTMS+sertraline:sham+sertraline 1 1.00 -0.68  -0.68      .    . .       .
+            LFrTMS:reminiscence therapy+HFrTMS 0    0  1.37      .   1.37    . .       .
+                        LFrTMS:sham+sertraline 0    0  0.18      .   0.18    . .       .
+   reminiscence therapy+HFrTMS:sham+sertraline 0    0 -1.19      .  -1.19    . .       .
+
+Random effects model: 
+
+                                    comparison k prop   nma direct indir. Diff z p-value
+                       dtDCS+sertraline:HFrTMS 0    0 -0.36      .  -0.36    . .       .
+            dtDCS+sertraline:HFrTMS+sertraline 0    0  0.32      .   0.32    . .       .
+                       dtDCS+sertraline:LFrTMS 0    0 -0.54      .  -0.54    . .       .
+  dtDCS+sertraline:reminiscence therapy+HFrTMS 0    0  0.83      .   0.83    . .       .
+              dtDCS+sertraline:sham+sertraline 1 1.00 -0.36  -0.36      .    . .       .
+                      HFrTMS+sertraline:HFrTMS 1 1.00 -0.68  -0.68      .    . .       .
+                                 LFrTMS:HFrTMS 1 1.00  0.18   0.18      .    . .       .
+            reminiscence therapy+HFrTMS:HFrTMS 1 1.00 -1.19  -1.19      .    . .       .
+                        sham+sertraline:HFrTMS 1 1.00  0.00  -0.00      .    . .       .
+                      HFrTMS+sertraline:LFrTMS 0    0 -0.86      .  -0.86    . .       .
+ HFrTMS+sertraline:reminiscence therapy+HFrTMS 0    0  0.51      .   0.51    . .       .
+             HFrTMS+sertraline:sham+sertraline 1 1.00 -0.68  -0.68      .    . .       .
+            LFrTMS:reminiscence therapy+HFrTMS 0    0  1.37      .   1.37    . .       .
+                        LFrTMS:sham+sertraline 0    0  0.18      .   0.18    . .       .
+   reminiscence therapy+HFrTMS:sham+sertraline 0    0 -1.19      .  -1.19    . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Common effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: Not estimable (0 comparisons with an estimable test).
+
+Random effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: Not estimable (0 comparisons with an estimable test).
+
