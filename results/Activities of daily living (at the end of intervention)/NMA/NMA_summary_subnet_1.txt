@@ -1,0 +1,390 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                                                       treat1                                           treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Chang 2011                         knowledge and behaviour therapy+usual care                                       usual care -0.1306 0.2466     0.2466     0.6736     2         
+Dam 1996                                                fluoxetine+usual care                           maprotiline+usual care  0.8265 0.3760     0.4727     0.9009     3        *
+Dam 1996                                                fluoxetine+usual care                               placebo+usual care  0.4605 0.3568     0.4259     0.8773     3        *
+Dam 1996                                               maprotiline+usual care                               placebo+usual care -0.3660 0.3679     0.4510     0.8907     3        *
+Finkenzeller 2009                                 interpersonal psychotherapy                            sertraline+usual care  0.3381 0.2819     0.3385     0.8388     3        *
+Finkenzeller 2009                                 interpersonal psychotherapy           interpersonal psychotherapy+sertraline -0.2818 0.2847     0.3446     0.8416     3        *
+Finkenzeller 2009                      interpersonal psychotherapy+sertraline                            sertraline+usual care  0.6199 0.2962     0.3750     0.8536     3        *
+Goldstein 2018                                   dextroamphetamine+usual care                               placebo+usual care  0.1836 0.2505     0.2505     0.6750     2         
+Grade 1998                                         methylphenidate+usual care                               placebo+usual care  1.0144 0.4641     0.4641     0.7799     2         
+Lincoln 2003                                                attention control                                              CBT -0.0000 0.2239     0.2711     0.8141     3        *
+Lincoln 2003                                                              CBT                                       usual care -0.3465 0.2305     0.2877     0.8197     3        *
+Lincoln 2003                                                attention control                                       usual care -0.3465 0.2250     0.2737     0.8150     3        *
+Niu 2022                                                      GACT+usual care                                       usual care -0.4814 0.2269     0.2269     0.6666     2         
+Xiong 2026                                        SFBT+mindfulness+usual care                                       usual care  1.9784 0.3263     0.3263     0.7066     2         
+Yao 2021                                               agomelatine+usual care                            sertraline+usual care  0.1530 0.2054     0.2629     0.9055     4        *
+Yao 2021                                               agomelatine+usual care                          escitalopram+usual care  0.1584 0.2023     0.2550     0.9030     4        *
+Yao 2021                                               agomelatine+usual care                               placebo+usual care  3.5190 0.3292     0.5743     1.0388     4        *
+Yao 2021                                              escitalopram+usual care                            sertraline+usual care -0.0054 0.2032     0.2598     0.9063     4        *
+Yao 2021                                                   placebo+usual care                            sertraline+usual care -3.3660 0.3250     0.5147     1.0285     4        *
+Yao 2021                                              escitalopram+usual care                               placebo+usual care  3.3606 0.3228     0.4972     1.0251     4        *
+Zhang 2025                                             mindfulness+usual care                                       usual care  0.3346 0.2123     0.2123     0.6618     2         
+Han 2022                                          atDCS+fluoxetine+usual care                            fluoxetine+usual care  1.1557 0.2316     0.2316     0.6682     2         
+Liu SY 2024                                             fluoxetine+usual care                     HFrTMS+fluoxetine+usual care -2.0575 0.2801     0.2801     0.6865     2         
+Wei 2024                                      reminiscence therapy+usual care                                       usual care  0.5123 0.2766     0.2766     0.6851     2         
+Yang 2023                                           ACT+sertraline+usual care                            sertraline+usual care  0.1006 0.2392     0.2392     0.6709     2         
+Chen 2022                                    peer support+group psychotherapy                                       usual care  4.7891 0.5077     0.5077     0.8066     2         
+Chen 2019                                             escitalopram+usual care                   LFrTMS+escitalopram+usual care  0.9344 0.2410     0.2940     0.8221     3        *
+Chen 2019                                         CBT+escitalopram+usual care                          escitalopram+usual care  0.1967 0.2378     0.2865     0.8193     3        *
+Chen 2019                                         CBT+escitalopram+usual care                   LFrTMS+escitalopram+usual care  1.1311 0.2465     0.3082     0.8270     3        *
+Dang 2019                                        HFrTMS+fluoxetine+usual care                       sham+fluoxetine+usual care  3.0677 0.4665     0.4665     0.7814     2         
+Dou 2022                                                fluoxetine+usual care                     HFrTMS+fluoxetine+usual care -1.1480 0.2834     0.2834     0.6879     2         
+Geng 2025                                         CBT+escitalopram+usual care               HFrTMS+escitalopram+CBT+usual care -1.7462 0.2374     0.2374     0.6703     2         
+He 2015                                               escitalopram+usual care                                HFrTMS+usual care -0.1525 0.2584     0.3164     0.8303     3        *
+He 2015                                               escitalopram+usual care                   HFrTMS+escitalopram+usual care -0.2575 0.2589     0.3175     0.8308     3        *
+He 2015                                        HFrTMS+escitalopram+usual care                                HFrTMS+usual care  0.1050 0.2583     0.3161     0.8302     3        *
+Hu 2015                                               escitalopram+usual care                                       usual care  0.5396 0.2613     0.3165     0.8304     3        *
+Hu 2015                                           CBT+escitalopram+usual care                                       usual care  1.0604 0.2700     0.3387     0.8387     3        *
+Hu 2015                                           CBT+escitalopram+usual care                          escitalopram+usual care  0.5208 0.2611     0.3160     0.8302     3        *
+Huang 2025                                     LFrTMS+escitalopram+usual care                                       usual care  1.4435 0.2899     0.2899     0.6906     2         
+Miyai 1998                                             desipramine+usual care                             trazodone+usual care -1.0418 0.5673     0.6458     0.9938     3        *
+Miyai 1998                                             desipramine+usual care                            fluoxetine+usual care -1.5379 0.6638     0.8617     1.1508     3        *
+Miyai 1998                                              fluoxetine+usual care                             trazodone+usual care  0.4961 0.6508     0.8168     1.1234     3        *
+Li 2004                 psychoeducation+Morita therapy+venlafaxine+usual care                                       usual care  0.7159 0.1932     0.1932     0.6559     2         
+Li 2019                                                 fluoxetine+usual care                     HFrTMS+fluoxetine+usual care -0.8531 0.3303     0.3303     0.7085     2         
+Li X 2004                                        HFrTMS+fluoxetine+usual care                       sham+fluoxetine+usual care  0.1971 0.3152     0.3816     0.8575     3        *
+Li X 2004                                               fluoxetine+usual care                     HFrTMS+fluoxetine+usual care -0.1560 0.3292     0.4193     0.8735     3        *
+Li X 2004                                               fluoxetine+usual care                       sham+fluoxetine+usual care  0.0411 0.3100     0.3703     0.8520     3        *
+Li ZY 2020                                              fluoxetine+usual care                     LFrTMS+fluoxetine+usual care -3.0733 0.3433     0.3433     0.7147     2         
+Liu JF 2022                                       CBT+escitalopram+usual care supportive psychotherapy+escitalopram+usual care  1.6306 0.2980     0.2980     0.6940     2         
+Liu J 2021                                        CBT+escitalopram+usual care                          escitalopram+usual care  0.9488 0.2359     0.2359     0.6697     2         
+Liu B 2019                                        atDCS+fluoxetine+usual care                       sham+fluoxetine+usual care  0.4982 0.2739     0.2739     0.6840     2         
+Lyu 2018                                          CES+escitalopram+usual care                          escitalopram+usual care  1.6785 0.1839     0.1839     0.6532     2         
+Pan 2010                                                   placebo+usual care                           venlafaxine+usual care -2.0837 0.3207     0.3207     0.7041     2         
+Tao 2014                                                    LFrTMS+usual care                            sertraline+usual care  0.2609 0.2494     0.2494     0.6746     2         
+Wan 2008                   CBT+humanistic psychotherapy+paroxetine+usual care                            paroxetine+usual care  0.6602 0.2003     0.2003     0.6580     2         
+Wan 2016                                                sertraline+usual care                       SFBT+sertraline+usual care -1.1288 0.2439     0.2439     0.6726     2         
+Wang 2021 D                                           escitalopram+usual care                   HFrTMS+escitalopram+usual care  0.0599 0.2602     0.3010     0.8249     3        *
+Wang 2021 D                                           escitalopram+usual care                   LFrTMS+escitalopram+usual care  0.3582 0.2994     0.4248     0.8654     3        *
+Wang 2021 D                                    HFrTMS+escitalopram+usual care                   LFrTMS+escitalopram+usual care  0.2983 0.2573     0.2960     0.8224     3        *
+Wei W 2024                                        LFrTMS+trazodone+usual care                             trazodone+usual care -0.2780 0.2010     0.2010     0.6582     2         
+Yang 2011             supportive psychotherapy+behavioural therapy+usual care                                       usual care  9.3374 0.8906     0.8906     1.0891     2         
+Ye 2006                                                 imipramine+usual care                            paroxetine+usual care -1.0762 0.2775     0.3312     0.8363     3        *
+Ye 2006                                                 paroxetine+usual care                                       usual care  1.9949 0.2992     0.3917     0.8590     3        *
+Ye 2006                                                 imipramine+usual care                                       usual care  0.9187 0.2743     0.3246     0.8332     3        *
+Yuan 2015                                                      CBT+usual care                                       usual care  0.4887 0.2299     0.2299     0.6676     2         
+Zhong 2012        supportive psychotherapy+cognitive restructuring+usual care                                       usual care  3.9707 0.3903     0.3903     0.7384     2         
+Zhu N 2022                                         REBT+sertraline+usual care                            sertraline+usual care  0.6693 0.2439     0.2439     0.6726     2         
+Delbari 2010                                       methylphenidate+usual care                               placebo+usual care -0.2206 0.3213     0.3213     0.7044     2         
+Harumi 2018                                                    CBT+usual care                                       usual care  0.2456 0.3665     0.3665     0.7261     2         
+
+Number of treatment arms per study (by decreasing number of arms):
+                  narms multiarm
+Yao 2021              4        *
+Dam 1996              3        *
+Finkenzeller 2009     3        *
+Lincoln 2003          3        *
+Chen 2019             3        *
+He 2015               3        *
+Hu 2015               3        *
+Miyai 1998            3        *
+Li X 2004             3        *
+Wang 2021 D           3        *
+Ye 2006               3        *
+Chang 2011            2         
+Goldstein 2018        2         
+Grade 1998            2         
+Niu 2022              2         
+Xiong 2026            2         
+Zhang 2025            2         
+Han 2022              2         
+Liu SY 2024           2         
+Wei 2024              2         
+Yang 2023             2         
+Chen 2022             2         
+Dang 2019             2         
+Dou 2022              2         
+Geng 2025             2         
+Huang 2025            2         
+Li 2004               2         
+Li 2019               2         
+Li ZY 2020            2         
+Liu JF 2022           2         
+Liu J 2021            2         
+Liu B 2019            2         
+Lyu 2018              2         
+Pan 2010              2         
+Tao 2014              2         
+Wan 2008              2         
+Wan 2016              2         
+Wei W 2024            2         
+Yang 2011             2         
+Yuan 2015             2         
+Zhong 2012            2         
+Zhu N 2022            2         
+Delbari 2010          2         
+Harumi 2018           2         
+
+Results (common effects model):
+
+                                                                       treat1                                           treat2     SMD             95% CI     Q leverage
+Chang 2011                         knowledge and behaviour therapy+usual care                                       usual care -0.1306 [-0.6139;  0.3526]  0.00     1.00
+Dam 1996                                                fluoxetine+usual care                           maprotiline+usual care  0.8265 [ 0.0897;  1.5634]  0.00        .
+Dam 1996                                                fluoxetine+usual care                               placebo+usual care  0.4605 [-0.2388;  1.1598]  0.00        .
+Dam 1996                                               maprotiline+usual care                               placebo+usual care -0.3660 [-1.0872;  0.3551]  0.00        .
+Finkenzeller 2009                                 interpersonal psychotherapy                            sertraline+usual care  0.3381 [-0.2144;  0.8907]  0.00        .
+Finkenzeller 2009                                 interpersonal psychotherapy           interpersonal psychotherapy+sertraline -0.2818 [-0.8398;  0.2762]  0.00        .
+Finkenzeller 2009                      interpersonal psychotherapy+sertraline                            sertraline+usual care  0.6199 [ 0.0393;  1.2004]  0.00        .
+Goldstein 2018                                   dextroamphetamine+usual care                               placebo+usual care  0.1836 [-0.3074;  0.6746]  0.00     1.00
+Grade 1998                                         methylphenidate+usual care                               placebo+usual care  0.1796 [-0.3383;  0.6974]  3.24     0.32
+Lincoln 2003                                                attention control                                              CBT  0.0000 [-0.4388;  0.4388]  0.00        .
+Lincoln 2003                                                              CBT                                       usual care -0.3465 [-0.7984;  0.1053]  0.00        .
+Lincoln 2003                                                attention control                                       usual care -0.3465 [-0.7876;  0.0945]  0.00        .
+Niu 2022                                                      GACT+usual care                                       usual care -0.4814 [-0.9261; -0.0367]  0.00     1.00
+Xiong 2026                                        SFBT+mindfulness+usual care                                       usual care  1.9784 [ 1.3389;  2.6179]  0.00     1.00
+Yao 2021                                               agomelatine+usual care                            sertraline+usual care  0.1530 [-0.2495;  0.5555]  0.00        .
+Yao 2021                                               agomelatine+usual care                          escitalopram+usual care  0.1584 [-0.2381;  0.5548]  0.00        .
+Yao 2021                                               agomelatine+usual care                               placebo+usual care  3.5190 [ 2.8738;  4.1642]  0.00        .
+Yao 2021                                              escitalopram+usual care                            sertraline+usual care -0.0054 [-0.4036;  0.3928]  0.00        .
+Yao 2021                                                   placebo+usual care                            sertraline+usual care -3.3660 [-4.0030; -2.7291]  0.00        .
+Yao 2021                                              escitalopram+usual care                               placebo+usual care  3.3606 [ 2.7279;  3.9934]  0.00        .
+Zhang 2025                                             mindfulness+usual care                                       usual care  0.3346 [-0.0815;  0.7506]  0.00     1.00
+Han 2022                                          atDCS+fluoxetine+usual care                            fluoxetine+usual care  0.9468 [ 0.5621;  1.3316]  0.81     0.72
+Liu SY 2024                                             fluoxetine+usual care                     HFrTMS+fluoxetine+usual care -1.2903 [-1.5775; -1.0031]  7.50     0.27
+Wei 2024                                      reminiscence therapy+usual care                                       usual care  0.5123 [-0.0298;  1.0544]  0.00     1.00
+Yang 2023                                           ACT+sertraline+usual care                            sertraline+usual care  0.1006 [-0.3682;  0.5694]  0.00     1.00
+Chen 2022                                    peer support+group psychotherapy                                       usual care  4.7891 [ 3.7939;  5.7842]  0.00     1.00
+Chen 2019                                             escitalopram+usual care                   LFrTMS+escitalopram+usual care  0.3119 [-0.0002;  0.6240]  4.48        .
+Chen 2019                                         CBT+escitalopram+usual care                          escitalopram+usual care  0.5694 [ 0.2987;  0.8401]  1.69        .
+Chen 2019                                         CBT+escitalopram+usual care                   LFrTMS+escitalopram+usual care  0.8813 [ 0.5305;  1.2322]  0.66        .
+Dang 2019                                        HFrTMS+fluoxetine+usual care                       sham+fluoxetine+usual care  1.1337 [ 0.7197;  1.5478] 17.19     0.21
+Dou 2022                                                fluoxetine+usual care                     HFrTMS+fluoxetine+usual care -1.2903 [-1.5775; -1.0031]  0.25     0.27
+Geng 2025                                         CBT+escitalopram+usual care               HFrTMS+escitalopram+CBT+usual care -1.7462 [-2.2116; -1.2809]  0.00     1.00
+He 2015                                               escitalopram+usual care                                HFrTMS+usual care -0.0641 [-0.5332;  0.4051]  0.08        .
+He 2015                                               escitalopram+usual care                   HFrTMS+escitalopram+usual care -0.0809 [-0.4154;  0.2536]  0.31        .
+He 2015                                        HFrTMS+escitalopram+usual care                                HFrTMS+usual care  0.0168 [-0.4522;  0.4859]  0.08        .
+Hu 2015                                               escitalopram+usual care                                       usual care  0.9986 [ 0.6094;  1.3878]  2.10        .
+Hu 2015                                           CBT+escitalopram+usual care                                       usual care  1.5680 [ 1.1624;  1.9736]  2.25        .
+Hu 2015                                           CBT+escitalopram+usual care                          escitalopram+usual care  0.5694 [ 0.2987;  0.8401]  0.02        .
+Huang 2025                                     LFrTMS+escitalopram+usual care                                       usual care  0.6867 [ 0.2872;  1.0861]  6.82     0.49
+Miyai 1998                                             desipramine+usual care                             trazodone+usual care -1.0418 [-2.1536;  0.0701]  0.00        .
+Miyai 1998                                             desipramine+usual care                            fluoxetine+usual care -1.5379 [-2.8390; -0.2368]  0.00        .
+Miyai 1998                                              fluoxetine+usual care                             trazodone+usual care  0.4961 [-0.7794;  1.7716]  0.00        .
+Li 2004                 psychoeducation+Morita therapy+venlafaxine+usual care                                       usual care  0.7159 [ 0.3372;  1.0946]  0.00     1.00
+Li 2019                                                 fluoxetine+usual care                     HFrTMS+fluoxetine+usual care -1.2903 [-1.5775; -1.0031]  1.75     0.20
+Li X 2004                                        HFrTMS+fluoxetine+usual care                       sham+fluoxetine+usual care  1.1337 [ 0.7197;  1.5478]  6.03        .
+Li X 2004                                               fluoxetine+usual care                     HFrTMS+fluoxetine+usual care -1.2903 [-1.5775; -1.0031]  7.32        .
+Li X 2004                                               fluoxetine+usual care                       sham+fluoxetine+usual care -0.1565 [-0.5568;  0.2437]  0.28        .
+Li ZY 2020                                              fluoxetine+usual care                     LFrTMS+fluoxetine+usual care -3.0733 [-3.7462; -2.4004]  0.00     1.00
+Liu JF 2022                                       CBT+escitalopram+usual care supportive psychotherapy+escitalopram+usual care  1.6306 [ 1.0465;  2.2147]  0.00     1.00
+Liu J 2021                                        CBT+escitalopram+usual care                          escitalopram+usual care  0.5694 [ 0.2987;  0.8401]  2.59     0.34
+Liu B 2019                                        atDCS+fluoxetine+usual care                       sham+fluoxetine+usual care  0.7903 [ 0.3724;  1.2081]  1.14     0.61
+Lyu 2018                                          CES+escitalopram+usual care                          escitalopram+usual care  1.6785 [ 1.3182;  2.0389]  0.00     1.00
+Pan 2010                                                   placebo+usual care                           venlafaxine+usual care -2.0837 [-2.7123; -1.4551]  0.00     1.00
+Tao 2014                                                    LFrTMS+usual care                            sertraline+usual care  0.2609 [-0.2279;  0.7497]  0.00     1.00
+Wan 2008                   CBT+humanistic psychotherapy+paroxetine+usual care                            paroxetine+usual care  0.6602 [ 0.2676;  1.0529]  0.00     1.00
+Wan 2016                                                sertraline+usual care                       SFBT+sertraline+usual care -1.1288 [-1.6069; -0.6508]  0.00     1.00
+Wang 2021 D                                           escitalopram+usual care                   HFrTMS+escitalopram+usual care -0.0809 [-0.4154;  0.2536]  0.22        .
+Wang 2021 D                                           escitalopram+usual care                   LFrTMS+escitalopram+usual care  0.3119 [-0.0002;  0.6240]  0.01        .
+Wang 2021 D                                    HFrTMS+escitalopram+usual care                   LFrTMS+escitalopram+usual care  0.3928 [ 0.0058;  0.7798]  0.10        .
+Wei W 2024                                        LFrTMS+trazodone+usual care                             trazodone+usual care -0.2780 [-0.6719;  0.1159]  0.00     1.00
+Yang 2011             supportive psychotherapy+behavioural therapy+usual care                                       usual care  9.3374 [ 7.5918; 11.0830]  0.00     1.00
+Ye 2006                                                 imipramine+usual care                            paroxetine+usual care -1.0762 [-1.6202; -0.5322]  0.00        .
+Ye 2006                                                 paroxetine+usual care                                       usual care  1.9949 [ 1.4084;  2.5814]  0.00        .
+Ye 2006                                                 imipramine+usual care                                       usual care  0.9187 [ 0.3811;  1.4562]  0.00        .
+Yuan 2015                                                      CBT+usual care                                       usual care  0.4200 [ 0.0383;  0.8017]  0.09     0.72
+Zhong 2012        supportive psychotherapy+cognitive restructuring+usual care                                       usual care  3.9707 [ 3.2056;  4.7357]  0.00     1.00
+Zhu N 2022                                         REBT+sertraline+usual care                            sertraline+usual care  0.6693 [ 0.1912;  1.1474]  0.00     1.00
+Delbari 2010                                       methylphenidate+usual care                               placebo+usual care  0.1796 [-0.3383;  0.6974]  1.55     0.68
+Harumi 2018                                                    CBT+usual care                                       usual care  0.4200 [ 0.0383;  0.8017]  0.23     0.28
+
+Results (random effects model):
+
+                                                                       treat1                                           treat2     SMD             95% CI
+Chang 2011                         knowledge and behaviour therapy+usual care                                       usual care -0.1306 [-1.4508;  1.1895]
+Dam 1996                                                fluoxetine+usual care                           maprotiline+usual care  0.8265 [-0.6060;  2.2591]
+Dam 1996                                                fluoxetine+usual care                               placebo+usual care  0.4605 [-0.9531;  1.8741]
+Dam 1996                                               maprotiline+usual care                               placebo+usual care -0.3660 [-1.7906;  1.0585]
+Finkenzeller 2009                                 interpersonal psychotherapy                            sertraline+usual care  0.3381 [-1.0089;  1.6852]
+Finkenzeller 2009                                 interpersonal psychotherapy           interpersonal psychotherapy+sertraline -0.2818 [-1.6311;  1.0675]
+Finkenzeller 2009                      interpersonal psychotherapy+sertraline                            sertraline+usual care  0.6199 [-0.7389;  1.9787]
+Goldstein 2018                                   dextroamphetamine+usual care                               placebo+usual care  0.1836 [-1.1394;  1.5066]
+Grade 1998                                         methylphenidate+usual care                               placebo+usual care  0.3342 [-0.6904;  1.3587]
+Lincoln 2003                                                attention control                                              CBT -0.0000 [-1.3045;  1.3045]
+Lincoln 2003                                                              CBT                                       usual care -0.3465 [-1.6555;  0.9624]
+Lincoln 2003                                                attention control                                       usual care -0.3465 [-1.6518;  0.9587]
+Niu 2022                                                      GACT+usual care                                       usual care -0.4814 [-1.7879;  0.8251]
+Xiong 2026                                        SFBT+mindfulness+usual care                                       usual care  1.9784 [ 0.5934;  3.3634]
+Yao 2021                                               agomelatine+usual care                            sertraline+usual care  0.1530 [-1.1398;  1.4458]
+Yao 2021                                               agomelatine+usual care                          escitalopram+usual care  0.1584 [-1.1325;  1.4493]
+Yao 2021                                               agomelatine+usual care                               placebo+usual care  3.5190 [ 2.1314;  4.9066]
+Yao 2021                                              escitalopram+usual care                            sertraline+usual care -0.0054 [-1.2968;  1.2861]
+Yao 2021                                                   placebo+usual care                            sertraline+usual care -3.3660 [-4.7498; -1.9822]
+Yao 2021                                              escitalopram+usual care                               placebo+usual care  3.3606 [ 1.9788;  4.7425]
+Zhang 2025                                             mindfulness+usual care                                       usual care  0.3346 [-0.9625;  1.6316]
+Han 2022                                          atDCS+fluoxetine+usual care                            fluoxetine+usual care  0.7659 [-0.2715;  1.8033]
+Liu SY 2024                                             fluoxetine+usual care                     HFrTMS+fluoxetine+usual care -1.2876 [-1.9449; -0.6304]
+Wei 2024                                      reminiscence therapy+usual care                                       usual care  0.5123 [-0.8305;  1.8551]
+Yang 2023                                           ACT+sertraline+usual care                            sertraline+usual care  0.1006 [-1.2143;  1.4155]
+Chen 2022                                    peer support+group psychotherapy                                       usual care  4.7891 [ 3.2081;  6.3701]
+Chen 2019                                             escitalopram+usual care                   LFrTMS+escitalopram+usual care  0.2697 [-0.5315;  1.0708]
+Chen 2019                                         CBT+escitalopram+usual care                          escitalopram+usual care  0.5555 [-0.1854;  1.2965]
+Chen 2019                                         CBT+escitalopram+usual care                   LFrTMS+escitalopram+usual care  0.8252 [-0.0939;  1.7443]
+Dang 2019                                        HFrTMS+fluoxetine+usual care                       sham+fluoxetine+usual care  1.4285 [ 0.5393;  2.3176]
+Dou 2022                                                fluoxetine+usual care                     HFrTMS+fluoxetine+usual care -1.2876 [-1.9449; -0.6304]
+Geng 2025                                         CBT+escitalopram+usual care               HFrTMS+escitalopram+CBT+usual care -1.7462 [-3.0599; -0.4325]
+He 2015                                               escitalopram+usual care                                HFrTMS+usual care -0.0739 [-1.3088;  1.1610]
+He 2015                                               escitalopram+usual care                   HFrTMS+escitalopram+usual care -0.1004 [-0.9967;  0.7960]
+He 2015                                        HFrTMS+escitalopram+usual care                                HFrTMS+usual care  0.0265 [-1.2083;  1.2613]
+Hu 2015                                               escitalopram+usual care                                       usual care  1.0249 [ 0.0379;  2.0119]
+Hu 2015                                           CBT+escitalopram+usual care                                       usual care  1.5804 [ 0.5494;  2.6114]
+Hu 2015                                           CBT+escitalopram+usual care                          escitalopram+usual care  0.5555 [-0.1854;  1.2965]
+Huang 2025                                     LFrTMS+escitalopram+usual care                                       usual care  0.7553 [-0.2323;  1.7428]
+Miyai 1998                                             desipramine+usual care                             trazodone+usual care -1.0418 [-2.6987;  0.6152]
+Miyai 1998                                             desipramine+usual care                            fluoxetine+usual care -1.5379 [-3.3273;  0.2516]
+Miyai 1998                                              fluoxetine+usual care                             trazodone+usual care  0.4961 [-1.2748;  2.2670]
+Li 2004                 psychoeducation+Morita therapy+venlafaxine+usual care                                       usual care  0.7159 [-0.5697;  2.0014]
+Li 2019                                                 fluoxetine+usual care                     HFrTMS+fluoxetine+usual care -1.2876 [-1.9449; -0.6304]
+Li X 2004                                        HFrTMS+fluoxetine+usual care                       sham+fluoxetine+usual care  1.4285 [ 0.5393;  2.3176]
+Li X 2004                                               fluoxetine+usual care                     HFrTMS+fluoxetine+usual care -1.2876 [-1.9449; -0.6304]
+Li X 2004                                               fluoxetine+usual care                       sham+fluoxetine+usual care  0.1408 [-0.7714;  1.0531]
+Li ZY 2020                                              fluoxetine+usual care                     LFrTMS+fluoxetine+usual care -3.0733 [-4.4741; -1.6726]
+Liu JF 2022                                       CBT+escitalopram+usual care supportive psychotherapy+escitalopram+usual care  1.6306 [ 0.2703;  2.9909]
+Liu J 2021                                        CBT+escitalopram+usual care                          escitalopram+usual care  0.5555 [-0.1854;  1.2965]
+Liu B 2019                                        atDCS+fluoxetine+usual care                       sham+fluoxetine+usual care  0.9067 [-0.1400;  1.9534]
+Lyu 2018                                          CES+escitalopram+usual care                          escitalopram+usual care  1.6785 [ 0.3983;  2.9588]
+Pan 2010                                                   placebo+usual care                           venlafaxine+usual care -2.0837 [-3.4637; -0.7037]
+Tao 2014                                                    LFrTMS+usual care                            sertraline+usual care  0.2609 [-1.0613;  1.5831]
+Wan 2008                   CBT+humanistic psychotherapy+paroxetine+usual care                            paroxetine+usual care  0.6602 [-0.6295;  1.9500]
+Wan 2016                                                sertraline+usual care                       SFBT+sertraline+usual care -1.1288 [-2.4471;  0.1894]
+Wang 2021 D                                           escitalopram+usual care                   HFrTMS+escitalopram+usual care -0.1004 [-0.9967;  0.7960]
+Wang 2021 D                                           escitalopram+usual care                   LFrTMS+escitalopram+usual care  0.2697 [-0.5315;  1.0708]
+Wang 2021 D                                    HFrTMS+escitalopram+usual care                   LFrTMS+escitalopram+usual care  0.3700 [-0.6667;  1.4067]
+Wei W 2024                                        LFrTMS+trazodone+usual care                             trazodone+usual care -0.2780 [-1.5681;  1.0121]
+Yang 2011             supportive psychotherapy+behavioural therapy+usual care                                       usual care  9.3374 [ 7.2029; 11.4720]
+Ye 2006                                                 imipramine+usual care                            paroxetine+usual care -1.0762 [-2.4198;  0.2673]
+Ye 2006                                                 paroxetine+usual care                                       usual care  1.9949 [ 0.6336;  3.3562]
+Ye 2006                                                 imipramine+usual care                                       usual care  0.9187 [-0.4223;  2.2596]
+Yuan 2015                                                      CBT+usual care                                       usual care  0.3773 [-0.5859;  1.3406]
+Zhong 2012        supportive psychotherapy+cognitive restructuring+usual care                                       usual care  3.9707 [ 2.5234;  5.4179]
+Zhu N 2022                                         REBT+sertraline+usual care                            sertraline+usual care  0.6693 [-0.6489;  1.9876]
+Delbari 2010                                       methylphenidate+usual care                               placebo+usual care  0.3342 [-0.6904;  1.3587]
+Harumi 2018                                                    CBT+usual care                                       usual care  0.3773 [-0.5859;  1.3406]
+
+Number of studies: k = 44
+Number of pairwise comparisons: m = 69
+Number of treatments: n = 45
+Number of designs: d = 40
+
+Common effects model
+
+Treatment estimate (other treatments vs 'usual care'):
+                                                                SMD             95% CI     z  p-value
+ACT+sertraline+usual care                                    1.1046 [ 0.3767;  1.8325]  2.97   0.0029
+agomelatine+usual care                                       1.1570 [ 0.6014;  1.7125]  4.08 < 0.0001
+atDCS+fluoxetine+usual care                                 -0.9547 [-2.0451;  0.1356] -1.72   0.0861
+attention control                                           -0.3465 [-0.7876;  0.0945] -1.54   0.1236
+CBT                                                         -0.3465 [-0.7984;  0.1053] -1.50   0.1328
+CBT+escitalopram+usual care                                  1.5680 [ 1.1624;  1.9736]  7.58 < 0.0001
+CBT+humanistic psychotherapy+paroxetine+usual care           2.6551 [ 1.9493;  3.3609]  7.37 < 0.0001
+CBT+usual care                                               0.4200 [ 0.0383;  0.8017]  2.16   0.0310
+CES+escitalopram+usual care                                  2.6771 [ 2.1467;  3.2076]  9.89 < 0.0001
+desipramine+usual care                                      -3.4394 [-5.0928; -1.7860] -4.08 < 0.0001
+dextroamphetamine+usual care                                -2.1785 [-3.0689; -1.2880] -4.79 < 0.0001
+escitalopram+usual care                                      0.9986 [ 0.6094;  1.3878]  5.03 < 0.0001
+fluoxetine+usual care                                       -1.9015 [-2.9218; -0.8813] -3.65   0.0003
+GACT+usual care                                             -0.4814 [-0.9261; -0.0367] -2.12   0.0339
+HFrTMS+escitalopram+CBT+usual care                           3.3142 [ 2.6969;  3.9316] 10.52 < 0.0001
+HFrTMS+escitalopram+usual care                               1.0795 [ 0.5936;  1.5654]  4.35 < 0.0001
+HFrTMS+fluoxetine+usual care                                -0.6113 [-1.6712;  0.4487] -1.13   0.2583
+HFrTMS+usual care                                            1.0627 [ 0.4644;  1.6610]  3.48   0.0005
+imipramine+usual care                                        0.9187 [ 0.3811;  1.4562]  3.35   0.0008
+interpersonal psychotherapy                                  1.3421 [ 0.5576;  2.1265]  3.35   0.0008
+interpersonal psychotherapy+sertraline                       1.6238 [ 0.8194;  2.4283]  3.96 < 0.0001
+knowledge and behaviour therapy+usual care                  -0.1306 [-0.6139;  0.3526] -0.53   0.5962
+LFrTMS+escitalopram+usual care                               0.6867 [ 0.2872;  1.0861]  3.37   0.0008
+LFrTMS+fluoxetine+usual care                                 1.1718 [-0.0504;  2.3940]  1.88   0.0602
+LFrTMS+trazodone+usual care                                 -2.6756 [-4.3558; -0.9955] -3.12   0.0018
+LFrTMS+usual care                                            1.2649 [ 0.5239;  2.0058]  3.35   0.0008
+maprotiline+usual care                                      -2.7281 [-3.7634; -1.6927] -5.16 < 0.0001
+methylphenidate+usual care                                  -2.1825 [-3.0880; -1.2770] -4.72 < 0.0001
+mindfulness+usual care                                       0.3346 [-0.0815;  0.7506]  1.58   0.1150
+paroxetine+usual care                                        1.9949 [ 1.4084;  2.5814]  6.67 < 0.0001
+peer support+group psychotherapy                             4.7891 [ 3.7939;  5.7842]  9.43 < 0.0001
+placebo+usual care                                          -2.3620 [-3.1049; -1.6192] -6.23 < 0.0001
+psychoeducation+Morita therapy+venlafaxine+usual care        0.7159 [ 0.3372;  1.0946]  3.70   0.0002
+REBT+sertraline+usual care                                   1.6733 [ 0.9394;  2.4072]  4.47 < 0.0001
+reminiscence therapy+usual care                              0.5123 [-0.0298;  1.0544]  1.85   0.0640
+sertraline+usual care                                        1.0040 [ 0.4471;  1.5608]  3.53   0.0004
+SFBT+mindfulness+usual care                                  1.9784 [ 1.3389;  2.6179]  6.06 < 0.0001
+SFBT+sertraline+usual care                                   2.1328 [ 1.3989;  2.8667]  5.70 < 0.0001
+sham+fluoxetine+usual care                                  -1.7450 [-2.8410; -0.6490] -3.12   0.0018
+supportive psychotherapy+behavioural therapy+usual care      9.3374 [ 7.5918; 11.0830] 10.48 < 0.0001
+supportive psychotherapy+cognitive restructuring+usual care  3.9707 [ 3.2056;  4.7357] 10.17 < 0.0001
+supportive psychotherapy+escitalopram+usual care            -0.0626 [-0.7737;  0.6485] -0.17   0.8630
+trazodone+usual care                                        -2.3976 [-4.0310; -0.7643] -2.88   0.0040
+usual care                                                        .                  .     .        .
+venlafaxine+usual care                                      -0.2783 [-1.2515;  0.6948] -0.56   0.5751
+
+Random effects model
+
+Treatment estimate (other treatments vs 'usual care'):
+                                                                SMD             95% CI     z  p-value              95% PI
+ACT+sertraline+usual care                                    1.1309 [-0.9598;  3.2216]  1.06   0.2891  [-1.5648;  3.8266]
+agomelatine+usual care                                       1.1833 [-0.4417;  2.8083]  1.43   0.1535  [-1.0813;  3.4478]
+atDCS+fluoxetine+usual care                                 -1.1094 [-3.5503;  1.3316] -0.89   0.3731  [-4.1471;  1.9284]
+attention control                                           -0.3465 [-1.6518;  0.9587] -0.52   0.6028  [-2.3392;  1.6461]
+CBT                                                         -0.3465 [-1.6555;  0.9624] -0.52   0.6038  [-2.3421;  1.6491]
+CBT+escitalopram+usual care                                  1.5804 [ 0.5494;  2.6114]  3.00   0.0027  [-0.2024;  3.3633]
+CBT+humanistic psychotherapy+paroxetine+usual care           2.6551 [ 0.7799;  4.5304]  2.78   0.0055  [ 0.1630;  5.1473]
+CBT+usual care                                               0.3773 [-0.5859;  1.3406]  0.77   0.4426  [-1.3581;  2.1127]
+CES+escitalopram+usual care                                  2.7035 [ 1.0869;  4.3200]  3.28   0.0010  [ 0.4464;  4.9606]
+desipramine+usual care                                      -3.4131 [-6.2564; -0.5698] -2.35   0.0186  [-6.8563;  0.0301]
+dextroamphetamine+usual care                                -2.1521 [-4.3048;  0.0006] -1.96   0.0501  [-4.9075;  0.6032]
+escitalopram+usual care                                      1.0249 [ 0.0379;  2.0119]  2.04   0.0418  [-0.7269;  2.7768]
+fluoxetine+usual care                                       -1.8752 [-4.0848;  0.3343] -1.66   0.0962  [-4.6856;  0.9352]
+GACT+usual care                                             -0.4814 [-1.7879;  0.8251] -0.72   0.4702  [-2.4750;  1.5122]
+HFrTMS+escitalopram+CBT+usual care                           3.3267 [ 1.6567;  4.9966]  3.90 < 0.0001  [ 1.0220;  5.6313]
+HFrTMS+escitalopram+usual care                               1.1253 [-0.1367;  2.3873]  1.75   0.0805  [-0.8326;  3.0831]
+HFrTMS+fluoxetine+usual care                                -0.5876 [-2.8928;  1.7176] -0.50   0.6174  [-3.4914;  2.3162]
+HFrTMS+usual care                                            1.0988 [-0.4525;  2.6501]  1.39   0.1651  [-1.1010;  3.2986]
+imipramine+usual care                                        0.9187 [-0.4223;  2.2596]  1.34   0.1794  [-1.1030;  2.9404]
+interpersonal psychotherapy                                  1.3684 [-0.7426;  3.4794]  1.27   0.2039  [-1.3468;  4.0836]
+interpersonal psychotherapy+sertraline                       1.6502 [-0.4684;  3.7687]  1.53   0.1269  [-1.0723;  4.3726]
+knowledge and behaviour therapy+usual care                  -0.1306 [-1.4508;  1.1895] -0.19   0.8462  [-2.1353;  1.8741]
+LFrTMS+escitalopram+usual care                               0.7553 [-0.2323;  1.7428]  1.50   0.1339  [-0.9970;  2.5075]
+LFrTMS+fluoxetine+usual care                                 1.1981 [-1.4180;  3.8142]  0.90   0.3694  [-2.0148;  4.4110]
+LFrTMS+trazodone+usual care                                 -2.6493 [-5.7610;  0.4624] -1.67   0.0952  [-6.3683;  1.0697]
+LFrTMS+usual care                                            1.2912 [-0.8041;  3.3864]  1.21   0.2271  [-1.4089;  3.9912]
+maprotiline+usual care                                      -2.7018 [-4.9183; -0.4852] -2.39   0.0169  [-5.5190;  0.1154]
+methylphenidate+usual care                                  -2.0015 [-3.9849; -0.0182] -1.98   0.0479  [-4.5950;  0.5919]
+mindfulness+usual care                                       0.3346 [-0.9625;  1.6316]  0.51   0.6132  [-1.6514;  2.3206]
+paroxetine+usual care                                        1.9949 [ 0.6336;  3.3562]  2.87   0.0041  [-0.0436;  4.0333]
+peer support+group psychotherapy                             4.7891 [ 3.2081;  6.3701]  5.94 < 0.0001  [ 2.5633;  7.0148]
+placebo+usual care                                          -2.3357 [-4.0339; -0.6376] -2.70   0.0070  [-4.6657; -0.0057]
+psychoeducation+Morita therapy+venlafaxine+usual care        0.7159 [-0.5697;  2.0014]  1.09   0.2751  [-1.2608;  2.6926]
+REBT+sertraline+usual care                                   1.6996 [-0.3932;  3.7924]  1.59   0.1114  [-0.9981;  4.3973]
+reminiscence therapy+usual care                              0.5123 [-0.8305;  1.8551]  0.75   0.4546  [-1.5109;  2.5355]
+sertraline+usual care                                        1.0303 [-0.5951;  2.6557]  1.24   0.2141  [-1.2347;  3.2952]
+SFBT+mindfulness+usual care                                  1.9784 [ 0.5934;  3.3634]  2.80   0.0051  [-0.0796;  4.0365]
+SFBT+sertraline+usual care                                   2.1591 [ 0.0664;  4.2519]  2.02   0.0432  [-0.5386;  4.8568]
+sham+fluoxetine+usual care                                  -2.0161 [-4.4065;  0.3744] -1.65   0.0983  [-5.0038;  0.9717]
+supportive psychotherapy+behavioural therapy+usual care      9.3374 [ 7.2029; 11.4720]  8.57 < 0.0001  [ 6.5996; 12.0753]
+supportive psychotherapy+cognitive restructuring+usual care  3.9707 [ 2.5234;  5.4179]  5.38 < 0.0001  [ 1.8603;  6.0810]
+supportive psychotherapy+escitalopram+usual care            -0.0502 [-1.7570;  1.6567] -0.06   0.9541  [-2.3880;  2.2877]
+trazodone+usual care                                        -2.3713 [-5.2029;  0.4603] -1.64   0.1007  [-5.8026;  1.0600]
+usual care                                                        .                  .     .        .                   .
+venlafaxine+usual care                                      -0.2520 [-2.4402;  1.9361] -0.23   0.8214  [-3.0417;  2.5376]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.3929; tau = 0.6268; I^2 = 82.6% [71.4%; 89.3%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f.  p-value
+Total           68.78   12 < 0.0001
+Within designs  14.14    4   0.0069
+Between designs 54.64    8 < 0.0001
+
+A total of 45 treatments are included in the network.
+A total of 44 studies are included in this analysis.
+A total of 3277 participants are included in this analysis.
+The following studies were included in this analysis: Chang 2011 Dam 1996 Finkenzeller 2009 Goldstein 2018 Grade 1998 Lincoln 2003 Niu 2022 Xiong 2026 Yao 2021 Zhang 2025 Han 2022 Liu SY 2024 Wei 2024 Yang 2023 Chen 2022 Chen 2019 Dang 2019 Dou 2022 Geng 2025 He 2015 Hu 2015 Huang 2025 Miyai 1998 Li 2004 Li 2019 Li X 2004 Li ZY 2020 Liu JF 2022 Liu J 2021 Liu B 2019 Lyu 2018 Pan 2010 Tao 2014 Wan 2008 Wan 2016 Wang 2021 D Wei W 2024 Yang 2011 Ye 2006 Yuan 2015 Zhong 2012 Zhu N 2022 Delbari 2010 Harumi 2018
+Estimated heterogeneity tau-squared0.39
+Global test for inconsistency, p-value = 0.00000 (Q = 55, d.o.f. = 8)
+
+File created on 2026-11-10
