@@ -1,0 +1,57 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                           comparison k prop   nma direct indir. Diff    z p-value
+  drTMS+usual care:HFrTMS+mindfulness 0    0  0.04      .   0.04    .    .       .
+   drTMS+usual care:HFrTMS+usual care 0    0  0.98      .   0.98    .    .       .
+     drTMS+usual care:iTBS+usual care 0    0  0.98      .   0.98    .    .       .
+    drTMS+usual care:sham+mindfulness 0    0 -0.12      .  -0.12    .    .       .
+     drTMS+usual care:sham+usual care 1 1.00 -0.40  -0.40      .    .    .       .
+ HFrTMS+mindfulness:HFrTMS+usual care 0    0  0.94      .   0.94    .    .       .
+   HFrTMS+mindfulness:iTBS+usual care 0    0  0.93      .   0.93    .    .       .
+  HFrTMS+mindfulness:sham+mindfulness 1 1.00 -0.16  -0.16      .    .    .       .
+   HFrTMS+mindfulness:sham+usual care 1 1.00 -0.45  -0.45      .    .    .       .
+    HFrTMS+usual care:iTBS+usual care 1 0.93 -0.00   0.21  -2.60 2.80 2.09  0.0363
+   HFrTMS+usual care:sham+mindfulness 0    0 -1.10      .  -1.10    .    .       .
+    HFrTMS+usual care:sham+usual care 2 1.00 -1.38  -1.38      .    .    .       .
+     iTBS+usual care:sham+mindfulness 0    0 -1.09      .  -1.09    .    .       .
+      iTBS+usual care:sham+usual care 1 0.90 -1.38  -1.13  -3.68 2.55 2.09  0.0363
+     sham+mindfulness:sham+usual care 1 1.00 -0.29  -0.29      .    .    .       .
+
+Random effects model: 
+
+                           comparison k prop   nma direct indir. Diff    z p-value
+  drTMS+usual care:HFrTMS+mindfulness 0    0  0.04      .   0.04    .    .       .
+   drTMS+usual care:HFrTMS+usual care 0    0  1.15      .   1.15    .    .       .
+     drTMS+usual care:iTBS+usual care 0    0  1.04      .   1.04    .    .       .
+    drTMS+usual care:sham+mindfulness 0    0 -0.12      .  -0.12    .    .       .
+     drTMS+usual care:sham+usual care 1 1.00 -0.40  -0.40      .    .    .       .
+ HFrTMS+mindfulness:HFrTMS+usual care 0    0  1.10      .   1.10    .    .       .
+   HFrTMS+mindfulness:iTBS+usual care 0    0  1.00      .   1.00    .    .       .
+  HFrTMS+mindfulness:sham+mindfulness 1 1.00 -0.16  -0.16      .    .    .       .
+   HFrTMS+mindfulness:sham+usual care 1 1.00 -0.45  -0.45      .    .    .       .
+    HFrTMS+usual care:iTBS+usual care 1 0.89 -0.10   0.21  -2.51 2.72 1.00  0.3173
+   HFrTMS+usual care:sham+mindfulness 0    0 -1.26      .  -1.26    .    .       .
+    HFrTMS+usual care:sham+usual care 2 1.00 -1.55  -1.55      .    .    .       .
+     iTBS+usual care:sham+mindfulness 0    0 -1.16      .  -1.16    .    .       .
+      iTBS+usual care:sham+usual care 1 0.88 -1.45  -1.13  -3.80 2.68 1.00  0.3173
+     sham+mindfulness:sham+usual care 1 1.00 -0.29  -0.29      .    .    .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Common effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 100 (2 out of 2 comparisons).
+
+Random effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 2 comparisons).
+
