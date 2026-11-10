@@ -1,0 +1,119 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                                                  treat1     treat2      TE   seTE
+Chang 2011    knowledge and behaviour therapy+usual care usual care  0.5135 0.2503
+Liu 2023                                 GACT+usual care usual care  1.1863 0.1840
+Majumdar 2019                                       GACT usual care  0.1302 0.2751
+Xiong 2026                   SFBT+mindfulness+usual care usual care  2.1186 0.3341
+He 2023                           mindfulness+usual care usual care  0.0901 0.2605
+Han 2021                            CBT+drTMS+usual care usual care  1.0009 0.2023
+Jiang 2020                      motor imagery+usual care usual care  1.9937 0.2558
+Jiang 2019 D                    motor imagery+usual care usual care  0.8204 0.2139
+Li 2017              supportive psychotherapy+usual care usual care  0.7415 0.2954
+Ren 2024                          mindfulness+usual care usual care -0.0217 0.2041
+Wang 2011                 group psychotherapy+usual care usual care  0.7934 0.2682
+Harumi 2018                               CBT+usual care usual care  0.4019 0.3688
+
+Number of treatment arms per study:
+              narms
+Chang 2011        2
+Liu 2023          2
+Majumdar 2019     2
+Xiong 2026        2
+He 2023           2
+Han 2021          2
+Jiang 2020        2
+Jiang 2019 D      2
+Li 2017           2
+Ren 2024          2
+Wang 2011         2
+Harumi 2018       2
+
+Results (common effects model):
+
+                                                  treat1     treat2    SMD            95% CI    Q leverage
+Chang 2011    knowledge and behaviour therapy+usual care usual care 0.5135 [ 0.0229; 1.0041] 0.00     1.00
+Liu 2023                                 GACT+usual care usual care 1.1863 [ 0.8258; 1.5469] 0.00     1.00
+Majumdar 2019                                       GACT usual care 0.1302 [-0.4089; 0.6693] 0.00     1.00
+Xiong 2026                   SFBT+mindfulness+usual care usual care 2.1186 [ 1.4639; 2.7734] 0.00     1.00
+He 2023                           mindfulness+usual care usual care 0.0208 [-0.2941; 0.3358] 0.07     0.38
+Han 2021                            CBT+drTMS+usual care usual care 1.0009 [ 0.6044; 1.3973] 0.00     1.00
+Jiang 2020                      motor imagery+usual care usual care 1.3034 [ 0.9818; 1.6250] 7.29     0.41
+Jiang 2019 D                    motor imagery+usual care usual care 1.3034 [ 0.9818; 1.6250] 5.10     0.59
+Li 2017              supportive psychotherapy+usual care usual care 0.7415 [ 0.1624; 1.3205] 0.00     1.00
+Ren 2024                          mindfulness+usual care usual care 0.0208 [-0.2941; 0.3358] 0.04     0.62
+Wang 2011                 group psychotherapy+usual care usual care 0.7934 [ 0.2678; 1.3190] 0.00     1.00
+Harumi 2018                               CBT+usual care usual care 0.4019 [-0.3210; 1.1247] 0.00     1.00
+
+Results (random effects model):
+
+                                                  treat1     treat2    SMD            95% CI
+Chang 2011    knowledge and behaviour therapy+usual care usual care 0.5135 [-0.6497; 1.6768]
+Liu 2023                                 GACT+usual care usual care 1.1863 [ 0.0717; 2.3010]
+Majumdar 2019                                       GACT usual care 0.1302 [-1.0543; 1.3147]
+Xiong 2026                   SFBT+mindfulness+usual care usual care 2.1186 [ 0.8772; 3.3601]
+He 2023                           mindfulness+usual care usual care 0.0321 [-0.7806; 0.8448]
+Han 2021                            CBT+drTMS+usual care usual care 1.0009 [-0.1259; 2.1277]
+Jiang 2020                      motor imagery+usual care usual care 1.3904 [ 0.5765; 2.2043]
+Jiang 2019 D                    motor imagery+usual care usual care 1.3904 [ 0.5765; 2.2043]
+Li 2017              supportive psychotherapy+usual care usual care 0.7415 [-0.4618; 1.9447]
+Ren 2024                          mindfulness+usual care usual care 0.0321 [-0.7806; 0.8448]
+Wang 2011                 group psychotherapy+usual care usual care 0.7934 [-0.3850; 1.9719]
+Harumi 2018                               CBT+usual care usual care 0.4019 [-0.8768; 1.6806]
+
+Number of studies: k = 12
+Number of pairwise comparisons: m = 12
+Number of treatments: n = 11
+Number of designs: d = 10
+
+Common effects model
+
+Treatment estimate (other treatments vs 'usual care'):
+                                              SMD            95% CI    z  p-value
+CBT+drTMS+usual care                       1.0009 [ 0.6044; 1.3973] 4.95 < 0.0001
+CBT+usual care                             0.4019 [-0.3210; 1.1247] 1.09   0.2759
+GACT                                       0.1302 [-0.4089; 0.6693] 0.47   0.6360
+GACT+usual care                            1.1863 [ 0.8258; 1.5469] 6.45 < 0.0001
+group psychotherapy+usual care             0.7934 [ 0.2678; 1.3190] 2.96   0.0031
+knowledge and behaviour therapy+usual care 0.5135 [ 0.0229; 1.0041] 2.05   0.0402
+mindfulness+usual care                     0.0208 [-0.2941; 0.3358] 0.13   0.8968
+motor imagery+usual care                   1.3034 [ 0.9818; 1.6250] 7.94 < 0.0001
+SFBT+mindfulness+usual care                2.1186 [ 1.4639; 2.7734] 6.34 < 0.0001
+supportive psychotherapy+usual care        0.7415 [ 0.1624; 1.3205] 2.51   0.0121
+usual care                                      .                 .    .        .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'usual care'):
+                                              SMD            95% CI    z p-value             95% PI
+CBT+drTMS+usual care                       1.0009 [-0.1259; 2.1277] 1.74  0.0817  [-2.3874; 4.3891]
+CBT+usual care                             0.4019 [-0.8768; 1.6806] 0.62  0.5379  [-3.2370; 4.0407]
+GACT                                       0.1302 [-1.0543; 1.3147] 0.22  0.8294  [-3.3517; 3.6121]
+GACT+usual care                            1.1863 [ 0.0717; 2.3010] 2.09  0.0370  [-2.1825; 4.5552]
+group psychotherapy+usual care             0.7934 [-0.3850; 1.9719] 1.32  0.1870  [-2.6785; 4.2653]
+knowledge and behaviour therapy+usual care 0.5135 [-0.6497; 1.6768] 0.87  0.3869  [-2.9336; 3.9607]
+mindfulness+usual care                     0.0321 [-0.7806; 0.8448] 0.08  0.9383  [-2.8910; 2.9552]
+motor imagery+usual care                   1.3904 [ 0.5765; 2.2043] 3.35  0.0008  [-1.5344; 4.3151]
+SFBT+mindfulness+usual care                2.1186 [ 0.8772; 3.3601] 3.34  0.0008  [-1.4575; 5.6948]
+supportive psychotherapy+usual care        0.7415 [-0.4618; 1.9447] 1.21  0.2271  [-2.7712; 4.2541]
+usual care                                      .                 .    .       .                  .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.2896; tau = 0.5382; I^2 = 84% [52.0%; 94.7%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           12.5    2  0.0019
+Within designs  12.5    2  0.0019
+Between designs  0.0    0      --
+
+A total of 11 treatments are included in the network.
+A total of 12 studies are included in this analysis.
+A total of 905 participants are included in this analysis.
+The following studies were included in this analysis: Chang 2011 Liu 2023 Majumdar 2019 Xiong 2026 He 2023 Han 2021 Jiang 2020 Jiang 2019 D Li 2017 Ren 2024 Wang 2011 Harumi 2018
+Estimated heterogeneity tau-squared0.29
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10

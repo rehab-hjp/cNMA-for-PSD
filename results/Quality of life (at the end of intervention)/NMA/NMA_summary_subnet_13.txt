@@ -1,0 +1,63 @@
+Network meta-analysis on subnet 13.
+
+Original data:
+
+                                treat1                treat2      TE   seTE
+Wang QQ 2019                paroxetine relaxation+paroxetine -1.8048 0.2652
+Xu 2017      Morita therapy+paroxetine            paroxetine  0.3725 0.2604
+
+Number of treatment arms per study:
+             narms
+Wang QQ 2019     2
+Xu 2017          2
+
+Results (common effects model):
+
+                                treat1                treat2     SMD             95% CI    Q leverage
+Wang QQ 2019                paroxetine relaxation+paroxetine -1.8048 [-2.3247; -1.2849] 0.00     1.00
+Xu 2017      Morita therapy+paroxetine            paroxetine  0.3725 [-0.1380;  0.8829] 0.00     1.00
+
+Results (random effects model):
+
+                                treat1                treat2     SMD             95% CI
+Wang QQ 2019                paroxetine relaxation+paroxetine -1.8048 [-2.3247; -1.2849]
+Xu 2017      Morita therapy+paroxetine            paroxetine  0.3725 [-0.1380;  0.8829]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'paroxetine'):
+                             SMD            95% CI    z  p-value
+Morita therapy+paroxetine 0.3725 [-0.1380; 0.8829] 1.43   0.1527
+paroxetine                     .                 .    .        .
+relaxation+paroxetine     1.8048 [ 1.2849; 2.3247] 6.80 < 0.0001
+
+Random effects model
+
+Treatment estimate (other treatments vs 'paroxetine'):
+                             SMD            95% CI    z  p-value
+Morita therapy+paroxetine 0.3725 [-0.1380; 0.8829] 1.43   0.1527
+paroxetine                     .                 .    .        .
+relaxation+paroxetine     1.8048 [ 1.2849; 2.3247] 6.80 < 0.0001
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 140 participants are included in this analysis.
+The following studies were included in this analysis: Wang QQ 2019 Xu 2017
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10

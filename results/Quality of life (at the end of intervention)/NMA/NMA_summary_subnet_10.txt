@@ -1,0 +1,67 @@
+Network meta-analysis on subnet 10.
+
+Original data:
+
+                            treat1                                    treat2      TE   seTE
+Lu 2023      fluoxetine+usual care group psychotherapy+fluoxetine+usual care -0.5827 0.1864
+Tang XQ 2019 fluoxetine+usual care group psychotherapy+fluoxetine+usual care -1.4131 0.2258
+Zhang 2014   fluoxetine+usual care                REBT+fluoxetine+usual care -0.9617 0.2526
+
+Number of treatment arms per study:
+             narms
+Lu 2023          2
+Tang XQ 2019     2
+Zhang 2014       2
+
+Results (common effects model):
+
+                            treat1                                    treat2     SMD             95% CI    Q leverage
+Lu 2023      fluoxetine+usual care group psychotherapy+fluoxetine+usual care -0.9192 [-1.2009; -0.6374] 3.26     0.59
+Tang XQ 2019 fluoxetine+usual care group psychotherapy+fluoxetine+usual care -0.9192 [-1.2009; -0.6374] 4.78     0.41
+Zhang 2014   fluoxetine+usual care                REBT+fluoxetine+usual care -0.9617 [-1.4568; -0.4667] 0.00     1.00
+
+Results (random effects model):
+
+                            treat1                                    treat2     SMD             95% CI
+Lu 2023      fluoxetine+usual care group psychotherapy+fluoxetine+usual care -0.9881 [-1.8016; -0.1745]
+Tang XQ 2019 fluoxetine+usual care group psychotherapy+fluoxetine+usual care -0.9881 [-1.8016; -0.1745]
+Zhang 2014   fluoxetine+usual care                REBT+fluoxetine+usual care -0.9617 [-2.1470;  0.2235]
+
+Number of studies: k = 3
+Number of pairwise comparisons: m = 3
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'fluoxetine+usual care'):
+                                             SMD           95% CI    z  p-value
+fluoxetine+usual care                          .                .    .        .
+group psychotherapy+fluoxetine+usual care 0.9192 [0.6374; 1.2009] 6.39 < 0.0001
+REBT+fluoxetine+usual care                0.9617 [0.4667; 1.4568] 3.81   0.0001
+
+Random effects model
+
+Treatment estimate (other treatments vs 'fluoxetine+usual care'):
+                                             SMD            95% CI    z p-value  95% PI
+fluoxetine+usual care                          .                 .    .       .       .
+group psychotherapy+fluoxetine+usual care 0.9881 [ 0.1745; 1.8016] 2.38  0.0173        
+REBT+fluoxetine+usual care                0.9617 [-0.2235; 2.1470] 1.59  0.1118        
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.3019; tau = 0.5495; I^2 = 87.6% [51.7%; 96.8%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           8.04    1  0.0046
+Within designs  8.04    1  0.0046
+Between designs 0.00    0      --
+
+A total of 3 treatments are included in the network.
+A total of 3 studies are included in this analysis.
+A total of 288 participants are included in this analysis.
+The following studies were included in this analysis: Lu 2023 Tang XQ 2019 Zhang 2014
+Estimated heterogeneity tau-squared0.30
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10

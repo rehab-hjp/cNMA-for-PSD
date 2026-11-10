@@ -1,0 +1,51 @@
+Network meta-analysis on subnet 14.
+
+Original data:
+
+                                      treat1                treat2     TE   seTE
+Lu 2018 Morita therapy+paroxetine+usual care paroxetine+usual care 1.7215 0.2555
+
+Number of treatment arms per study:
+        narms
+Lu 2018     2
+
+Results (common effects model):
+
+                                      treat1                treat2    SMD           95% CI    Q leverage
+Lu 2018 Morita therapy+paroxetine+usual care paroxetine+usual care 1.7215 [1.2208; 2.2222] 0.00     1.00
+
+Results (random effects model):
+
+                                      treat1                treat2    SMD           95% CI
+Lu 2018 Morita therapy+paroxetine+usual care paroxetine+usual care 1.7215 [1.2208; 2.2222]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('paroxetine+usual care' vs 'Morita therapy+paroxetine+usual care'):
+                                         SMD             95% CI     z  p-value
+Morita therapy+paroxetine+usual care       .                  .     .        .
+paroxetine+usual care                -1.7215 [-2.2222; -1.2208] -6.74 < 0.0001
+
+Random effects model
+
+Treatment estimate ('paroxetine+usual care' vs 'Morita therapy+paroxetine+usual care'):
+                                         SMD             95% CI     z  p-value
+Morita therapy+paroxetine+usual care       .                  .     .        .
+paroxetine+usual care                -1.7215 [-2.2222; -1.2208] -6.74 < 0.0001
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 84 participants are included in this analysis.
+The following studies were included in this analysis: Lu 2018
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10
