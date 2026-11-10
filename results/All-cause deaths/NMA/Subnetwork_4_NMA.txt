@@ -1,0 +1,51 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                                     treat1             treat2      TE   seTE
+Goldstein 2018 dextroamphetamine+usual care placebo+usual care -1.0986 1.6140
+
+Number of treatment arms per study:
+               narms
+Goldstein 2018     2
+
+Results (common effects model):
+
+                                     treat1             treat2     RR           95% CI    Q
+Goldstein 2018 dextroamphetamine+usual care placebo+usual care 0.3333 [0.0141; 7.8841] 0.00
+               leverage
+Goldstein 2018     1.00
+
+Results (random effects model):
+
+                                     treat1             treat2     RR           95% CI
+Goldstein 2018 dextroamphetamine+usual care placebo+usual care 0.3333 [0.0141; 7.8841]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of observations: o = 64
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('placebo+usual care' vs 'dextroamphetamine+usual care'):
+                                 RR            95% CI    z p-value
+dextroamphetamine+usual care      .                 .    .       .
+placebo+usual care           3.0000 [0.1268; 70.9570] 0.68  0.4961
+
+Random effects model
+
+Treatment estimate ('placebo+usual care' vs 'dextroamphetamine+usual care'):
+                                 RR            95% CI    z p-value
+dextroamphetamine+usual care      .                 .    .       .
+placebo+usual care           3.0000 [0.1268; 70.9570] 0.68  0.4961
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 64 participants are included in this analysis.
+The following studies were included in this analysis: Goldstein 2018
+

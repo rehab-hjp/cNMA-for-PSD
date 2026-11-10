@@ -1,0 +1,51 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                               treat1                        treat2     TE   seTE
+Liu 2024 sham+escitalopram+usual care taVNS+escitalopram+usual care 1.0986 1.6178
+
+Number of treatment arms per study:
+         narms
+Liu 2024     2
+
+Results (common effects model):
+
+                               treat1                        treat2     RR            95% CI    Q
+Liu 2024 sham+escitalopram+usual care taVNS+escitalopram+usual care 3.0000 [0.1259; 71.4820] 0.00
+         leverage
+Liu 2024     1.00
+
+Results (random effects model):
+
+                               treat1                        treat2     RR            95% CI
+Liu 2024 sham+escitalopram+usual care taVNS+escitalopram+usual care 3.0000 [0.1259; 71.4820]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of observations: o = 80
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('taVNS+escitalopram+usual care' vs 'sham+escitalopram+usual care'):
+                                  RR           95% CI     z p-value
+sham+escitalopram+usual care       .                .     .       .
+taVNS+escitalopram+usual care 0.3333 [0.0140; 7.9424] -0.68  0.4971
+
+Random effects model
+
+Treatment estimate ('taVNS+escitalopram+usual care' vs 'sham+escitalopram+usual care'):
+                                  RR           95% CI     z p-value
+sham+escitalopram+usual care       .                .     .       .
+taVNS+escitalopram+usual care 0.3333 [0.0140; 7.9424] -0.68  0.4971
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 80 participants are included in this analysis.
+The following studies were included in this analysis: Liu 2024
+
