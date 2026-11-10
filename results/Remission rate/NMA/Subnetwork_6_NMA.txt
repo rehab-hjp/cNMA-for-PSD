@@ -1,0 +1,93 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                                                       treat1
+Xu 2022                                          HFrTMS+citalopram+usual care
+Xu 2022 HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care
+Xu 2022                                          HFrTMS+citalopram+usual care
+                                                                       treat2      TE   seTE
+Xu 2022        psychoeducation+supportive psychotherapy+citalopram+usual care  0.3747 0.3565
+Xu 2022        psychoeducation+supportive psychotherapy+citalopram+usual care  0.9694 0.3148
+Xu 2022 HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care -0.5947 0.2658
+        seTE.adj.c seTE.adj.r narms multiarm
+Xu 2022     0.5541     0.5541     3        *
+Xu 2022     0.3643     0.3643     3        *
+Xu 2022     0.2902     0.2902     3        *
+
+Number of treatment arms per study:
+        narms multiarm
+Xu 2022     3        *
+
+Results (common effects model):
+
+                                                                       treat1
+Xu 2022                                          HFrTMS+citalopram+usual care
+Xu 2022 HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care
+Xu 2022                                          HFrTMS+citalopram+usual care
+                                                                       treat2     RR
+Xu 2022        psychoeducation+supportive psychotherapy+citalopram+usual care 1.4545
+Xu 2022        psychoeducation+supportive psychotherapy+citalopram+usual care 2.6364
+Xu 2022 HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care 0.5517
+                  95% CI    Q
+Xu 2022 [0.7232; 2.9254] 0.00
+Xu 2022 [1.4226; 4.8858] 0.00
+Xu 2022 [0.3277; 0.9290] 0.00
+
+Results (random effects model):
+
+                                                                       treat1
+Xu 2022                                          HFrTMS+citalopram+usual care
+Xu 2022 HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care
+Xu 2022                                          HFrTMS+citalopram+usual care
+                                                                       treat2     RR
+Xu 2022        psychoeducation+supportive psychotherapy+citalopram+usual care 1.4545
+Xu 2022        psychoeducation+supportive psychotherapy+citalopram+usual care 2.6364
+Xu 2022 HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care 0.5517
+                  95% CI
+Xu 2022 [0.7232; 2.9254]
+Xu 2022 [1.4226; 4.8858]
+Xu 2022 [0.3277; 0.9290]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 3
+Number of observations: o = 228
+Number of treatments: n = 3
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate (other treatments vs 'HFrTMS+citalopram+usual care'):
+                                                                          RR           95% CI     z
+HFrTMS+citalopram+usual care                                               .                .     .
+HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care 1.8125 [1.0765; 3.0518]  2.24
+psychoeducation+supportive psychotherapy+citalopram+usual care        0.6875 [0.3418; 1.3827] -1.05
+                                                                      p-value
+HFrTMS+citalopram+usual care                                                .
+HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care  0.0253
+psychoeducation+supportive psychotherapy+citalopram+usual care         0.2932
+
+Random effects model
+
+Treatment estimate (other treatments vs 'HFrTMS+citalopram+usual care'):
+                                                                          RR           95% CI     z
+HFrTMS+citalopram+usual care                                               .                .     .
+HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care 1.8125 [1.0765; 3.0518]  2.24
+psychoeducation+supportive psychotherapy+citalopram+usual care        0.6875 [0.3418; 1.3827] -1.05
+                                                                      p-value
+HFrTMS+citalopram+usual care                                                .
+HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care  0.0253
+psychoeducation+supportive psychotherapy+citalopram+usual care         0.2932
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+Test of heterogeneity:
+ Q d.f. p-value
+ 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 228 participants are included in this analysis.
+The following studies were included in this analysis: Xu 2022
+

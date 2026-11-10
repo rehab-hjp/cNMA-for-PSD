@@ -1,0 +1,61 @@
+Network meta-analysis on main network.
+
+Original data:
+
+              treat1 treat2     TE   seTE
+Jorge 2004    HFrTMS   sham 1.0986 1.5736
+Valiengo 2017  dtDCS   sham 2.3979 1.4492
+
+Number of treatment arms per study:
+              narms
+Jorge 2004        2
+Valiengo 2017     2
+
+Results (common effects model):
+
+              treat1 treat2      RR             95% CI    Q leverage
+Jorge 2004    HFrTMS   sham  3.0000 [0.1373;  65.5488] 0.00     1.00
+Valiengo 2017  dtDCS   sham 11.0000 [0.6424; 188.3456] 0.00     1.00
+
+Results (random effects model):
+
+              treat1 treat2      RR             95% CI
+Jorge 2004    HFrTMS   sham  3.0000 [0.1373;  65.5488]
+Valiengo 2017  dtDCS   sham 11.0000 [0.6424; 188.3456]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of observations: o = 68
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'sham'):
+            RR             95% CI    z p-value
+dtDCS  11.0000 [0.6424; 188.3456] 1.65  0.0980
+HFrTMS  3.0000 [0.1373;  65.5488] 0.70  0.4851
+sham         .                  .    .       .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'sham'):
+            RR             95% CI    z p-value
+dtDCS  11.0000 [0.6424; 188.3456] 1.65  0.0980
+HFrTMS  3.0000 [0.1373;  65.5488] 0.70  0.4851
+sham         .                  .    .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 68 participants are included in this analysis.
+The following studies were included in this analysis: Jorge 2004 Valiengo 2017
+

@@ -1,0 +1,49 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                           treat1     treat2     TE   seTE
+Mitchell 2009 behavioural therapy usual care 0.5705 0.2806
+
+Number of treatment arms per study:
+              narms
+Mitchell 2009     2
+
+Results (common effects model):
+
+                           treat1     treat2     RR           95% CI    Q leverage
+Mitchell 2009 behavioural therapy usual care 1.7692 [1.0208; 3.0664] 0.00     1.00
+
+Results (random effects model):
+
+                           treat1     treat2     RR           95% CI
+Mitchell 2009 behavioural therapy usual care 1.7692 [1.0208; 3.0664]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of observations: o = 96
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('usual care' vs 'behavioural therapy'):
+                        RR           95% CI     z p-value
+behavioural therapy      .                .     .       .
+usual care          0.5652 [0.3261; 0.9796] -2.03  0.0420
+
+Random effects model
+
+Treatment estimate ('usual care' vs 'behavioural therapy'):
+                        RR           95% CI     z p-value
+behavioural therapy      .                .     .       .
+usual care          0.5652 [0.3261; 0.9796] -2.03  0.0420
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 96 participants are included in this analysis.
+The following studies were included in this analysis: Mitchell 2009
+

@@ -1,0 +1,49 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                               treat1                 treat2     TE   seTE
+Li 2013 LFrTMS+mirtazapine+usual care mirtazapine+usual care 0.2364 0.2294
+
+Number of treatment arms per study:
+        narms
+Li 2013     2
+
+Results (common effects model):
+
+                               treat1                 treat2     RR           95% CI    Q leverage
+Li 2013 LFrTMS+mirtazapine+usual care mirtazapine+usual care 1.2667 [0.8079; 1.9858] 0.00     1.00
+
+Results (random effects model):
+
+                               treat1                 treat2     RR           95% CI
+Li 2013 LFrTMS+mirtazapine+usual care mirtazapine+usual care 1.2667 [0.8079; 1.9858]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of observations: o = 60
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('mirtazapine+usual care' vs 'LFrTMS+mirtazapine+usual care'):
+                                  RR           95% CI     z p-value
+LFrTMS+mirtazapine+usual care      .                .     .       .
+mirtazapine+usual care        0.7895 [0.5036; 1.2377] -1.03  0.3028
+
+Random effects model
+
+Treatment estimate ('mirtazapine+usual care' vs 'LFrTMS+mirtazapine+usual care'):
+                                  RR           95% CI     z p-value
+LFrTMS+mirtazapine+usual care      .                .     .       .
+mirtazapine+usual care        0.7895 [0.5036; 1.2377] -1.03  0.3028
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 60 participants are included in this analysis.
+The following studies were included in this analysis: Li 2013
+
