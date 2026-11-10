@@ -1,0 +1,29 @@
+                                                      P-score (common) P-score (random)
+LFrTMS+escitalopram+usual care                                  0.9999           0.9795
+CBT+escitalopram+usual care                                     0.9608           0.9136
+fluoxetine+cognitive restructuring+usual care                   0.8737           0.8320
+escitalopram+usual care                                         0.8628           0.7895
+HFrTMS+mindfulness                                              0.8350           0.7799
+psychoeducation+Morita therapy+venlafaxine+usual care           0.7807           0.7541
+iTBS+usual care                                                 0.7752           0.7332
+HFrTMS+usual care                                               0.6696           0.6851
+LFrTMS+usual care                                               0.6218           0.6310
+fluoxetine                                                      0.6885           0.6068
+escitalopram                                                    0.6802           0.5840
+drTMS+usual care                                                0.5969           0.5584
+sham+mindfulness                                                0.6521           0.5581
+mindfulness+usual care                                          0.4372           0.5410
+sertraline+usual care                                           0.4323           0.4769
+sham+usual care                                                 0.4484           0.4371
+behavioural therapy+usual care                                  0.2961           0.4339
+HFrTMS+paroxetine                                               0.4203           0.3999
+GACT+usual care                                                 0.3175           0.3985
+placebo                                                         0.3964           0.3790
+ACT+sertraline+usual care                                       0.2706           0.3563
+LFrTMS+paroxetine                                               0.3678           0.3453
+sham+paroxetine                                                 0.2258           0.1916
+behavioural therapy                                             0.1416           0.1782
+cognitive restructuring+usual care                              0.1211           0.1592
+usual care                                                      0.0841           0.1592
+behavioural activation+usual care                               0.0231           0.0823
+paroxetine                                                      0.0204           0.0311
