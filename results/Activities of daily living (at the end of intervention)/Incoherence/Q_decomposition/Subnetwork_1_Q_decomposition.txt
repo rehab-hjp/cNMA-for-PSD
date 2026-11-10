@@ -1,0 +1,34 @@
+Q statistics to assess homogeneity / consistency
+
+                    Q df  p-value
+Total           68.78 12 < 0.0001
+Within designs  14.14  4   0.0069
+Between designs 54.64  8 < 0.0001
+
+Design-specific decomposition of within-designs Q statistic
+
+                                             Design    Q df p-value
+ fluoxetine+usual care:HFrTMS+fluoxetine+usual care 9.04  2  0.0109
+      methylphenidate+usual care:placebo+usual care 4.79  1  0.0287
+                          usual care:CBT+usual care 0.32  1  0.5743
+
+Between-designs Q statistic after detaching of single designs
+(influential designs have p-value markedly different from < 0.0001)
+
+                                                                       Detached design     Q df  p-value
+                               HFrTMS+fluoxetine+usual care:sham+fluoxetine+usual care 33.02  7 < 0.0001
+         fluoxetine+usual care:HFrTMS+fluoxetine+usual care:sham+fluoxetine+usual care 35.72  6 < 0.0001
+                                             usual care:LFrTMS+escitalopram+usual care 41.16  7 < 0.0001
+                        usual care:CBT+escitalopram+usual care:escitalopram+usual care 41.03  6 < 0.0001
+    CBT+escitalopram+usual care:escitalopram+usual care:LFrTMS+escitalopram+usual care 42.78  6 < 0.0001
+                                   CBT+escitalopram+usual care:escitalopram+usual care 50.70  7 < 0.0001
+                                atDCS+fluoxetine+usual care:sham+fluoxetine+usual care 51.75  7 < 0.0001
+                                     atDCS+fluoxetine+usual care:fluoxetine+usual care 51.75  7 < 0.0001
+                                    fluoxetine+usual care:HFrTMS+fluoxetine+usual care 52.86  7 < 0.0001
+ escitalopram+usual care:HFrTMS+escitalopram+usual care:LFrTMS+escitalopram+usual care 53.81  6 < 0.0001
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                    Q df p-value tau.within tau2.within
+Between designs 16.38  8  0.0373     0.5058      0.2559
