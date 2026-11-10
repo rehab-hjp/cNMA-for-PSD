@@ -1,0 +1,69 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                                               comparison k prop  nma direct indir. RoR z p-value
+         attention control:behavioural therapy+usual care 0    0 0.95      .   0.95   . .       .
+                                    attention control:CBT 1 1.00 0.91   0.91      .   . .       .
+              attention control:ecosystem focused therapy 1 1.00 0.20   0.20      .   . .       .
+                            attention control:mindfulness 0    0 0.10      .   0.10   . .       .
+              attention control:motivational interviewing 0    0 0.11      .   0.11   . .       .
+                             attention control:usual care 1 1.00 0.32   0.32      .   . .       .
+                       behavioural therapy+usual care:CBT 0    0 0.95      .   0.95   . .       .
+ behavioural therapy+usual care:ecosystem focused therapy 0    0 0.21      .   0.21   . .       .
+               behavioural therapy+usual care:mindfulness 0    0 0.10      .   0.10   . .       .
+ behavioural therapy+usual care:motivational interviewing 0    0 0.12      .   0.12   . .       .
+                behavioural therapy+usual care:usual care 1 1.00 0.33   0.33      .   . .       .
+                            CBT:ecosystem focused therapy 0    0 0.22      .   0.22   . .       .
+                                          CBT:mindfulness 0    0 0.11      .   0.11   . .       .
+                            CBT:motivational interviewing 0    0 0.13      .   0.13   . .       .
+                                           CBT:usual care 1 1.00 0.35   0.35      .   . .       .
+                    ecosystem focused therapy:mindfulness 0    0 0.50      .   0.50   . .       .
+      ecosystem focused therapy:motivational interviewing 0    0 0.57      .   0.57   . .       .
+                     ecosystem focused therapy:usual care 0    0 1.59      .   1.59   . .       .
+                    mindfulness:motivational interviewing 0    0 1.16      .   1.16   . .       .
+                                   mindfulness:usual care 1 1.00 3.20   3.20      .   . .       .
+                     motivational interviewing:usual care 1 1.00 2.76   2.76      .   . .       .
+
+Random effects model: 
+
+                                               comparison k prop  nma direct indir. RoR z p-value
+         attention control:behavioural therapy+usual care 0    0 0.95      .   0.95   . .       .
+                                    attention control:CBT 1 1.00 0.91   0.91      .   . .       .
+              attention control:ecosystem focused therapy 1 1.00 0.20   0.20      .   . .       .
+                            attention control:mindfulness 0    0 0.10      .   0.10   . .       .
+              attention control:motivational interviewing 0    0 0.11      .   0.11   . .       .
+                             attention control:usual care 1 1.00 0.32   0.32      .   . .       .
+                       behavioural therapy+usual care:CBT 0    0 0.95      .   0.95   . .       .
+ behavioural therapy+usual care:ecosystem focused therapy 0    0 0.21      .   0.21   . .       .
+               behavioural therapy+usual care:mindfulness 0    0 0.10      .   0.10   . .       .
+ behavioural therapy+usual care:motivational interviewing 0    0 0.12      .   0.12   . .       .
+                behavioural therapy+usual care:usual care 1 1.00 0.33   0.33      .   . .       .
+                            CBT:ecosystem focused therapy 0    0 0.22      .   0.22   . .       .
+                                          CBT:mindfulness 0    0 0.11      .   0.11   . .       .
+                            CBT:motivational interviewing 0    0 0.13      .   0.13   . .       .
+                                           CBT:usual care 1 1.00 0.35   0.35      .   . .       .
+                    ecosystem focused therapy:mindfulness 0    0 0.50      .   0.50   . .       .
+      ecosystem focused therapy:motivational interviewing 0    0 0.57      .   0.57   . .       .
+                     ecosystem focused therapy:usual care 0    0 1.59      .   1.59   . .       .
+                    mindfulness:motivational interviewing 0    0 1.16      .   1.16   . .       .
+                                   mindfulness:usual care 1 1.00 3.20   3.20      .   . .       .
+                     motivational interviewing:usual care 1 1.00 2.76   2.76      .   . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (RR) in network meta-analysis
+ direct     - Estimated treatment effect (RR) derived from direct evidence
+ indir.     - Estimated treatment effect (RR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Common effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: Not estimable (0 comparisons with an estimable test).
+
+Random effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: Not estimable (0 comparisons with an estimable test).
+
