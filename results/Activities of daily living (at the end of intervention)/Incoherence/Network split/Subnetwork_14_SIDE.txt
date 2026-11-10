@@ -1,0 +1,57 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                                  comparison k prop   nma direct indir.  Diff     z p-value
+                     escitalopram:fluoxetine 0    0 -0.34      .  -0.34     .     .       .
+                  escitalopram:nortriptyline 0    0 -0.43      .  -0.43     .     .       .
+                        escitalopram:placebo 1 1.00  0.00   0.00      .     .     .       .
+                     escitalopram:sertraline 1 1.00 -0.00   0.00      .     .     .       .
+  escitalopram:sertraline+cognitive training 0    0 -1.11      .  -1.11     .     .       .
+                    fluoxetine:nortriptyline 1 0.82 -0.09  -0.12   0.05 -0.17 -0.19  0.8521
+                          fluoxetine:placebo 3 1.00  0.34   0.34      .     .     .       .
+                       fluoxetine:sertraline 0    0  0.34      .   0.34     .     .       .
+    fluoxetine:sertraline+cognitive training 0    0 -0.77      .  -0.77     .     .       .
+                       nortriptyline:placebo 1 0.79  0.43   0.40   0.56 -0.16 -0.19  0.8521
+                    nortriptyline:sertraline 0    0  0.43      .   0.43     .     .       .
+ nortriptyline:sertraline+cognitive training 0    0 -0.68      .  -0.68     .     .       .
+                          sertraline:placebo 0    0  0.00      .   0.00     .     .       .
+       sertraline+cognitive training:placebo 0    0  1.11      .   1.11     .     .       .
+    sertraline:sertraline+cognitive training 1 1.00 -1.11  -1.11      .     .     .       .
+
+Random effects model: 
+
+                                  comparison k prop   nma direct indir.  Diff     z p-value
+                     escitalopram:fluoxetine 0    0 -0.34      .  -0.34     .     .       .
+                  escitalopram:nortriptyline 0    0 -0.43      .  -0.43     .     .       .
+                        escitalopram:placebo 1 1.00  0.00   0.00      .     .     .       .
+                     escitalopram:sertraline 1 1.00 -0.00   0.00      .     .     .       .
+  escitalopram:sertraline+cognitive training 0    0 -1.11      .  -1.11     .     .       .
+                    fluoxetine:nortriptyline 1 0.82 -0.09  -0.12   0.05 -0.17 -0.19  0.8521
+                          fluoxetine:placebo 3 1.00  0.34   0.34      .     .     .       .
+                       fluoxetine:sertraline 0    0  0.34      .   0.34     .     .       .
+    fluoxetine:sertraline+cognitive training 0    0 -0.77      .  -0.77     .     .       .
+                       nortriptyline:placebo 1 0.79  0.43   0.40   0.56 -0.16 -0.19  0.8521
+                    nortriptyline:sertraline 0    0  0.43      .   0.43     .     .       .
+ nortriptyline:sertraline+cognitive training 0    0 -0.68      .  -0.68     .     .       .
+                          sertraline:placebo 0    0  0.00      .   0.00     .     .       .
+       sertraline+cognitive training:placebo 0    0  1.11      .   1.11     .     .       .
+    sertraline:sertraline+cognitive training 1 1.00 -1.11  -1.11      .     .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Common effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 2 comparisons).
+
+Random effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 2 comparisons).
+

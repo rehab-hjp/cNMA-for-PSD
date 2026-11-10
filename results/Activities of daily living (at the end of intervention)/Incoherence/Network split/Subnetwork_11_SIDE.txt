@@ -1,0 +1,39 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                                                comparison k prop   nma direct indir. Diff    z  p-value
+  dtDCS+sertraline+usual care:HFrTMS+sertraline+usual care 0    0 -2.66      .  -2.66    .    .        .
+  dtDCS+sertraline+usual care:LFrTMS+sertraline+usual care 0    0 -2.76      .  -2.76    .    .        .
+    dtDCS+sertraline+usual care:sham+sertraline+usual care 1 1.00 -0.26  -0.26      .    .    .        .
+ HFrTMS+sertraline+usual care:LFrTMS+sertraline+usual care 1 0.91 -0.11   0.49  -5.92 6.40 8.63 < 0.0001
+   HFrTMS+sertraline+usual care:sham+sertraline+usual care 2 1.00  2.40   2.40      .    .    .        .
+   LFrTMS+sertraline+usual care:sham+sertraline+usual care 1 0.60  2.50   4.51  -0.50 5.00 8.63 < 0.0001
+
+Random effects model: 
+
+                                                comparison k prop   nma direct indir. Diff    z p-value
+  dtDCS+sertraline+usual care:HFrTMS+sertraline+usual care 0    0 -3.04      .  -3.04    .    .       .
+  dtDCS+sertraline+usual care:LFrTMS+sertraline+usual care 0    0 -3.65      .  -3.65    .    .       .
+    dtDCS+sertraline+usual care:sham+sertraline+usual care 1 1.00 -0.26  -0.26      .    .    .       .
+ HFrTMS+sertraline+usual care:LFrTMS+sertraline+usual care 1 0.88 -0.61   0.49  -8.32 8.81 1.00  0.3173
+   HFrTMS+sertraline+usual care:sham+sertraline+usual care 2 1.00  2.78   2.78      .    .    .       .
+   LFrTMS+sertraline+usual care:sham+sertraline+usual care 1 0.87  3.39   4.51  -4.23 8.73 1.00  0.3173
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Common effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 100 (2 out of 2 comparisons).
+
+Random effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 2 comparisons).
+
