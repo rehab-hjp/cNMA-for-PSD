@@ -1,0 +1,16 @@
+                                      P-score (common) P-score (random)
+mindfulness+usual care                          0.9999           0.9999
+GACT+usual care                                 0.9287           0.9287
+atDCS+usual care                                0.8418           0.8418
+usual care                                      0.7616           0.7616
+GACT                                            0.6758           0.6758
+sham+usual care                                 0.6563           0.6563
+behavioural activation+usual care               0.6196           0.6196
+Morita therapy+paroxetine                       0.4975           0.4975
+placebo                                         0.2676           0.2676
+paroxetine                                      0.2656           0.2656
+CBT                                             0.2648           0.2648
+cognitive training                              0.2648           0.2648
+escitalopram                                    0.2635           0.2635
+behavioural activation+active control           0.1410           0.1410
+behavioural activation+mental imagery           0.0516           0.0516
