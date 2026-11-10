@@ -1,0 +1,63 @@
+Network meta-analysis on subnet 5.
+
+Original data:
+
+                                     treat1             treat2      TE   seTE
+Goldstein 2018 dextroamphetamine+usual care placebo+usual care  0.1157 0.2502
+Delbari 2010     methylphenidate+usual care placebo+usual care -0.7307 0.3309
+
+Number of treatment arms per study:
+               narms
+Goldstein 2018     2
+Delbari 2010       2
+
+Results (common effects model):
+
+                                     treat1             treat2     SMD             95% CI    Q leverage
+Goldstein 2018 dextroamphetamine+usual care placebo+usual care  0.1157 [-0.3747;  0.6061] 0.00     1.00
+Delbari 2010     methylphenidate+usual care placebo+usual care -0.7307 [-1.3792; -0.0822] 0.00     1.00
+
+Results (random effects model):
+
+                                     treat1             treat2     SMD             95% CI
+Goldstein 2018 dextroamphetamine+usual care placebo+usual care  0.1157 [-0.3747;  0.6061]
+Delbari 2010     methylphenidate+usual care placebo+usual care -0.7307 [-1.3792; -0.0822]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'placebo+usual care'):
+                                 SMD             95% CI     z p-value
+dextroamphetamine+usual care  0.1157 [-0.3747;  0.6061]  0.46  0.6437
+methylphenidate+usual care   -0.7307 [-1.3792; -0.0822] -2.21  0.0272
+placebo+usual care                 .                  .     .       .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'placebo+usual care'):
+                                 SMD             95% CI     z p-value
+dextroamphetamine+usual care  0.1157 [-0.3747;  0.6061]  0.46  0.6437
+methylphenidate+usual care   -0.7307 [-1.3792; -0.0822] -2.21  0.0272
+placebo+usual care                 .                  .     .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 103 participants are included in this analysis.
+The following studies were included in this analysis: Goldstein 2018 Delbari 2010
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10

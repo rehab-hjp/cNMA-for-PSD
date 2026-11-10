@@ -1,0 +1,136 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                                          treat1                                  treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Kerr 2018                              motivational interviewing                              usual care -0.0476 0.3382     0.3382     0.3382     2         
+Kou 2024                                  mindfulness+usual care                              usual care -1.0123 0.2539     0.2539     0.2539     2         
+Lincoln 2003                                   attention control                                     CBT -0.0590 0.2320     0.2817     0.2817     3        *
+Lincoln 2003                                                 CBT                              usual care -0.2358 0.2397     0.3019     0.3019     3        *
+Lincoln 2003                                   attention control                              usual care -0.2948 0.2293     0.2756     0.2756     3        *
+Majumdar 2019                                               GACT                              usual care -0.2108 0.2755     0.2755     0.2755     2         
+Thomas 2019                    behavioural activation+usual care                              usual care -0.7173 0.3313     0.3313     0.3313     2         
+Chu 2006                                   fluoxetine+usual care                              usual care -0.8368 0.2661     0.3707     0.3707     4        *
+Chu 2006                 CBT+humanistic psychotherapy+usual care                              usual care -0.9548 0.2656     0.3724     0.3724     4        *
+Chu 2006      CBT+humanistic psychotherapy+fluoxetine+usual care                              usual care -1.4284 0.2765     0.4175     0.4175     4        *
+Chu 2006                 CBT+humanistic psychotherapy+usual care                   fluoxetine+usual care -0.1180 0.2605     0.3678     0.3678     4        *
+Chu 2006      CBT+humanistic psychotherapy+fluoxetine+usual care                   fluoxetine+usual care -0.5916 0.2654     0.3727     0.3727     4        *
+Chu 2006      CBT+humanistic psychotherapy+fluoxetine+usual care CBT+humanistic psychotherapy+usual care -0.4736 0.2622     0.3606     0.3606     4        *
+Wang 2007                CBT+humanistic psychotherapy+usual care                              usual care -1.0903 0.2767     0.2767     0.2767     2         
+Yuan 2015                                         CBT+usual care                              usual care -0.8644 0.2369     0.2369     0.2369     2         
+Lawrence 2025                                        mindfulness                              usual care -0.6695 0.3082     0.3082     0.3082     2         
+Kootker 2017                                                 CBT                      cognitive training  0.1239 0.3060     0.3060     0.3060     2         
+
+Number of treatment arms per study (by decreasing number of arms):
+              narms multiarm
+Chu 2006          4        *
+Lincoln 2003      3        *
+Kerr 2018         2         
+Kou 2024          2         
+Majumdar 2019     2         
+Thomas 2019       2         
+Wang 2007         2         
+Yuan 2015         2         
+Lawrence 2025     2         
+Kootker 2017      2         
+
+Results (common effects model):
+
+                                                          treat1                                  treat2     SMD             95% CI    Q leverage
+Kerr 2018                              motivational interviewing                              usual care -0.0476 [-0.7106;  0.6153] 0.00     1.00
+Kou 2024                                  mindfulness+usual care                              usual care -1.0123 [-1.5099; -0.5147] 0.00     1.00
+Lincoln 2003                                   attention control                                     CBT -0.0590 [-0.5136;  0.3957] 0.00        .
+Lincoln 2003                                                 CBT                              usual care -0.2358 [-0.7055;  0.2339] 0.00        .
+Lincoln 2003                                   attention control                              usual care -0.2948 [-0.7441;  0.1546] 0.00        .
+Majumdar 2019                                               GACT                              usual care -0.2108 [-0.7508;  0.3292] 0.00     1.00
+Thomas 2019                    behavioural activation+usual care                              usual care -0.7173 [-1.3667; -0.0680] 0.00     1.00
+Chu 2006                                   fluoxetine+usual care                              usual care -0.8706 [-1.3571; -0.3841] 0.01        .
+Chu 2006                 CBT+humanistic psychotherapy+usual care                              usual care -1.0198 [-1.3953; -0.6442] 0.03        .
+Chu 2006      CBT+humanistic psychotherapy+fluoxetine+usual care                              usual care -1.4644 [-1.9682; -0.9606] 0.01        .
+Chu 2006                 CBT+humanistic psychotherapy+usual care                   fluoxetine+usual care -0.1492 [-0.6297;  0.3314] 0.01        .
+Chu 2006      CBT+humanistic psychotherapy+fluoxetine+usual care                   fluoxetine+usual care -0.5938 [-1.1139; -0.0737] 0.00        .
+Chu 2006      CBT+humanistic psychotherapy+fluoxetine+usual care CBT+humanistic psychotherapy+usual care -0.4446 [-0.9329;  0.0436] 0.01        .
+Wang 2007                CBT+humanistic psychotherapy+usual care                              usual care -1.0198 [-1.3953; -0.6442] 0.06     0.48
+Yuan 2015                                         CBT+usual care                              usual care -0.8644 [-1.3286; -0.4001] 0.00     1.00
+Lawrence 2025                                        mindfulness                              usual care -0.6695 [-1.2736; -0.0655] 0.00     1.00
+Kootker 2017                                                 CBT                      cognitive training  0.1239 [-0.4759;  0.7237] 0.00     1.00
+
+Results (random effects model):
+
+                                                          treat1                                  treat2     SMD             95% CI
+Kerr 2018                              motivational interviewing                              usual care -0.0476 [-0.7106;  0.6153]
+Kou 2024                                  mindfulness+usual care                              usual care -1.0123 [-1.5099; -0.5147]
+Lincoln 2003                                   attention control                                     CBT -0.0590 [-0.5136;  0.3957]
+Lincoln 2003                                                 CBT                              usual care -0.2358 [-0.7055;  0.2339]
+Lincoln 2003                                   attention control                              usual care -0.2948 [-0.7441;  0.1546]
+Majumdar 2019                                               GACT                              usual care -0.2108 [-0.7508;  0.3292]
+Thomas 2019                    behavioural activation+usual care                              usual care -0.7173 [-1.3667; -0.0680]
+Chu 2006                                   fluoxetine+usual care                              usual care -0.8706 [-1.3571; -0.3841]
+Chu 2006                 CBT+humanistic psychotherapy+usual care                              usual care -1.0198 [-1.3953; -0.6442]
+Chu 2006      CBT+humanistic psychotherapy+fluoxetine+usual care                              usual care -1.4644 [-1.9682; -0.9606]
+Chu 2006                 CBT+humanistic psychotherapy+usual care                   fluoxetine+usual care -0.1492 [-0.6297;  0.3314]
+Chu 2006      CBT+humanistic psychotherapy+fluoxetine+usual care                   fluoxetine+usual care -0.5938 [-1.1139; -0.0737]
+Chu 2006      CBT+humanistic psychotherapy+fluoxetine+usual care CBT+humanistic psychotherapy+usual care -0.4446 [-0.9329;  0.0436]
+Wang 2007                CBT+humanistic psychotherapy+usual care                              usual care -1.0198 [-1.3953; -0.6442]
+Yuan 2015                                         CBT+usual care                              usual care -0.8644 [-1.3286; -0.4001]
+Lawrence 2025                                        mindfulness                              usual care -0.6695 [-1.2736; -0.0655]
+Kootker 2017                                                 CBT                      cognitive training  0.1239 [-0.4759;  0.7237]
+
+Number of studies: k = 10
+Number of pairwise comparisons: m = 17
+Number of treatments: n = 13
+Number of designs: d = 10
+
+Common effects model
+
+Treatment estimate (other treatments vs 'usual care'):
+                                                       SMD             95% CI     z  p-value
+attention control                                  -0.2948 [-0.7441;  0.1546] -1.29   0.1986
+behavioural activation+usual care                  -0.7173 [-1.3667; -0.0680] -2.17   0.0304
+CBT                                                -0.2358 [-0.7055;  0.2339] -0.98   0.3252
+CBT+humanistic psychotherapy+fluoxetine+usual care -1.4644 [-1.9682; -0.9606] -5.70 < 0.0001
+CBT+humanistic psychotherapy+usual care            -1.0198 [-1.3953; -0.6442] -5.32 < 0.0001
+CBT+usual care                                     -0.8644 [-1.3286; -0.4001] -3.65   0.0003
+cognitive training                                 -0.3597 [-1.1216;  0.4021] -0.93   0.3547
+fluoxetine+usual care                              -0.8706 [-1.3571; -0.3841] -3.51   0.0005
+GACT                                               -0.2108 [-0.7508;  0.3292] -0.77   0.4442
+mindfulness                                        -0.6695 [-1.2736; -0.0655] -2.17   0.0298
+mindfulness+usual care                             -1.0123 [-1.5099; -0.5147] -3.99 < 0.0001
+motivational interviewing                          -0.0476 [-0.7106;  0.6153] -0.14   0.8880
+usual care                                               .                  .     .        .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'usual care'):
+                                                       SMD             95% CI     z  p-value  95% PI
+attention control                                  -0.2948 [-0.7441;  0.1546] -1.29   0.1986        
+behavioural activation+usual care                  -0.7173 [-1.3667; -0.0680] -2.17   0.0304        
+CBT                                                -0.2358 [-0.7055;  0.2339] -0.98   0.3252        
+CBT+humanistic psychotherapy+fluoxetine+usual care -1.4644 [-1.9682; -0.9606] -5.70 < 0.0001        
+CBT+humanistic psychotherapy+usual care            -1.0198 [-1.3953; -0.6442] -5.32 < 0.0001        
+CBT+usual care                                     -0.8644 [-1.3286; -0.4001] -3.65   0.0003        
+cognitive training                                 -0.3597 [-1.1216;  0.4021] -0.93   0.3547        
+fluoxetine+usual care                              -0.8706 [-1.3571; -0.3841] -3.51   0.0005        
+GACT                                               -0.2108 [-0.7508;  0.3292] -0.77   0.4442        
+mindfulness                                        -0.6695 [-1.2736; -0.0655] -2.17   0.0298        
+mindfulness+usual care                             -1.0123 [-1.5099; -0.5147] -3.99 < 0.0001        
+motivational interviewing                          -0.0476 [-0.7106;  0.6153] -0.14   0.8880        
+usual care                                               .                  .     .        .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0%
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           0.12    1  0.7239
+Within designs  0.00    0      --
+Between designs 0.12    1  0.7239
+
+A total of 13 treatments are included in the network.
+A total of 10 studies are included in this analysis.
+A total of 652 participants are included in this analysis.
+The following studies were included in this analysis: Kerr 2018 Kou 2024 Lincoln 2003 Majumdar 2019 Thomas 2019 Chu 2006 Wang 2007 Yuan 2015 Lawrence 2025 Kootker 2017
+Estimated heterogeneity tau-squared0.00
+Global test for inconsistency, p-value = 0.72389 (Q = 0, d.o.f. = 1)
+
+File created on 2026-11-10
