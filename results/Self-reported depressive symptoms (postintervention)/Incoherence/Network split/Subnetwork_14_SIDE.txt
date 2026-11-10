@@ -1,0 +1,39 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+               comparison k prop   nma direct indir. Diff z p-value
+ fluoxetine:nortriptyline 0    0  0.49      .   0.49    . .       .
+       fluoxetine:placebo 1 1.00 -0.11  -0.11      .    . .       .
+    fluoxetine:reboxetine 0    0  2.95      .   2.95    . .       .
+    nortriptyline:placebo 1 1.00 -0.60  -0.60      .    . .       .
+ nortriptyline:reboxetine 0    0  2.46      .   2.46    . .       .
+       reboxetine:placebo 1 1.00 -3.06  -3.06      .    . .       .
+
+Random effects model: 
+
+               comparison k prop   nma direct indir. Diff z p-value
+ fluoxetine:nortriptyline 0    0  0.49      .   0.49    . .       .
+       fluoxetine:placebo 1 1.00 -0.11  -0.11      .    . .       .
+    fluoxetine:reboxetine 0    0  2.95      .   2.95    . .       .
+    nortriptyline:placebo 1 1.00 -0.60  -0.60      .    . .       .
+ nortriptyline:reboxetine 0    0  2.46      .   2.46    . .       .
+       reboxetine:placebo 1 1.00 -3.06  -3.06      .    . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Common effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: Not estimable (0 comparisons with an estimable test).
+
+Random effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: Not estimable (0 comparisons with an estimable test).
+
