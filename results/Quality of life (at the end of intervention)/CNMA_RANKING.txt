@@ -1,0 +1,48 @@
+                                                                      P-score (common) P-score (random)
+HFrTMS+sertraline+usual care                                                    0.9829           0.9655
+LFrTMS+sertraline+usual care                                                    0.9763           0.9584
+drTMS+sertraline+usual care                                                     0.9732           0.9493
+SFBT+sertraline+usual care                                                      0.9345           0.9377
+CES+escitalopram+usual care                                                     0.9001           0.8738
+HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care           0.8581           0.8331
+atDCS+escitalopram                                                              0.8746           0.8218
+sertraline+usual care                                                           0.8680           0.8099
+escitalopram+usual care                                                         0.7936           0.7414
+atDCS+usual care                                                                0.7636           0.7175
+placebo+usual care                                                              0.7706           0.7091
+dextroamphetamine+usual care                                                    0.7733           0.7023
+HFrTMS+citalopram+usual care                                                    0.7224           0.6820
+LFrTMS+trazodone+usual care                                                     0.7068           0.6623
+SFBT+mindfulness+usual care                                                     0.6187           0.6623
+motor imagery+usual care                                                        0.6429           0.6359
+CBT+drTMS+usual care                                                            0.6067           0.6232
+sertraline                                                                      0.6585           0.6065
+sham+usual care                                                                 0.6327           0.5958
+GACT+usual care                                                                 0.5973           0.5704
+Morita therapy+paroxetine+usual care                                            0.5525           0.5425
+REBT+fluoxetine+usual care                                                      0.5159           0.5162
+group psychotherapy+fluoxetine+usual care                                       0.4852           0.5058
+group psychotherapy+usual care                                                  0.4852           0.5058
+psychoeducation+supportive psychotherapy+citalopram+usual care                  0.4625           0.4935
+escitalopram                                                                    0.4879           0.4880
+relaxation+paroxetine                                                           0.4562           0.4754
+placebo                                                                         0.4569           0.4634
+atDCS                                                                           0.4400           0.4584
+supportive psychotherapy+usual care                                             0.4115           0.4223
+HFrTMS+fluoxetine                                                               0.3676           0.4078
+knowledge and behaviour therapy+usual care                                      0.3742           0.3943
+mindfulness+usual care                                                          0.2998           0.3199
+GACT                                                                            0.2648           0.2991
+Morita therapy+paroxetine                                                       0.2337           0.2885
+CBT+usual care                                                                  0.1697           0.2487
+fluoxetine+usual care                                                           0.2101           0.2265
+paroxetine+usual care                                                           0.2101           0.2265
+trazodone+usual care                                                            0.2101           0.2265
+usual care                                                                      0.2101           0.2265
+psychoeducation                                                                 0.1093           0.1426
+mindfulness                                                                     0.1182           0.1367
+CBT                                                                             0.0502           0.0952
+fluoxetine                                                                      0.0715           0.0809
+paroxetine                                                                      0.0715           0.0809
+cognitive training                                                              0.0198           0.0604
+active control                                                                  0.0059           0.0203
