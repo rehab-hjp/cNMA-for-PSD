@@ -1,0 +1,1083 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                                                                                                                      comparison k prop   nma direct indir.  Diff     z p-value
+                                                                                                              ACT:active control 0    0 -2.21      .  -2.21     .     .       .
+                                                                                                            ACT:atDCS+usual care 0    0 -1.56      .  -1.56     .     .       .
+                                                                                                           ACT:attention control 0    0 -1.48      .  -1.48     .     .       .
+                                                                                                                         ACT:CBT 0    0 -1.34      .  -1.34     .     .       .
+                                                                                                        ACT:CBT+drTMS+usual care 0    0  1.13      .   1.13     .     .       .
+                                                                          ACT:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0 -1.11      .  -1.11     .     .       .
+                                                                                     ACT:CBT+humanistic psychotherapy+usual care 0    0 -1.43      .  -1.43     .     .       .
+                                                                                                              ACT:CBT+usual care 0    0 -1.49      .  -1.49     .     .       .
+                                                                                                          ACT:cognitive training 0    0 -1.62      .  -1.62     .     .       .
+                                                                                                            ACT:dtDCS+usual care 0    0 -1.90      .  -1.90     .     .       .
+                                                                                                       ACT:fluoxetine+usual care 0    0 -1.49      .  -1.49     .     .       .
+                                                                                                                        ACT:GACT 0    0 -1.85      .  -1.85     .     .       .
+                                                                                   ACT:group psychotherapy+fluoxetine+usual care 0    0  0.29      .   0.29     .     .       .
+                                                                                                ACT:HFrTMS+fluoxetine+usual care 0    0  1.23      .   1.23     .     .       .
+                                                                                                           ACT:HFrTMS+usual care 0    0 -1.10      .  -1.10     .     .       .
+                                                                                                             ACT:iTBS+usual care 0    0 -1.15      .  -1.15     .     .       .
+                                                                                                ACT:LFrTMS+fluoxetine+usual care 0    0  1.90      .   1.90     .     .       .
+                                                                                                                 ACT:mindfulness 0    0 -1.71      .  -1.71     .     .       .
+                                                                                                      ACT:mindfulness+usual care 0    0 -0.70      .  -0.70     .     .       .
+                                                                                        ACT:motivational interviewing+usual care 0    0 -0.75      .  -0.75     .     .       .
+                                                                                                    ACT:motor imagery+usual care 0    0 -0.78      .  -0.78     .     .       .
+                                                                                                ACT:narrative therapy+usual care 0    0  3.30      .   3.30     .     .       .
+                                                                                                             ACT:psychoeducation 0    0 -1.79      .  -1.79     .     .       .
+                                                ACT:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0 -0.30      .  -0.30     .     .       .
+                                                                                                       ACT:relaxation+usual care 0    0 -1.11      .  -1.11     .     .       .
+                                                                                             ACT:reminiscence therapy+usual care 0    0 -2.32      .  -2.32     .     .       .
+                                                                                                  ACT:sham+fluoxetine+usual care 0    0 -1.90      .  -1.90     .     .       .
+                                                                                                             ACT:sham+usual care 0    0 -2.57      .  -2.57     .     .       .
+                                                                                         ACT:supportive psychotherapy+usual care 0    0 -0.21      .  -0.21     .     .       .
+                                                                                                 ACT:trazodone+HFrTMS+usual care 0    0 -0.45      .  -0.45     .     .       .
+                                                                                                        ACT:trazodone+usual care 0    0 -1.27      .  -1.27     .     .       .
+                                                                                                                  ACT:usual care 1 1.00 -1.94  -1.94      .     .     .       .
+                                                                                                 active control:atDCS+usual care 0    0  0.65      .   0.65     .     .       .
+                                                                                                active control:attention control 0    0  0.73      .   0.73     .     .       .
+                                                                                                              active control:CBT 0    0  0.88      .   0.88     .     .       .
+                                                                                             active control:CBT+drTMS+usual care 0    0  3.34      .   3.34     .     .       .
+                                                               active control:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  1.10      .   1.10     .     .       .
+                                                                          active control:CBT+humanistic psychotherapy+usual care 0    0  0.78      .   0.78     .     .       .
+                                                                                                   active control:CBT+usual care 0    0  0.72      .   0.72     .     .       .
+                                                                                               active control:cognitive training 0    0  0.59      .   0.59     .     .       .
+                                                                                                 active control:dtDCS+usual care 0    0  0.31      .   0.31     .     .       .
+                                                                                            active control:fluoxetine+usual care 0    0  0.72      .   0.72     .     .       .
+                                                                                                             active control:GACT 0    0  0.36      .   0.36     .     .       .
+                                                                        active control:group psychotherapy+fluoxetine+usual care 0    0  2.50      .   2.50     .     .       .
+                                                                                     active control:HFrTMS+fluoxetine+usual care 0    0  3.44      .   3.44     .     .       .
+                                                                                                active control:HFrTMS+usual care 0    0  1.12      .   1.12     .     .       .
+                                                                                                  active control:iTBS+usual care 0    0  1.06      .   1.06     .     .       .
+                                                                                     active control:LFrTMS+fluoxetine+usual care 0    0  4.11      .   4.11     .     .       .
+                                                                                                      active control:mindfulness 1 1.00  0.50   0.50      .     .     .       .
+                                                                                           active control:mindfulness+usual care 0    0  1.51      .   1.51     .     .       .
+                                                                             active control:motivational interviewing+usual care 0    0  1.46      .   1.46     .     .       .
+                                                                                         active control:motor imagery+usual care 0    0  1.43      .   1.43     .     .       .
+                                                                                     active control:narrative therapy+usual care 0    0  5.51      .   5.51     .     .       .
+                                                                                                  active control:psychoeducation 0    0  0.42      .   0.42     .     .       .
+                                     active control:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.91      .   1.91     .     .       .
+                                                                                            active control:relaxation+usual care 0    0  1.10      .   1.10     .     .       .
+                                                                                  active control:reminiscence therapy+usual care 0    0 -0.11      .  -0.11     .     .       .
+                                                                                       active control:sham+fluoxetine+usual care 0    0  0.31      .   0.31     .     .       .
+                                                                                                  active control:sham+usual care 0    0 -0.35      .  -0.35     .     .       .
+                                                                              active control:supportive psychotherapy+usual care 0    0  2.00      .   2.00     .     .       .
+                                                                                      active control:trazodone+HFrTMS+usual care 0    0  1.76      .   1.76     .     .       .
+                                                                                             active control:trazodone+usual care 0    0  0.94      .   0.94     .     .       .
+                                                                                                       active control:usual care 0    0  0.27      .   0.27     .     .       .
+                                                                                              atDCS+usual care:attention control 0    0  0.08      .   0.08     .     .       .
+                                                                                                            atDCS+usual care:CBT 0    0  0.23      .   0.23     .     .       .
+                                                                                           atDCS+usual care:CBT+drTMS+usual care 0    0  2.69      .   2.69     .     .       .
+                                                             atDCS+usual care:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  0.45      .   0.45     .     .       .
+                                                                        atDCS+usual care:CBT+humanistic psychotherapy+usual care 0    0  0.13      .   0.13     .     .       .
+                                                                                                 atDCS+usual care:CBT+usual care 0    0  0.08      .   0.08     .     .       .
+                                                                                             atDCS+usual care:cognitive training 0    0 -0.06      .  -0.06     .     .       .
+                                                                                               atDCS+usual care:dtDCS+usual care 0    0 -0.34      .  -0.34     .     .       .
+                                                                                          atDCS+usual care:fluoxetine+usual care 0    0  0.08      .   0.08     .     .       .
+                                                                                                           atDCS+usual care:GACT 0    0 -0.29      .  -0.29     .     .       .
+                                                                      atDCS+usual care:group psychotherapy+fluoxetine+usual care 0    0  1.85      .   1.85     .     .       .
+                                                                                   atDCS+usual care:HFrTMS+fluoxetine+usual care 0    0  2.80      .   2.80     .     .       .
+                                                                                              atDCS+usual care:HFrTMS+usual care 0    0  0.47      .   0.47     .     .       .
+                                                                                                atDCS+usual care:iTBS+usual care 0    0  0.41      .   0.41     .     .       .
+                                                                                   atDCS+usual care:LFrTMS+fluoxetine+usual care 0    0  3.47      .   3.47     .     .       .
+                                                                                                    atDCS+usual care:mindfulness 0    0 -0.15      .  -0.15     .     .       .
+                                                                                         atDCS+usual care:mindfulness+usual care 1 0.35  0.86  -0.10   1.38 -1.48 -2.29  0.0220
+                                                                           atDCS+usual care:motivational interviewing+usual care 0    0  0.81      .   0.81     .     .       .
+                                                                                       atDCS+usual care:motor imagery+usual care 0    0  0.78      .   0.78     .     .       .
+                                                                                   atDCS+usual care:narrative therapy+usual care 0    0  4.87      .   4.87     .     .       .
+                                                                                                atDCS+usual care:psychoeducation 0    0 -0.23      .  -0.23     .     .       .
+                                   atDCS+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.26      .   1.26     .     .       .
+                                                                                          atDCS+usual care:relaxation+usual care 0    0  0.45      .   0.45     .     .       .
+                                                                                atDCS+usual care:reminiscence therapy+usual care 0    0 -0.76      .  -0.76     .     .       .
+                                                                                     atDCS+usual care:sham+fluoxetine+usual care 0    0 -0.34      .  -0.34     .     .       .
+                                                                                                atDCS+usual care:sham+usual care 1 0.74 -1.00  -0.87  -1.37  0.50  0.82  0.4122
+                                                                            atDCS+usual care:supportive psychotherapy+usual care 0    0  1.36      .   1.36     .     .       .
+                                                                                    atDCS+usual care:trazodone+HFrTMS+usual care 0    0  1.11      .   1.11     .     .       .
+                                                                                           atDCS+usual care:trazodone+usual care 0    0  0.29      .   0.29     .     .       .
+                                                                                                     atDCS+usual care:usual care 1 0.52 -0.38  -0.20  -0.57  0.36  0.62  0.5339
+                                                                                                           attention control:CBT 1 0.95  0.14   0.00   2.77 -2.77 -2.82  0.0049
+                                                                                          attention control:CBT+drTMS+usual care 0    0  2.61      .   2.61     .     .       .
+                                                            attention control:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  0.36      .   0.36     .     .       .
+                                                                       attention control:CBT+humanistic psychotherapy+usual care 0    0  0.05      .   0.05     .     .       .
+                                                                                                attention control:CBT+usual care 0    0 -0.01      .  -0.01     .     .       .
+                                                                                            attention control:cognitive training 0    0 -0.14      .  -0.14     .     .       .
+                                                                                              attention control:dtDCS+usual care 0    0 -0.42      .  -0.42     .     .       .
+                                                                                         attention control:fluoxetine+usual care 0    0 -0.01      .  -0.01     .     .       .
+                                                                                                          attention control:GACT 0    0 -0.37      .  -0.37     .     .       .
+                                                                     attention control:group psychotherapy+fluoxetine+usual care 0    0  1.76      .   1.76     .     .       .
+                                                                                  attention control:HFrTMS+fluoxetine+usual care 0    0  2.71      .   2.71     .     .       .
+                                                                                             attention control:HFrTMS+usual care 0    0  0.38      .   0.38     .     .       .
+                                                                                               attention control:iTBS+usual care 0    0  0.33      .   0.33     .     .       .
+                                                                                  attention control:LFrTMS+fluoxetine+usual care 0    0  3.38      .   3.38     .     .       .
+                                                                                                   attention control:mindfulness 0    0 -0.23      .  -0.23     .     .       .
+                                                                                        attention control:mindfulness+usual care 0    0  0.78      .   0.78     .     .       .
+                                                                          attention control:motivational interviewing+usual care 0    0  0.73      .   0.73     .     .       .
+                                                                                      attention control:motor imagery+usual care 0    0  0.70      .   0.70     .     .       .
+                                                                                  attention control:narrative therapy+usual care 0    0  4.78      .   4.78     .     .       .
+                                                                                               attention control:psychoeducation 0    0 -0.31      .  -0.31     .     .       .
+                                  attention control:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.17      .   1.17     .     .       .
+                                                                                         attention control:relaxation+usual care 0    0  0.37      .   0.37     .     .       .
+                                                                               attention control:reminiscence therapy+usual care 0    0 -0.84      .  -0.84     .     .       .
+                                                                                    attention control:sham+fluoxetine+usual care 0    0 -0.42      .  -0.42     .     .       .
+                                                                                               attention control:sham+usual care 0    0 -1.09      .  -1.09     .     .       .
+                                                                           attention control:supportive psychotherapy+usual care 0    0  1.27      .   1.27     .     .       .
+                                                                                   attention control:trazodone+HFrTMS+usual care 0    0  1.03      .   1.03     .     .       .
+                                                                                          attention control:trazodone+usual care 0    0  0.21      .   0.21     .     .       .
+                                                                                                    attention control:usual care 1 0.95 -0.46  -0.32  -3.07  2.75  2.82  0.0049
+                                                                                                        CBT:CBT+drTMS+usual care 0    0  2.47      .   2.47     .     .       .
+                                                                          CBT:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  0.22      .   0.22     .     .       .
+                                                                                     CBT:CBT+humanistic psychotherapy+usual care 0    0 -0.10      .  -0.10     .     .       .
+                                                                                                              CBT:CBT+usual care 0    0 -0.15      .  -0.15     .     .       .
+                                                                                                          CBT:cognitive training 1 1.00 -0.29  -0.29      .     .     .       .
+                                                                                                            CBT:dtDCS+usual care 0    0 -0.57      .  -0.57     .     .       .
+                                                                                                       CBT:fluoxetine+usual care 0    0 -0.15      .  -0.15     .     .       .
+                                                                                                                        CBT:GACT 0    0 -0.51      .  -0.51     .     .       .
+                                                                                   CBT:group psychotherapy+fluoxetine+usual care 0    0  1.62      .   1.62     .     .       .
+                                                                                                CBT:HFrTMS+fluoxetine+usual care 0    0  2.57      .   2.57     .     .       .
+                                                                                                           CBT:HFrTMS+usual care 0    0  0.24      .   0.24     .     .       .
+                                                                                                             CBT:iTBS+usual care 0    0  0.19      .   0.19     .     .       .
+                                                                                                CBT:LFrTMS+fluoxetine+usual care 0    0  3.24      .   3.24     .     .       .
+                                                                                                                 CBT:mindfulness 0    0 -0.38      .  -0.38     .     .       .
+                                                                                                      CBT:mindfulness+usual care 0    0  0.63      .   0.63     .     .       .
+                                                                                        CBT:motivational interviewing+usual care 0    0  0.58      .   0.58     .     .       .
+                                                                                                    CBT:motor imagery+usual care 0    0  0.55      .   0.55     .     .       .
+                                                                                                CBT:narrative therapy+usual care 0    0  4.64      .   4.64     .     .       .
+                                                                                                             CBT:psychoeducation 1 0.46 -0.46  -1.69   0.61 -2.30 -3.39  0.0007
+                                                CBT:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.03      .   1.03     .     .       .
+                                                                                                       CBT:relaxation+usual care 0    0  0.23      .   0.23     .     .       .
+                                                                                             CBT:reminiscence therapy+usual care 0    0 -0.99      .  -0.99     .     .       .
+                                                                                                  CBT:sham+fluoxetine+usual care 0    0 -0.56      .  -0.56     .     .       .
+                                                                                                             CBT:sham+usual care 0    0 -1.23      .  -1.23     .     .       .
+                                                                                         CBT:supportive psychotherapy+usual care 0    0  1.13      .   1.13     .     .       .
+                                                                                                 CBT:trazodone+HFrTMS+usual care 0    0  0.88      .   0.88     .     .       .
+                                                                                                        CBT:trazodone+usual care 0    0  0.06      .   0.06     .     .       .
+                                                                                                                  CBT:usual care 2 0.98 -0.61  -0.53  -4.52  3.99  2.65  0.0080
+                                                         CBT+drTMS+usual care:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0 -2.25      .  -2.25     .     .       .
+                                                                    CBT+drTMS+usual care:CBT+humanistic psychotherapy+usual care 0    0 -2.57      .  -2.57     .     .       .
+                                                                                             CBT+drTMS+usual care:CBT+usual care 0    0 -2.62      .  -2.62     .     .       .
+                                                                                         CBT+drTMS+usual care:cognitive training 0    0 -2.75      .  -2.75     .     .       .
+                                                                                           CBT+drTMS+usual care:dtDCS+usual care 0    0 -3.03      .  -3.03     .     .       .
+                                                                                      CBT+drTMS+usual care:fluoxetine+usual care 0    0 -2.62      .  -2.62     .     .       .
+                                                                                                       CBT+drTMS+usual care:GACT 0    0 -2.98      .  -2.98     .     .       .
+                                                                  CBT+drTMS+usual care:group psychotherapy+fluoxetine+usual care 0    0 -0.85      .  -0.85     .     .       .
+                                                                               CBT+drTMS+usual care:HFrTMS+fluoxetine+usual care 0    0  0.10      .   0.10     .     .       .
+                                                                                          CBT+drTMS+usual care:HFrTMS+usual care 0    0 -2.23      .  -2.23     .     .       .
+                                                                                            CBT+drTMS+usual care:iTBS+usual care 0    0 -2.28      .  -2.28     .     .       .
+                                                                               CBT+drTMS+usual care:LFrTMS+fluoxetine+usual care 0    0  0.77      .   0.77     .     .       .
+                                                                                                CBT+drTMS+usual care:mindfulness 0    0 -2.84      .  -2.84     .     .       .
+                                                                                     CBT+drTMS+usual care:mindfulness+usual care 0    0 -1.83      .  -1.83     .     .       .
+                                                                       CBT+drTMS+usual care:motivational interviewing+usual care 0    0 -1.88      .  -1.88     .     .       .
+                                                                                   CBT+drTMS+usual care:motor imagery+usual care 0    0 -1.92      .  -1.92     .     .       .
+                                                                               CBT+drTMS+usual care:narrative therapy+usual care 0    0  2.17      .   2.17     .     .       .
+                                                                                            CBT+drTMS+usual care:psychoeducation 0    0 -2.92      .  -2.92     .     .       .
+                               CBT+drTMS+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0 -1.44      .  -1.44     .     .       .
+                                                                                      CBT+drTMS+usual care:relaxation+usual care 0    0 -2.24      .  -2.24     .     .       .
+                                                                            CBT+drTMS+usual care:reminiscence therapy+usual care 0    0 -3.45      .  -3.45     .     .       .
+                                                                                 CBT+drTMS+usual care:sham+fluoxetine+usual care 0    0 -3.03      .  -3.03     .     .       .
+                                                                                            CBT+drTMS+usual care:sham+usual care 0    0 -3.70      .  -3.70     .     .       .
+                                                                        CBT+drTMS+usual care:supportive psychotherapy+usual care 0    0 -1.34      .  -1.34     .     .       .
+                                                                                CBT+drTMS+usual care:trazodone+HFrTMS+usual care 0    0 -1.58      .  -1.58     .     .       .
+                                                                                       CBT+drTMS+usual care:trazodone+usual care 0    0 -2.40      .  -2.40     .     .       .
+                                                                                                 CBT+drTMS+usual care:usual care 1 1.00 -3.07  -3.07      .     .     .       .
+                                      CBT+humanistic psychotherapy+fluoxetine+usual care:CBT+humanistic psychotherapy+usual care 1 0.88 -0.32  -0.30  -0.43  0.13  0.17  0.8677
+                                                               CBT+humanistic psychotherapy+fluoxetine+usual care:CBT+usual care 0    0 -0.37      .  -0.37     .     .       .
+                                                           CBT+humanistic psychotherapy+fluoxetine+usual care:cognitive training 0    0 -0.51      .  -0.51     .     .       .
+                                                             CBT+humanistic psychotherapy+fluoxetine+usual care:dtDCS+usual care 0    0 -0.79      .  -0.79     .     .       .
+                                                        CBT+humanistic psychotherapy+fluoxetine+usual care:fluoxetine+usual care 1 0.90 -0.37  -0.31  -0.89  0.58  0.70  0.4846
+                                                                         CBT+humanistic psychotherapy+fluoxetine+usual care:GACT 0    0 -0.74      .  -0.74     .     .       .
+                                    CBT+humanistic psychotherapy+fluoxetine+usual care:group psychotherapy+fluoxetine+usual care 0    0  1.40      .   1.40     .     .       .
+                                                 CBT+humanistic psychotherapy+fluoxetine+usual care:HFrTMS+fluoxetine+usual care 0    0  2.35      .   2.35     .     .       .
+                                                            CBT+humanistic psychotherapy+fluoxetine+usual care:HFrTMS+usual care 0    0  0.02      .   0.02     .     .       .
+                                                              CBT+humanistic psychotherapy+fluoxetine+usual care:iTBS+usual care 0    0 -0.03      .  -0.03     .     .       .
+                                                 CBT+humanistic psychotherapy+fluoxetine+usual care:LFrTMS+fluoxetine+usual care 0    0  3.02      .   3.02     .     .       .
+                                                                  CBT+humanistic psychotherapy+fluoxetine+usual care:mindfulness 0    0 -0.60      .  -0.60     .     .       .
+                                                       CBT+humanistic psychotherapy+fluoxetine+usual care:mindfulness+usual care 0    0  0.41      .   0.41     .     .       .
+                                         CBT+humanistic psychotherapy+fluoxetine+usual care:motivational interviewing+usual care 0    0  0.36      .   0.36     .     .       .
+                                                     CBT+humanistic psychotherapy+fluoxetine+usual care:motor imagery+usual care 0    0  0.33      .   0.33     .     .       .
+                                                 CBT+humanistic psychotherapy+fluoxetine+usual care:narrative therapy+usual care 0    0  4.42      .   4.42     .     .       .
+                                                              CBT+humanistic psychotherapy+fluoxetine+usual care:psychoeducation 0    0 -0.68      .  -0.68     .     .       .
+ CBT+humanistic psychotherapy+fluoxetine+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  0.81      .   0.81     .     .       .
+                                                        CBT+humanistic psychotherapy+fluoxetine+usual care:relaxation+usual care 0    0  0.01      .   0.01     .     .       .
+                                              CBT+humanistic psychotherapy+fluoxetine+usual care:reminiscence therapy+usual care 0    0 -1.21      .  -1.21     .     .       .
+                                                   CBT+humanistic psychotherapy+fluoxetine+usual care:sham+fluoxetine+usual care 0    0 -0.78      .  -0.78     .     .       .
+                                                              CBT+humanistic psychotherapy+fluoxetine+usual care:sham+usual care 0    0 -1.45      .  -1.45     .     .       .
+                                          CBT+humanistic psychotherapy+fluoxetine+usual care:supportive psychotherapy+usual care 0    0  0.91      .   0.91     .     .       .
+                                                  CBT+humanistic psychotherapy+fluoxetine+usual care:trazodone+HFrTMS+usual care 0    0  0.66      .   0.66     .     .       .
+                                                         CBT+humanistic psychotherapy+fluoxetine+usual care:trazodone+usual care 0    0 -0.16      .  -0.16     .     .       .
+                                                                   CBT+humanistic psychotherapy+fluoxetine+usual care:usual care 1 0.81 -0.83  -0.91  -0.48 -0.42 -0.69  0.4900
+                                                                          CBT+humanistic psychotherapy+usual care:CBT+usual care 0    0 -0.05      .  -0.05     .     .       .
+                                                                      CBT+humanistic psychotherapy+usual care:cognitive training 0    0 -0.19      .  -0.19     .     .       .
+                                                                        CBT+humanistic psychotherapy+usual care:dtDCS+usual care 0    0 -0.47      .  -0.47     .     .       .
+                                                                   CBT+humanistic psychotherapy+usual care:fluoxetine+usual care 1 0.71 -0.05  -0.01  -0.16  0.15  0.31  0.7546
+                                                                                    CBT+humanistic psychotherapy+usual care:GACT 0    0 -0.42      .  -0.42     .     .       .
+                                               CBT+humanistic psychotherapy+usual care:group psychotherapy+fluoxetine+usual care 0    0  1.72      .   1.72     .     .       .
+                                                            CBT+humanistic psychotherapy+usual care:HFrTMS+fluoxetine+usual care 0    0  2.67      .   2.67     .     .       .
+                                                                       CBT+humanistic psychotherapy+usual care:HFrTMS+usual care 0    0  0.34      .   0.34     .     .       .
+                                                                         CBT+humanistic psychotherapy+usual care:iTBS+usual care 0    0  0.28      .   0.28     .     .       .
+                                                            CBT+humanistic psychotherapy+usual care:LFrTMS+fluoxetine+usual care 0    0  3.34      .   3.34     .     .       .
+                                                                             CBT+humanistic psychotherapy+usual care:mindfulness 0    0 -0.28      .  -0.28     .     .       .
+                                                                  CBT+humanistic psychotherapy+usual care:mindfulness+usual care 0    0  0.73      .   0.73     .     .       .
+                                                    CBT+humanistic psychotherapy+usual care:motivational interviewing+usual care 0    0  0.68      .   0.68     .     .       .
+                                                                CBT+humanistic psychotherapy+usual care:motor imagery+usual care 0    0  0.65      .   0.65     .     .       .
+                                                            CBT+humanistic psychotherapy+usual care:narrative therapy+usual care 0    0  4.74      .   4.74     .     .       .
+                                                                         CBT+humanistic psychotherapy+usual care:psychoeducation 0    0 -0.36      .  -0.36     .     .       .
+            CBT+humanistic psychotherapy+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.13      .   1.13     .     .       .
+                                                                   CBT+humanistic psychotherapy+usual care:relaxation+usual care 0    0  0.32      .   0.32     .     .       .
+                                                         CBT+humanistic psychotherapy+usual care:reminiscence therapy+usual care 0    0 -0.89      .  -0.89     .     .       .
+                                                              CBT+humanistic psychotherapy+usual care:sham+fluoxetine+usual care 0    0 -0.47      .  -0.47     .     .       .
+                                                                         CBT+humanistic psychotherapy+usual care:sham+usual care 0    0 -1.13      .  -1.13     .     .       .
+                                                     CBT+humanistic psychotherapy+usual care:supportive psychotherapy+usual care 0    0  1.23      .   1.23     .     .       .
+                                                             CBT+humanistic psychotherapy+usual care:trazodone+HFrTMS+usual care 0    0  0.98      .   0.98     .     .       .
+                                                                    CBT+humanistic psychotherapy+usual care:trazodone+usual care 0    0  0.16      .   0.16     .     .       .
+                                                                              CBT+humanistic psychotherapy+usual care:usual care 2 0.95 -0.51  -0.54   0.02 -0.56 -0.71  0.4788
+                                                                                               CBT+usual care:cognitive training 0    0 -0.14      .  -0.14     .     .       .
+                                                                                                 CBT+usual care:dtDCS+usual care 0    0 -0.42      .  -0.42     .     .       .
+                                                                                            CBT+usual care:fluoxetine+usual care 0    0 -0.00      .  -0.00     .     .       .
+                                                                                                             CBT+usual care:GACT 0    0 -0.36      .  -0.36     .     .       .
+                                                                        CBT+usual care:group psychotherapy+fluoxetine+usual care 0    0  1.77      .   1.77     .     .       .
+                                                                                     CBT+usual care:HFrTMS+fluoxetine+usual care 0    0  2.72      .   2.72     .     .       .
+                                                                                                CBT+usual care:HFrTMS+usual care 0    0  0.39      .   0.39     .     .       .
+                                                                                                  CBT+usual care:iTBS+usual care 0    0  0.34      .   0.34     .     .       .
+                                                                                     CBT+usual care:LFrTMS+fluoxetine+usual care 0    0  3.39      .   3.39     .     .       .
+                                                                                                      CBT+usual care:mindfulness 0    0 -0.23      .  -0.23     .     .       .
+                                                                                           CBT+usual care:mindfulness+usual care 1 0.21  0.78  -0.40   1.11 -1.51 -2.96  0.0031
+                                                                             CBT+usual care:motivational interviewing+usual care 0    0  0.73      .   0.73     .     .       .
+                                                                                         CBT+usual care:motor imagery+usual care 0    0  0.70      .   0.70     .     .       .
+                                                                                     CBT+usual care:narrative therapy+usual care 0    0  4.79      .   4.79     .     .       .
+                                                                                                  CBT+usual care:psychoeducation 0    0 -0.30      .  -0.30     .     .       .
+                                     CBT+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.18      .   1.18     .     .       .
+                                                                                            CBT+usual care:relaxation+usual care 0    0  0.38      .   0.38     .     .       .
+                                                                                  CBT+usual care:reminiscence therapy+usual care 0    0 -0.84      .  -0.84     .     .       .
+                                                                                       CBT+usual care:sham+fluoxetine+usual care 0    0 -0.41      .  -0.41     .     .       .
+                                                                                                  CBT+usual care:sham+usual care 0    0 -1.08      .  -1.08     .     .       .
+                                                                              CBT+usual care:supportive psychotherapy+usual care 0    0  1.28      .   1.28     .     .       .
+                                                                                      CBT+usual care:trazodone+HFrTMS+usual care 0    0  1.03      .   1.03     .     .       .
+                                                                                             CBT+usual care:trazodone+usual care 0    0  0.21      .   0.21     .     .       .
+                                                                                                       CBT+usual care:usual care 2 0.85 -0.45  -0.23  -1.74  1.51  2.96  0.0031
+                                                                                             cognitive training:dtDCS+usual care 0    0 -0.28      .  -0.28     .     .       .
+                                                                                        cognitive training:fluoxetine+usual care 0    0  0.13      .   0.13     .     .       .
+                                                                                                         cognitive training:GACT 0    0 -0.23      .  -0.23     .     .       .
+                                                                    cognitive training:group psychotherapy+fluoxetine+usual care 0    0  1.91      .   1.91     .     .       .
+                                                                                 cognitive training:HFrTMS+fluoxetine+usual care 0    0  2.86      .   2.86     .     .       .
+                                                                                            cognitive training:HFrTMS+usual care 0    0  0.53      .   0.53     .     .       .
+                                                                                              cognitive training:iTBS+usual care 0    0  0.47      .   0.47     .     .       .
+                                                                                 cognitive training:LFrTMS+fluoxetine+usual care 0    0  3.53      .   3.53     .     .       .
+                                                                                                  cognitive training:mindfulness 0    0 -0.09      .  -0.09     .     .       .
+                                                                                       cognitive training:mindfulness+usual care 0    0  0.92      .   0.92     .     .       .
+                                                                         cognitive training:motivational interviewing+usual care 0    0  0.87      .   0.87     .     .       .
+                                                                                     cognitive training:motor imagery+usual care 0    0  0.84      .   0.84     .     .       .
+                                                                                 cognitive training:narrative therapy+usual care 0    0  4.93      .   4.93     .     .       .
+                                                                                              cognitive training:psychoeducation 0    0 -0.17      .  -0.17     .     .       .
+                                 cognitive training:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.32      .   1.32     .     .       .
+                                                                                        cognitive training:relaxation+usual care 0    0  0.51      .   0.51     .     .       .
+                                                                              cognitive training:reminiscence therapy+usual care 0    0 -0.70      .  -0.70     .     .       .
+                                                                                   cognitive training:sham+fluoxetine+usual care 0    0 -0.28      .  -0.28     .     .       .
+                                                                                              cognitive training:sham+usual care 0    0 -0.94      .  -0.94     .     .       .
+                                                                          cognitive training:supportive psychotherapy+usual care 0    0  1.42      .   1.42     .     .       .
+                                                                                  cognitive training:trazodone+HFrTMS+usual care 0    0  1.17      .   1.17     .     .       .
+                                                                                         cognitive training:trazodone+usual care 0    0  0.35      .   0.35     .     .       .
+                                                                                                   cognitive training:usual care 0    0 -0.32      .  -0.32     .     .       .
+                                                                                          dtDCS+usual care:fluoxetine+usual care 0    0  0.41      .   0.41     .     .       .
+                                                                                                           dtDCS+usual care:GACT 0    0  0.05      .   0.05     .     .       .
+                                                                      dtDCS+usual care:group psychotherapy+fluoxetine+usual care 0    0  2.19      .   2.19     .     .       .
+                                                                                   dtDCS+usual care:HFrTMS+fluoxetine+usual care 0    0  3.14      .   3.14     .     .       .
+                                                                                              dtDCS+usual care:HFrTMS+usual care 0    0  0.81      .   0.81     .     .       .
+                                                                                                dtDCS+usual care:iTBS+usual care 0    0  0.75      .   0.75     .     .       .
+                                                                                   dtDCS+usual care:LFrTMS+fluoxetine+usual care 0    0  3.80      .   3.80     .     .       .
+                                                                                                    dtDCS+usual care:mindfulness 0    0  0.19      .   0.19     .     .       .
+                                                                                         dtDCS+usual care:mindfulness+usual care 0    0  1.20      .   1.20     .     .       .
+                                                                           dtDCS+usual care:motivational interviewing+usual care 0    0  1.15      .   1.15     .     .       .
+                                                                                       dtDCS+usual care:motor imagery+usual care 0    0  1.12      .   1.12     .     .       .
+                                                                                   dtDCS+usual care:narrative therapy+usual care 0    0  5.21      .   5.21     .     .       .
+                                                                                                dtDCS+usual care:psychoeducation 0    0  0.11      .   0.11     .     .       .
+                                   dtDCS+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.60      .   1.60     .     .       .
+                                                                                          dtDCS+usual care:relaxation+usual care 0    0  0.79      .   0.79     .     .       .
+                                                                                dtDCS+usual care:reminiscence therapy+usual care 0    0 -0.42      .  -0.42     .     .       .
+                                                                                     dtDCS+usual care:sham+fluoxetine+usual care 0    0  0.00      .   0.00     .     .       .
+                                                                                                dtDCS+usual care:sham+usual care 1 1.00 -0.66  -0.66      .     .     .       .
+                                                                            dtDCS+usual care:supportive psychotherapy+usual care 0    0  1.70      .   1.70     .     .       .
+                                                                                    dtDCS+usual care:trazodone+HFrTMS+usual care 0    0  1.45      .   1.45     .     .       .
+                                                                                           dtDCS+usual care:trazodone+usual care 0    0  0.63      .   0.63     .     .       .
+                                                                                                     dtDCS+usual care:usual care 0    0 -0.04      .  -0.04     .     .       .
+                                                                                                      fluoxetine+usual care:GACT 0    0 -0.36      .  -0.36     .     .       .
+                                                                 fluoxetine+usual care:group psychotherapy+fluoxetine+usual care 2 1.00  1.77   1.77      .     .     .       .
+                                                                              fluoxetine+usual care:HFrTMS+fluoxetine+usual care 1 1.00  2.72   2.72      .     .     .       .
+                                                                                         fluoxetine+usual care:HFrTMS+usual care 1 0.62  0.39   0.50   0.21  0.29  0.71  0.4788
+                                                                                           fluoxetine+usual care:iTBS+usual care 0    0  0.34      .   0.34     .     .       .
+                                                                              fluoxetine+usual care:LFrTMS+fluoxetine+usual care 1 1.00  3.39   3.39      .     .     .       .
+                                                                                               fluoxetine+usual care:mindfulness 0    0 -0.22      .  -0.22     .     .       .
+                                                                                    fluoxetine+usual care:mindfulness+usual care 0    0  0.78      .   0.78     .     .       .
+                                                                      fluoxetine+usual care:motivational interviewing+usual care 0    0  0.74      .   0.74     .     .       .
+                                                                                  fluoxetine+usual care:motor imagery+usual care 0    0  0.70      .   0.70     .     .       .
+                                                                              fluoxetine+usual care:narrative therapy+usual care 0    0  4.79      .   4.79     .     .       .
+                                                                                           fluoxetine+usual care:psychoeducation 0    0 -0.30      .  -0.30     .     .       .
+                              fluoxetine+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.18      .   1.18     .     .       .
+                                                                                     fluoxetine+usual care:relaxation+usual care 0    0  0.38      .   0.38     .     .       .
+                                                                           fluoxetine+usual care:reminiscence therapy+usual care 0    0 -0.84      .  -0.84     .     .       .
+                                                                                fluoxetine+usual care:sham+fluoxetine+usual care 0    0 -0.41      .  -0.41     .     .       .
+                                                                                           fluoxetine+usual care:sham+usual care 0    0 -1.08      .  -1.08     .     .       .
+                                                                       fluoxetine+usual care:supportive psychotherapy+usual care 0    0  1.28      .   1.28     .     .       .
+                                                                               fluoxetine+usual care:trazodone+HFrTMS+usual care 0    0  1.03      .   1.03     .     .       .
+                                                                                      fluoxetine+usual care:trazodone+usual care 0    0  0.21      .   0.21     .     .       .
+                                                                                                fluoxetine+usual care:usual care 1 0.55 -0.45  -0.59  -0.28 -0.31 -0.79  0.4312
+                                                                                  GACT:group psychotherapy+fluoxetine+usual care 0    0  2.14      .   2.14     .     .       .
+                                                                                               GACT:HFrTMS+fluoxetine+usual care 0    0  3.08      .   3.08     .     .       .
+                                                                                                          GACT:HFrTMS+usual care 0    0  0.75      .   0.75     .     .       .
+                                                                                                            GACT:iTBS+usual care 0    0  0.70      .   0.70     .     .       .
+                                                                                               GACT:LFrTMS+fluoxetine+usual care 0    0  3.75      .   3.75     .     .       .
+                                                                                                                GACT:mindfulness 0    0  0.14      .   0.14     .     .       .
+                                                                                                     GACT:mindfulness+usual care 0    0  1.15      .   1.15     .     .       .
+                                                                                       GACT:motivational interviewing+usual care 0    0  1.10      .   1.10     .     .       .
+                                                                                                   GACT:motor imagery+usual care 0    0  1.07      .   1.07     .     .       .
+                                                                                               GACT:narrative therapy+usual care 0    0  5.15      .   5.15     .     .       .
+                                                                                                            GACT:psychoeducation 0    0  0.06      .   0.06     .     .       .
+                                               GACT:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.54      .   1.54     .     .       .
+                                                                                                      GACT:relaxation+usual care 0    0  0.74      .   0.74     .     .       .
+                                                                                            GACT:reminiscence therapy+usual care 0    0 -0.47      .  -0.47     .     .       .
+                                                                                                 GACT:sham+fluoxetine+usual care 0    0 -0.05      .  -0.05     .     .       .
+                                                                                                            GACT:sham+usual care 0    0 -0.72      .  -0.72     .     .       .
+                                                                                        GACT:supportive psychotherapy+usual care 0    0  1.64      .   1.64     .     .       .
+                                                                                                GACT:trazodone+HFrTMS+usual care 0    0  1.40      .   1.40     .     .       .
+                                                                                                       GACT:trazodone+usual care 0    0  0.58      .   0.58     .     .       .
+                                                                                                                 GACT:usual care 1 1.00 -0.09  -0.09      .     .     .       .
+                                                          group psychotherapy+fluoxetine+usual care:HFrTMS+fluoxetine+usual care 0    0  0.95      .   0.95     .     .       .
+                                                                     group psychotherapy+fluoxetine+usual care:HFrTMS+usual care 0    0 -1.38      .  -1.38     .     .       .
+                                                                       group psychotherapy+fluoxetine+usual care:iTBS+usual care 0    0 -1.43      .  -1.43     .     .       .
+                                                          group psychotherapy+fluoxetine+usual care:LFrTMS+fluoxetine+usual care 0    0  1.62      .   1.62     .     .       .
+                                                                           group psychotherapy+fluoxetine+usual care:mindfulness 0    0 -2.00      .  -2.00     .     .       .
+                                                                group psychotherapy+fluoxetine+usual care:mindfulness+usual care 0    0 -0.99      .  -0.99     .     .       .
+                                                  group psychotherapy+fluoxetine+usual care:motivational interviewing+usual care 0    0 -1.04      .  -1.04     .     .       .
+                                                              group psychotherapy+fluoxetine+usual care:motor imagery+usual care 0    0 -1.07      .  -1.07     .     .       .
+                                                          group psychotherapy+fluoxetine+usual care:narrative therapy+usual care 0    0  3.02      .   3.02     .     .       .
+                                                                       group psychotherapy+fluoxetine+usual care:psychoeducation 0    0 -2.08      .  -2.08     .     .       .
+          group psychotherapy+fluoxetine+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0 -0.59      .  -0.59     .     .       .
+                                                                 group psychotherapy+fluoxetine+usual care:relaxation+usual care 0    0 -1.39      .  -1.39     .     .       .
+                                                       group psychotherapy+fluoxetine+usual care:reminiscence therapy+usual care 0    0 -2.61      .  -2.61     .     .       .
+                                                            group psychotherapy+fluoxetine+usual care:sham+fluoxetine+usual care 0    0 -2.18      .  -2.18     .     .       .
+                                                                       group psychotherapy+fluoxetine+usual care:sham+usual care 0    0 -2.85      .  -2.85     .     .       .
+                                                   group psychotherapy+fluoxetine+usual care:supportive psychotherapy+usual care 0    0 -0.49      .  -0.49     .     .       .
+                                                           group psychotherapy+fluoxetine+usual care:trazodone+HFrTMS+usual care 0    0 -0.74      .  -0.74     .     .       .
+                                                                  group psychotherapy+fluoxetine+usual care:trazodone+usual care 0    0 -1.56      .  -1.56     .     .       .
+                                                                            group psychotherapy+fluoxetine+usual care:usual care 0    0 -2.23      .  -2.23     .     .       .
+                                                                                  HFrTMS+fluoxetine+usual care:HFrTMS+usual care 0    0 -2.33      .  -2.33     .     .       .
+                                                                                    HFrTMS+fluoxetine+usual care:iTBS+usual care 0    0 -2.38      .  -2.38     .     .       .
+                                                                       HFrTMS+fluoxetine+usual care:LFrTMS+fluoxetine+usual care 0    0  0.67      .   0.67     .     .       .
+                                                                                        HFrTMS+fluoxetine+usual care:mindfulness 0    0 -2.94      .  -2.94     .     .       .
+                                                                             HFrTMS+fluoxetine+usual care:mindfulness+usual care 0    0 -1.94      .  -1.94     .     .       .
+                                                               HFrTMS+fluoxetine+usual care:motivational interviewing+usual care 0    0 -1.98      .  -1.98     .     .       .
+                                                                           HFrTMS+fluoxetine+usual care:motor imagery+usual care 0    0 -2.02      .  -2.02     .     .       .
+                                                                       HFrTMS+fluoxetine+usual care:narrative therapy+usual care 0    0  2.07      .   2.07     .     .       .
+                                                                                    HFrTMS+fluoxetine+usual care:psychoeducation 0    0 -3.02      .  -3.02     .     .       .
+                       HFrTMS+fluoxetine+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0 -1.54      .  -1.54     .     .       .
+                                                                              HFrTMS+fluoxetine+usual care:relaxation+usual care 0    0 -2.34      .  -2.34     .     .       .
+                                                                    HFrTMS+fluoxetine+usual care:reminiscence therapy+usual care 0    0 -3.56      .  -3.56     .     .       .
+                                                                         HFrTMS+fluoxetine+usual care:sham+fluoxetine+usual care 1 1.00 -3.13  -3.13      .     .     .       .
+                                                                                    HFrTMS+fluoxetine+usual care:sham+usual care 0    0 -3.80      .  -3.80     .     .       .
+                                                                HFrTMS+fluoxetine+usual care:supportive psychotherapy+usual care 0    0 -1.44      .  -1.44     .     .       .
+                                                                        HFrTMS+fluoxetine+usual care:trazodone+HFrTMS+usual care 0    0 -1.69      .  -1.69     .     .       .
+                                                                               HFrTMS+fluoxetine+usual care:trazodone+usual care 0    0 -2.51      .  -2.51     .     .       .
+                                                                                         HFrTMS+fluoxetine+usual care:usual care 0    0 -3.17      .  -3.17     .     .       .
+                                                                                               HFrTMS+usual care:iTBS+usual care 1 0.89 -0.05   0.10  -1.30  1.40  1.28  0.2019
+                                                                                  HFrTMS+usual care:LFrTMS+fluoxetine+usual care 0    0  3.00      .   3.00     .     .       .
+                                                                                                   HFrTMS+usual care:mindfulness 0    0 -0.62      .  -0.62     .     .       .
+                                                                                        HFrTMS+usual care:mindfulness+usual care 0    0  0.39      .   0.39     .     .       .
+                                                                          HFrTMS+usual care:motivational interviewing+usual care 0    0  0.34      .   0.34     .     .       .
+                                                                                      HFrTMS+usual care:motor imagery+usual care 0    0  0.31      .   0.31     .     .       .
+                                                                                  HFrTMS+usual care:narrative therapy+usual care 0    0  4.40      .   4.40     .     .       .
+                                                                                               HFrTMS+usual care:psychoeducation 0    0 -0.70      .  -0.70     .     .       .
+                                  HFrTMS+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  0.79      .   0.79     .     .       .
+                                                                                         HFrTMS+usual care:relaxation+usual care 0    0 -0.01      .  -0.01     .     .       .
+                                                                               HFrTMS+usual care:reminiscence therapy+usual care 0    0 -1.23      .  -1.23     .     .       .
+                                                                                    HFrTMS+usual care:sham+fluoxetine+usual care 0    0 -0.80      .  -0.80     .     .       .
+                                                                                               HFrTMS+usual care:sham+usual care 2 0.73 -1.47  -1.61  -1.11 -0.50 -0.82  0.4122
+                                                                           HFrTMS+usual care:supportive psychotherapy+usual care 0    0  0.89      .   0.89     .     .       .
+                                                                                   HFrTMS+usual care:trazodone+HFrTMS+usual care 1 0.93  0.64   0.71  -0.23  0.94  1.15  0.2517
+                                                                                          HFrTMS+usual care:trazodone+usual care 1 0.92 -0.18  -0.11  -0.98  0.88  1.15  0.2517
+                                                                                                    HFrTMS+usual care:usual care 1 0.66 -0.85  -0.70  -1.12  0.42  1.15  0.2517
+                                                                                    iTBS+usual care:LFrTMS+fluoxetine+usual care 0    0  3.05      .   3.05     .     .       .
+                                                                                                     iTBS+usual care:mindfulness 0    0 -0.56      .  -0.56     .     .       .
+                                                                                          iTBS+usual care:mindfulness+usual care 0    0  0.45      .   0.45     .     .       .
+                                                                            iTBS+usual care:motivational interviewing+usual care 0    0  0.40      .   0.40     .     .       .
+                                                                                        iTBS+usual care:motor imagery+usual care 0    0  0.37      .   0.37     .     .       .
+                                                                                    iTBS+usual care:narrative therapy+usual care 0    0  4.45      .   4.45     .     .       .
+                                                                                                 iTBS+usual care:psychoeducation 0    0 -0.64      .  -0.64     .     .       .
+                                    iTBS+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  0.84      .   0.84     .     .       .
+                                                                                           iTBS+usual care:relaxation+usual care 0    0  0.04      .   0.04     .     .       .
+                                                                                 iTBS+usual care:reminiscence therapy+usual care 0    0 -1.17      .  -1.17     .     .       .
+                                                                                      iTBS+usual care:sham+fluoxetine+usual care 0    0 -0.75      .  -0.75     .     .       .
+                                                                                                 iTBS+usual care:sham+usual care 1 0.85 -1.42  -1.22  -2.48  1.26  1.28  0.2019
+                                                                             iTBS+usual care:supportive psychotherapy+usual care 0    0  0.94      .   0.94     .     .       .
+                                                                                     iTBS+usual care:trazodone+HFrTMS+usual care 0    0  0.70      .   0.70     .     .       .
+                                                                                            iTBS+usual care:trazodone+usual care 0    0 -0.12      .  -0.12     .     .       .
+                                                                                                      iTBS+usual care:usual care 0    0 -0.79      .  -0.79     .     .       .
+                                                                                        LFrTMS+fluoxetine+usual care:mindfulness 0    0 -3.61      .  -3.61     .     .       .
+                                                                             LFrTMS+fluoxetine+usual care:mindfulness+usual care 0    0 -2.61      .  -2.61     .     .       .
+                                                               LFrTMS+fluoxetine+usual care:motivational interviewing+usual care 0    0 -2.65      .  -2.65     .     .       .
+                                                                           LFrTMS+fluoxetine+usual care:motor imagery+usual care 0    0 -2.69      .  -2.69     .     .       .
+                                                                       LFrTMS+fluoxetine+usual care:narrative therapy+usual care 0    0  1.40      .   1.40     .     .       .
+                                                                                    LFrTMS+fluoxetine+usual care:psychoeducation 0    0 -3.69      .  -3.69     .     .       .
+                       LFrTMS+fluoxetine+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0 -2.21      .  -2.21     .     .       .
+                                                                              LFrTMS+fluoxetine+usual care:relaxation+usual care 0    0 -3.01      .  -3.01     .     .       .
+                                                                    LFrTMS+fluoxetine+usual care:reminiscence therapy+usual care 0    0 -4.23      .  -4.23     .     .       .
+                                                                         LFrTMS+fluoxetine+usual care:sham+fluoxetine+usual care 0    0 -3.80      .  -3.80     .     .       .
+                                                                                    LFrTMS+fluoxetine+usual care:sham+usual care 0    0 -4.47      .  -4.47     .     .       .
+                                                                LFrTMS+fluoxetine+usual care:supportive psychotherapy+usual care 0    0 -2.11      .  -2.11     .     .       .
+                                                                        LFrTMS+fluoxetine+usual care:trazodone+HFrTMS+usual care 0    0 -2.36      .  -2.36     .     .       .
+                                                                               LFrTMS+fluoxetine+usual care:trazodone+usual care 0    0 -3.18      .  -3.18     .     .       .
+                                                                                         LFrTMS+fluoxetine+usual care:usual care 0    0 -3.84      .  -3.84     .     .       .
+                                                                                              mindfulness:mindfulness+usual care 0    0  1.01      .   1.01     .     .       .
+                                                                                mindfulness:motivational interviewing+usual care 0    0  0.96      .   0.96     .     .       .
+                                                                                            mindfulness:motor imagery+usual care 0    0  0.93      .   0.93     .     .       .
+                                                                                        mindfulness:narrative therapy+usual care 0    0  5.02      .   5.02     .     .       .
+                                                                                                     mindfulness:psychoeducation 1 0.70 -0.08   0.41  -1.19  1.60  2.65  0.0080
+                                        mindfulness:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.41      .   1.41     .     .       .
+                                                                                               mindfulness:relaxation+usual care 0    0  0.60      .   0.60     .     .       .
+                                                                                     mindfulness:reminiscence therapy+usual care 0    0 -0.61      .  -0.61     .     .       .
+                                                                                          mindfulness:sham+fluoxetine+usual care 0    0 -0.19      .  -0.19     .     .       .
+                                                                                                     mindfulness:sham+usual care 0    0 -0.85      .  -0.85     .     .       .
+                                                                                 mindfulness:supportive psychotherapy+usual care 0    0  1.51      .   1.51     .     .       .
+                                                                                         mindfulness:trazodone+HFrTMS+usual care 0    0  1.26      .   1.26     .     .       .
+                                                                                                mindfulness:trazodone+usual care 0    0  0.44      .   0.44     .     .       .
+                                                                                                          mindfulness:usual care 1 0.77 -0.23  -0.60   1.00 -1.60 -2.65  0.0080
+                                                                     mindfulness+usual care:motivational interviewing+usual care 0    0 -0.05      .  -0.05     .     .       .
+                                                                                 mindfulness+usual care:motor imagery+usual care 0    0 -0.08      .  -0.08     .     .       .
+                                                                             mindfulness+usual care:narrative therapy+usual care 0    0  4.01      .   4.01     .     .       .
+                                                                                          mindfulness+usual care:psychoeducation 0    0 -1.09      .  -1.09     .     .       .
+                             mindfulness+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  0.40      .   0.40     .     .       .
+                                                                                    mindfulness+usual care:relaxation+usual care 0    0 -0.41      .  -0.41     .     .       .
+                                                                          mindfulness+usual care:reminiscence therapy+usual care 0    0 -1.62      .  -1.62     .     .       .
+                                                                               mindfulness+usual care:sham+fluoxetine+usual care 0    0 -1.20      .  -1.20     .     .       .
+                                                                                          mindfulness+usual care:sham+usual care 0    0 -1.86      .  -1.86     .     .       .
+                                                                      mindfulness+usual care:supportive psychotherapy+usual care 0    0  0.50      .   0.50     .     .       .
+                                                                              mindfulness+usual care:trazodone+HFrTMS+usual care 0    0  0.25      .   0.25     .     .       .
+                                                                                     mindfulness+usual care:trazodone+usual care 0    0 -0.57      .  -0.57     .     .       .
+                                                                                               mindfulness+usual care:usual care 5 0.93 -1.24  -1.35   0.18 -1.52 -3.08  0.0021
+                                                                   motivational interviewing+usual care:motor imagery+usual care 0    0 -0.03      .  -0.03     .     .       .
+                                                               motivational interviewing+usual care:narrative therapy+usual care 0    0  4.05      .   4.05     .     .       .
+                                                                            motivational interviewing+usual care:psychoeducation 0    0 -1.04      .  -1.04     .     .       .
+               motivational interviewing+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  0.45      .   0.45     .     .       .
+                                                                      motivational interviewing+usual care:relaxation+usual care 0    0 -0.36      .  -0.36     .     .       .
+                                                            motivational interviewing+usual care:reminiscence therapy+usual care 0    0 -1.57      .  -1.57     .     .       .
+                                                                 motivational interviewing+usual care:sham+fluoxetine+usual care 0    0 -1.15      .  -1.15     .     .       .
+                                                                            motivational interviewing+usual care:sham+usual care 0    0 -1.81      .  -1.81     .     .       .
+                                                        motivational interviewing+usual care:supportive psychotherapy+usual care 0    0  0.55      .   0.55     .     .       .
+                                                                motivational interviewing+usual care:trazodone+HFrTMS+usual care 0    0  0.30      .   0.30     .     .       .
+                                                                       motivational interviewing+usual care:trazodone+usual care 0    0 -0.52      .  -0.52     .     .       .
+                                                                                 motivational interviewing+usual care:usual care 1 1.00 -1.19  -1.19      .     .     .       .
+                                                                           motor imagery+usual care:narrative therapy+usual care 0    0  4.09      .   4.09     .     .       .
+                                                                                        motor imagery+usual care:psychoeducation 0    0 -1.01      .  -1.01     .     .       .
+                           motor imagery+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  0.48      .   0.48     .     .       .
+                                                                                  motor imagery+usual care:relaxation+usual care 0    0 -0.33      .  -0.33     .     .       .
+                                                                        motor imagery+usual care:reminiscence therapy+usual care 0    0 -1.54      .  -1.54     .     .       .
+                                                                             motor imagery+usual care:sham+fluoxetine+usual care 0    0 -1.11      .  -1.11     .     .       .
+                                                                                        motor imagery+usual care:sham+usual care 0    0 -1.78      .  -1.78     .     .       .
+                                                                    motor imagery+usual care:supportive psychotherapy+usual care 0    0  0.58      .   0.58     .     .       .
+                                                                            motor imagery+usual care:trazodone+HFrTMS+usual care 0    0  0.33      .   0.33     .     .       .
+                                                                                   motor imagery+usual care:trazodone+usual care 0    0 -0.49      .  -0.49     .     .       .
+                                                                                             motor imagery+usual care:usual care 3 1.00 -1.16  -1.16      .     .     .       .
+                                                                                    narrative therapy+usual care:psychoeducation 0    0 -5.09      .  -5.09     .     .       .
+                       narrative therapy+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0 -3.61      .  -3.61     .     .       .
+                                                                              narrative therapy+usual care:relaxation+usual care 0    0 -4.41      .  -4.41     .     .       .
+                                                                    narrative therapy+usual care:reminiscence therapy+usual care 0    0 -5.63      .  -5.63     .     .       .
+                                                                         narrative therapy+usual care:sham+fluoxetine+usual care 0    0 -5.20      .  -5.20     .     .       .
+                                                                                    narrative therapy+usual care:sham+usual care 0    0 -5.87      .  -5.87     .     .       .
+                                                                narrative therapy+usual care:supportive psychotherapy+usual care 0    0 -3.51      .  -3.51     .     .       .
+                                                                        narrative therapy+usual care:trazodone+HFrTMS+usual care 0    0 -3.76      .  -3.76     .     .       .
+                                                                               narrative therapy+usual care:trazodone+usual care 0    0 -4.58      .  -4.58     .     .       .
+                                                                                         narrative therapy+usual care:usual care 1 1.00 -5.24  -5.24      .     .     .       .
+                                    psychoeducation:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.49      .   1.49     .     .       .
+                                                                                           psychoeducation:relaxation+usual care 0    0  0.68      .   0.68     .     .       .
+                                                                                 psychoeducation:reminiscence therapy+usual care 0    0 -0.53      .  -0.53     .     .       .
+                                                                                      psychoeducation:sham+fluoxetine+usual care 0    0 -0.11      .  -0.11     .     .       .
+                                                                                                 psychoeducation:sham+usual care 0    0 -0.78      .  -0.78     .     .       .
+                                                                             psychoeducation:supportive psychotherapy+usual care 0    0  1.58      .   1.58     .     .       .
+                                                                                     psychoeducation:trazodone+HFrTMS+usual care 0    0  1.34      .   1.34     .     .       .
+                                                                                            psychoeducation:trazodone+usual care 0    0  0.52      .   0.52     .     .       .
+                                                                                                      psychoeducation:usual care 1 0.45 -0.15   0.22  -0.45  0.67  1.10  0.2698
+                              psychological counselling+relaxation+supportive psychotherapy+CBT+usual care:relaxation+usual care 0    0 -0.80      .  -0.80     .     .       .
+                    psychological counselling+relaxation+supportive psychotherapy+CBT+usual care:reminiscence therapy+usual care 0    0 -2.02      .  -2.02     .     .       .
+                         psychological counselling+relaxation+supportive psychotherapy+CBT+usual care:sham+fluoxetine+usual care 0    0 -1.59      .  -1.59     .     .       .
+                                    psychological counselling+relaxation+supportive psychotherapy+CBT+usual care:sham+usual care 0    0 -2.26      .  -2.26     .     .       .
+                psychological counselling+relaxation+supportive psychotherapy+CBT+usual care:supportive psychotherapy+usual care 0    0  0.10      .   0.10     .     .       .
+                        psychological counselling+relaxation+supportive psychotherapy+CBT+usual care:trazodone+HFrTMS+usual care 0    0 -0.15      .  -0.15     .     .       .
+                               psychological counselling+relaxation+supportive psychotherapy+CBT+usual care:trazodone+usual care 0    0 -0.97      .  -0.97     .     .       .
+                                         psychological counselling+relaxation+supportive psychotherapy+CBT+usual care:usual care 1 1.00 -1.64  -1.64      .     .     .       .
+                                                                           relaxation+usual care:reminiscence therapy+usual care 0    0 -1.21      .  -1.21     .     .       .
+                                                                                relaxation+usual care:sham+fluoxetine+usual care 0    0 -0.79      .  -0.79     .     .       .
+                                                                                           relaxation+usual care:sham+usual care 0    0 -1.46      .  -1.46     .     .       .
+                                                                       relaxation+usual care:supportive psychotherapy+usual care 0    0  0.90      .   0.90     .     .       .
+                                                                               relaxation+usual care:trazodone+HFrTMS+usual care 0    0  0.66      .   0.66     .     .       .
+                                                                                      relaxation+usual care:trazodone+usual care 0    0 -0.16      .  -0.16     .     .       .
+                                                                                                relaxation+usual care:usual care 1 1.00 -0.83  -0.83      .     .     .       .
+                                                                      reminiscence therapy+usual care:sham+fluoxetine+usual care 0    0  0.42      .   0.42     .     .       .
+                                                                                 reminiscence therapy+usual care:sham+usual care 0    0 -0.24      .  -0.24     .     .       .
+                                                             reminiscence therapy+usual care:supportive psychotherapy+usual care 0    0  2.12      .   2.12     .     .       .
+                                                                     reminiscence therapy+usual care:trazodone+HFrTMS+usual care 0    0  1.87      .   1.87     .     .       .
+                                                                            reminiscence therapy+usual care:trazodone+usual care 0    0  1.05      .   1.05     .     .       .
+                                                                                      reminiscence therapy+usual care:usual care 1 1.00  0.38   0.38      .     .     .       .
+                                                                                      sham+fluoxetine+usual care:sham+usual care 0    0 -0.67      .  -0.67     .     .       .
+                                                                  sham+fluoxetine+usual care:supportive psychotherapy+usual care 0    0  1.69      .   1.69     .     .       .
+                                                                          sham+fluoxetine+usual care:trazodone+HFrTMS+usual care 0    0  1.45      .   1.45     .     .       .
+                                                                                 sham+fluoxetine+usual care:trazodone+usual care 0    0  0.63      .   0.63     .     .       .
+                                                                                           sham+fluoxetine+usual care:usual care 0    0 -0.04      .  -0.04     .     .       .
+                                                                             sham+usual care:supportive psychotherapy+usual care 0    0  2.36      .   2.36     .     .       .
+                                                                                     sham+usual care:trazodone+HFrTMS+usual care 0    0  2.11      .   2.11     .     .       .
+                                                                                            sham+usual care:trazodone+usual care 0    0  1.29      .   1.29     .     .       .
+                                                                                                      sham+usual care:usual care 0    0  0.63      .   0.63     .     .       .
+                                                                 supportive psychotherapy+usual care:trazodone+HFrTMS+usual care 0    0 -0.25      .  -0.25     .     .       .
+                                                                        supportive psychotherapy+usual care:trazodone+usual care 0    0 -1.07      .  -1.07     .     .       .
+                                                                                  supportive psychotherapy+usual care:usual care 1 1.00 -1.73  -1.73      .     .     .       .
+                                                                                trazodone+HFrTMS+usual care:trazodone+usual care 1 1.00 -0.82  -0.81      .     .     .       .
+                                                                                          trazodone+HFrTMS+usual care:usual care 1 0.91 -1.49  -1.41  -2.27  0.86  1.15  0.2517
+                                                                                                 trazodone+usual care:usual care 1 0.92 -0.67  -0.60  -1.46  0.87  1.15  0.2517
+
+Random effects model: 
+
+                                                                                                                      comparison k prop   nma direct indir.  Diff     z p-value
+                                                                                                              ACT:active control 0    0 -2.35      .  -2.35     .     .       .
+                                                                                                            ACT:atDCS+usual care 0    0 -1.29      .  -1.29     .     .       .
+                                                                                                           ACT:attention control 0    0 -1.29      .  -1.29     .     .       .
+                                                                                                                         ACT:CBT 0    0 -0.96      .  -0.96     .     .       .
+                                                                                                        ACT:CBT+drTMS+usual care 0    0  1.13      .   1.13     .     .       .
+                                                                          ACT:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0 -1.07      .  -1.07     .     .       .
+                                                                                     ACT:CBT+humanistic psychotherapy+usual care 0    0 -1.40      .  -1.40     .     .       .
+                                                                                                              ACT:CBT+usual care 0    0 -0.98      .  -0.98     .     .       .
+                                                                                                          ACT:cognitive training 0    0 -1.24      .  -1.24     .     .       .
+                                                                                                            ACT:dtDCS+usual care 0    0 -1.86      .  -1.86     .     .       .
+                                                                                                       ACT:fluoxetine+usual care 0    0 -1.38      .  -1.38     .     .       .
+                                                                                                                        ACT:GACT 0    0 -1.85      .  -1.85     .     .       .
+                                                                                   ACT:group psychotherapy+fluoxetine+usual care 0    0  0.50      .   0.50     .     .       .
+                                                                                                ACT:HFrTMS+fluoxetine+usual care 0    0  1.34      .   1.34     .     .       .
+                                                                                                           ACT:HFrTMS+usual care 0    0 -0.89      .  -0.89     .     .       .
+                                                                                                             ACT:iTBS+usual care 0    0 -1.04      .  -1.04     .     .       .
+                                                                                                ACT:LFrTMS+fluoxetine+usual care 0    0  2.01      .   2.01     .     .       .
+                                                                                                                 ACT:mindfulness 0    0 -1.85      .  -1.85     .     .       .
+                                                                                                      ACT:mindfulness+usual care 0    0 -0.24      .  -0.24     .     .       .
+                                                                                        ACT:motivational interviewing+usual care 0    0 -0.75      .  -0.75     .     .       .
+                                                                                                    ACT:motor imagery+usual care 0    0 -0.77      .  -0.77     .     .       .
+                                                                                                ACT:narrative therapy+usual care 0    0  3.30      .   3.30     .     .       .
+                                                                                                             ACT:psychoeducation 0    0 -1.97      .  -1.97     .     .       .
+                                                ACT:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0 -0.30      .  -0.30     .     .       .
+                                                                                                       ACT:relaxation+usual care 0    0 -1.11      .  -1.11     .     .       .
+                                                                                             ACT:reminiscence therapy+usual care 0    0 -2.32      .  -2.32     .     .       .
+                                                                                                  ACT:sham+fluoxetine+usual care 0    0 -1.80      .  -1.80     .     .       .
+                                                                                                             ACT:sham+usual care 0    0 -2.52      .  -2.52     .     .       .
+                                                                                         ACT:supportive psychotherapy+usual care 0    0 -0.21      .  -0.21     .     .       .
+                                                                                                 ACT:trazodone+HFrTMS+usual care 0    0 -0.36      .  -0.36     .     .       .
+                                                                                                        ACT:trazodone+usual care 0    0 -1.17      .  -1.17     .     .       .
+                                                                                                                  ACT:usual care 1 1.00 -1.94  -1.94      .     .     .       .
+                                                                                                 active control:atDCS+usual care 0    0  1.06      .   1.06     .     .       .
+                                                                                                active control:attention control 0    0  1.06      .   1.06     .     .       .
+                                                                                                              active control:CBT 0    0  1.40      .   1.40     .     .       .
+                                                                                             active control:CBT+drTMS+usual care 0    0  3.49      .   3.49     .     .       .
+                                                               active control:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  1.28      .   1.28     .     .       .
+                                                                          active control:CBT+humanistic psychotherapy+usual care 0    0  0.95      .   0.95     .     .       .
+                                                                                                   active control:CBT+usual care 0    0  1.38      .   1.38     .     .       .
+                                                                                               active control:cognitive training 0    0  1.11      .   1.11     .     .       .
+                                                                                                 active control:dtDCS+usual care 0    0  0.50      .   0.50     .     .       .
+                                                                                            active control:fluoxetine+usual care 0    0  0.97      .   0.97     .     .       .
+                                                                                                             active control:GACT 0    0  0.50      .   0.50     .     .       .
+                                                                        active control:group psychotherapy+fluoxetine+usual care 0    0  2.85      .   2.85     .     .       .
+                                                                                     active control:HFrTMS+fluoxetine+usual care 0    0  3.69      .   3.69     .     .       .
+                                                                                                active control:HFrTMS+usual care 0    0  1.46      .   1.46     .     .       .
+                                                                                                  active control:iTBS+usual care 0    0  1.31      .   1.31     .     .       .
+                                                                                     active control:LFrTMS+fluoxetine+usual care 0    0  4.36      .   4.36     .     .       .
+                                                                                                      active control:mindfulness 1 1.00  0.50   0.50      .     .     .       .
+                                                                                           active control:mindfulness+usual care 0    0  2.11      .   2.11     .     .       .
+                                                                             active control:motivational interviewing+usual care 0    0  1.60      .   1.60     .     .       .
+                                                                                         active control:motor imagery+usual care 0    0  1.59      .   1.59     .     .       .
+                                                                                     active control:narrative therapy+usual care 0    0  5.66      .   5.66     .     .       .
+                                                                                                  active control:psychoeducation 0    0  0.38      .   0.38     .     .       .
+                                     active control:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  2.05      .   2.05     .     .       .
+                                                                                            active control:relaxation+usual care 0    0  1.24      .   1.24     .     .       .
+                                                                                  active control:reminiscence therapy+usual care 0    0  0.03      .   0.03     .     .       .
+                                                                                       active control:sham+fluoxetine+usual care 0    0  0.56      .   0.56     .     .       .
+                                                                                                  active control:sham+usual care 0    0 -0.17      .  -0.17     .     .       .
+                                                                              active control:supportive psychotherapy+usual care 0    0  2.15      .   2.15     .     .       .
+                                                                                      active control:trazodone+HFrTMS+usual care 0    0  2.00      .   2.00     .     .       .
+                                                                                             active control:trazodone+usual care 0    0  1.18      .   1.18     .     .       .
+                                                                                                       active control:usual care 0    0  0.41      .   0.41     .     .       .
+                                                                                              atDCS+usual care:attention control 0    0 -0.00      .  -0.00     .     .       .
+                                                                                                            atDCS+usual care:CBT 0    0  0.33      .   0.33     .     .       .
+                                                                                           atDCS+usual care:CBT+drTMS+usual care 0    0  2.42      .   2.42     .     .       .
+                                                             atDCS+usual care:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  0.22      .   0.22     .     .       .
+                                                                        atDCS+usual care:CBT+humanistic psychotherapy+usual care 0    0 -0.11      .  -0.11     .     .       .
+                                                                                                 atDCS+usual care:CBT+usual care 0    0  0.31      .   0.31     .     .       .
+                                                                                             atDCS+usual care:cognitive training 0    0  0.05      .   0.05     .     .       .
+                                                                                               atDCS+usual care:dtDCS+usual care 0    0 -0.57      .  -0.57     .     .       .
+                                                                                          atDCS+usual care:fluoxetine+usual care 0    0 -0.10      .  -0.10     .     .       .
+                                                                                                           atDCS+usual care:GACT 0    0 -0.56      .  -0.56     .     .       .
+                                                                      atDCS+usual care:group psychotherapy+fluoxetine+usual care 0    0  1.79      .   1.79     .     .       .
+                                                                                   atDCS+usual care:HFrTMS+fluoxetine+usual care 0    0  2.63      .   2.63     .     .       .
+                                                                                              atDCS+usual care:HFrTMS+usual care 0    0  0.40      .   0.40     .     .       .
+                                                                                                atDCS+usual care:iTBS+usual care 0    0  0.25      .   0.25     .     .       .
+                                                                                   atDCS+usual care:LFrTMS+fluoxetine+usual care 0    0  3.29      .   3.29     .     .       .
+                                                                                                    atDCS+usual care:mindfulness 0    0 -0.56      .  -0.56     .     .       .
+                                                                                         atDCS+usual care:mindfulness+usual care 1 0.58  1.05  -0.10   2.66 -2.76 -1.50  0.1331
+                                                                           atDCS+usual care:motivational interviewing+usual care 0    0  0.54      .   0.54     .     .       .
+                                                                                       atDCS+usual care:motor imagery+usual care 0    0  0.52      .   0.52     .     .       .
+                                                                                   atDCS+usual care:narrative therapy+usual care 0    0  4.59      .   4.59     .     .       .
+                                                                                                atDCS+usual care:psychoeducation 0    0 -0.68      .  -0.68     .     .       .
+                                   atDCS+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  0.98      .   0.98     .     .       .
+                                                                                          atDCS+usual care:relaxation+usual care 0    0  0.18      .   0.18     .     .       .
+                                                                                atDCS+usual care:reminiscence therapy+usual care 0    0 -1.03      .  -1.03     .     .       .
+                                                                                     atDCS+usual care:sham+fluoxetine+usual care 0    0 -0.51      .  -0.51     .     .       .
+                                                                                                atDCS+usual care:sham+usual care 1 0.67 -1.23  -0.87  -1.96  1.09  0.56  0.5736
+                                                                            atDCS+usual care:supportive psychotherapy+usual care 0    0  1.08      .   1.08     .     .       .
+                                                                                    atDCS+usual care:trazodone+HFrTMS+usual care 0    0  0.93      .   0.93     .     .       .
+                                                                                           atDCS+usual care:trazodone+usual care 0    0  0.12      .   0.12     .     .       .
+                                                                                                     atDCS+usual care:usual care 1 0.58 -0.65  -0.20  -1.26  1.06  0.60  0.5460
+                                                                                                           attention control:CBT 1 0.88  0.33   0.00   2.74 -2.74 -0.88  0.3788
+                                                                                          attention control:CBT+drTMS+usual care 0    0  2.42      .   2.42     .     .       .
+                                                            attention control:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  0.22      .   0.22     .     .       .
+                                                                       attention control:CBT+humanistic psychotherapy+usual care 0    0 -0.11      .  -0.11     .     .       .
+                                                                                                attention control:CBT+usual care 0    0  0.31      .   0.31     .     .       .
+                                                                                            attention control:cognitive training 0    0  0.05      .   0.05     .     .       .
+                                                                                              attention control:dtDCS+usual care 0    0 -0.57      .  -0.57     .     .       .
+                                                                                         attention control:fluoxetine+usual care 0    0 -0.09      .  -0.09     .     .       .
+                                                                                                          attention control:GACT 0    0 -0.56      .  -0.56     .     .       .
+                                                                     attention control:group psychotherapy+fluoxetine+usual care 0    0  1.79      .   1.79     .     .       .
+                                                                                  attention control:HFrTMS+fluoxetine+usual care 0    0  2.63      .   2.63     .     .       .
+                                                                                             attention control:HFrTMS+usual care 0    0  0.40      .   0.40     .     .       .
+                                                                                               attention control:iTBS+usual care 0    0  0.25      .   0.25     .     .       .
+                                                                                  attention control:LFrTMS+fluoxetine+usual care 0    0  3.30      .   3.30     .     .       .
+                                                                                                   attention control:mindfulness 0    0 -0.56      .  -0.56     .     .       .
+                                                                                        attention control:mindfulness+usual care 0    0  1.05      .   1.05     .     .       .
+                                                                          attention control:motivational interviewing+usual care 0    0  0.54      .   0.54     .     .       .
+                                                                                      attention control:motor imagery+usual care 0    0  0.52      .   0.52     .     .       .
+                                                                                  attention control:narrative therapy+usual care 0    0  4.59      .   4.59     .     .       .
+                                                                                               attention control:psychoeducation 0    0 -0.68      .  -0.68     .     .       .
+                                  attention control:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  0.99      .   0.99     .     .       .
+                                                                                         attention control:relaxation+usual care 0    0  0.18      .   0.18     .     .       .
+                                                                               attention control:reminiscence therapy+usual care 0    0 -1.03      .  -1.03     .     .       .
+                                                                                    attention control:sham+fluoxetine+usual care 0    0 -0.51      .  -0.51     .     .       .
+                                                                                               attention control:sham+usual care 0    0 -1.23      .  -1.23     .     .       .
+                                                                           attention control:supportive psychotherapy+usual care 0    0  1.08      .   1.08     .     .       .
+                                                                                   attention control:trazodone+HFrTMS+usual care 0    0  0.94      .   0.94     .     .       .
+                                                                                          attention control:trazodone+usual care 0    0  0.12      .   0.12     .     .       .
+                                                                                                    attention control:usual care 1 0.88 -0.65  -0.32  -3.06  2.74  0.88  0.3788
+                                                                                                        CBT:CBT+drTMS+usual care 0    0  2.09      .   2.09     .     .       .
+                                                                          CBT:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0 -0.11      .  -0.11     .     .       .
+                                                                                     CBT:CBT+humanistic psychotherapy+usual care 0    0 -0.45      .  -0.45     .     .       .
+                                                                                                              CBT:CBT+usual care 0    0 -0.02      .  -0.02     .     .       .
+                                                                                                          CBT:cognitive training 1 1.00 -0.29  -0.29      .     .     .       .
+                                                                                                            CBT:dtDCS+usual care 0    0 -0.90      .  -0.90     .     .       .
+                                                                                                       CBT:fluoxetine+usual care 0    0 -0.43      .  -0.43     .     .       .
+                                                                                                                        CBT:GACT 0    0 -0.89      .  -0.89     .     .       .
+                                                                                   CBT:group psychotherapy+fluoxetine+usual care 0    0  1.46      .   1.46     .     .       .
+                                                                                                CBT:HFrTMS+fluoxetine+usual care 0    0  2.29      .   2.29     .     .       .
+                                                                                                           CBT:HFrTMS+usual care 0    0  0.07      .   0.07     .     .       .
+                                                                                                             CBT:iTBS+usual care 0    0 -0.08      .  -0.08     .     .       .
+                                                                                                CBT:LFrTMS+fluoxetine+usual care 0    0  2.96      .   2.96     .     .       .
+                                                                                                                 CBT:mindfulness 0    0 -0.90      .  -0.90     .     .       .
+                                                                                                      CBT:mindfulness+usual care 0    0  0.71      .   0.71     .     .       .
+                                                                                        CBT:motivational interviewing+usual care 0    0  0.21      .   0.21     .     .       .
+                                                                                                    CBT:motor imagery+usual care 0    0  0.19      .   0.19     .     .       .
+                                                                                                CBT:narrative therapy+usual care 0    0  4.26      .   4.26     .     .       .
+                                                                                                             CBT:psychoeducation 1 0.71 -1.01  -1.69   0.67 -2.36 -1.08  0.2805
+                                                CBT:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  0.65      .   0.65     .     .       .
+                                                                                                       CBT:relaxation+usual care 0    0 -0.15      .  -0.15     .     .       .
+                                                                                             CBT:reminiscence therapy+usual care 0    0 -1.37      .  -1.37     .     .       .
+                                                                                                  CBT:sham+fluoxetine+usual care 0    0 -0.84      .  -0.84     .     .       .
+                                                                                                             CBT:sham+usual care 0    0 -1.57      .  -1.57     .     .       .
+                                                                                         CBT:supportive psychotherapy+usual care 0    0  0.75      .   0.75     .     .       .
+                                                                                                 CBT:trazodone+HFrTMS+usual care 0    0  0.60      .   0.60     .     .       .
+                                                                                                        CBT:trazodone+usual care 0    0 -0.21      .  -0.21     .     .       .
+                                                                                                                  CBT:usual care 2 0.96 -0.98  -0.86  -4.00  3.15  0.80  0.4245
+                                                         CBT+drTMS+usual care:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0 -2.20      .  -2.20     .     .       .
+                                                                    CBT+drTMS+usual care:CBT+humanistic psychotherapy+usual care 0    0 -2.54      .  -2.54     .     .       .
+                                                                                             CBT+drTMS+usual care:CBT+usual care 0    0 -2.11      .  -2.11     .     .       .
+                                                                                         CBT+drTMS+usual care:cognitive training 0    0 -2.38      .  -2.38     .     .       .
+                                                                                           CBT+drTMS+usual care:dtDCS+usual care 0    0 -2.99      .  -2.99     .     .       .
+                                                                                      CBT+drTMS+usual care:fluoxetine+usual care 0    0 -2.52      .  -2.52     .     .       .
+                                                                                                       CBT+drTMS+usual care:GACT 0    0 -2.98      .  -2.98     .     .       .
+                                                                  CBT+drTMS+usual care:group psychotherapy+fluoxetine+usual care 0    0 -0.63      .  -0.63     .     .       .
+                                                                               CBT+drTMS+usual care:HFrTMS+fluoxetine+usual care 0    0  0.20      .   0.20     .     .       .
+                                                                                          CBT+drTMS+usual care:HFrTMS+usual care 0    0 -2.02      .  -2.02     .     .       .
+                                                                                            CBT+drTMS+usual care:iTBS+usual care 0    0 -2.17      .  -2.17     .     .       .
+                                                                               CBT+drTMS+usual care:LFrTMS+fluoxetine+usual care 0    0  0.87      .   0.87     .     .       .
+                                                                                                CBT+drTMS+usual care:mindfulness 0    0 -2.99      .  -2.99     .     .       .
+                                                                                     CBT+drTMS+usual care:mindfulness+usual care 0    0 -1.38      .  -1.38     .     .       .
+                                                                       CBT+drTMS+usual care:motivational interviewing+usual care 0    0 -1.88      .  -1.88     .     .       .
+                                                                                   CBT+drTMS+usual care:motor imagery+usual care 0    0 -1.90      .  -1.90     .     .       .
+                                                                               CBT+drTMS+usual care:narrative therapy+usual care 0    0  2.17      .   2.17     .     .       .
+                                                                                            CBT+drTMS+usual care:psychoeducation 0    0 -3.10      .  -3.10     .     .       .
+                               CBT+drTMS+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0 -1.44      .  -1.44     .     .       .
+                                                                                      CBT+drTMS+usual care:relaxation+usual care 0    0 -2.24      .  -2.24     .     .       .
+                                                                            CBT+drTMS+usual care:reminiscence therapy+usual care 0    0 -3.45      .  -3.45     .     .       .
+                                                                                 CBT+drTMS+usual care:sham+fluoxetine+usual care 0    0 -2.93      .  -2.93     .     .       .
+                                                                                            CBT+drTMS+usual care:sham+usual care 0    0 -3.65      .  -3.65     .     .       .
+                                                                        CBT+drTMS+usual care:supportive psychotherapy+usual care 0    0 -1.34      .  -1.34     .     .       .
+                                                                                CBT+drTMS+usual care:trazodone+HFrTMS+usual care 0    0 -1.49      .  -1.49     .     .       .
+                                                                                       CBT+drTMS+usual care:trazodone+usual care 0    0 -2.30      .  -2.30     .     .       .
+                                                                                                 CBT+drTMS+usual care:usual care 1 1.00 -3.07  -3.07      .     .     .       .
+                                      CBT+humanistic psychotherapy+fluoxetine+usual care:CBT+humanistic psychotherapy+usual care 1 0.87 -0.33  -0.30  -0.55  0.24  0.08  0.9359
+                                                               CBT+humanistic psychotherapy+fluoxetine+usual care:CBT+usual care 0    0  0.09      .   0.09     .     .       .
+                                                           CBT+humanistic psychotherapy+fluoxetine+usual care:cognitive training 0    0 -0.17      .  -0.17     .     .       .
+                                                             CBT+humanistic psychotherapy+fluoxetine+usual care:dtDCS+usual care 0    0 -0.79      .  -0.79     .     .       .
+                                                        CBT+humanistic psychotherapy+fluoxetine+usual care:fluoxetine+usual care 1 0.90 -0.32  -0.31  -0.34  0.03  0.01  0.9939
+                                                                         CBT+humanistic psychotherapy+fluoxetine+usual care:GACT 0    0 -0.78      .  -0.78     .     .       .
+                                    CBT+humanistic psychotherapy+fluoxetine+usual care:group psychotherapy+fluoxetine+usual care 0    0  1.57      .   1.57     .     .       .
+                                                 CBT+humanistic psychotherapy+fluoxetine+usual care:HFrTMS+fluoxetine+usual care 0    0  2.40      .   2.40     .     .       .
+                                                            CBT+humanistic psychotherapy+fluoxetine+usual care:HFrTMS+usual care 0    0  0.18      .   0.18     .     .       .
+                                                              CBT+humanistic psychotherapy+fluoxetine+usual care:iTBS+usual care 0    0  0.03      .   0.03     .     .       .
+                                                 CBT+humanistic psychotherapy+fluoxetine+usual care:LFrTMS+fluoxetine+usual care 0    0  3.07      .   3.07     .     .       .
+                                                                  CBT+humanistic psychotherapy+fluoxetine+usual care:mindfulness 0    0 -0.79      .  -0.79     .     .       .
+                                                       CBT+humanistic psychotherapy+fluoxetine+usual care:mindfulness+usual care 0    0  0.82      .   0.82     .     .       .
+                                         CBT+humanistic psychotherapy+fluoxetine+usual care:motivational interviewing+usual care 0    0  0.32      .   0.32     .     .       .
+                                                     CBT+humanistic psychotherapy+fluoxetine+usual care:motor imagery+usual care 0    0  0.30      .   0.30     .     .       .
+                                                 CBT+humanistic psychotherapy+fluoxetine+usual care:narrative therapy+usual care 0    0  4.37      .   4.37     .     .       .
+                                                              CBT+humanistic psychotherapy+fluoxetine+usual care:psychoeducation 0    0 -0.90      .  -0.90     .     .       .
+ CBT+humanistic psychotherapy+fluoxetine+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  0.76      .   0.76     .     .       .
+                                                        CBT+humanistic psychotherapy+fluoxetine+usual care:relaxation+usual care 0    0 -0.04      .  -0.04     .     .       .
+                                              CBT+humanistic psychotherapy+fluoxetine+usual care:reminiscence therapy+usual care 0    0 -1.25      .  -1.25     .     .       .
+                                                   CBT+humanistic psychotherapy+fluoxetine+usual care:sham+fluoxetine+usual care 0    0 -0.73      .  -0.73     .     .       .
+                                                              CBT+humanistic psychotherapy+fluoxetine+usual care:sham+usual care 0    0 -1.45      .  -1.45     .     .       .
+                                          CBT+humanistic psychotherapy+fluoxetine+usual care:supportive psychotherapy+usual care 0    0  0.86      .   0.86     .     .       .
+                                                  CBT+humanistic psychotherapy+fluoxetine+usual care:trazodone+HFrTMS+usual care 0    0  0.71      .   0.71     .     .       .
+                                                         CBT+humanistic psychotherapy+fluoxetine+usual care:trazodone+usual care 0    0 -0.10      .  -0.10     .     .       .
+                                                                   CBT+humanistic psychotherapy+fluoxetine+usual care:usual care 1 0.82 -0.87  -0.91  -0.71 -0.19 -0.07  0.9406
+                                                                          CBT+humanistic psychotherapy+usual care:CBT+usual care 0    0  0.43      .   0.43     .     .       .
+                                                                      CBT+humanistic psychotherapy+usual care:cognitive training 0    0  0.16      .   0.16     .     .       .
+                                                                        CBT+humanistic psychotherapy+usual care:dtDCS+usual care 0    0 -0.45      .  -0.45     .     .       .
+                                                                   CBT+humanistic psychotherapy+usual care:fluoxetine+usual care 1 0.72  0.02  -0.01   0.10 -0.11 -0.05  0.9596
+                                                                                    CBT+humanistic psychotherapy+usual care:GACT 0    0 -0.45      .  -0.45     .     .       .
+                                               CBT+humanistic psychotherapy+usual care:group psychotherapy+fluoxetine+usual care 0    0  1.90      .   1.90     .     .       .
+                                                            CBT+humanistic psychotherapy+usual care:HFrTMS+fluoxetine+usual care 0    0  2.74      .   2.74     .     .       .
+                                                                       CBT+humanistic psychotherapy+usual care:HFrTMS+usual care 0    0  0.51      .   0.51     .     .       .
+                                                                         CBT+humanistic psychotherapy+usual care:iTBS+usual care 0    0  0.36      .   0.36     .     .       .
+                                                            CBT+humanistic psychotherapy+usual care:LFrTMS+fluoxetine+usual care 0    0  3.41      .   3.41     .     .       .
+                                                                             CBT+humanistic psychotherapy+usual care:mindfulness 0    0 -0.45      .  -0.45     .     .       .
+                                                                  CBT+humanistic psychotherapy+usual care:mindfulness+usual care 0    0  1.16      .   1.16     .     .       .
+                                                    CBT+humanistic psychotherapy+usual care:motivational interviewing+usual care 0    0  0.65      .   0.65     .     .       .
+                                                                CBT+humanistic psychotherapy+usual care:motor imagery+usual care 0    0  0.64      .   0.64     .     .       .
+                                                            CBT+humanistic psychotherapy+usual care:narrative therapy+usual care 0    0  4.71      .   4.71     .     .       .
+                                                                         CBT+humanistic psychotherapy+usual care:psychoeducation 0    0 -0.57      .  -0.57     .     .       .
+            CBT+humanistic psychotherapy+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.10      .   1.10     .     .       .
+                                                                   CBT+humanistic psychotherapy+usual care:relaxation+usual care 0    0  0.29      .   0.29     .     .       .
+                                                         CBT+humanistic psychotherapy+usual care:reminiscence therapy+usual care 0    0 -0.92      .  -0.92     .     .       .
+                                                              CBT+humanistic psychotherapy+usual care:sham+fluoxetine+usual care 0    0 -0.39      .  -0.39     .     .       .
+                                                                         CBT+humanistic psychotherapy+usual care:sham+usual care 0    0 -1.12      .  -1.12     .     .       .
+                                                     CBT+humanistic psychotherapy+usual care:supportive psychotherapy+usual care 0    0  1.20      .   1.20     .     .       .
+                                                             CBT+humanistic psychotherapy+usual care:trazodone+HFrTMS+usual care 0    0  1.05      .   1.05     .     .       .
+                                                                    CBT+humanistic psychotherapy+usual care:trazodone+usual care 0    0  0.23      .   0.23     .     .       .
+                                                                              CBT+humanistic psychotherapy+usual care:usual care 2 0.95 -0.54  -0.54  -0.51 -0.03 -0.01  0.9938
+                                                                                               CBT+usual care:cognitive training 0    0 -0.27      .  -0.27     .     .       .
+                                                                                                 CBT+usual care:dtDCS+usual care 0    0 -0.88      .  -0.88     .     .       .
+                                                                                            CBT+usual care:fluoxetine+usual care 0    0 -0.41      .  -0.41     .     .       .
+                                                                                                             CBT+usual care:GACT 0    0 -0.87      .  -0.87     .     .       .
+                                                                        CBT+usual care:group psychotherapy+fluoxetine+usual care 0    0  1.48      .   1.48     .     .       .
+                                                                                     CBT+usual care:HFrTMS+fluoxetine+usual care 0    0  2.31      .   2.31     .     .       .
+                                                                                                CBT+usual care:HFrTMS+usual care 0    0  0.09      .   0.09     .     .       .
+                                                                                                  CBT+usual care:iTBS+usual care 0    0 -0.06      .  -0.06     .     .       .
+                                                                                     CBT+usual care:LFrTMS+fluoxetine+usual care 0    0  2.98      .   2.98     .     .       .
+                                                                                                      CBT+usual care:mindfulness 0    0 -0.88      .  -0.88     .     .       .
+                                                                                           CBT+usual care:mindfulness+usual care 1 0.39  0.73  -0.40   1.46 -1.86 -1.26  0.2091
+                                                                             CBT+usual care:motivational interviewing+usual care 0    0  0.23      .   0.23     .     .       .
+                                                                                         CBT+usual care:motor imagery+usual care 0    0  0.21      .   0.21     .     .       .
+                                                                                     CBT+usual care:narrative therapy+usual care 0    0  4.28      .   4.28     .     .       .
+                                                                                                  CBT+usual care:psychoeducation 0    0 -0.99      .  -0.99     .     .       .
+                                     CBT+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  0.67      .   0.67     .     .       .
+                                                                                            CBT+usual care:relaxation+usual care 0    0 -0.13      .  -0.13     .     .       .
+                                                                                  CBT+usual care:reminiscence therapy+usual care 0    0 -1.35      .  -1.35     .     .       .
+                                                                                       CBT+usual care:sham+fluoxetine+usual care 0    0 -0.82      .  -0.82     .     .       .
+                                                                                                  CBT+usual care:sham+usual care 0    0 -1.55      .  -1.55     .     .       .
+                                                                              CBT+usual care:supportive psychotherapy+usual care 0    0  0.77      .   0.77     .     .       .
+                                                                                      CBT+usual care:trazodone+HFrTMS+usual care 0    0  0.62      .   0.62     .     .       .
+                                                                                             CBT+usual care:trazodone+usual care 0    0 -0.19      .  -0.19     .     .       .
+                                                                                                       CBT+usual care:usual care 2 0.72 -0.96  -0.44  -2.31  1.86  1.26  0.2091
+                                                                                             cognitive training:dtDCS+usual care 0    0 -0.61      .  -0.61     .     .       .
+                                                                                        cognitive training:fluoxetine+usual care 0    0 -0.14      .  -0.14     .     .       .
+                                                                                                         cognitive training:GACT 0    0 -0.61      .  -0.61     .     .       .
+                                                                    cognitive training:group psychotherapy+fluoxetine+usual care 0    0  1.74      .   1.74     .     .       .
+                                                                                 cognitive training:HFrTMS+fluoxetine+usual care 0    0  2.58      .   2.58     .     .       .
+                                                                                            cognitive training:HFrTMS+usual care 0    0  0.35      .   0.35     .     .       .
+                                                                                              cognitive training:iTBS+usual care 0    0  0.20      .   0.20     .     .       .
+                                                                                 cognitive training:LFrTMS+fluoxetine+usual care 0    0  3.25      .   3.25     .     .       .
+                                                                                                  cognitive training:mindfulness 0    0 -0.61      .  -0.61     .     .       .
+                                                                                       cognitive training:mindfulness+usual care 0    0  1.00      .   1.00     .     .       .
+                                                                         cognitive training:motivational interviewing+usual care 0    0  0.49      .   0.49     .     .       .
+                                                                                     cognitive training:motor imagery+usual care 0    0  0.48      .   0.48     .     .       .
+                                                                                 cognitive training:narrative therapy+usual care 0    0  4.55      .   4.55     .     .       .
+                                                                                              cognitive training:psychoeducation 0    0 -0.73      .  -0.73     .     .       .
+                                 cognitive training:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  0.94      .   0.94     .     .       .
+                                                                                        cognitive training:relaxation+usual care 0    0  0.13      .   0.13     .     .       .
+                                                                              cognitive training:reminiscence therapy+usual care 0    0 -1.08      .  -1.08     .     .       .
+                                                                                   cognitive training:sham+fluoxetine+usual care 0    0 -0.55      .  -0.55     .     .       .
+                                                                                              cognitive training:sham+usual care 0    0 -1.28      .  -1.28     .     .       .
+                                                                          cognitive training:supportive psychotherapy+usual care 0    0  1.04      .   1.04     .     .       .
+                                                                                  cognitive training:trazodone+HFrTMS+usual care 0    0  0.89      .   0.89     .     .       .
+                                                                                         cognitive training:trazodone+usual care 0    0  0.07      .   0.07     .     .       .
+                                                                                                   cognitive training:usual care 0    0 -0.70      .  -0.70     .     .       .
+                                                                                          dtDCS+usual care:fluoxetine+usual care 0    0  0.47      .   0.47     .     .       .
+                                                                                                           dtDCS+usual care:GACT 0    0  0.01      .   0.01     .     .       .
+                                                                      dtDCS+usual care:group psychotherapy+fluoxetine+usual care 0    0  2.36      .   2.36     .     .       .
+                                                                                   dtDCS+usual care:HFrTMS+fluoxetine+usual care 0    0  3.19      .   3.19     .     .       .
+                                                                                              dtDCS+usual care:HFrTMS+usual care 0    0  0.97      .   0.97     .     .       .
+                                                                                                dtDCS+usual care:iTBS+usual care 0    0  0.82      .   0.82     .     .       .
+                                                                                   dtDCS+usual care:LFrTMS+fluoxetine+usual care 0    0  3.86      .   3.86     .     .       .
+                                                                                                    dtDCS+usual care:mindfulness 0    0  0.00      .   0.00     .     .       .
+                                                                                         dtDCS+usual care:mindfulness+usual care 0    0  1.61      .   1.61     .     .       .
+                                                                           dtDCS+usual care:motivational interviewing+usual care 0    0  1.11      .   1.11     .     .       .
+                                                                                       dtDCS+usual care:motor imagery+usual care 0    0  1.09      .   1.09     .     .       .
+                                                                                   dtDCS+usual care:narrative therapy+usual care 0    0  5.16      .   5.16     .     .       .
+                                                                                                dtDCS+usual care:psychoeducation 0    0 -0.11      .  -0.11     .     .       .
+                                   dtDCS+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.55      .   1.55     .     .       .
+                                                                                          dtDCS+usual care:relaxation+usual care 0    0  0.75      .   0.75     .     .       .
+                                                                                dtDCS+usual care:reminiscence therapy+usual care 0    0 -0.46      .  -0.46     .     .       .
+                                                                                     dtDCS+usual care:sham+fluoxetine+usual care 0    0  0.06      .   0.06     .     .       .
+                                                                                                dtDCS+usual care:sham+usual care 1 1.00 -0.66  -0.66      .     .     .       .
+                                                                            dtDCS+usual care:supportive psychotherapy+usual care 0    0  1.65      .   1.65     .     .       .
+                                                                                    dtDCS+usual care:trazodone+HFrTMS+usual care 0    0  1.50      .   1.50     .     .       .
+                                                                                           dtDCS+usual care:trazodone+usual care 0    0  0.69      .   0.69     .     .       .
+                                                                                                     dtDCS+usual care:usual care 0    0 -0.08      .  -0.08     .     .       .
+                                                                                                      fluoxetine+usual care:GACT 0    0 -0.47      .  -0.47     .     .       .
+                                                                 fluoxetine+usual care:group psychotherapy+fluoxetine+usual care 2 1.00  1.88   1.88      .     .     .       .
+                                                                              fluoxetine+usual care:HFrTMS+fluoxetine+usual care 1 1.00  2.72   2.72      .     .     .       .
+                                                                                         fluoxetine+usual care:HFrTMS+usual care 1 0.61  0.49   0.50   0.49  0.01  0.01  0.9938
+                                                                                           fluoxetine+usual care:iTBS+usual care 0    0  0.34      .   0.34     .     .       .
+                                                                              fluoxetine+usual care:LFrTMS+fluoxetine+usual care 1 1.00  3.39   3.39      .     .     .       .
+                                                                                               fluoxetine+usual care:mindfulness 0    0 -0.47      .  -0.47     .     .       .
+                                                                                    fluoxetine+usual care:mindfulness+usual care 0    0  1.14      .   1.14     .     .       .
+                                                                      fluoxetine+usual care:motivational interviewing+usual care 0    0  0.63      .   0.63     .     .       .
+                                                                                  fluoxetine+usual care:motor imagery+usual care 0    0  0.62      .   0.62     .     .       .
+                                                                              fluoxetine+usual care:narrative therapy+usual care 0    0  4.69      .   4.69     .     .       .
+                                                                                           fluoxetine+usual care:psychoeducation 0    0 -0.58      .  -0.58     .     .       .
+                              fluoxetine+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.08      .   1.08     .     .       .
+                                                                                     fluoxetine+usual care:relaxation+usual care 0    0  0.28      .   0.28     .     .       .
+                                                                           fluoxetine+usual care:reminiscence therapy+usual care 0    0 -0.94      .  -0.94     .     .       .
+                                                                                fluoxetine+usual care:sham+fluoxetine+usual care 0    0 -0.41      .  -0.41     .     .       .
+                                                                                           fluoxetine+usual care:sham+usual care 0    0 -1.14      .  -1.14     .     .       .
+                                                                       fluoxetine+usual care:supportive psychotherapy+usual care 0    0  1.18      .   1.18     .     .       .
+                                                                               fluoxetine+usual care:trazodone+HFrTMS+usual care 0    0  1.03      .   1.03     .     .       .
+                                                                                      fluoxetine+usual care:trazodone+usual care 0    0  0.21      .   0.21     .     .       .
+                                                                                                fluoxetine+usual care:usual care 1 0.58 -0.56  -0.59  -0.50 -0.09 -0.05  0.9583
+                                                                                  GACT:group psychotherapy+fluoxetine+usual care 0    0  2.35      .   2.35     .     .       .
+                                                                                               GACT:HFrTMS+fluoxetine+usual care 0    0  3.19      .   3.19     .     .       .
+                                                                                                          GACT:HFrTMS+usual care 0    0  0.96      .   0.96     .     .       .
+                                                                                                            GACT:iTBS+usual care 0    0  0.81      .   0.81     .     .       .
+                                                                                               GACT:LFrTMS+fluoxetine+usual care 0    0  3.86      .   3.86     .     .       .
+                                                                                                                GACT:mindfulness 0    0 -0.00      .  -0.00     .     .       .
+                                                                                                     GACT:mindfulness+usual care 0    0  1.61      .   1.61     .     .       .
+                                                                                       GACT:motivational interviewing+usual care 0    0  1.10      .   1.10     .     .       .
+                                                                                                   GACT:motor imagery+usual care 0    0  1.08      .   1.08     .     .       .
+                                                                                               GACT:narrative therapy+usual care 0    0  5.15      .   5.15     .     .       .
+                                                                                                            GACT:psychoeducation 0    0 -0.12      .  -0.12     .     .       .
+                                               GACT:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.54      .   1.54     .     .       .
+                                                                                                      GACT:relaxation+usual care 0    0  0.74      .   0.74     .     .       .
+                                                                                            GACT:reminiscence therapy+usual care 0    0 -0.47      .  -0.47     .     .       .
+                                                                                                 GACT:sham+fluoxetine+usual care 0    0  0.05      .   0.05     .     .       .
+                                                                                                            GACT:sham+usual care 0    0 -0.67      .  -0.67     .     .       .
+                                                                                        GACT:supportive psychotherapy+usual care 0    0  1.64      .   1.64     .     .       .
+                                                                                                GACT:trazodone+HFrTMS+usual care 0    0  1.49      .   1.49     .     .       .
+                                                                                                       GACT:trazodone+usual care 0    0  0.68      .   0.68     .     .       .
+                                                                                                                 GACT:usual care 1 1.00 -0.09  -0.09      .     .     .       .
+                                                          group psychotherapy+fluoxetine+usual care:HFrTMS+fluoxetine+usual care 0    0  0.84      .   0.84     .     .       .
+                                                                     group psychotherapy+fluoxetine+usual care:HFrTMS+usual care 0    0 -1.39      .  -1.39     .     .       .
+                                                                       group psychotherapy+fluoxetine+usual care:iTBS+usual care 0    0 -1.54      .  -1.54     .     .       .
+                                                          group psychotherapy+fluoxetine+usual care:LFrTMS+fluoxetine+usual care 0    0  1.51      .   1.51     .     .       .
+                                                                           group psychotherapy+fluoxetine+usual care:mindfulness 0    0 -2.35      .  -2.35     .     .       .
+                                                                group psychotherapy+fluoxetine+usual care:mindfulness+usual care 0    0 -0.74      .  -0.74     .     .       .
+                                                  group psychotherapy+fluoxetine+usual care:motivational interviewing+usual care 0    0 -1.25      .  -1.25     .     .       .
+                                                              group psychotherapy+fluoxetine+usual care:motor imagery+usual care 0    0 -1.27      .  -1.27     .     .       .
+                                                          group psychotherapy+fluoxetine+usual care:narrative therapy+usual care 0    0  2.80      .   2.80     .     .       .
+                                                                       group psychotherapy+fluoxetine+usual care:psychoeducation 0    0 -2.47      .  -2.47     .     .       .
+          group psychotherapy+fluoxetine+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0 -0.80      .  -0.80     .     .       .
+                                                                 group psychotherapy+fluoxetine+usual care:relaxation+usual care 0    0 -1.61      .  -1.61     .     .       .
+                                                       group psychotherapy+fluoxetine+usual care:reminiscence therapy+usual care 0    0 -2.82      .  -2.82     .     .       .
+                                                            group psychotherapy+fluoxetine+usual care:sham+fluoxetine+usual care 0    0 -2.30      .  -2.30     .     .       .
+                                                                       group psychotherapy+fluoxetine+usual care:sham+usual care 0    0 -3.02      .  -3.02     .     .       .
+                                                   group psychotherapy+fluoxetine+usual care:supportive psychotherapy+usual care 0    0 -0.71      .  -0.71     .     .       .
+                                                           group psychotherapy+fluoxetine+usual care:trazodone+HFrTMS+usual care 0    0 -0.85      .  -0.85     .     .       .
+                                                                  group psychotherapy+fluoxetine+usual care:trazodone+usual care 0    0 -1.67      .  -1.67     .     .       .
+                                                                            group psychotherapy+fluoxetine+usual care:usual care 0    0 -2.44      .  -2.44     .     .       .
+                                                                                  HFrTMS+fluoxetine+usual care:HFrTMS+usual care 0    0 -2.23      .  -2.23     .     .       .
+                                                                                    HFrTMS+fluoxetine+usual care:iTBS+usual care 0    0 -2.38      .  -2.38     .     .       .
+                                                                       HFrTMS+fluoxetine+usual care:LFrTMS+fluoxetine+usual care 0    0  0.67      .   0.67     .     .       .
+                                                                                        HFrTMS+fluoxetine+usual care:mindfulness 0    0 -3.19      .  -3.19     .     .       .
+                                                                             HFrTMS+fluoxetine+usual care:mindfulness+usual care 0    0 -1.58      .  -1.58     .     .       .
+                                                               HFrTMS+fluoxetine+usual care:motivational interviewing+usual care 0    0 -2.09      .  -2.09     .     .       .
+                                                                           HFrTMS+fluoxetine+usual care:motor imagery+usual care 0    0 -2.10      .  -2.10     .     .       .
+                                                                       HFrTMS+fluoxetine+usual care:narrative therapy+usual care 0    0  1.97      .   1.97     .     .       .
+                                                                                    HFrTMS+fluoxetine+usual care:psychoeducation 0    0 -3.31      .  -3.31     .     .       .
+                       HFrTMS+fluoxetine+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0 -1.64      .  -1.64     .     .       .
+                                                                              HFrTMS+fluoxetine+usual care:relaxation+usual care 0    0 -2.44      .  -2.44     .     .       .
+                                                                    HFrTMS+fluoxetine+usual care:reminiscence therapy+usual care 0    0 -3.66      .  -3.66     .     .       .
+                                                                         HFrTMS+fluoxetine+usual care:sham+fluoxetine+usual care 1 1.00 -3.13  -3.13      .     .     .       .
+                                                                                    HFrTMS+fluoxetine+usual care:sham+usual care 0    0 -3.86      .  -3.86     .     .       .
+                                                                HFrTMS+fluoxetine+usual care:supportive psychotherapy+usual care 0    0 -1.54      .  -1.54     .     .       .
+                                                                        HFrTMS+fluoxetine+usual care:trazodone+HFrTMS+usual care 0    0 -1.69      .  -1.69     .     .       .
+                                                                               HFrTMS+fluoxetine+usual care:trazodone+usual care 0    0 -2.51      .  -2.51     .     .       .
+                                                                                         HFrTMS+fluoxetine+usual care:usual care 0    0 -3.28      .  -3.28     .     .       .
+                                                                                               HFrTMS+usual care:iTBS+usual care 1 0.86 -0.15   0.10  -1.70  1.80  0.60  0.5494
+                                                                                  HFrTMS+usual care:LFrTMS+fluoxetine+usual care 0    0  2.90      .   2.90     .     .       .
+                                                                                                   HFrTMS+usual care:mindfulness 0    0 -0.96      .  -0.96     .     .       .
+                                                                                        HFrTMS+usual care:mindfulness+usual care 0    0  0.65      .   0.65     .     .       .
+                                                                          HFrTMS+usual care:motivational interviewing+usual care 0    0  0.14      .   0.14     .     .       .
+                                                                                      HFrTMS+usual care:motor imagery+usual care 0    0  0.12      .   0.12     .     .       .
+                                                                                  HFrTMS+usual care:narrative therapy+usual care 0    0  4.19      .   4.19     .     .       .
+                                                                                               HFrTMS+usual care:psychoeducation 0    0 -1.08      .  -1.08     .     .       .
+                                  HFrTMS+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  0.59      .   0.59     .     .       .
+                                                                                         HFrTMS+usual care:relaxation+usual care 0    0 -0.22      .  -0.22     .     .       .
+                                                                               HFrTMS+usual care:reminiscence therapy+usual care 0    0 -1.43      .  -1.43     .     .       .
+                                                                                    HFrTMS+usual care:sham+fluoxetine+usual care 0    0 -0.91      .  -0.91     .     .       .
+                                                                                               HFrTMS+usual care:sham+usual care 2 0.82 -1.63  -1.83  -0.74 -1.09 -0.56  0.5736
+                                                                           HFrTMS+usual care:supportive psychotherapy+usual care 0    0  0.68      .   0.68     .     .       .
+                                                                                   HFrTMS+usual care:trazodone+HFrTMS+usual care 1 0.88  0.54   0.71  -0.75  1.46  0.46  0.6426
+                                                                                          HFrTMS+usual care:trazodone+usual care 1 0.88 -0.28  -0.11  -1.56  1.46  0.46  0.6426
+                                                                                                    HFrTMS+usual care:usual care 1 0.52 -1.05  -0.70  -1.43  0.73  0.46  0.6426
+                                                                                    iTBS+usual care:LFrTMS+fluoxetine+usual care 0    0  3.05      .   3.05     .     .       .
+                                                                                                     iTBS+usual care:mindfulness 0    0 -0.81      .  -0.81     .     .       .
+                                                                                          iTBS+usual care:mindfulness+usual care 0    0  0.80      .   0.80     .     .       .
+                                                                            iTBS+usual care:motivational interviewing+usual care 0    0  0.29      .   0.29     .     .       .
+                                                                                        iTBS+usual care:motor imagery+usual care 0    0  0.27      .   0.27     .     .       .
+                                                                                    iTBS+usual care:narrative therapy+usual care 0    0  4.34      .   4.34     .     .       .
+                                                                                                 iTBS+usual care:psychoeducation 0    0 -0.93      .  -0.93     .     .       .
+                                    iTBS+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  0.74      .   0.74     .     .       .
+                                                                                           iTBS+usual care:relaxation+usual care 0    0 -0.07      .  -0.07     .     .       .
+                                                                                 iTBS+usual care:reminiscence therapy+usual care 0    0 -1.28      .  -1.28     .     .       .
+                                                                                      iTBS+usual care:sham+fluoxetine+usual care 0    0 -0.76      .  -0.76     .     .       .
+                                                                                                 iTBS+usual care:sham+usual care 1 0.85 -1.48  -1.22  -3.00  1.78  0.60  0.5494
+                                                                             iTBS+usual care:supportive psychotherapy+usual care 0    0  0.83      .   0.83     .     .       .
+                                                                                     iTBS+usual care:trazodone+HFrTMS+usual care 0    0  0.69      .   0.69     .     .       .
+                                                                                            iTBS+usual care:trazodone+usual care 0    0 -0.13      .  -0.13     .     .       .
+                                                                                                      iTBS+usual care:usual care 0    0 -0.90      .  -0.90     .     .       .
+                                                                                        LFrTMS+fluoxetine+usual care:mindfulness 0    0 -3.86      .  -3.86     .     .       .
+                                                                             LFrTMS+fluoxetine+usual care:mindfulness+usual care 0    0 -2.25      .  -2.25     .     .       .
+                                                               LFrTMS+fluoxetine+usual care:motivational interviewing+usual care 0    0 -2.76      .  -2.76     .     .       .
+                                                                           LFrTMS+fluoxetine+usual care:motor imagery+usual care 0    0 -2.77      .  -2.77     .     .       .
+                                                                       LFrTMS+fluoxetine+usual care:narrative therapy+usual care 0    0  1.30      .   1.30     .     .       .
+                                                                                    LFrTMS+fluoxetine+usual care:psychoeducation 0    0 -3.97      .  -3.97     .     .       .
+                       LFrTMS+fluoxetine+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0 -2.31      .  -2.31     .     .       .
+                                                                              LFrTMS+fluoxetine+usual care:relaxation+usual care 0    0 -3.11      .  -3.11     .     .       .
+                                                                    LFrTMS+fluoxetine+usual care:reminiscence therapy+usual care 0    0 -4.33      .  -4.33     .     .       .
+                                                                         LFrTMS+fluoxetine+usual care:sham+fluoxetine+usual care 0    0 -3.80      .  -3.80     .     .       .
+                                                                                    LFrTMS+fluoxetine+usual care:sham+usual care 0    0 -4.53      .  -4.53     .     .       .
+                                                                LFrTMS+fluoxetine+usual care:supportive psychotherapy+usual care 0    0 -2.21      .  -2.21     .     .       .
+                                                                        LFrTMS+fluoxetine+usual care:trazodone+HFrTMS+usual care 0    0 -2.36      .  -2.36     .     .       .
+                                                                               LFrTMS+fluoxetine+usual care:trazodone+usual care 0    0 -3.18      .  -3.18     .     .       .
+                                                                                         LFrTMS+fluoxetine+usual care:usual care 0    0 -3.95      .  -3.95     .     .       .
+                                                                                              mindfulness:mindfulness+usual care 0    0  1.61      .   1.61     .     .       .
+                                                                                mindfulness:motivational interviewing+usual care 0    0  1.10      .   1.10     .     .       .
+                                                                                            mindfulness:motor imagery+usual care 0    0  1.09      .   1.09     .     .       .
+                                                                                        mindfulness:narrative therapy+usual care 0    0  5.16      .   5.16     .     .       .
+                                                                                                     mindfulness:psychoeducation 1 0.66 -0.12   0.41  -1.11  1.52  0.80  0.4245
+                                        mindfulness:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.55      .   1.55     .     .       .
+                                                                                               mindfulness:relaxation+usual care 0    0  0.74      .   0.74     .     .       .
+                                                                                     mindfulness:reminiscence therapy+usual care 0    0 -0.47      .  -0.47     .     .       .
+                                                                                          mindfulness:sham+fluoxetine+usual care 0    0  0.06      .   0.06     .     .       .
+                                                                                                     mindfulness:sham+usual care 0    0 -0.67      .  -0.67     .     .       .
+                                                                                 mindfulness:supportive psychotherapy+usual care 0    0  1.65      .   1.65     .     .       .
+                                                                                         mindfulness:trazodone+HFrTMS+usual care 0    0  1.50      .   1.50     .     .       .
+                                                                                                mindfulness:trazodone+usual care 0    0  0.68      .   0.68     .     .       .
+                                                                                                          mindfulness:usual care 1 0.66 -0.09  -0.60   0.92 -1.52 -0.80  0.4245
+                                                                     mindfulness+usual care:motivational interviewing+usual care 0    0 -0.51      .  -0.51     .     .       .
+                                                                                 mindfulness+usual care:motor imagery+usual care 0    0 -0.52      .  -0.52     .     .       .
+                                                                             mindfulness+usual care:narrative therapy+usual care 0    0  3.55      .   3.55     .     .       .
+                                                                                          mindfulness+usual care:psychoeducation 0    0 -1.73      .  -1.73     .     .       .
+                             mindfulness+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0 -0.06      .  -0.06     .     .       .
+                                                                                    mindfulness+usual care:relaxation+usual care 0    0 -0.86      .  -0.86     .     .       .
+                                                                          mindfulness+usual care:reminiscence therapy+usual care 0    0 -2.08      .  -2.08     .     .       .
+                                                                               mindfulness+usual care:sham+fluoxetine+usual care 0    0 -1.55      .  -1.55     .     .       .
+                                                                                          mindfulness+usual care:sham+usual care 0    0 -2.28      .  -2.28     .     .       .
+                                                                      mindfulness+usual care:supportive psychotherapy+usual care 0    0  0.04      .   0.04     .     .       .
+                                                                              mindfulness+usual care:trazodone+HFrTMS+usual care 0    0 -0.11      .  -0.11     .     .       .
+                                                                                     mindfulness+usual care:trazodone+usual care 0    0 -0.93      .  -0.93     .     .       .
+                                                                                               mindfulness+usual care:usual care 5 0.87 -1.70  -1.95   0.02 -1.97 -1.39  0.1645
+                                                                   motivational interviewing+usual care:motor imagery+usual care 0    0 -0.02      .  -0.02     .     .       .
+                                                               motivational interviewing+usual care:narrative therapy+usual care 0    0  4.05      .   4.05     .     .       .
+                                                                            motivational interviewing+usual care:psychoeducation 0    0 -1.22      .  -1.22     .     .       .
+               motivational interviewing+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  0.45      .   0.45     .     .       .
+                                                                      motivational interviewing+usual care:relaxation+usual care 0    0 -0.36      .  -0.36     .     .       .
+                                                            motivational interviewing+usual care:reminiscence therapy+usual care 0    0 -1.57      .  -1.57     .     .       .
+                                                                 motivational interviewing+usual care:sham+fluoxetine+usual care 0    0 -1.04      .  -1.04     .     .       .
+                                                                            motivational interviewing+usual care:sham+usual care 0    0 -1.77      .  -1.77     .     .       .
+                                                        motivational interviewing+usual care:supportive psychotherapy+usual care 0    0  0.55      .   0.55     .     .       .
+                                                                motivational interviewing+usual care:trazodone+HFrTMS+usual care 0    0  0.40      .   0.40     .     .       .
+                                                                       motivational interviewing+usual care:trazodone+usual care 0    0 -0.42      .  -0.42     .     .       .
+                                                                                 motivational interviewing+usual care:usual care 1 1.00 -1.19  -1.19      .     .     .       .
+                                                                           motor imagery+usual care:narrative therapy+usual care 0    0  4.07      .   4.07     .     .       .
+                                                                                        motor imagery+usual care:psychoeducation 0    0 -1.20      .  -1.20     .     .       .
+                           motor imagery+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  0.46      .   0.46     .     .       .
+                                                                                  motor imagery+usual care:relaxation+usual care 0    0 -0.34      .  -0.34     .     .       .
+                                                                        motor imagery+usual care:reminiscence therapy+usual care 0    0 -1.56      .  -1.56     .     .       .
+                                                                             motor imagery+usual care:sham+fluoxetine+usual care 0    0 -1.03      .  -1.03     .     .       .
+                                                                                        motor imagery+usual care:sham+usual care 0    0 -1.75      .  -1.75     .     .       .
+                                                                    motor imagery+usual care:supportive psychotherapy+usual care 0    0  0.56      .   0.56     .     .       .
+                                                                            motor imagery+usual care:trazodone+HFrTMS+usual care 0    0  0.41      .   0.41     .     .       .
+                                                                                   motor imagery+usual care:trazodone+usual care 0    0 -0.40      .  -0.40     .     .       .
+                                                                                             motor imagery+usual care:usual care 3 1.00 -1.17  -1.17      .     .     .       .
+                                                                                    narrative therapy+usual care:psychoeducation 0    0 -5.27      .  -5.27     .     .       .
+                       narrative therapy+usual care:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0 -3.61      .  -3.61     .     .       .
+                                                                              narrative therapy+usual care:relaxation+usual care 0    0 -4.41      .  -4.41     .     .       .
+                                                                    narrative therapy+usual care:reminiscence therapy+usual care 0    0 -5.63      .  -5.63     .     .       .
+                                                                         narrative therapy+usual care:sham+fluoxetine+usual care 0    0 -5.10      .  -5.10     .     .       .
+                                                                                    narrative therapy+usual care:sham+usual care 0    0 -5.83      .  -5.83     .     .       .
+                                                                narrative therapy+usual care:supportive psychotherapy+usual care 0    0 -3.51      .  -3.51     .     .       .
+                                                                        narrative therapy+usual care:trazodone+HFrTMS+usual care 0    0 -3.66      .  -3.66     .     .       .
+                                                                               narrative therapy+usual care:trazodone+usual care 0    0 -4.47      .  -4.47     .     .       .
+                                                                                         narrative therapy+usual care:usual care 1 1.00 -5.24  -5.24      .     .     .       .
+                                    psychoeducation:psychological counselling+relaxation+supportive psychotherapy+CBT+usual care 0    0  1.66      .   1.66     .     .       .
+                                                                                           psychoeducation:relaxation+usual care 0    0  0.86      .   0.86     .     .       .
+                                                                                 psychoeducation:reminiscence therapy+usual care 0    0 -0.35      .  -0.35     .     .       .
+                                                                                      psychoeducation:sham+fluoxetine+usual care 0    0  0.17      .   0.17     .     .       .
+                                                                                                 psychoeducation:sham+usual care 0    0 -0.55      .  -0.55     .     .       .
+                                                                             psychoeducation:supportive psychotherapy+usual care 0    0  1.76      .   1.76     .     .       .
+                                                                                     psychoeducation:trazodone+HFrTMS+usual care 0    0  1.61      .   1.61     .     .       .
+                                                                                            psychoeducation:trazodone+usual care 0    0  0.80      .   0.80     .     .       .
+                                                                                                      psychoeducation:usual care 1 0.59  0.03   0.22  -0.24  0.46  0.25  0.7997
+                              psychological counselling+relaxation+supportive psychotherapy+CBT+usual care:relaxation+usual care 0    0 -0.80      .  -0.80     .     .       .
+                    psychological counselling+relaxation+supportive psychotherapy+CBT+usual care:reminiscence therapy+usual care 0    0 -2.02      .  -2.02     .     .       .
+                         psychological counselling+relaxation+supportive psychotherapy+CBT+usual care:sham+fluoxetine+usual care 0    0 -1.49      .  -1.49     .     .       .
+                                    psychological counselling+relaxation+supportive psychotherapy+CBT+usual care:sham+usual care 0    0 -2.22      .  -2.22     .     .       .
+                psychological counselling+relaxation+supportive psychotherapy+CBT+usual care:supportive psychotherapy+usual care 0    0  0.10      .   0.10     .     .       .
+                        psychological counselling+relaxation+supportive psychotherapy+CBT+usual care:trazodone+HFrTMS+usual care 0    0 -0.05      .  -0.05     .     .       .
+                               psychological counselling+relaxation+supportive psychotherapy+CBT+usual care:trazodone+usual care 0    0 -0.87      .  -0.87     .     .       .
+                                         psychological counselling+relaxation+supportive psychotherapy+CBT+usual care:usual care 1 1.00 -1.64  -1.64      .     .     .       .
+                                                                           relaxation+usual care:reminiscence therapy+usual care 0    0 -1.21      .  -1.21     .     .       .
+                                                                                relaxation+usual care:sham+fluoxetine+usual care 0    0 -0.69      .  -0.69     .     .       .
+                                                                                           relaxation+usual care:sham+usual care 0    0 -1.41      .  -1.41     .     .       .
+                                                                       relaxation+usual care:supportive psychotherapy+usual care 0    0  0.90      .   0.90     .     .       .
+                                                                               relaxation+usual care:trazodone+HFrTMS+usual care 0    0  0.75      .   0.75     .     .       .
+                                                                                      relaxation+usual care:trazodone+usual care 0    0 -0.06      .  -0.06     .     .       .
+                                                                                                relaxation+usual care:usual care 1 1.00 -0.83  -0.83      .     .     .       .
+                                                                      reminiscence therapy+usual care:sham+fluoxetine+usual care 0    0  0.53      .   0.53     .     .       .
+                                                                                 reminiscence therapy+usual care:sham+usual care 0    0 -0.20      .  -0.20     .     .       .
+                                                             reminiscence therapy+usual care:supportive psychotherapy+usual care 0    0  2.12      .   2.12     .     .       .
+                                                                     reminiscence therapy+usual care:trazodone+HFrTMS+usual care 0    0  1.97      .   1.97     .     .       .
+                                                                            reminiscence therapy+usual care:trazodone+usual care 0    0  1.15      .   1.15     .     .       .
+                                                                                      reminiscence therapy+usual care:usual care 1 1.00  0.38   0.38      .     .     .       .
+                                                                                      sham+fluoxetine+usual care:sham+usual care 0    0 -0.73      .  -0.73     .     .       .
+                                                                  sham+fluoxetine+usual care:supportive psychotherapy+usual care 0    0  1.59      .   1.59     .     .       .
+                                                                          sham+fluoxetine+usual care:trazodone+HFrTMS+usual care 0    0  1.44      .   1.44     .     .       .
+                                                                                 sham+fluoxetine+usual care:trazodone+usual care 0    0  0.63      .   0.63     .     .       .
+                                                                                           sham+fluoxetine+usual care:usual care 0    0 -0.14      .  -0.14     .     .       .
+                                                                             sham+usual care:supportive psychotherapy+usual care 0    0  2.32      .   2.32     .     .       .
+                                                                                     sham+usual care:trazodone+HFrTMS+usual care 0    0  2.17      .   2.17     .     .       .
+                                                                                            sham+usual care:trazodone+usual care 0    0  1.35      .   1.35     .     .       .
+                                                                                                      sham+usual care:usual care 0    0  0.58      .   0.58     .     .       .
+                                                                 supportive psychotherapy+usual care:trazodone+HFrTMS+usual care 0    0 -0.15      .  -0.15     .     .       .
+                                                                        supportive psychotherapy+usual care:trazodone+usual care 0    0 -0.96      .  -0.96     .     .       .
+                                                                                  supportive psychotherapy+usual care:usual care 1 1.00 -1.73  -1.73      .     .     .       .
+                                                                                trazodone+HFrTMS+usual care:trazodone+usual care 1 1.00 -0.82  -0.81      .     .     .       .
+                                                                                          trazodone+HFrTMS+usual care:usual care 1 0.88 -1.59  -1.41  -2.86  1.45  0.46  0.6426
+                                                                                                 trazodone+usual care:usual care 1 0.88 -0.77  -0.60  -2.05  1.46  0.46  0.6426
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Common effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 35.71 (10 out of 28 comparisons).
+
+Random effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 28 comparisons).
+
