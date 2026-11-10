@@ -1,0 +1,30 @@
+Q statistics to assess homogeneity / consistency
+
+                    Q df  p-value
+Total           39.57  7 < 0.0001
+Within designs  10.96  3   0.0120
+Between designs 28.62  4 < 0.0001
+
+Design-specific decomposition of within-designs Q statistic
+
+                Design     Q df p-value
+    placebo:fluoxetine 10.80  2  0.0045
+ placebo:nortriptyline  0.15  1  0.6966
+
+Between-designs Q statistic after detaching of single designs
+(influential designs have p-value markedly different from < 0.0001)
+
+                  Detached design     Q df  p-value
+               placebo:fluoxetine  9.93  3   0.0192
+ placebo:fluoxetine:nortriptyline  9.38  2   0.0092
+ escitalopram:HFrTMS+escitalopram 20.12  3   0.0002
+             placebo:escitalopram 27.73  3 < 0.0001
+          escitalopram:sertraline 27.73  3 < 0.0001
+               placebo:sertraline 27.73  3 < 0.0001
+            placebo:nortriptyline 28.00  3 < 0.0001
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                   Q df p-value tau.within tau2.within
+Between designs 8.00  4  0.0914     0.5188      0.2692
