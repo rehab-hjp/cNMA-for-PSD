@@ -1,0 +1,57 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                       comparison k prop  nma direct indir.  RoR     z p-value
+            citalopram:fluoxetine 0    0 1.51      .   1.51    .     .       .
+     citalopram:HFrTMS+fluoxetine 0    0 1.05      .   1.05    .     .       .
+        citalopram:MES+fluoxetine 0    0 1.12      .   1.12    .     .       .
+         citalopram:nortriptyline 0    0 0.54      .   0.54    .     .       .
+               citalopram:placebo 1 1.00 1.78   1.78      .    .     .       .
+     HFrTMS+fluoxetine:fluoxetine 1 1.00 1.43   1.43      .    .     .       .
+        MES+fluoxetine:fluoxetine 1 1.00 1.35   1.35      .    .     .       .
+         nortriptyline:fluoxetine 1 0.35 2.77   5.38   1.94 2.77  1.23  0.2204
+               placebo:fluoxetine 4 1.00 0.85   0.85      .    .     .       .
+ HFrTMS+fluoxetine:MES+fluoxetine 0    0 1.06      .   1.06    .     .       .
+  HFrTMS+fluoxetine:nortriptyline 0    0 0.52      .   0.52    .     .       .
+        HFrTMS+fluoxetine:placebo 0    0 1.69      .   1.69    .     .       .
+     MES+fluoxetine:nortriptyline 0    0 0.49      .   0.49    .     .       .
+           MES+fluoxetine:placebo 0    0 1.59      .   1.59    .     .       .
+            nortriptyline:placebo 1 0.76 3.27   2.50   7.49 0.33 -1.23  0.2204
+
+Random effects model: 
+
+                       comparison k prop  nma direct indir.  RoR     z p-value
+            citalopram:fluoxetine 0    0 1.29      .   1.29    .     .       .
+     citalopram:HFrTMS+fluoxetine 0    0 0.90      .   0.90    .     .       .
+        citalopram:MES+fluoxetine 0    0 0.95      .   0.95    .     .       .
+         citalopram:nortriptyline 0    0 0.48      .   0.48    .     .       .
+               citalopram:placebo 1 1.00 1.78   1.78      .    .     .       .
+     HFrTMS+fluoxetine:fluoxetine 1 1.00 1.43   1.43      .    .     .       .
+        MES+fluoxetine:fluoxetine 1 1.00 1.35   1.35      .    .     .       .
+         nortriptyline:fluoxetine 1 0.59 2.70   5.38   1.00 5.39  1.20  0.2297
+               placebo:fluoxetine 4 1.00 0.72   0.72      .    .     .       .
+ HFrTMS+fluoxetine:MES+fluoxetine 0    0 1.06      .   1.06    .     .       .
+  HFrTMS+fluoxetine:nortriptyline 0    0 0.53      .   0.53    .     .       .
+        HFrTMS+fluoxetine:placebo 0    0 1.97      .   1.97    .     .       .
+     MES+fluoxetine:nortriptyline 0    0 0.50      .   0.50    .     .       .
+           MES+fluoxetine:placebo 0    0 1.87      .   1.87    .     .       .
+            nortriptyline:placebo 1 0.80 3.73   2.50  18.29 0.14 -1.20  0.2297
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (RR) in network meta-analysis
+ direct     - Estimated treatment effect (RR) derived from direct evidence
+ indir.     - Estimated treatment effect (RR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Common effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 2 comparisons).
+
+Random effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 2 comparisons).
+

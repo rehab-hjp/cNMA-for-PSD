@@ -1,0 +1,137 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                                                                              comparison k prop  nma direct indir.  RoR     z p-value
+          CBT+escitalopram+usual care:CBT+humanistic psychotherapy+paroxetine+usual care 0    0 0.90      .   0.90    .     .       .
+                                     CBT+escitalopram+usual care:escitalopram+usual care 1 1.00 1.49   1.49      .    .     .       .
+                          CBT+escitalopram+usual care:HFrTMS+escitalopram+CBT+usual care 1 1.00 0.64   0.64      .    .     .       .
+                                       CBT+escitalopram+usual care:imipramine+usual care 0    0 1.54      .   1.54    .     .       .
+                              CBT+escitalopram+usual care:LFrTMS+escitalopram+usual care 0    0 0.98      .   0.98    .     .       .
+                                      CBT+escitalopram+usual care:maprotiline+usual care 0    0 1.76      .   1.76    .     .       .
+                        CBT+escitalopram+usual care:Morita therapy+paroxetine+usual care 0    0 0.90      .   0.90    .     .       .
+                                       CBT+escitalopram+usual care:paroxetine+usual care 0    0 1.46      .   1.46    .     .       .
+                         CBT+escitalopram+usual care:supportive psychotherapy+usual care 0    0 1.73      .   1.73    .     .       .
+                                                  CBT+escitalopram+usual care:usual care 0    0 3.84      .   3.84    .     .       .
+              CBT+humanistic psychotherapy+paroxetine+usual care:escitalopram+usual care 0    0 1.67      .   1.67    .     .       .
+   CBT+humanistic psychotherapy+paroxetine+usual care:HFrTMS+escitalopram+CBT+usual care 0    0 0.71      .   0.71    .     .       .
+                CBT+humanistic psychotherapy+paroxetine+usual care:imipramine+usual care 0    0 1.71      .   1.71    .     .       .
+       CBT+humanistic psychotherapy+paroxetine+usual care:LFrTMS+escitalopram+usual care 0    0 1.10      .   1.10    .     .       .
+               CBT+humanistic psychotherapy+paroxetine+usual care:maprotiline+usual care 0    0 1.96      .   1.96    .     .       .
+ CBT+humanistic psychotherapy+paroxetine+usual care:Morita therapy+paroxetine+usual care 0    0 1.00      .   1.00    .     .       .
+                CBT+humanistic psychotherapy+paroxetine+usual care:paroxetine+usual care 1 1.00 1.63   1.63      .    .     .       .
+  CBT+humanistic psychotherapy+paroxetine+usual care:supportive psychotherapy+usual care 0    0 1.93      .   1.93    .     .       .
+                           CBT+humanistic psychotherapy+paroxetine+usual care:usual care 0    0 4.28      .   4.28    .     .       .
+                              escitalopram+usual care:HFrTMS+escitalopram+CBT+usual care 0    0 0.43      .   0.43    .     .       .
+                                           escitalopram+usual care:imipramine+usual care 0    0 1.03      .   1.03    .     .       .
+                                  escitalopram+usual care:LFrTMS+escitalopram+usual care 2 1.00 0.66   0.66      .    .     .       .
+                                          escitalopram+usual care:maprotiline+usual care 0    0 1.18      .   1.18    .     .       .
+                            escitalopram+usual care:Morita therapy+paroxetine+usual care 0    0 0.60      .   0.60    .     .       .
+                                           escitalopram+usual care:paroxetine+usual care 0    0 0.98      .   0.98    .     .       .
+                             escitalopram+usual care:supportive psychotherapy+usual care 0    0 1.16      .   1.16    .     .       .
+                                                      escitalopram+usual care:usual care 1 0.88 2.57   2.36   4.85 0.49 -0.33  0.7430
+                                HFrTMS+escitalopram+CBT+usual care:imipramine+usual care 0    0 2.41      .   2.41    .     .       .
+                       HFrTMS+escitalopram+CBT+usual care:LFrTMS+escitalopram+usual care 0    0 1.54      .   1.54    .     .       .
+                               HFrTMS+escitalopram+CBT+usual care:maprotiline+usual care 0    0 2.75      .   2.75    .     .       .
+                 HFrTMS+escitalopram+CBT+usual care:Morita therapy+paroxetine+usual care 0    0 1.41      .   1.41    .     .       .
+                                HFrTMS+escitalopram+CBT+usual care:paroxetine+usual care 0    0 2.29      .   2.29    .     .       .
+                  HFrTMS+escitalopram+CBT+usual care:supportive psychotherapy+usual care 0    0 2.72      .   2.72    .     .       .
+                                           HFrTMS+escitalopram+CBT+usual care:usual care 0    0 6.01      .   6.01    .     .       .
+                                    imipramine+usual care:LFrTMS+escitalopram+usual care 0    0 0.64      .   0.64    .     .       .
+                                            imipramine+usual care:maprotiline+usual care 0    0 1.14      .   1.14    .     .       .
+                              imipramine+usual care:Morita therapy+paroxetine+usual care 0    0 0.59      .   0.59    .     .       .
+                                             imipramine+usual care:paroxetine+usual care 1 1.00 0.95   0.95      .    .     .       .
+                               imipramine+usual care:supportive psychotherapy+usual care 0    0 1.13      .   1.13    .     .       .
+                                                        imipramine+usual care:usual care 1 1.00 2.50   2.50      .    .     .       .
+                                   LFrTMS+escitalopram+usual care:maprotiline+usual care 0    0 1.79      .   1.79    .     .       .
+                     LFrTMS+escitalopram+usual care:Morita therapy+paroxetine+usual care 0    0 0.92      .   0.92    .     .       .
+                                    LFrTMS+escitalopram+usual care:paroxetine+usual care 0    0 1.49      .   1.49    .     .       .
+                      LFrTMS+escitalopram+usual care:supportive psychotherapy+usual care 0    0 1.76      .   1.76    .     .       .
+                                               LFrTMS+escitalopram+usual care:usual care 1 0.97 3.91   4.07   1.08 3.77  0.33  0.7430
+                             maprotiline+usual care:Morita therapy+paroxetine+usual care 0    0 0.51      .   0.51    .     .       .
+                                            maprotiline+usual care:paroxetine+usual care 1 1.00 0.83   0.83      .    .     .       .
+                              maprotiline+usual care:supportive psychotherapy+usual care 0    0 0.99      .   0.99    .     .       .
+                                                       maprotiline+usual care:usual care 0    0 2.19      .   2.19    .     .       .
+                              Morita therapy+paroxetine+usual care:paroxetine+usual care 1 1.00 1.63   1.63      .    .     .       .
+                Morita therapy+paroxetine+usual care:supportive psychotherapy+usual care 0    0 1.93      .   1.93    .     .       .
+                                         Morita therapy+paroxetine+usual care:usual care 0    0 4.27      .   4.27    .     .       .
+                               supportive psychotherapy+usual care:paroxetine+usual care 0    0 0.84      .   0.84    .     .       .
+                                                        usual care:paroxetine+usual care 1 1.00 0.38   0.38      .    .     .       .
+                                          supportive psychotherapy+usual care:usual care 1 1.00 2.21   2.21      .    .     .       .
+
+Random effects model: 
+
+                                                                              comparison k prop  nma direct indir.  RoR     z p-value
+          CBT+escitalopram+usual care:CBT+humanistic psychotherapy+paroxetine+usual care 0    0 0.90      .   0.90    .     .       .
+                                     CBT+escitalopram+usual care:escitalopram+usual care 1 1.00 1.49   1.49      .    .     .       .
+                          CBT+escitalopram+usual care:HFrTMS+escitalopram+CBT+usual care 1 1.00 0.64   0.64      .    .     .       .
+                                       CBT+escitalopram+usual care:imipramine+usual care 0    0 1.54      .   1.54    .     .       .
+                              CBT+escitalopram+usual care:LFrTMS+escitalopram+usual care 0    0 0.98      .   0.98    .     .       .
+                                      CBT+escitalopram+usual care:maprotiline+usual care 0    0 1.76      .   1.76    .     .       .
+                        CBT+escitalopram+usual care:Morita therapy+paroxetine+usual care 0    0 0.90      .   0.90    .     .       .
+                                       CBT+escitalopram+usual care:paroxetine+usual care 0    0 1.46      .   1.46    .     .       .
+                         CBT+escitalopram+usual care:supportive psychotherapy+usual care 0    0 1.73      .   1.73    .     .       .
+                                                  CBT+escitalopram+usual care:usual care 0    0 3.84      .   3.84    .     .       .
+              CBT+humanistic psychotherapy+paroxetine+usual care:escitalopram+usual care 0    0 1.67      .   1.67    .     .       .
+   CBT+humanistic psychotherapy+paroxetine+usual care:HFrTMS+escitalopram+CBT+usual care 0    0 0.71      .   0.71    .     .       .
+                CBT+humanistic psychotherapy+paroxetine+usual care:imipramine+usual care 0    0 1.71      .   1.71    .     .       .
+       CBT+humanistic psychotherapy+paroxetine+usual care:LFrTMS+escitalopram+usual care 0    0 1.10      .   1.10    .     .       .
+               CBT+humanistic psychotherapy+paroxetine+usual care:maprotiline+usual care 0    0 1.96      .   1.96    .     .       .
+ CBT+humanistic psychotherapy+paroxetine+usual care:Morita therapy+paroxetine+usual care 0    0 1.00      .   1.00    .     .       .
+                CBT+humanistic psychotherapy+paroxetine+usual care:paroxetine+usual care 1 1.00 1.63   1.63      .    .     .       .
+  CBT+humanistic psychotherapy+paroxetine+usual care:supportive psychotherapy+usual care 0    0 1.93      .   1.93    .     .       .
+                           CBT+humanistic psychotherapy+paroxetine+usual care:usual care 0    0 4.28      .   4.28    .     .       .
+                              escitalopram+usual care:HFrTMS+escitalopram+CBT+usual care 0    0 0.43      .   0.43    .     .       .
+                                           escitalopram+usual care:imipramine+usual care 0    0 1.03      .   1.03    .     .       .
+                                  escitalopram+usual care:LFrTMS+escitalopram+usual care 2 1.00 0.66   0.66      .    .     .       .
+                                          escitalopram+usual care:maprotiline+usual care 0    0 1.18      .   1.18    .     .       .
+                            escitalopram+usual care:Morita therapy+paroxetine+usual care 0    0 0.60      .   0.60    .     .       .
+                                           escitalopram+usual care:paroxetine+usual care 0    0 0.98      .   0.98    .     .       .
+                             escitalopram+usual care:supportive psychotherapy+usual care 0    0 1.16      .   1.16    .     .       .
+                                                      escitalopram+usual care:usual care 1 0.88 2.57   2.36   4.85 0.49 -0.33  0.7430
+                                HFrTMS+escitalopram+CBT+usual care:imipramine+usual care 0    0 2.41      .   2.41    .     .       .
+                       HFrTMS+escitalopram+CBT+usual care:LFrTMS+escitalopram+usual care 0    0 1.54      .   1.54    .     .       .
+                               HFrTMS+escitalopram+CBT+usual care:maprotiline+usual care 0    0 2.75      .   2.75    .     .       .
+                 HFrTMS+escitalopram+CBT+usual care:Morita therapy+paroxetine+usual care 0    0 1.41      .   1.41    .     .       .
+                                HFrTMS+escitalopram+CBT+usual care:paroxetine+usual care 0    0 2.29      .   2.29    .     .       .
+                  HFrTMS+escitalopram+CBT+usual care:supportive psychotherapy+usual care 0    0 2.72      .   2.72    .     .       .
+                                           HFrTMS+escitalopram+CBT+usual care:usual care 0    0 6.01      .   6.01    .     .       .
+                                    imipramine+usual care:LFrTMS+escitalopram+usual care 0    0 0.64      .   0.64    .     .       .
+                                            imipramine+usual care:maprotiline+usual care 0    0 1.14      .   1.14    .     .       .
+                              imipramine+usual care:Morita therapy+paroxetine+usual care 0    0 0.59      .   0.59    .     .       .
+                                             imipramine+usual care:paroxetine+usual care 1 1.00 0.95   0.95      .    .     .       .
+                               imipramine+usual care:supportive psychotherapy+usual care 0    0 1.13      .   1.13    .     .       .
+                                                        imipramine+usual care:usual care 1 1.00 2.50   2.50      .    .     .       .
+                                   LFrTMS+escitalopram+usual care:maprotiline+usual care 0    0 1.79      .   1.79    .     .       .
+                     LFrTMS+escitalopram+usual care:Morita therapy+paroxetine+usual care 0    0 0.92      .   0.92    .     .       .
+                                    LFrTMS+escitalopram+usual care:paroxetine+usual care 0    0 1.49      .   1.49    .     .       .
+                      LFrTMS+escitalopram+usual care:supportive psychotherapy+usual care 0    0 1.76      .   1.76    .     .       .
+                                               LFrTMS+escitalopram+usual care:usual care 1 0.97 3.91   4.07   1.08 3.77  0.33  0.7430
+                             maprotiline+usual care:Morita therapy+paroxetine+usual care 0    0 0.51      .   0.51    .     .       .
+                                            maprotiline+usual care:paroxetine+usual care 1 1.00 0.83   0.83      .    .     .       .
+                              maprotiline+usual care:supportive psychotherapy+usual care 0    0 0.99      .   0.99    .     .       .
+                                                       maprotiline+usual care:usual care 0    0 2.19      .   2.19    .     .       .
+                              Morita therapy+paroxetine+usual care:paroxetine+usual care 1 1.00 1.63   1.63      .    .     .       .
+                Morita therapy+paroxetine+usual care:supportive psychotherapy+usual care 0    0 1.93      .   1.93    .     .       .
+                                         Morita therapy+paroxetine+usual care:usual care 0    0 4.27      .   4.27    .     .       .
+                               supportive psychotherapy+usual care:paroxetine+usual care 0    0 0.84      .   0.84    .     .       .
+                                                        usual care:paroxetine+usual care 1 1.00 0.38   0.38      .    .     .       .
+                                          supportive psychotherapy+usual care:usual care 1 1.00 2.21   2.21      .    .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (RR) in network meta-analysis
+ direct     - Estimated treatment effect (RR) derived from direct evidence
+ indir.     - Estimated treatment effect (RR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Common effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 2 comparisons).
+
+Random effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 2 comparisons).
+
