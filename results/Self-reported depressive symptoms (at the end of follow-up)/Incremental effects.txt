@@ -1,0 +1,49 @@
+Additive model (common effects model):
+
+Incremental effect for components:
+                             iSMD             95% CI     z  p-value
+active control                 NA                  .     .        .
+atDCS                     -0.2411 [-1.0956;  0.6134] -0.55   0.5802
+attention control         -0.8339 [-1.3991; -0.2686] -2.89   0.0038
+behavioural activation    -0.7173 [-1.3667; -0.0680] -2.17   0.0304
+CBT                       -0.8056 [-1.2194; -0.3918] -3.82   0.0001
+cognitive training        -0.9296 [-1.6583; -0.2009] -2.50   0.0124
+dextroamphetamine          0.0612 [-0.8238;  0.9461]  0.14   0.8922
+escitalopram              -0.6441 [-1.5234;  0.2352] -1.44   0.1511
+fluoxetine                -0.6585 [-1.0287; -0.2883] -3.49   0.0005
+GACT                      -0.7205 [-1.4597;  0.0187] -1.91   0.0561
+HFrTMS                    -0.5676 [-1.7541;  0.6189] -0.94   0.3484
+humanistic psychotherapy  -0.0697 [-0.5855;  0.4461] -0.26   0.7911
+iTBS                      -0.8599 [-2.1362;  0.4164] -1.32   0.1867
+mental imagery                 NA                  .     .        .
+methylphenidate           -0.7853 [-1.7667;  0.1961] -1.57   0.1168
+mindfulness               -1.0798 [-1.5147; -0.6449] -4.87 < 0.0001
+motivational interviewing -0.5573 [-1.3906;  0.2759] -1.31   0.1898
+placebo                   -0.0545 [-0.7912;  0.6821] -0.15   0.8846
+sham                       0.6910 [-0.3580;  1.7401]  1.29   0.1967
+usual care                -0.5097 [-1.0144; -0.0050] -1.98   0.0478
+
+Random effects model:
+
+Incremental effect for components:
+                             iSMD             95% CI     z p-value
+active control                 NA                  .     .       .
+atDCS                     -0.2511 [-1.7936;  1.2914] -0.32  0.7497
+attention control         -0.8200 [-2.1146;  0.4746] -1.24  0.2144
+behavioural activation    -0.7173 [-1.8848;  0.4502] -1.20  0.2285
+CBT                       -0.7957 [-1.7332;  0.1418] -1.66  0.0962
+cognitive training        -0.9196 [-2.3961;  0.5569] -1.22  0.2222
+dextroamphetamine          0.0637 [-1.7074;  1.8348]  0.07  0.9438
+escitalopram              -0.6541 [-2.2104;  0.9023] -0.82  0.4101
+fluoxetine                -0.6560 [-1.4357;  0.1237] -1.65  0.0991
+GACT                      -0.7017 [-2.2622;  0.8587] -0.88  0.3781
+HFrTMS                    -0.4430 [-2.5248;  1.6388] -0.42  0.6767
+humanistic psychotherapy  -0.0824 [-1.2171;  1.0524] -0.14  0.8869
+iTBS                      -0.8171 [-3.0545;  1.4203] -0.72  0.4741
+mental imagery                 NA                  .     .       .
+methylphenidate           -0.7828 [-2.6040;  1.0384] -0.84  0.3996
+mindfulness               -1.0829 [-2.0291; -0.1366] -2.24  0.0249
+motivational interviewing -0.5386 [-2.1457;  1.0686] -0.66  0.5113
+placebo                   -0.0520 [-1.4502;  1.3461] -0.07  0.9418
+sham                       0.6811 [-1.2401;  2.6023]  0.69  0.4872
+usual care                -0.4909 [-1.5873;  0.6054] -0.88  0.3801
