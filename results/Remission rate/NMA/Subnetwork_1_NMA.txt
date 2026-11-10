@@ -1,0 +1,49 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                            treat1                    treat2      TE   seTE
+Alexopoulos 2012 attention control ecosystem focused therapy -1.3863 0.6770
+
+Number of treatment arms per study:
+                 narms
+Alexopoulos 2012     2
+
+Results (common effects model):
+
+                            treat1                    treat2     RR           95% CI    Q leverage
+Alexopoulos 2012 attention control ecosystem focused therapy 0.2500 [0.0663; 0.9423] 0.00     1.00
+
+Results (random effects model):
+
+                            treat1                    treat2     RR           95% CI
+Alexopoulos 2012 attention control ecosystem focused therapy 0.2500 [0.0663; 0.9423]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of observations: o = 24
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('ecosystem focused therapy' vs 'attention control'):
+                              RR            95% CI    z p-value
+attention control              .                 .    .       .
+ecosystem focused therapy 4.0000 [1.0612; 15.0774] 2.05  0.0406
+
+Random effects model
+
+Treatment estimate ('ecosystem focused therapy' vs 'attention control'):
+                              RR            95% CI    z p-value
+attention control              .                 .    .       .
+ecosystem focused therapy 4.0000 [1.0612; 15.0774] 2.05  0.0406
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 24 participants are included in this analysis.
+The following studies were included in this analysis: Alexopoulos 2012
+
