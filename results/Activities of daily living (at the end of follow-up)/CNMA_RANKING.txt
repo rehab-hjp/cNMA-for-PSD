@@ -1,0 +1,28 @@
+                                                      P-score (common) P-score (random)
+LFrTMS+usual care                                               0.9655           0.7817
+LFrTMS+escitalopram+usual care                                  0.9329           0.7369
+CBT+usual care                                                  0.7866           0.6710
+fluoxetine+cognitive restructuring+usual care                   0.8292           0.6514
+HFrTMS+mindfulness                                              0.7982           0.6400
+psychoeducation+Morita therapy+venlafaxine+usual care           0.8072           0.6382
+CBT+escitalopram+usual care                                     0.7397           0.6309
+sertraline+usual care                                           0.7588           0.6307
+atDCS+usual care                                                0.7769           0.6193
+LFrTMS+paroxetine                                               0.6124           0.5555
+ACT+sertraline+usual care                                       0.5922           0.5534
+HFrTMS+paroxetine                                               0.4951           0.4978
+sham+usual care                                                 0.4991           0.4974
+methylphenidate+usual care                                      0.4721           0.4767
+attention control                                               0.4059           0.4531
+sham+mindfulness                                                0.3773           0.4457
+behavioural activation+usual care                               0.3862           0.4433
+CBT                                                             0.3431           0.4364
+dextroamphetamine+usual care                                    0.3197           0.4147
+cognitive restructuring+usual care                              0.3457           0.4056
+usual care                                                      0.3457           0.4056
+escitalopram+usual care                                         0.2871           0.3970
+placebo+usual care                                              0.2724           0.3877
+GACT+usual care                                                 0.1541           0.3476
+sham+paroxetine                                                 0.1177           0.3066
+escitalopram                                                    0.0359           0.2429
+placebo                                                         0.0310           0.2260
