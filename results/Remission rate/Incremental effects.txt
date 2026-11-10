@@ -1,0 +1,43 @@
+Additive model (common effects model):
+
+Incremental effect for components:
+                              iRR             95% CI     z p-value
+attention control              NA                  .     .       .
+behavioural therapy            NA                  .     .       .
+citalopram                     NA                  .     .       .
+dtDCS                     10.3322 [0.4358; 244.9575]  1.45  0.1482
+ecosystem focused therapy      NA                  .     .       .
+escitalopram                   NA                  .     .       .
+fluoxetine                     NA                  .     .       .
+HFrTMS                     2.6364 [1.4226;   4.8858]  3.08  0.0021
+LFrTMS                     1.3423 [1.0973;   1.6421]  2.86  0.0042
+mirtazapine                    NA                  .     .       .
+placebo                        NA                  .     .       .
+psychoeducation                NA                  .     .       .
+psychological counselling      NA                  .     .       .
+sertraline                     NA                  .     .       .
+sham                       0.9393 [0.2321;   3.8017] -0.09  0.9300
+supportive psychotherapy       NA                  .     .       .
+usual care                     NA                  .     .       .
+
+Random effects model:
+
+Incremental effect for components:
+                              iRR             95% CI     z p-value
+attention control              NA                  .     .       .
+behavioural therapy            NA                  .     .       .
+citalopram                     NA                  .     .       .
+dtDCS                     10.3322 [0.4358; 244.9575]  1.45  0.1482
+ecosystem focused therapy      NA                  .     .       .
+escitalopram                   NA                  .     .       .
+fluoxetine                     NA                  .     .       .
+HFrTMS                     2.6364 [1.4226;   4.8858]  3.08  0.0021
+LFrTMS                     1.3423 [1.0973;   1.6421]  2.86  0.0042
+mirtazapine                    NA                  .     .       .
+placebo                        NA                  .     .       .
+psychoeducation                NA                  .     .       .
+psychological counselling      NA                  .     .       .
+sertraline                     NA                  .     .       .
+sham                       0.9393 [0.2321;   3.8017] -0.09  0.9300
+supportive psychotherapy       NA                  .     .       .
+usual care                     NA                  .     .       .
