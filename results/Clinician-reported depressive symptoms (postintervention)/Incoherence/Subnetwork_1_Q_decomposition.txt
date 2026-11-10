@@ -1,0 +1,55 @@
+Q statistics to assess homogeneity / consistency
+
+                     Q df  p-value
+Total           499.00 43 < 0.0001
+Within designs  357.54 22 < 0.0001
+Between designs 141.46 21 < 0.0001
+
+Design-specific decomposition of within-designs Q statistic
+
+                                                                                Design      Q df  p-value
+                                escitalopram+usual care:HFrTMS+escitalopram+usual care 180.89  2 < 0.0001
+                                   CBT+escitalopram+usual care:escitalopram+usual care  30.72  1 < 0.0001
+                                    fluoxetine+usual care:HFrTMS+fluoxetine+usual care  48.12  7 < 0.0001
+                                                            usual care:GACT+usual care  27.94  1 < 0.0001
+                                                     HFrTMS+usual care:sham+usual care  30.18  2 < 0.0001
+                                                     usual care:mindfulness+usual care  12.32  2   0.0021
+                                      LFrTMS+trazodone+usual care:trazodone+usual care   8.99  1   0.0027
+ escitalopram+usual care:HFrTMS+escitalopram+usual care:LFrTMS+escitalopram+usual care   8.10  2   0.0175
+                                        usual care:supportive psychotherapy+usual care   7.09  2   0.0289
+                               HFrTMS+sertraline+usual care:sham+sertraline+usual care   2.97  1   0.0850
+                           HFrTMS+escitalopram+usual care:sham+escitalopram+usual care   0.23  1   0.6296
+
+Between-designs Q statistic after detaching of single designs
+(influential designs have p-value markedly different from < 0.0001)
+
+                                                                       Detached design      Q df  p-value
+                       fluoxetine+usual care:maprotiline+usual care:placebo+usual care  76.51 19 < 0.0001
+                                          maprotiline+usual care:paroxetine+usual care  85.14 20 < 0.0001
+                                    fluoxetine+usual care:HFrTMS+fluoxetine+usual care 121.35 20 < 0.0001
+ escitalopram+usual care:HFrTMS+escitalopram+usual care:LFrTMS+escitalopram+usual care 124.15 19 < 0.0001
+              escitalopram+usual care:HFrTMS+escitalopram+usual care:HFrTMS+usual care 125.35 19 < 0.0001
+                                escitalopram+usual care:LFrTMS+escitalopram+usual care 129.32 20 < 0.0001
+         fluoxetine+usual care:HFrTMS+fluoxetine+usual care:sham+fluoxetine+usual care 129.50 19 < 0.0001
+                        usual care:CBT+escitalopram+usual care:escitalopram+usual care 132.11 19 < 0.0001
+                                   CBT+escitalopram+usual care:escitalopram+usual care 134.49 20 < 0.0001
+                                     atDCS+fluoxetine+usual care:fluoxetine+usual care 134.87 20 < 0.0001
+                                atDCS+fluoxetine+usual care:sham+fluoxetine+usual care 134.87 20 < 0.0001
+                                             usual care:LFrTMS+escitalopram+usual care 136.12 20 < 0.0001
+                                    fluoxetine+usual care:LFrTMS+fluoxetine+usual care 136.13 20 < 0.0001
+    CBT+escitalopram+usual care:escitalopram+usual care:LFrTMS+escitalopram+usual care 135.30 19 < 0.0001
+                     usual care:escitalopram+usual care:LFrTMS+escitalopram+usual care 135.32 19 < 0.0001
+  HFrTMS+fluoxetine+usual care:LFrTMS+fluoxetine+usual care:sham+fluoxetine+usual care 135.37 19 < 0.0001
+                                               fluoxetine+usual care:HFrTMS+usual care 140.04 20 < 0.0001
+                               HFrTMS+sertraline+usual care:sham+sertraline+usual care 141.18 20 < 0.0001
+                                escitalopram+usual care:HFrTMS+escitalopram+usual care 141.40 20 < 0.0001
+                                                     HFrTMS+usual care:sham+usual care 141.45 20 < 0.0001
+                               HFrTMS+sertraline+usual care:iTBS+sertraline+usual care 141.45 20 < 0.0001
+                                 iTBS+sertraline+usual care:sham+sertraline+usual care 141.45 20 < 0.0001
+  HFrTMS+sertraline+usual care:LFrTMS+sertraline+usual care:sham+sertraline+usual care 140.93 19 < 0.0001
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                    Q df p-value tau.within tau2.within
+Between designs 12.20 21  0.9340     1.0320      1.0650
