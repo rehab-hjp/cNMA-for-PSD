@@ -1,0 +1,17 @@
+Q statistics to assess homogeneity / consistency
+
+                   Q df p-value
+Total           8.04  1  0.0046
+Within designs  8.04  1  0.0046
+Between designs 0.00  0      --
+
+Design-specific decomposition of within-designs Q statistic
+
+                                                          Design    Q df p-value
+ fluoxetine+usual care:group psychotherapy+fluoxetine+usual care 8.04  1  0.0046
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                   Q df p-value tau.within tau2.within
+Between designs 0.00  0      --     0.5495      0.3019
