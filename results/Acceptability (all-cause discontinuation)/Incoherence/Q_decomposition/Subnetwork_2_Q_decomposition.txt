@@ -1,0 +1,32 @@
+Q statistics to assess homogeneity / consistency
+
+                   Q df p-value
+Total           6.73 13  0.9156
+Within designs  3.55  7  0.8296
+Between designs 3.18  6  0.7864
+
+Design-specific decomposition of within-designs Q statistic
+
+                                        Design    Q df p-value
+           usual care:motor imagery+usual care 2.33  2  0.3117
+                     usual care:CBT+usual care 0.61  1  0.4337
+                    usual care:GACT+usual care 0.21  1  0.6495
+             usual care:mindfulness+usual care 0.40  2  0.8189
+ methylphenidate+usual care:placebo+usual care 0.00  1  0.9606
+
+Between-designs Q statistic after detaching of single designs
+(influential designs have p-value markedly different from 0.7864)
+
+                                                                       Detached design    Q df p-value
+                                                     usual care:mindfulness+usual care 2.10  5  0.8353
+                                    usual care:atDCS+usual care:mindfulness+usual care 1.98  4  0.7399
+                                          maprotiline+usual care:paroxetine+usual care 3.00  5  0.7003
+                                                      atDCS+usual care:sham+usual care 3.01  5  0.6991
+                                escitalopram+usual care:HFrTMS+escitalopram+usual care 3.12  5  0.6809
+ escitalopram+usual care:HFrTMS+escitalopram+usual care:LFrTMS+escitalopram+usual care 2.45  4  0.6539
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                   Q df p-value tau.within tau2.within
+Between designs 3.18  6  0.7864          0           0
