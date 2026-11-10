@@ -1,0 +1,51 @@
+Network meta-analysis on subnet 4.
+
+Original data:
+
+             treat1             treat2     TE   seTE
+Kootker 2017    CBT cognitive training 0.0000 0.3028
+
+Number of treatment arms per study:
+             narms
+Kootker 2017     2
+
+Results (common effects model):
+
+             treat1             treat2    SMD            95% CI    Q leverage
+Kootker 2017    CBT cognitive training 0.0000 [-0.5934; 0.5934] 0.00     1.00
+
+Results (random effects model):
+
+             treat1             treat2    SMD            95% CI
+Kootker 2017    CBT cognitive training 0.0000 [-0.5934; 0.5934]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('cognitive training' vs 'CBT'):
+                      SMD            95% CI    z p-value
+CBT                     .                 .    .       .
+cognitive training 0.0000 [-0.5934; 0.5934] 0.00  1.0000
+
+Random effects model
+
+Treatment estimate ('cognitive training' vs 'CBT'):
+                      SMD            95% CI    z p-value
+CBT                     .                 .    .       .
+cognitive training 0.0000 [-0.5934; 0.5934] 0.00  1.0000
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 44 participants are included in this analysis.
+The following studies were included in this analysis: Kootker 2017
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10

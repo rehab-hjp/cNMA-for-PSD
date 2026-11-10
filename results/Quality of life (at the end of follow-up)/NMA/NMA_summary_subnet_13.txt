@@ -1,0 +1,51 @@
+Network meta-analysis on subnet 13.
+
+Original data:
+
+                           treat1     treat2     TE   seTE
+Xu 2017 Morita therapy+paroxetine paroxetine 0.5172 0.2625
+
+Number of treatment arms per study:
+        narms
+Xu 2017     2
+
+Results (common effects model):
+
+                           treat1     treat2    SMD           95% CI    Q leverage
+Xu 2017 Morita therapy+paroxetine paroxetine 0.5172 [0.0027; 1.0316] 0.00     1.00
+
+Results (random effects model):
+
+                           treat1     treat2    SMD           95% CI
+Xu 2017 Morita therapy+paroxetine paroxetine 0.5172 [0.0027; 1.0316]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('paroxetine' vs 'Morita therapy+paroxetine'):
+                              SMD             95% CI     z p-value
+Morita therapy+paroxetine       .                  .     .       .
+paroxetine                -0.5172 [-1.0316; -0.0027] -1.97  0.0488
+
+Random effects model
+
+Treatment estimate ('paroxetine' vs 'Morita therapy+paroxetine'):
+                              SMD             95% CI     z p-value
+Morita therapy+paroxetine       .                  .     .       .
+paroxetine                -0.5172 [-1.0316; -0.0027] -1.97  0.0488
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 60 participants are included in this analysis.
+The following studies were included in this analysis: Xu 2017
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10

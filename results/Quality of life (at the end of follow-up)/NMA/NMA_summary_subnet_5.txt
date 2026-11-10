@@ -1,0 +1,75 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                                         treat1     treat2      TE   seTE
+Liu 2023                        GACT+usual care usual care  1.3176 0.1871
+Majumdar 2019                              GACT usual care -0.2202 0.2756
+Thomas 2019   behavioural activation+usual care usual care -0.3944 0.3321
+He 2023                  mindfulness+usual care usual care  2.4929 0.3471
+
+Number of treatment arms per study:
+              narms
+Liu 2023          2
+Majumdar 2019     2
+Thomas 2019       2
+He 2023           2
+
+Results (common effects model):
+
+                                         treat1     treat2     SMD            95% CI    Q leverage
+Liu 2023                        GACT+usual care usual care  1.3176 [ 0.9508; 1.6844] 0.00     1.00
+Majumdar 2019                              GACT usual care -0.2202 [-0.7604; 0.3199] 0.00     1.00
+Thomas 2019   behavioural activation+usual care usual care -0.3944 [-1.0453; 0.2565] 0.00     1.00
+He 2023                  mindfulness+usual care usual care  2.4929 [ 1.8126; 3.1732] 0.00     1.00
+
+Results (random effects model):
+
+                                         treat1     treat2     SMD            95% CI
+Liu 2023                        GACT+usual care usual care  1.3176 [ 0.9508; 1.6844]
+Majumdar 2019                              GACT usual care -0.2202 [-0.7604; 0.3199]
+Thomas 2019   behavioural activation+usual care usual care -0.3944 [-1.0453; 0.2565]
+He 2023                  mindfulness+usual care usual care  2.4929 [ 1.8126; 3.1732]
+
+Number of studies: k = 4
+Number of pairwise comparisons: m = 4
+Number of treatments: n = 5
+Number of designs: d = 4
+
+Common effects model
+
+Treatment estimate (other treatments vs 'usual care'):
+                                      SMD            95% CI     z  p-value
+behavioural activation+usual care -0.3944 [-1.0453; 0.2565] -1.19   0.2350
+GACT                              -0.2202 [-0.7604; 0.3199] -0.80   0.4242
+GACT+usual care                    1.3176 [ 0.9508; 1.6844]  7.04 < 0.0001
+mindfulness+usual care             2.4929 [ 1.8126; 3.1732]  7.18 < 0.0001
+usual care                              .                 .     .        .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'usual care'):
+                                      SMD            95% CI     z  p-value
+behavioural activation+usual care -0.3944 [-1.0453; 0.2565] -1.19   0.2350
+GACT                              -0.2202 [-0.7604; 0.3199] -0.80   0.4242
+GACT+usual care                    1.3176 [ 0.9508; 1.6844]  7.04 < 0.0001
+mindfulness+usual care             2.4929 [ 1.8126; 3.1732]  7.18 < 0.0001
+usual care                              .                 .     .        .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 5 treatments are included in the network.
+A total of 4 studies are included in this analysis.
+A total of 288 participants are included in this analysis.
+The following studies were included in this analysis: Liu 2023 Majumdar 2019 Thomas 2019 He 2023
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10
