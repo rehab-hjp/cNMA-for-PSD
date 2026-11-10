@@ -1,0 +1,63 @@
+Network meta-analysis on subnet 6.
+
+Original data:
+
+                     treat1  treat2      TE   seTE
+Fruehwald 2003   fluoxetine placebo -0.8617 0.3321
+Kim 2017       escitalopram placebo -0.8638 0.0991
+
+Number of treatment arms per study:
+               narms
+Fruehwald 2003     2
+Kim 2017           2
+
+Results (common effects model):
+
+                     treat1  treat2     SMD             95% CI    Q leverage
+Fruehwald 2003   fluoxetine placebo -0.8617 [-1.5126; -0.2108] 0.00     1.00
+Kim 2017       escitalopram placebo -0.8638 [-1.0580; -0.6696] 0.00     1.00
+
+Results (random effects model):
+
+                     treat1  treat2     SMD             95% CI
+Fruehwald 2003   fluoxetine placebo -0.8617 [-1.5126; -0.2108]
+Kim 2017       escitalopram placebo -0.8638 [-1.0580; -0.6696]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'placebo'):
+                 SMD             95% CI     z  p-value
+escitalopram -0.8638 [-1.0580; -0.6696] -8.72 < 0.0001
+fluoxetine   -0.8617 [-1.5126; -0.2108] -2.59   0.0095
+placebo            .                  .     .        .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'placebo'):
+                 SMD             95% CI     z  p-value
+escitalopram -0.8638 [-1.0580; -0.6696] -8.72 < 0.0001
+fluoxetine   -0.8617 [-1.5126; -0.2108] -2.59   0.0095
+placebo            .                  .     .        .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 487 participants are included in this analysis.
+The following studies were included in this analysis: Fruehwald 2003 Kim 2017
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10

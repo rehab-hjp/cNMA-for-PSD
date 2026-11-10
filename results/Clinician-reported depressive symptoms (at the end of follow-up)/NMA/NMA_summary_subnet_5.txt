@@ -1,0 +1,89 @@
+Network meta-analysis on subnet 5.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                       treat1           treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Duan 2023  HFrTMS+mindfulness sham+mindfulness -0.1599 0.2921     0.3578     1.0893     3        *
+Duan 2023  HFrTMS+mindfulness  sham+usual care -0.4462 0.2942     0.3631     1.0910     3        *
+Duan 2023    sham+mindfulness  sham+usual care -0.2863 0.2897     0.3520     1.0874     3        *
+Gu 2017     HFrTMS+usual care  sham+usual care -2.2727 0.5237     0.5237     0.9899     2         
+Khedr 2014   drTMS+usual care  sham+usual care -0.4023 0.3236     0.3236     0.9002     2         
+Shan 2025   HFrTMS+usual care  sham+usual care -0.9205 0.3778     0.4644     1.1290     3        *
+Shan 2025     iTBS+usual care  sham+usual care -1.1266 0.3840     0.4809     1.1354     3        *
+Shan 2025   HFrTMS+usual care  iTBS+usual care  0.2061 0.3658     0.4370     1.1173     3        *
+
+Number of treatment arms per study (by decreasing number of arms):
+           narms multiarm
+Duan 2023      3        *
+Shan 2025      3        *
+Gu 2017        2         
+Khedr 2014     2         
+
+Results (common effects model):
+
+                       treat1           treat2     SMD             95% CI    Q leverage
+Duan 2023  HFrTMS+mindfulness sham+mindfulness -0.1599 [-0.7324;  0.4126] 0.00        .
+Duan 2023  HFrTMS+mindfulness  sham+usual care -0.4462 [-1.0228;  0.1304] 0.00        .
+Duan 2023    sham+mindfulness  sham+usual care -0.2863 [-0.8540;  0.2815] 0.00        .
+Gu 2017     HFrTMS+usual care  sham+usual care -1.3834 [-1.9839; -0.7828] 2.88     0.34
+Khedr 2014   drTMS+usual care  sham+usual care -0.4023 [-1.0365;  0.2319] 0.00     1.00
+Shan 2025   HFrTMS+usual care  sham+usual care -1.3834 [-1.9839; -0.7828] 0.99        .
+Shan 2025     iTBS+usual care  sham+usual care -1.3802 [-2.0943; -0.6660] 0.28        .
+Shan 2025   HFrTMS+usual care  iTBS+usual care -0.0032 [-0.6929;  0.6864] 0.23        .
+
+Results (random effects model):
+
+                       treat1           treat2     SMD             95% CI
+Duan 2023  HFrTMS+mindfulness sham+mindfulness -0.1599 [-1.9031;  1.5833]
+Duan 2023  HFrTMS+mindfulness  sham+usual care -0.4462 [-2.1908;  1.2983]
+Duan 2023    sham+mindfulness  sham+usual care -0.2863 [-2.0279;  1.4554]
+Gu 2017     HFrTMS+usual care  sham+usual care -1.5480 [-2.8697; -0.2263]
+Khedr 2014   drTMS+usual care  sham+usual care -0.4023 [-2.1667;  1.3621]
+Shan 2025   HFrTMS+usual care  sham+usual care -1.5480 [-2.8697; -0.2263]
+Shan 2025     iTBS+usual care  sham+usual care -1.4454 [-3.1445;  0.2537]
+Shan 2025   HFrTMS+usual care  iTBS+usual care -0.1026 [-1.7934;  1.5883]
+
+Number of studies: k = 4
+Number of pairwise comparisons: m = 8
+Number of treatments: n = 6
+Number of designs: d = 4
+
+Common effects model
+
+Treatment estimate (other treatments vs 'sham+usual care'):
+                       SMD             95% CI     z  p-value
+drTMS+usual care   -0.4023 [-1.0365;  0.2319] -1.24   0.2138
+HFrTMS+mindfulness -0.4462 [-1.0228;  0.1304] -1.52   0.1293
+HFrTMS+usual care  -1.3834 [-1.9839; -0.7828] -4.51 < 0.0001
+iTBS+usual care    -1.3802 [-2.0943; -0.6660] -3.79   0.0002
+sham+mindfulness   -0.2863 [-0.8540;  0.2815] -0.99   0.3230
+sham+usual care          .                  .     .        .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'sham+usual care'):
+                       SMD             95% CI     z p-value  95% PI
+drTMS+usual care   -0.4023 [-2.1667;  1.3621] -0.45  0.6549        
+HFrTMS+mindfulness -0.4462 [-2.1908;  1.2983] -0.50  0.6162        
+HFrTMS+usual care  -1.5480 [-2.8697; -0.2263] -2.30  0.0217        
+iTBS+usual care    -1.4454 [-3.1445;  0.2537] -1.67  0.0955        
+sham+mindfulness   -0.2863 [-2.0279;  1.4554] -0.32  0.7473        
+sham+usual care          .                  .     .       .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.7057; tau = 0.8401; I^2 = 77.2% [0.1%; 94.8%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           4.38    1  0.0363
+Within designs  0.00    0      --
+Between designs 4.38    1  0.0363
+
+A total of 6 treatments are included in the network.
+A total of 4 studies are included in this analysis.
+A total of 179 participants are included in this analysis.
+The following studies were included in this analysis: Duan 2023 Gu 2017 Khedr 2014 Shan 2025
+Estimated heterogeneity tau-squared0.71
+Global test for inconsistency, p-value = 0.03627 (Q = 4, d.o.f. = 1)
+
+File created on 2026-11-10

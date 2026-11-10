@@ -1,0 +1,91 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                                                             treat1     treat2      TE   seTE
+Liu 2023                                            GACT+usual care usual care -1.1425 0.1830
+Niu 2022                                            GACT+usual care usual care -0.5580 0.2280
+Thomas 2019                       behavioural activation+usual care usual care  0.7336 0.4514
+He 2023                                      mindfulness+usual care usual care -1.9754 0.3176
+Li 2004       psychoeducation+Morita therapy+venlafaxine+usual care usual care -2.2458 0.2392
+Thomas 2013                          behavioural therapy+usual care usual care -0.4618 0.2253
+Mitchell 2009                                   behavioural therapy usual care -0.4938 0.2119
+
+Number of treatment arms per study:
+              narms
+Liu 2023          2
+Niu 2022          2
+Thomas 2019       2
+He 2023           2
+Li 2004           2
+Thomas 2013       2
+Mitchell 2009     2
+
+Results (common effects model):
+
+                                                             treat1     treat2     SMD             95% CI    Q leverage
+Liu 2023                                            GACT+usual care usual care -0.9136 [-1.1932; -0.6339] 1.57     0.61
+Niu 2022                                            GACT+usual care usual care -0.9136 [-1.1932; -0.6339] 2.43     0.39
+Thomas 2019                       behavioural activation+usual care usual care  0.7336 [-0.1510;  1.6183] 0.00     1.00
+He 2023                                      mindfulness+usual care usual care -1.9754 [-2.5979; -1.3528] 0.00     1.00
+Li 2004       psychoeducation+Morita therapy+venlafaxine+usual care usual care -2.2458 [-2.7145; -1.7770] 0.00     1.00
+Thomas 2013                          behavioural therapy+usual care usual care -0.4618 [-0.9034; -0.0202] 0.00     1.00
+Mitchell 2009                                   behavioural therapy usual care -0.4938 [-0.9090; -0.0785] 0.00     1.00
+
+Results (random effects model):
+
+                                                             treat1     treat2     SMD             95% CI
+Liu 2023                                            GACT+usual care usual care -0.8661 [-1.4380; -0.2941]
+Niu 2022                                            GACT+usual care usual care -0.8661 [-1.4380; -0.2941]
+Thomas 2019                       behavioural activation+usual care usual care  0.7336 [-0.3954;  1.8627]
+He 2023                                      mindfulness+usual care usual care -1.9754 [-2.9132; -1.0375]
+Li 2004       psychoeducation+Morita therapy+venlafaxine+usual care usual care -2.2458 [-3.0894; -1.4021]
+Thomas 2013                          behavioural therapy+usual care usual care -0.4618 [-1.2907;  0.3671]
+Mitchell 2009                                   behavioural therapy usual care -0.4938 [-1.3089;  0.3214]
+
+Number of studies: k = 7
+Number of pairwise comparisons: m = 7
+Number of treatments: n = 7
+Number of designs: d = 6
+
+Common effects model
+
+Treatment estimate (other treatments vs 'usual care'):
+                                                          SMD             95% CI     z  p-value
+behavioural activation+usual care                      0.7336 [-0.1510;  1.6183]  1.63   0.1041
+behavioural therapy                                   -0.4938 [-0.9090; -0.0785] -2.33   0.0198
+behavioural therapy+usual care                        -0.4618 [-0.9034; -0.0202] -2.05   0.0404
+GACT+usual care                                       -0.9136 [-1.1932; -0.6339] -6.40 < 0.0001
+mindfulness+usual care                                -1.9754 [-2.5979; -1.3528] -6.22 < 0.0001
+psychoeducation+Morita therapy+venlafaxine+usual care -2.2458 [-2.7145; -1.7770] -9.39 < 0.0001
+usual care                                                  .                  .     .        .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'usual care'):
+                                                          SMD             95% CI     z  p-value  95% PI
+behavioural activation+usual care                      0.7336 [-0.3954;  1.8627]  1.27   0.2028        
+behavioural therapy                                   -0.4938 [-1.3089;  0.3214] -1.19   0.2351        
+behavioural therapy+usual care                        -0.4618 [-1.2907;  0.3671] -1.09   0.2748        
+GACT+usual care                                       -0.8661 [-1.4380; -0.2941] -2.97   0.0030        
+mindfulness+usual care                                -1.9754 [-2.9132; -1.0375] -4.13 < 0.0001        
+psychoeducation+Morita therapy+venlafaxine+usual care -2.2458 [-3.0894; -1.4021] -5.22 < 0.0001        
+usual care                                                  .                  .     .        .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.1281; tau = 0.3579; I^2 = 75% [0.0%; 94.3%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           4    1  0.0456
+Within designs  4    1  0.0456
+Between designs 0    0      --
+
+A total of 7 treatments are included in the network.
+A total of 7 studies are included in this analysis.
+A total of 586 participants are included in this analysis.
+The following studies were included in this analysis: Liu 2023 Niu 2022 Thomas 2019 He 2023 Li 2004 Thomas 2013 Mitchell 2009
+Estimated heterogeneity tau-squared0.13
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10
