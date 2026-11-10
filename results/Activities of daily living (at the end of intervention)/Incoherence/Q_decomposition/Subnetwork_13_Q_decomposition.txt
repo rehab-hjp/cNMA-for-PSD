@@ -1,0 +1,17 @@
+Q statistics to assess homogeneity / consistency
+
+                   Q df p-value
+Total           0.54  1  0.4643
+Within designs  0.54  1  0.4643
+Between designs 0.00  0      --
+
+Design-specific decomposition of within-designs Q statistic
+
+                                             Design    Q df p-value
+ duloxetine+usual care:LFrTMS+duloxetine+usual care 0.54  1  0.4643
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                   Q df p-value tau.within tau2.within
+Between designs 0.00  0      --          0           0
