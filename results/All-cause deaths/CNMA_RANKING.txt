@@ -1,0 +1,20 @@
+                               P-score (common) P-score (random)
+attention control                        0.7618           0.7618
+taVNS+escitalopram+usual care            0.7458           0.7458
+CBT                                      0.7347           0.7347
+behavioural therapy+usual care           0.7011           0.7011
+sertraline                               0.6650           0.6650
+dextroamphetamine+usual care             0.5761           0.5761
+sham+escitalopram+usual care             0.5696           0.5696
+nortriptyline                            0.5615           0.5615
+escitalopram                             0.5574           0.5574
+usual care                               0.5210           0.5210
+sham+usual care                          0.5088           0.5088
+ecosystem focused therapy                0.4129           0.4129
+fluoxetine                               0.3783           0.3783
+citalopram                               0.3240           0.3240
+placebo+usual care                       0.3136           0.3136
+motivational interviewing                0.3090           0.3090
+placebo                                  0.2981           0.2981
+mindfulness                              0.2837           0.2837
+atDCS+usual care                         0.2779           0.2779
