@@ -1,0 +1,71 @@
+Network meta-analysis on subnet 19.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                                  treat1                                 treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Finkenzeller 2009            interpersonal psychotherapy                  sertraline+usual care -0.2522 0.2813     0.3391     0.3391     3        *
+Finkenzeller 2009            interpersonal psychotherapy interpersonal psychotherapy+sertraline -0.2883 0.2847     0.3469     0.3469     3        *
+Finkenzeller 2009 interpersonal psychotherapy+sertraline                  sertraline+usual care  0.0360 0.2918     0.3653     0.3653     3        *
+Shen 2021                          sertraline+usual care             SFBT+sertraline+usual care  0.4924 0.1853     0.1853     0.1853     2         
+
+Number of treatment arms per study (by decreasing number of arms):
+                  narms multiarm
+Finkenzeller 2009     3        *
+Shen 2021             2         
+
+Results (common effects model):
+
+                                                  treat1                                 treat2     SMD            95% CI    Q leverage
+Finkenzeller 2009            interpersonal psychotherapy                  sertraline+usual care -0.2522 [-0.8036; 0.2991] 0.00        .
+Finkenzeller 2009            interpersonal psychotherapy interpersonal psychotherapy+sertraline -0.2883 [-0.8464; 0.2698] 0.00        .
+Finkenzeller 2009 interpersonal psychotherapy+sertraline                  sertraline+usual care  0.0360 [-0.5359; 0.6080] 0.00        .
+Shen 2021                          sertraline+usual care             SFBT+sertraline+usual care  0.4924 [ 0.1292; 0.8556] 0.00     1.00
+
+Results (random effects model):
+
+                                                  treat1                                 treat2     SMD            95% CI
+Finkenzeller 2009            interpersonal psychotherapy                  sertraline+usual care -0.2522 [-0.8036; 0.2991]
+Finkenzeller 2009            interpersonal psychotherapy interpersonal psychotherapy+sertraline -0.2883 [-0.8464; 0.2698]
+Finkenzeller 2009 interpersonal psychotherapy+sertraline                  sertraline+usual care  0.0360 [-0.5359; 0.6080]
+Shen 2021                          sertraline+usual care             SFBT+sertraline+usual care  0.4924 [ 0.1292; 0.8556]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 4
+Number of treatments: n = 4
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'sertraline+usual care'):
+                                           SMD             95% CI     z p-value
+interpersonal psychotherapy            -0.2522 [-0.8036;  0.2991] -0.90  0.3699
+interpersonal psychotherapy+sertraline  0.0360 [-0.5359;  0.6080]  0.12  0.9017
+sertraline+usual care                        .                  .     .       .
+SFBT+sertraline+usual care             -0.4924 [-0.8556; -0.1292] -2.66  0.0079
+
+Random effects model
+
+Treatment estimate (other treatments vs 'sertraline+usual care'):
+                                           SMD             95% CI     z p-value
+interpersonal psychotherapy            -0.2522 [-0.8036;  0.2991] -0.90  0.3699
+interpersonal psychotherapy+sertraline  0.0360 [-0.5359;  0.6080]  0.12  0.9017
+sertraline+usual care                        .                  .     .       .
+SFBT+sertraline+usual care             -0.4924 [-0.8556; -0.1292] -2.66  0.0079
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 4 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 194 participants are included in this analysis.
+The following studies were included in this analysis: Finkenzeller 2009 Shen 2021
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10

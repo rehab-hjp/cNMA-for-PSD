@@ -1,0 +1,63 @@
+Network meta-analysis on subnet 8.
+
+Original data:
+
+                                                                             treat1                treat2      TE   seTE
+Liang 2006   cognitive restructuring+supportive psychotherapy+paroxetine+usual care paroxetine+usual care -0.9793 0.2138
+Wang RT 2020                                           LFrTMS+paroxetine+usual care paroxetine+usual care -1.4335 0.1819
+
+Number of treatment arms per study:
+             narms
+Liang 2006       2
+Wang RT 2020     2
+
+Results (common effects model):
+
+                                                                             treat1                treat2     SMD             95% CI    Q leverage
+Liang 2006   cognitive restructuring+supportive psychotherapy+paroxetine+usual care paroxetine+usual care -0.9793 [-1.3984; -0.5602] 0.00     1.00
+Wang RT 2020                                           LFrTMS+paroxetine+usual care paroxetine+usual care -1.4335 [-1.7899; -1.0770] 0.00     1.00
+
+Results (random effects model):
+
+                                                                             treat1                treat2     SMD             95% CI
+Liang 2006   cognitive restructuring+supportive psychotherapy+paroxetine+usual care paroxetine+usual care -0.9793 [-1.3984; -0.5602]
+Wang RT 2020                                           LFrTMS+paroxetine+usual care paroxetine+usual care -1.4335 [-1.7899; -1.0770]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'paroxetine+usual care'):
+                                                                           SMD             95% CI     z  p-value
+cognitive restructuring+supportive psychotherapy+paroxetine+usual care -0.9793 [-1.3984; -0.5602] -4.58 < 0.0001
+LFrTMS+paroxetine+usual care                                           -1.4335 [-1.7899; -1.0770] -7.88 < 0.0001
+paroxetine+usual care                                                        .                  .     .        .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'paroxetine+usual care'):
+                                                                           SMD             95% CI     z  p-value
+cognitive restructuring+supportive psychotherapy+paroxetine+usual care -0.9793 [-1.3984; -0.5602] -4.58 < 0.0001
+LFrTMS+paroxetine+usual care                                           -1.4335 [-1.7899; -1.0770] -7.88 < 0.0001
+paroxetine+usual care                                                        .                  .     .        .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 250 participants are included in this analysis.
+The following studies were included in this analysis: Liang 2006 Wang RT 2020
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10

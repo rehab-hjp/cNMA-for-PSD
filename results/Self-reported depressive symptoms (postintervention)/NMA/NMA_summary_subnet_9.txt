@@ -1,0 +1,67 @@
+Network meta-analysis on subnet 9.
+
+Original data:
+
+                                     treat1             treat2      TE   seTE
+Goldstein 2018 dextroamphetamine+usual care placebo+usual care  0.0052 0.2500
+Grade 1998       methylphenidate+usual care placebo+usual care -0.8969 0.4583
+Delbari 2010     methylphenidate+usual care placebo+usual care -0.3132 0.3223
+
+Number of treatment arms per study:
+               narms
+Goldstein 2018     2
+Grade 1998         2
+Delbari 2010       2
+
+Results (common effects model):
+
+                                     treat1             treat2     SMD            95% CI    Q leverage
+Goldstein 2018 dextroamphetamine+usual care placebo+usual care  0.0052 [-0.4848; 0.4951] 0.00     1.00
+Grade 1998       methylphenidate+usual care placebo+usual care -0.5063 [-1.0231; 0.0104] 0.73     0.33
+Delbari 2010     methylphenidate+usual care placebo+usual care -0.5063 [-1.0231; 0.0104] 0.36     0.67
+
+Results (random effects model):
+
+                                     treat1             treat2     SMD            95% CI
+Goldstein 2018 dextroamphetamine+usual care placebo+usual care  0.0052 [-0.5348; 0.5451]
+Grade 1998       methylphenidate+usual care placebo+usual care -0.5141 [-1.0576; 0.0295]
+Delbari 2010     methylphenidate+usual care placebo+usual care -0.5141 [-1.0576; 0.0295]
+
+Number of studies: k = 3
+Number of pairwise comparisons: m = 3
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'placebo+usual care'):
+                                 SMD            95% CI     z p-value
+dextroamphetamine+usual care  0.0052 [-0.4848; 0.4951]  0.02  0.9835
+methylphenidate+usual care   -0.5063 [-1.0231; 0.0104] -1.92  0.0548
+placebo+usual care                 .                 .     .       .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'placebo+usual care'):
+                                 SMD            95% CI     z p-value  95% PI
+dextroamphetamine+usual care  0.0052 [-0.5348; 0.5451]  0.02  0.9851        
+methylphenidate+usual care   -0.5141 [-1.0576; 0.0295] -1.85  0.0638        
+placebo+usual care                 .                 .     .       .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.0134; tau = 0.1157; I^2 = 7.9%
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           1.09    1  0.2975
+Within designs  1.09    1  0.2975
+Between designs 0.00    0      --
+
+A total of 3 treatments are included in the network.
+A total of 3 studies are included in this analysis.
+A total of 124 participants are included in this analysis.
+The following studies were included in this analysis: Goldstein 2018 Grade 1998 Delbari 2010
+Estimated heterogeneity tau-squared0.01
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10

@@ -1,0 +1,51 @@
+Network meta-analysis on subnet 11.
+
+Original data:
+
+               treat1            treat2     TE   seTE
+Zhang 2023 duloxetine HFrTMS+duloxetine 1.1672 0.2164
+
+Number of treatment arms per study:
+           narms
+Zhang 2023     2
+
+Results (common effects model):
+
+               treat1            treat2    SMD           95% CI    Q leverage
+Zhang 2023 duloxetine HFrTMS+duloxetine 1.1672 [0.7432; 1.5913] 0.00     1.00
+
+Results (random effects model):
+
+               treat1            treat2    SMD           95% CI
+Zhang 2023 duloxetine HFrTMS+duloxetine 1.1672 [0.7432; 1.5913]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('HFrTMS+duloxetine' vs 'duloxetine'):
+                      SMD             95% CI     z  p-value
+duloxetine              .                  .     .        .
+HFrTMS+duloxetine -1.1672 [-1.5913; -0.7432] -5.39 < 0.0001
+
+Random effects model
+
+Treatment estimate ('HFrTMS+duloxetine' vs 'duloxetine'):
+                      SMD             95% CI     z  p-value
+duloxetine              .                  .     .        .
+HFrTMS+duloxetine -1.1672 [-1.5913; -0.7432] -5.39 < 0.0001
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 100 participants are included in this analysis.
+The following studies were included in this analysis: Zhang 2023
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10

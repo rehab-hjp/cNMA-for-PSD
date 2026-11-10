@@ -1,0 +1,71 @@
+Network meta-analysis on subnet 13.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                  treat1                                              treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Gao 2023         escitalopram+usual care                      HFrTMS+escitalopram+usual care  1.2411 0.2546     0.3223     0.3223     3        *
+Gao 2023         escitalopram+usual care                      LFrTMS+escitalopram+usual care  1.0735 0.2440     0.2946     0.2946     3        *
+Gao 2023  HFrTMS+escitalopram+usual care                      LFrTMS+escitalopram+usual care -0.1675 0.2432     0.2929     0.2929     3        *
+Shen 2024        escitalopram+usual care HFrTMS+reminiscence therapy+escitalopram+usual care  1.4599 0.2372     0.2372     0.2372     2         
+
+Number of treatment arms per study (by decreasing number of arms):
+          narms multiarm
+Gao 2023      3        *
+Shen 2024     2         
+
+Results (common effects model):
+
+                                  treat1                                              treat2     SMD            95% CI    Q leverage
+Gao 2023         escitalopram+usual care                      HFrTMS+escitalopram+usual care  1.2411 [ 0.7421; 1.7401] 0.00        .
+Gao 2023         escitalopram+usual care                      LFrTMS+escitalopram+usual care  1.0735 [ 0.5953; 1.5518] 0.00        .
+Gao 2023  HFrTMS+escitalopram+usual care                      LFrTMS+escitalopram+usual care -0.1675 [-0.6443; 0.3092] 0.00        .
+Shen 2024        escitalopram+usual care HFrTMS+reminiscence therapy+escitalopram+usual care  1.4599 [ 0.9949; 1.9249] 0.00     1.00
+
+Results (random effects model):
+
+                                  treat1                                              treat2     SMD            95% CI
+Gao 2023         escitalopram+usual care                      HFrTMS+escitalopram+usual care  1.2411 [ 0.7421; 1.7401]
+Gao 2023         escitalopram+usual care                      LFrTMS+escitalopram+usual care  1.0735 [ 0.5953; 1.5518]
+Gao 2023  HFrTMS+escitalopram+usual care                      LFrTMS+escitalopram+usual care -0.1675 [-0.6443; 0.3092]
+Shen 2024        escitalopram+usual care HFrTMS+reminiscence therapy+escitalopram+usual care  1.4599 [ 0.9949; 1.9249]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 4
+Number of treatments: n = 4
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'escitalopram+usual care'):
+                                                        SMD             95% CI     z  p-value
+escitalopram+usual care                                   .                  .     .        .
+HFrTMS+escitalopram+usual care                      -1.2411 [-1.7401; -0.7421] -4.87 < 0.0001
+HFrTMS+reminiscence therapy+escitalopram+usual care -1.4599 [-1.9249; -0.9949] -6.15 < 0.0001
+LFrTMS+escitalopram+usual care                      -1.0735 [-1.5518; -0.5953] -4.40 < 0.0001
+
+Random effects model
+
+Treatment estimate (other treatments vs 'escitalopram+usual care'):
+                                                        SMD             95% CI     z  p-value
+escitalopram+usual care                                   .                  .     .        .
+HFrTMS+escitalopram+usual care                      -1.2411 [-1.7401; -0.7421] -4.87 < 0.0001
+HFrTMS+reminiscence therapy+escitalopram+usual care -1.4599 [-1.9249; -0.9949] -6.15 < 0.0001
+LFrTMS+escitalopram+usual care                      -1.0735 [-1.5518; -0.5953] -4.40 < 0.0001
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 4 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 196 participants are included in this analysis.
+The following studies were included in this analysis: Gao 2023 Shen 2024
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10

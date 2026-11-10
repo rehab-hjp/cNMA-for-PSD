@@ -1,0 +1,59 @@
+Network meta-analysis on subnet 17.
+
+Original data:
+
+                    treat1     treat2      TE   seTE
+Liu 2020 HFrTMS+paroxetine paroxetine -0.7723 0.2514
+Zhu 2018 HFrTMS+paroxetine paroxetine -1.5333 0.2759
+
+Number of treatment arms per study:
+         narms
+Liu 2020     2
+Zhu 2018     2
+
+Results (common effects model):
+
+                    treat1     treat2     SMD             95% CI    Q leverage
+Liu 2020 HFrTMS+paroxetine paroxetine -1.1176 [-1.4818; -0.7534] 1.89     0.55
+Zhu 2018 HFrTMS+paroxetine paroxetine -1.1176 [-1.4818; -0.7534] 2.27     0.45
+
+Results (random effects model):
+
+                    treat1     treat2     SMD             95% CI
+Liu 2020 HFrTMS+paroxetine paroxetine -1.1443 [-1.8899; -0.3988]
+Zhu 2018 HFrTMS+paroxetine paroxetine -1.1443 [-1.8899; -0.3988]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('paroxetine' vs 'HFrTMS+paroxetine'):
+                     SMD           95% CI    z  p-value
+HFrTMS+paroxetine      .                .    .        .
+paroxetine        1.1176 [0.7534; 1.4818] 6.01 < 0.0001
+
+Random effects model
+
+Treatment estimate ('paroxetine' vs 'HFrTMS+paroxetine'):
+                     SMD           95% CI    z p-value  95% PI
+HFrTMS+paroxetine      .                .    .       .       .
+paroxetine        1.1443 [0.3988; 1.8899] 3.01  0.0026        
+
+Quantifying heterogeneity:
+tau^2 = 0.2199; tau = 0.4689; I^2 = 75.9% [0.0%; 94.5%]
+
+Test of heterogeneity:
+    Q d.f. p-value
+ 4.16    1  0.0415
+
+A total of 2 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 136 participants are included in this analysis.
+The following studies were included in this analysis: Liu 2020 Zhu 2018
+Estimated heterogeneity tau-squared0.22
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10

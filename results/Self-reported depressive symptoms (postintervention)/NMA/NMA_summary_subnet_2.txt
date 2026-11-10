@@ -1,0 +1,51 @@
+Network meta-analysis on subnet 2.
+
+Original data:
+
+                                             treat1                                treat2     TE   seTE
+Kelleher 2025 behavioural activation+active control behavioural activation+mental imagery 1.8167 0.3544
+
+Number of treatment arms per study:
+              narms
+Kelleher 2025     2
+
+Results (common effects model):
+
+                                             treat1                                treat2    SMD           95% CI    Q leverage
+Kelleher 2025 behavioural activation+active control behavioural activation+mental imagery 1.8167 [1.1221; 2.5113] 0.00     1.00
+
+Results (random effects model):
+
+                                             treat1                                treat2    SMD           95% CI
+Kelleher 2025 behavioural activation+active control behavioural activation+mental imagery 1.8167 [1.1221; 2.5113]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('behavioural activation+mental imagery' vs 'behavioural activation+active control'):
+                                          SMD             95% CI     z  p-value
+behavioural activation+active control       .                  .     .        .
+behavioural activation+mental imagery -1.8167 [-2.5113; -1.1221] -5.13 < 0.0001
+
+Random effects model
+
+Treatment estimate ('behavioural activation+mental imagery' vs 'behavioural activation+active control'):
+                                          SMD             95% CI     z  p-value
+behavioural activation+active control       .                  .     .        .
+behavioural activation+mental imagery -1.8167 [-2.5113; -1.1221] -5.13 < 0.0001
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 45 participants are included in this analysis.
+The following studies were included in this analysis: Kelleher 2025
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10

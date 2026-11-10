@@ -1,0 +1,51 @@
+Network meta-analysis on subnet 10.
+
+Original data:
+
+                                treat1                      treat2      TE   seTE
+Ma 2021 D drTMS+mirtazapine+usual care sham+mirtazapine+usual care -2.4171 0.3396
+
+Number of treatment arms per study:
+          narms
+Ma 2021 D     2
+
+Results (common effects model):
+
+                                treat1                      treat2     SMD             95% CI    Q leverage
+Ma 2021 D drTMS+mirtazapine+usual care sham+mirtazapine+usual care -2.4171 [-3.0828; -1.7514] 0.00     1.00
+
+Results (random effects model):
+
+                                treat1                      treat2     SMD             95% CI
+Ma 2021 D drTMS+mirtazapine+usual care sham+mirtazapine+usual care -2.4171 [-3.0828; -1.7514]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('sham+mirtazapine+usual care' vs 'drTMS+mirtazapine+usual care'):
+                                SMD           95% CI    z  p-value
+drTMS+mirtazapine+usual care      .                .    .        .
+sham+mirtazapine+usual care  2.4171 [1.7514; 3.0828] 7.12 < 0.0001
+
+Random effects model
+
+Treatment estimate ('sham+mirtazapine+usual care' vs 'drTMS+mirtazapine+usual care'):
+                                SMD           95% CI    z  p-value
+drTMS+mirtazapine+usual care      .                .    .        .
+sham+mirtazapine+usual care  2.4171 [1.7514; 3.0828] 7.12 < 0.0001
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 60 participants are included in this analysis.
+The following studies were included in this analysis: Ma 2021 D
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10
