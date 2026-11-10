@@ -1,0 +1,137 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                                                                     comparison k prop   nma direct indir. Diff z p-value
+                                            CBT+drTMS+usual care:CBT+usual care 0    0  0.60      .   0.60    . .       .
+                                                      CBT+drTMS+usual care:GACT 0    0  0.87      .   0.87    . .       .
+                                           CBT+drTMS+usual care:GACT+usual care 0    0 -0.19      .  -0.19    . .       .
+                            CBT+drTMS+usual care:group psychotherapy+usual care 0    0  0.21      .   0.21    . .       .
+                CBT+drTMS+usual care:knowledge and behaviour therapy+usual care 0    0  0.49      .   0.49    . .       .
+                                    CBT+drTMS+usual care:mindfulness+usual care 0    0  0.98      .   0.98    . .       .
+                                  CBT+drTMS+usual care:motor imagery+usual care 0    0 -0.30      .  -0.30    . .       .
+                               CBT+drTMS+usual care:SFBT+mindfulness+usual care 0    0 -1.12      .  -1.12    . .       .
+                       CBT+drTMS+usual care:supportive psychotherapy+usual care 0    0  0.26      .   0.26    . .       .
+                                                CBT+drTMS+usual care:usual care 1 1.00  1.00   1.00      .    . .       .
+                                                            CBT+usual care:GACT 0    0  0.27      .   0.27    . .       .
+                                                 CBT+usual care:GACT+usual care 0    0 -0.78      .  -0.78    . .       .
+                                  CBT+usual care:group psychotherapy+usual care 0    0 -0.39      .  -0.39    . .       .
+                      CBT+usual care:knowledge and behaviour therapy+usual care 0    0 -0.11      .  -0.11    . .       .
+                                          CBT+usual care:mindfulness+usual care 0    0  0.38      .   0.38    . .       .
+                                        CBT+usual care:motor imagery+usual care 0    0 -0.90      .  -0.90    . .       .
+                                     CBT+usual care:SFBT+mindfulness+usual care 0    0 -1.72      .  -1.72    . .       .
+                             CBT+usual care:supportive psychotherapy+usual care 0    0 -0.34      .  -0.34    . .       .
+                                                      CBT+usual care:usual care 1 1.00  0.40   0.40      .    . .       .
+                                                           GACT:GACT+usual care 0    0 -1.06      .  -1.06    . .       .
+                                            GACT:group psychotherapy+usual care 0    0 -0.66      .  -0.66    . .       .
+                                GACT:knowledge and behaviour therapy+usual care 0    0 -0.38      .  -0.38    . .       .
+                                                    GACT:mindfulness+usual care 0    0  0.11      .   0.11    . .       .
+                                                  GACT:motor imagery+usual care 0    0 -1.17      .  -1.17    . .       .
+                                               GACT:SFBT+mindfulness+usual care 0    0 -1.99      .  -1.99    . .       .
+                                       GACT:supportive psychotherapy+usual care 0    0 -0.61      .  -0.61    . .       .
+                                                                GACT:usual care 1 1.00  0.13   0.13      .    . .       .
+                                 GACT+usual care:group psychotherapy+usual care 0    0  0.39      .   0.39    . .       .
+                     GACT+usual care:knowledge and behaviour therapy+usual care 0    0  0.67      .   0.67    . .       .
+                                         GACT+usual care:mindfulness+usual care 0    0  1.17      .   1.17    . .       .
+                                       GACT+usual care:motor imagery+usual care 0    0 -0.12      .  -0.12    . .       .
+                                    GACT+usual care:SFBT+mindfulness+usual care 0    0 -0.93      .  -0.93    . .       .
+                            GACT+usual care:supportive psychotherapy+usual care 0    0  0.44      .   0.44    . .       .
+                                                     GACT+usual care:usual care 1 1.00  1.19   1.19      .    . .       .
+      group psychotherapy+usual care:knowledge and behaviour therapy+usual care 0    0  0.28      .   0.28    . .       .
+                          group psychotherapy+usual care:mindfulness+usual care 0    0  0.77      .   0.77    . .       .
+                        group psychotherapy+usual care:motor imagery+usual care 0    0 -0.51      .  -0.51    . .       .
+                     group psychotherapy+usual care:SFBT+mindfulness+usual care 0    0 -1.33      .  -1.33    . .       .
+             group psychotherapy+usual care:supportive psychotherapy+usual care 0    0  0.05      .   0.05    . .       .
+                                      group psychotherapy+usual care:usual care 1 1.00  0.79   0.79      .    . .       .
+              knowledge and behaviour therapy+usual care:mindfulness+usual care 0    0  0.49      .   0.49    . .       .
+            knowledge and behaviour therapy+usual care:motor imagery+usual care 0    0 -0.79      .  -0.79    . .       .
+         knowledge and behaviour therapy+usual care:SFBT+mindfulness+usual care 0    0 -1.61      .  -1.61    . .       .
+ knowledge and behaviour therapy+usual care:supportive psychotherapy+usual care 0    0 -0.23      .  -0.23    . .       .
+                          knowledge and behaviour therapy+usual care:usual care 1 1.00  0.51   0.51      .    . .       .
+                                mindfulness+usual care:motor imagery+usual care 0    0 -1.28      .  -1.28    . .       .
+                             mindfulness+usual care:SFBT+mindfulness+usual care 0    0 -2.10      .  -2.10    . .       .
+                     mindfulness+usual care:supportive psychotherapy+usual care 0    0 -0.72      .  -0.72    . .       .
+                                              mindfulness+usual care:usual care 2 1.00  0.02   0.02      .    . .       .
+                           motor imagery+usual care:SFBT+mindfulness+usual care 0    0 -0.82      .  -0.82    . .       .
+                   motor imagery+usual care:supportive psychotherapy+usual care 0    0  0.56      .   0.56    . .       .
+                                            motor imagery+usual care:usual care 2 1.00  1.30   1.30      .    . .       .
+                SFBT+mindfulness+usual care:supportive psychotherapy+usual care 0    0  1.38      .   1.38    . .       .
+                                         SFBT+mindfulness+usual care:usual care 1 1.00  2.12   2.12      .    . .       .
+                                 supportive psychotherapy+usual care:usual care 1 1.00  0.74   0.74      .    . .       .
+
+Random effects model: 
+
+                                                                     comparison k prop   nma direct indir. Diff z p-value
+                                            CBT+drTMS+usual care:CBT+usual care 0    0  0.60      .   0.60    . .       .
+                                                      CBT+drTMS+usual care:GACT 0    0  0.87      .   0.87    . .       .
+                                           CBT+drTMS+usual care:GACT+usual care 0    0 -0.19      .  -0.19    . .       .
+                            CBT+drTMS+usual care:group psychotherapy+usual care 0    0  0.21      .   0.21    . .       .
+                CBT+drTMS+usual care:knowledge and behaviour therapy+usual care 0    0  0.49      .   0.49    . .       .
+                                    CBT+drTMS+usual care:mindfulness+usual care 0    0  0.97      .   0.97    . .       .
+                                  CBT+drTMS+usual care:motor imagery+usual care 0    0 -0.39      .  -0.39    . .       .
+                               CBT+drTMS+usual care:SFBT+mindfulness+usual care 0    0 -1.12      .  -1.12    . .       .
+                       CBT+drTMS+usual care:supportive psychotherapy+usual care 0    0  0.26      .   0.26    . .       .
+                                                CBT+drTMS+usual care:usual care 1 1.00  1.00   1.00      .    . .       .
+                                                            CBT+usual care:GACT 0    0  0.27      .   0.27    . .       .
+                                                 CBT+usual care:GACT+usual care 0    0 -0.78      .  -0.78    . .       .
+                                  CBT+usual care:group psychotherapy+usual care 0    0 -0.39      .  -0.39    . .       .
+                      CBT+usual care:knowledge and behaviour therapy+usual care 0    0 -0.11      .  -0.11    . .       .
+                                          CBT+usual care:mindfulness+usual care 0    0  0.37      .   0.37    . .       .
+                                        CBT+usual care:motor imagery+usual care 0    0 -0.99      .  -0.99    . .       .
+                                     CBT+usual care:SFBT+mindfulness+usual care 0    0 -1.72      .  -1.72    . .       .
+                             CBT+usual care:supportive psychotherapy+usual care 0    0 -0.34      .  -0.34    . .       .
+                                                      CBT+usual care:usual care 1 1.00  0.40   0.40      .    . .       .
+                                                           GACT:GACT+usual care 0    0 -1.06      .  -1.06    . .       .
+                                            GACT:group psychotherapy+usual care 0    0 -0.66      .  -0.66    . .       .
+                                GACT:knowledge and behaviour therapy+usual care 0    0 -0.38      .  -0.38    . .       .
+                                                    GACT:mindfulness+usual care 0    0  0.10      .   0.10    . .       .
+                                                  GACT:motor imagery+usual care 0    0 -1.26      .  -1.26    . .       .
+                                               GACT:SFBT+mindfulness+usual care 0    0 -1.99      .  -1.99    . .       .
+                                       GACT:supportive psychotherapy+usual care 0    0 -0.61      .  -0.61    . .       .
+                                                                GACT:usual care 1 1.00  0.13   0.13      .    . .       .
+                                 GACT+usual care:group psychotherapy+usual care 0    0  0.39      .   0.39    . .       .
+                     GACT+usual care:knowledge and behaviour therapy+usual care 0    0  0.67      .   0.67    . .       .
+                                         GACT+usual care:mindfulness+usual care 0    0  1.15      .   1.15    . .       .
+                                       GACT+usual care:motor imagery+usual care 0    0 -0.20      .  -0.20    . .       .
+                                    GACT+usual care:SFBT+mindfulness+usual care 0    0 -0.93      .  -0.93    . .       .
+                            GACT+usual care:supportive psychotherapy+usual care 0    0  0.44      .   0.44    . .       .
+                                                     GACT+usual care:usual care 1 1.00  1.19   1.19      .    . .       .
+      group psychotherapy+usual care:knowledge and behaviour therapy+usual care 0    0  0.28      .   0.28    . .       .
+                          group psychotherapy+usual care:mindfulness+usual care 0    0  0.76      .   0.76    . .       .
+                        group psychotherapy+usual care:motor imagery+usual care 0    0 -0.60      .  -0.60    . .       .
+                     group psychotherapy+usual care:SFBT+mindfulness+usual care 0    0 -1.33      .  -1.33    . .       .
+             group psychotherapy+usual care:supportive psychotherapy+usual care 0    0  0.05      .   0.05    . .       .
+                                      group psychotherapy+usual care:usual care 1 1.00  0.79   0.79      .    . .       .
+              knowledge and behaviour therapy+usual care:mindfulness+usual care 0    0  0.48      .   0.48    . .       .
+            knowledge and behaviour therapy+usual care:motor imagery+usual care 0    0 -0.88      .  -0.88    . .       .
+         knowledge and behaviour therapy+usual care:SFBT+mindfulness+usual care 0    0 -1.61      .  -1.61    . .       .
+ knowledge and behaviour therapy+usual care:supportive psychotherapy+usual care 0    0 -0.23      .  -0.23    . .       .
+                          knowledge and behaviour therapy+usual care:usual care 1 1.00  0.51   0.51      .    . .       .
+                                mindfulness+usual care:motor imagery+usual care 0    0 -1.36      .  -1.36    . .       .
+                             mindfulness+usual care:SFBT+mindfulness+usual care 0    0 -2.09      .  -2.09    . .       .
+                     mindfulness+usual care:supportive psychotherapy+usual care 0    0 -0.71      .  -0.71    . .       .
+                                              mindfulness+usual care:usual care 2 1.00  0.03   0.03      .    . .       .
+                           motor imagery+usual care:SFBT+mindfulness+usual care 0    0 -0.73      .  -0.73    . .       .
+                   motor imagery+usual care:supportive psychotherapy+usual care 0    0  0.65      .   0.65    . .       .
+                                            motor imagery+usual care:usual care 2 1.00  1.39   1.39      .    . .       .
+                SFBT+mindfulness+usual care:supportive psychotherapy+usual care 0    0  1.38      .   1.38    . .       .
+                                         SFBT+mindfulness+usual care:usual care 1 1.00  2.12   2.12      .    . .       .
+                                 supportive psychotherapy+usual care:usual care 1 1.00  0.74   0.74      .    . .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (SMD) in network meta-analysis
+ direct     - Estimated treatment effect (SMD) derived from direct evidence
+ indir.     - Estimated treatment effect (SMD) derived from indirect evidence
+ Diff       - Difference between direct and indirect treatment estimates
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Common effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: Not estimable (0 comparisons with an estimable test).
+
+Random effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: Not estimable (0 comparisons with an estimable test).
+
