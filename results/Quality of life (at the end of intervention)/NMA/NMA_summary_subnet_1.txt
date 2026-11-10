@@ -1,0 +1,63 @@
+Network meta-analysis on subnet 1.
+
+Original data:
+
+                                 treat1          treat2      TE   seTE
+Wang 2020                active control     mindfulness -1.1840 0.1873
+Baldo 2021 (NCT02600637)    mindfulness psychoeducation -0.1436 0.4008
+
+Number of treatment arms per study:
+                         narms
+Wang 2020                    2
+Baldo 2021 (NCT02600637)     2
+
+Results (common effects model):
+
+                                 treat1          treat2     SMD             95% CI    Q leverage
+Wang 2020                active control     mindfulness -1.1840 [-1.5511; -0.8169] 0.00     1.00
+Baldo 2021 (NCT02600637)    mindfulness psychoeducation -0.1436 [-0.9292;  0.6421] 0.00     1.00
+
+Results (random effects model):
+
+                                 treat1          treat2     SMD             95% CI
+Wang 2020                active control     mindfulness -1.1840 [-1.5511; -0.8169]
+Baldo 2021 (NCT02600637)    mindfulness psychoeducation -0.1436 [-0.9292;  0.6421]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'mindfulness'):
+                    SMD             95% CI     z  p-value
+active control  -1.1840 [-1.5511; -0.8169] -6.32 < 0.0001
+mindfulness           .                  .     .        .
+psychoeducation  0.1436 [-0.6421;  0.9292]  0.36   0.7202
+
+Random effects model
+
+Treatment estimate (other treatments vs 'mindfulness'):
+                    SMD             95% CI     z  p-value
+active control  -1.1840 [-1.5511; -0.8169] -6.32 < 0.0001
+mindfulness           .                  .     .        .
+psychoeducation  0.1436 [-0.6421;  0.9292]  0.36   0.7202
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 159 participants are included in this analysis.
+The following studies were included in this analysis: Wang 2020 Baldo 2021 (NCT02600637)
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10
