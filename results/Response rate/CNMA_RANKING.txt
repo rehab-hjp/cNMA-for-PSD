@@ -1,0 +1,60 @@
+                                                                      P-score (common) P-score (random)
+HFrTMS+sertraline+CBT+usual care                                                0.9315           0.9293
+HFrTMS+escitalopram+CBT+usual care                                              0.9216           0.9206
+iTBS+escitalopram                                                               0.8836           0.8845
+dtDCS                                                                           0.8645           0.8649
+REBT+sertraline+usual care                                                      0.8400           0.8370
+CBT+humanistic psychotherapy+paroxetine+usual care                              0.8333           0.8313
+Morita therapy+paroxetine+usual care                                            0.8315           0.8295
+CBT+sertraline                                                                  0.8108           0.8004
+HFrTMS+sertraline+usual care                                                    0.7963           0.7997
+paroxetine+CBT                                                                  0.7979           0.7939
+HFrTMS+paroxetine                                                               0.7890           0.7937
+CBT+escitalopram                                                                0.7924           0.7833
+CBT+escitalopram+usual care                                                     0.7924           0.7833
+HFrTMS+escitalopram                                                             0.7757           0.7828
+HFrTMS+escitalopram+usual care                                                  0.7757           0.7828
+LFrTMS+escitalopram+usual care                                                  0.7589           0.7581
+sham+sertraline+CBT+usual care                                                  0.7193           0.7191
+paroxetine                                                                      0.6767           0.6750
+paroxetine+usual care                                                           0.6767           0.6750
+imipramine+usual care                                                           0.6549           0.6537
+supportive psychotherapy+usual care                                             0.6287           0.6272
+sertraline                                                                      0.6208           0.6166
+sertraline+usual care                                                           0.6208           0.6166
+escitalopram                                                                    0.6001           0.5976
+escitalopram+usual care                                                         0.6001           0.5976
+maprotiline+usual care                                                          0.5979           0.5956
+nortriptyline                                                                   0.5871           0.5854
+HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care           0.5661           0.5653
+sham+sertraline+usual care                                                      0.5428           0.5448
+sham+escitalopram+usual care                                                    0.5249           0.5278
+HFrTMS+duloxetine+usual care                                                    0.4770           0.4823
+HFrTMS+citalopram+usual care                                                    0.4703           0.4705
+CBT+mirtazapine+usual care                                                      0.4539           0.4396
+HFrTMS                                                                          0.4303           0.4254
+HFrTMS+fluvoxamine+usual care                                                   0.3908           0.4254
+HFrTMS+mirtazapine                                                              0.4303           0.4254
+HFrTMS+usual care                                                               0.4303           0.4254
+HFrTMS+venlafaxine                                                              0.4303           0.4254
+LFrTMS+mirtazapine+usual care                                                   0.4172           0.4144
+psychoeducation+supportive psychotherapy+citalopram+usual care                  0.3884           0.3799
+REBT+fluoxetine+usual care                                                      0.3228           0.3284
+citalopram                                                                      0.2706           0.2643
+duloxetine+usual care                                                           0.2621           0.2575
+HFrTMS+fluoxetine                                                               0.2318           0.2451
+HFrTMS+fluoxetine+usual care                                                    0.2318           0.2451
+LFrTMS+fluoxetine+psychological counselling+usual care                          0.2208           0.2265
+MES+fluoxetine                                                                  0.2217           0.2258
+fluvoxamine+usual care                                                          0.1759           0.1840
+mirtazapine                                                                     0.2036           0.1840
+mirtazapine+usual care                                                          0.2036           0.1840
+usual care                                                                      0.2036           0.1840
+venlafaxine                                                                     0.2036           0.1840
+drTMS+fluoxetine+usual care                                                     0.1510           0.1578
+sham                                                                            0.1133           0.1177
+sham+usual care                                                                 0.1133           0.1177
+fluoxetine                                                                      0.0379           0.0413
+fluoxetine+psychological counselling+usual care                                 0.0379           0.0413
+fluoxetine+usual care                                                           0.0379           0.0413
+placebo                                                                         0.0134           0.0131
