@@ -1,0 +1,93 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                                  treat1                                 treat2
+Finkenzeller 2009            interpersonal psychotherapy                  sertraline+usual care
+Finkenzeller 2009            interpersonal psychotherapy interpersonal psychotherapy+sertraline
+Finkenzeller 2009 interpersonal psychotherapy+sertraline                  sertraline+usual care
+Yang 2023                      ACT+sertraline+usual care                  sertraline+usual care
+Hu 2016                        CBT+sertraline+usual care                  sertraline+usual care
+                       TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Finkenzeller 2009  1.8304 1.4861     1.5678     1.5678     3        *
+Finkenzeller 2009  1.7887 1.4855     1.5671     1.5671     3        *
+Finkenzeller 2009  0.0417 1.9790     4.3928     4.3928     3        *
+Yang 2023         -0.0000 0.9726     0.9726     0.9726     2         
+Hu 2016            0.4345 0.8805     0.8805     0.8805     2         
+
+Number of treatment arms per study (by decreasing number of arms):
+                  narms multiarm
+Finkenzeller 2009     3        *
+Yang 2023             2         
+Hu 2016               2         
+
+Results (common effects model):
+
+                                                  treat1                                 treat2
+Finkenzeller 2009            interpersonal psychotherapy                  sertraline+usual care
+Finkenzeller 2009            interpersonal psychotherapy interpersonal psychotherapy+sertraline
+Finkenzeller 2009 interpersonal psychotherapy+sertraline                  sertraline+usual care
+Yang 2023                      ACT+sertraline+usual care                  sertraline+usual care
+Hu 2016                        CBT+sertraline+usual care                  sertraline+usual care
+                      RR             95% CI    Q leverage
+Finkenzeller 2009 6.2364 [0.3388; 114.7926] 0.00        .
+Finkenzeller 2009 5.9818 [0.3253; 109.9811] 0.00        .
+Finkenzeller 2009 1.0426 [0.0216;  50.4274] 0.00        .
+Yang 2023         1.0000 [0.1486;   6.7279] 0.00     1.00
+Hu 2016           1.5441 [0.2749;   8.6736] 0.00     1.00
+
+Results (random effects model):
+
+                                                  treat1                                 treat2
+Finkenzeller 2009            interpersonal psychotherapy                  sertraline+usual care
+Finkenzeller 2009            interpersonal psychotherapy interpersonal psychotherapy+sertraline
+Finkenzeller 2009 interpersonal psychotherapy+sertraline                  sertraline+usual care
+Yang 2023                      ACT+sertraline+usual care                  sertraline+usual care
+Hu 2016                        CBT+sertraline+usual care                  sertraline+usual care
+                      RR             95% CI
+Finkenzeller 2009 6.2364 [0.3388; 114.7926]
+Finkenzeller 2009 5.9818 [0.3253; 109.9811]
+Finkenzeller 2009 1.0426 [0.0216;  50.4274]
+Yang 2023         1.0000 [0.1486;   6.7279]
+Hu 2016           1.5441 [0.2749;   8.6736]
+
+Number of studies: k = 3
+Number of pairwise comparisons: m = 5
+Number of observations: o = 217
+Number of treatments: n = 5
+Number of designs: d = 3
+
+Common effects model
+
+Treatment estimate (other treatments vs 'sertraline+usual care'):
+                                           RR             95% CI    z p-value
+ACT+sertraline+usual care              1.0000 [0.1486;   6.7279] 0.00  1.0000
+CBT+sertraline+usual care              1.5441 [0.2749;   8.6736] 0.49  0.6217
+interpersonal psychotherapy            6.2364 [0.3388; 114.7926] 1.23  0.2181
+interpersonal psychotherapy+sertraline 1.0426 [0.0216;  50.4274] 0.02  0.9832
+sertraline+usual care                       .                  .    .       .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'sertraline+usual care'):
+                                           RR             95% CI    z p-value
+ACT+sertraline+usual care              1.0000 [0.1486;   6.7279] 0.00  1.0000
+CBT+sertraline+usual care              1.5441 [0.2749;   8.6736] 0.49  0.6217
+interpersonal psychotherapy            6.2364 [0.3388; 114.7926] 1.23  0.2181
+interpersonal psychotherapy+sertraline 1.0426 [0.0216;  50.4274] 0.02  0.9832
+sertraline+usual care                       .                  .    .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 5 treatments are included in the network.
+A total of 3 studies are included in this analysis.
+A total of 217 participants are included in this analysis.
+The following studies were included in this analysis: Finkenzeller 2009 Yang 2023 Hu 2016
+
