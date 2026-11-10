@@ -1,0 +1,43 @@
+Additive model (common effects model):
+
+Incremental effect for components:
+                             iRR           95% CI     z p-value
+atDCS                         NA                .     .       .
+attention control             NA                .     .       .
+behavioural therapy       0.3333 [0.0139; 8.0036] -0.68  0.4981
+CBT                           NA                .     .       .
+citalopram                    NA                .     .       .
+dextroamphetamine             NA                .     .       .
+ecosystem focused therapy     NA                .     .       .
+escitalopram                  NA                .     .       .
+fluoxetine                    NA                .     .       .
+mindfulness                   NA                .     .       .
+motivational interviewing     NA                .     .       .
+nortriptyline                 NA                .     .       .
+placebo                       NA                .     .       .
+sertraline                    NA                .     .       .
+sham                          NA                .     .       .
+taVNS                         NA                .     .       .
+usual care                    NA                .     .       .
+
+Random effects model
+
+Incremental effect for components:
+                             iRR           95% CI     z p-value
+atDCS                         NA                .     .       .
+attention control             NA                .     .       .
+behavioural therapy       0.3333 [0.0139; 8.0036] -0.68  0.4981
+CBT                           NA                .     .       .
+citalopram                    NA                .     .       .
+dextroamphetamine             NA                .     .       .
+ecosystem focused therapy     NA                .     .       .
+escitalopram                  NA                .     .       .
+fluoxetine                    NA                .     .       .
+mindfulness                   NA                .     .       .
+motivational interviewing     NA                .     .       .
+nortriptyline                 NA                .     .       .
+placebo                       NA                .     .       .
+sertraline                    NA                .     .       .
+sham                          NA                .     .       .
+taVNS                         NA                .     .       .
+usual care                    NA                .     .       .
