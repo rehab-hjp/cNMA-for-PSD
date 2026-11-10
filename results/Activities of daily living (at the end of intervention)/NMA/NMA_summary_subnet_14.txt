@@ -1,0 +1,91 @@
+Network meta-analysis on subnet 14.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                     treat1                        treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Kim 2017       escitalopram                       placebo  0.0000 0.1088     0.1088     0.1088     2         
+Li 2008          fluoxetine                       placebo  0.5353 0.2337     0.2337     0.2337     2         
+Robinson 2000    fluoxetine                 nortriptyline -0.1211 0.3854     0.4678     0.4678     3        *
+Robinson 2000    fluoxetine                       placebo  0.2794 0.3864     0.4702     0.4702     3        *
+Robinson 2000 nortriptyline                       placebo  0.4005 0.3948     0.4913     0.4913     3        *
+Wiart 2000       fluoxetine                       placebo -0.0541 0.3595     0.3595     0.3595     2         
+Yan 2024       escitalopram                    sertraline  0.0000 0.2582     0.2582     0.2582     2         
+Wang 2025        sertraline sertraline+cognitive training -1.1125 0.2149     0.2149     0.2149     2         
+
+Number of treatment arms per study (by decreasing number of arms):
+              narms multiarm
+Robinson 2000     3        *
+Kim 2017          2         
+Li 2008           2         
+Wiart 2000        2         
+Yan 2024          2         
+Wang 2025         2         
+
+Results (common effects model):
+
+                     treat1                        treat2     SMD             95% CI    Q leverage
+Kim 2017       escitalopram                       placebo -0.0000 [-0.2133;  0.2133] 0.00     1.00
+Li 2008          fluoxetine                       placebo  0.3437 [ 0.0011;  0.6862] 0.67     0.56
+Robinson 2000    fluoxetine                 nortriptyline -0.0905 [-0.7742;  0.5932] 0.00        .
+Robinson 2000    fluoxetine                       placebo  0.3437 [ 0.0011;  0.6862] 0.02        .
+Robinson 2000 nortriptyline                       placebo  0.4342 [-0.2537;  1.1221] 0.00        .
+Wiart 2000       fluoxetine                       placebo  0.3437 [ 0.0011;  0.6862] 1.22     0.24
+Yan 2024       escitalopram                    sertraline -0.0000 [-0.5061;  0.5061] 0.00     1.00
+Wang 2025        sertraline sertraline+cognitive training -1.1125 [-1.5337; -0.6912] 0.00     1.00
+
+Results (random effects model):
+
+                     treat1                        treat2     SMD             95% CI
+Kim 2017       escitalopram                       placebo -0.0000 [-0.2133;  0.2133]
+Li 2008          fluoxetine                       placebo  0.3437 [ 0.0011;  0.6862]
+Robinson 2000    fluoxetine                 nortriptyline -0.0905 [-0.7742;  0.5932]
+Robinson 2000    fluoxetine                       placebo  0.3437 [ 0.0011;  0.6862]
+Robinson 2000 nortriptyline                       placebo  0.4342 [-0.2537;  1.1221]
+Wiart 2000       fluoxetine                       placebo  0.3437 [ 0.0011;  0.6862]
+Yan 2024       escitalopram                    sertraline -0.0000 [-0.5061;  0.5061]
+Wang 2025        sertraline sertraline+cognitive training -1.1125 [-1.5337; -0.6912]
+
+Number of studies: k = 6
+Number of pairwise comparisons: m = 8
+Number of treatments: n = 6
+Number of designs: d = 5
+
+Common effects model
+
+Treatment estimate (other treatments vs 'placebo'):
+                                 SMD            95% CI    z p-value
+escitalopram                  0.0000 [-0.2133; 0.2133] 0.00  1.0000
+fluoxetine                    0.3437 [ 0.0011; 0.6862] 1.97  0.0492
+nortriptyline                 0.4342 [-0.2537; 1.1221] 1.24  0.2160
+placebo                            .                 .    .       .
+sertraline                    0.0000 [-0.5492; 0.5492] 0.00  1.0000
+sertraline+cognitive training 1.1125 [ 0.4204; 1.8046] 3.15  0.0016
+
+Random effects model
+
+Treatment estimate (other treatments vs 'placebo'):
+                                 SMD            95% CI    z p-value             95% PI
+escitalopram                  0.0000 [-0.2133; 0.2133] 0.00  1.0000  [-0.4683; 0.4683]
+fluoxetine                    0.3437 [ 0.0011; 0.6862] 1.97  0.0492  [-0.4083; 1.0956]
+nortriptyline                 0.4342 [-0.2537; 1.1221] 1.24  0.2160  [-1.0759; 1.9442]
+placebo                            .                 .    .       .                  .
+sertraline                    0.0000 [-0.5492; 0.5492] 0.00  1.0000  [-1.2056; 1.2056]
+sertraline+cognitive training 1.1125 [ 0.4204; 1.8046] 3.15  0.0016  [-0.4069; 2.6319]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 89.6%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           1.92    2  0.3821
+Within designs  1.89    1  0.1693
+Between designs 0.03    1  0.8521
+
+A total of 6 treatments are included in the network.
+A total of 6 studies are included in this analysis.
+A total of 655 participants are included in this analysis.
+The following studies were included in this analysis: Kim 2017 Li 2008 Robinson 2000 Wiart 2000 Yan 2024 Wang 2025
+Estimated heterogeneity tau-squared0.00
+Global test for inconsistency, p-value = 0.85212 (Q = 0, d.o.f. = 1)
+
+File created on 2026-11-10

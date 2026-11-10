@@ -1,0 +1,63 @@
+Network meta-analysis on subnet 10.
+
+Original data:
+
+                                          treat1                               treat2      TE   seTE
+Li 2025     HFrTMS+cognitive training+usual care   sham+cognitive training+usual care  1.7038 0.4421
+Han SS 2022        cognitive training+usual care HFrTMS+cognitive training+usual care -1.4684 0.2459
+
+Number of treatment arms per study:
+            narms
+Li 2025         2
+Han SS 2022     2
+
+Results (common effects model):
+
+                                          treat1                               treat2     SMD             95% CI    Q leverage
+Li 2025     HFrTMS+cognitive training+usual care   sham+cognitive training+usual care  1.7038 [ 0.8374;  2.5703] 0.00     1.00
+Han SS 2022        cognitive training+usual care HFrTMS+cognitive training+usual care -1.4684 [-1.9503; -0.9865] 0.00     1.00
+
+Results (random effects model):
+
+                                          treat1                               treat2     SMD             95% CI
+Li 2025     HFrTMS+cognitive training+usual care   sham+cognitive training+usual care  1.7038 [ 0.8374;  2.5703]
+Han SS 2022        cognitive training+usual care HFrTMS+cognitive training+usual care -1.4684 [-1.9503; -0.9865]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 2
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'HFrTMS+cognitive training+usual care'):
+                                         SMD             95% CI     z  p-value
+cognitive training+usual care        -1.4684 [-1.9503; -0.9865] -5.97 < 0.0001
+HFrTMS+cognitive training+usual care       .                  .     .        .
+sham+cognitive training+usual care   -1.7038 [-2.5703; -0.8374] -3.85   0.0001
+
+Random effects model
+
+Treatment estimate (other treatments vs 'HFrTMS+cognitive training+usual care'):
+                                         SMD             95% CI     z  p-value
+cognitive training+usual care        -1.4684 [-1.9503; -0.9865] -5.97 < 0.0001
+HFrTMS+cognitive training+usual care       .                  .     .        .
+sham+cognitive training+usual care   -1.7038 [-2.5703; -0.8374] -3.85   0.0001
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 112 participants are included in this analysis.
+The following studies were included in this analysis: Li 2025 Han SS 2022
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10

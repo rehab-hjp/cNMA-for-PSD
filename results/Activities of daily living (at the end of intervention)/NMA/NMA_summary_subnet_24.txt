@@ -1,0 +1,51 @@
+Network meta-analysis on subnet 24.
+
+Original data:
+
+                                           treat1                     treat2     TE   seTE
+Jiang 2021 mindfulness+psychoeducation+usual care psychoeducation+usual care 0.4772 0.2282
+
+Number of treatment arms per study:
+           narms
+Jiang 2021     2
+
+Results (common effects model):
+
+                                           treat1                     treat2    SMD           95% CI    Q leverage
+Jiang 2021 mindfulness+psychoeducation+usual care psychoeducation+usual care 0.4772 [0.0299; 0.9245] 0.00     1.00
+
+Results (random effects model):
+
+                                           treat1                     treat2    SMD           95% CI
+Jiang 2021 mindfulness+psychoeducation+usual care psychoeducation+usual care 0.4772 [0.0299; 0.9245]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('psychoeducation+usual care' vs 'mindfulness+psychoeducation+usual care'):
+                                           SMD             95% CI     z p-value
+mindfulness+psychoeducation+usual care       .                  .     .       .
+psychoeducation+usual care             -0.4772 [-0.9245; -0.0299] -2.09  0.0365
+
+Random effects model
+
+Treatment estimate ('psychoeducation+usual care' vs 'mindfulness+psychoeducation+usual care'):
+                                           SMD             95% CI     z p-value
+mindfulness+psychoeducation+usual care       .                  .     .       .
+psychoeducation+usual care             -0.4772 [-0.9245; -0.0299] -2.09  0.0365
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 79 participants are included in this analysis.
+The following studies were included in this analysis: Jiang 2021
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10

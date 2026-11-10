@@ -1,0 +1,67 @@
+Network meta-analysis on subnet 13.
+
+Original data:
+
+                           treat1                       treat2      TE   seTE
+Fan 2014    duloxetine+usual care LFrTMS+duloxetine+usual care -2.1195 0.2634
+Gao 2021    duloxetine+usual care HFrTMS+duloxetine+usual care -0.9767 0.2566
+Yang Z 2024 duloxetine+usual care LFrTMS+duloxetine+usual care -2.4082 0.2937
+
+Number of treatment arms per study:
+            narms
+Fan 2014        2
+Gao 2021        2
+Yang Z 2024     2
+
+Results (common effects model):
+
+                           treat1                       treat2     SMD             95% CI    Q leverage
+Fan 2014    duloxetine+usual care LFrTMS+duloxetine+usual care -2.2482 [-2.6326; -1.8639] 0.24     0.55
+Gao 2021    duloxetine+usual care HFrTMS+duloxetine+usual care -0.9767 [-1.4796; -0.4738] 0.00     1.00
+Yang Z 2024 duloxetine+usual care LFrTMS+duloxetine+usual care -2.2482 [-2.6326; -1.8639] 0.30     0.45
+
+Results (random effects model):
+
+                           treat1                       treat2     SMD             95% CI
+Fan 2014    duloxetine+usual care LFrTMS+duloxetine+usual care -2.2482 [-2.6326; -1.8639]
+Gao 2021    duloxetine+usual care HFrTMS+duloxetine+usual care -0.9767 [-1.4796; -0.4738]
+Yang Z 2024 duloxetine+usual care LFrTMS+duloxetine+usual care -2.2482 [-2.6326; -1.8639]
+
+Number of studies: k = 3
+Number of pairwise comparisons: m = 3
+Number of treatments: n = 3
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'duloxetine+usual care'):
+                                SMD           95% CI     z  p-value
+duloxetine+usual care             .                .     .        .
+HFrTMS+duloxetine+usual care 0.9767 [0.4738; 1.4796]  3.81   0.0001
+LFrTMS+duloxetine+usual care 2.2482 [1.8639; 2.6326] 11.46 < 0.0001
+
+Random effects model
+
+Treatment estimate (other treatments vs 'duloxetine+usual care'):
+                                SMD           95% CI     z  p-value  95% PI
+duloxetine+usual care             .                .     .        .       .
+HFrTMS+duloxetine+usual care 0.9767 [0.4738; 1.4796]  3.81   0.0001        
+LFrTMS+duloxetine+usual care 2.2482 [1.8639; 2.6326] 11.46 < 0.0001        
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0%
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           0.54    1  0.4643
+Within designs  0.54    1  0.4643
+Between designs 0.00    0      --
+
+A total of 3 treatments are included in the network.
+A total of 3 studies are included in this analysis.
+A total of 238 participants are included in this analysis.
+The following studies were included in this analysis: Fan 2014 Gao 2021 Yang Z 2024
+Estimated heterogeneity tau-squared0.00
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10

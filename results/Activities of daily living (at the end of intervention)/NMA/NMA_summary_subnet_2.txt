@@ -1,0 +1,51 @@
+Network meta-analysis on subnet 2.
+
+Original data:
+
+               treat1             treat2      TE   seTE
+Zhao 2022 agomelatine HFrTMS+agomelatine -0.8330 0.2064
+
+Number of treatment arms per study:
+          narms
+Zhao 2022     2
+
+Results (common effects model):
+
+               treat1             treat2     SMD             95% CI    Q leverage
+Zhao 2022 agomelatine HFrTMS+agomelatine -0.8330 [-1.2376; -0.4284] 0.00     1.00
+
+Results (random effects model):
+
+               treat1             treat2     SMD             95% CI
+Zhao 2022 agomelatine HFrTMS+agomelatine -0.8330 [-1.2376; -0.4284]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('HFrTMS+agomelatine' vs 'agomelatine'):
+                      SMD           95% CI    z  p-value
+agomelatine             .                .    .        .
+HFrTMS+agomelatine 0.8330 [0.4284; 1.2376] 4.04 < 0.0001
+
+Random effects model
+
+Treatment estimate ('HFrTMS+agomelatine' vs 'agomelatine'):
+                      SMD           95% CI    z  p-value
+agomelatine             .                .    .        .
+HFrTMS+agomelatine 0.8330 [0.4284; 1.2376] 4.04 < 0.0001
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 102 participants are included in this analysis.
+The following studies were included in this analysis: Zhao 2022
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10

@@ -1,0 +1,75 @@
+Network meta-analysis on subnet 11.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                treat1                       treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Hu 2020   HFrTMS+sertraline+usual care   sham+sertraline+usual care  0.5805 0.3282     0.3282     3.1166     2         
+Li T 2021  dtDCS+sertraline+usual care   sham+sertraline+usual care -0.2577 0.3175     0.3175     3.1155     2         
+Yang 2018 HFrTMS+sertraline+usual care LFrTMS+sertraline+usual care  0.4872 0.2258     0.2360     3.7938     3        *
+Yang 2018 LFrTMS+sertraline+usual care   sham+sertraline+usual care  4.5061 0.3669     0.4338     3.8265     3        *
+Yang 2018 HFrTMS+sertraline+usual care   sham+sertraline+usual care  4.9933 0.3923     0.6458     3.8341     3        *
+
+Number of treatment arms per study (by decreasing number of arms):
+          narms multiarm
+Yang 2018     3        *
+Hu 2020       2         
+Li T 2021     2         
+
+Results (common effects model):
+
+                                treat1                       treat2     SMD            95% CI     Q leverage
+Hu 2020   HFrTMS+sertraline+usual care   sham+sertraline+usual care  2.3975 [ 1.9041; 2.8909] 30.65     0.59
+Li T 2021  dtDCS+sertraline+usual care   sham+sertraline+usual care -0.2577 [-0.8801; 0.3646]  0.00     1.00
+Yang 2018 HFrTMS+sertraline+usual care LFrTMS+sertraline+usual care -0.1055 [-0.5271; 0.3161]  6.31        .
+Yang 2018 LFrTMS+sertraline+usual care   sham+sertraline+usual care  2.5030 [ 1.9462; 3.0597] 21.32        .
+Yang 2018 HFrTMS+sertraline+usual care   sham+sertraline+usual care  2.3975 [ 1.9041; 2.8909] 16.15        .
+
+Results (random effects model):
+
+                                treat1                       treat2     SMD            95% CI
+Hu 2020   HFrTMS+sertraline+usual care   sham+sertraline+usual care  2.7817 [-1.5427; 7.1061]
+Li T 2021  dtDCS+sertraline+usual care   sham+sertraline+usual care -0.2577 [-6.3640; 5.8485]
+Yang 2018 HFrTMS+sertraline+usual care LFrTMS+sertraline+usual care -0.6091 [-6.3080; 5.0898]
+Yang 2018 LFrTMS+sertraline+usual care   sham+sertraline+usual care  3.3908 [-2.3222; 9.1037]
+Yang 2018 HFrTMS+sertraline+usual care   sham+sertraline+usual care  2.7817 [-1.5427; 7.1061]
+
+Number of studies: k = 3
+Number of pairwise comparisons: m = 5
+Number of treatments: n = 4
+Number of designs: d = 3
+
+Common effects model
+
+Treatment estimate (other treatments vs 'sham+sertraline+usual care'):
+                                 SMD            95% CI     z  p-value
+dtDCS+sertraline+usual care  -0.2577 [-0.8801; 0.3646] -0.81   0.4170
+HFrTMS+sertraline+usual care  2.3975 [ 1.9041; 2.8909]  9.52 < 0.0001
+LFrTMS+sertraline+usual care  2.5030 [ 1.9462; 3.0597]  8.81 < 0.0001
+sham+sertraline+usual care         .                 .     .        .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'sham+sertraline+usual care'):
+                                 SMD            95% CI     z p-value  95% PI
+dtDCS+sertraline+usual care  -0.2577 [-6.3640; 5.8485] -0.08  0.9341        
+HFrTMS+sertraline+usual care  2.7817 [-1.5427; 7.1061]  1.26  0.2074        
+LFrTMS+sertraline+usual care  3.3908 [-2.3222; 9.1037]  1.16  0.2447        
+sham+sertraline+usual care         .                 .     .       .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 9.6055; tau = 3.0993; I^2 = 98.7% [97.1%; 99.4%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f.  p-value
+Total           74.44    1 < 0.0001
+Within designs   0.00    0       --
+Between designs 74.44    1 < 0.0001
+
+A total of 4 treatments are included in the network.
+A total of 3 studies are included in this analysis.
+A total of 202 participants are included in this analysis.
+The following studies were included in this analysis: Hu 2020 Li T 2021 Yang 2018
+Estimated heterogeneity tau-squared9.61
+Global test for inconsistency, p-value = 0.00000 (Q = 74, d.o.f. = 1)
+
+File created on 2026-11-10

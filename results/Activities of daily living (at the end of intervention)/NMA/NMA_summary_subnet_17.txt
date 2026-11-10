@@ -1,0 +1,63 @@
+Network meta-analysis on subnet 17.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                            treat1                    treat2     TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Kim 2010 HFrTMS+cognitive training LFrTMS+cognitive training 0.5072 0.5835     0.7089     0.7089     3        *
+Kim 2010 LFrTMS+cognitive training   sham+cognitive training 0.4389 0.5820     0.7054     0.7054     3        *
+Kim 2010 HFrTMS+cognitive training   sham+cognitive training 0.9460 0.5985     0.7470     0.7470     3        *
+
+Number of treatment arms per study:
+         narms multiarm
+Kim 2010     3        *
+
+Results (common effects model):
+
+                            treat1                    treat2    SMD            95% CI    Q
+Kim 2010 HFrTMS+cognitive training LFrTMS+cognitive training 0.5072 [-0.6365; 1.6508] 0.00
+Kim 2010 LFrTMS+cognitive training   sham+cognitive training 0.4389 [-0.7017; 1.5795] 0.00
+Kim 2010 HFrTMS+cognitive training   sham+cognitive training 0.9460 [-0.2270; 2.1191] 0.00
+
+Results (random effects model):
+
+                            treat1                    treat2    SMD            95% CI
+Kim 2010 HFrTMS+cognitive training LFrTMS+cognitive training 0.5072 [-0.6365; 1.6508]
+Kim 2010 LFrTMS+cognitive training   sham+cognitive training 0.4389 [-0.7017; 1.5795]
+Kim 2010 HFrTMS+cognitive training   sham+cognitive training 0.9460 [-0.2270; 2.1191]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 3
+Number of treatments: n = 3
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate (other treatments vs 'HFrTMS+cognitive training'):
+                              SMD            95% CI     z p-value
+HFrTMS+cognitive training       .                 .     .       .
+LFrTMS+cognitive training -0.5072 [-1.6508; 0.6365] -0.87  0.3848
+sham+cognitive training   -0.9460 [-2.1191; 0.2270] -1.58  0.1139
+
+Random effects model
+
+Treatment estimate (other treatments vs 'HFrTMS+cognitive training'):
+                              SMD            95% CI     z p-value
+HFrTMS+cognitive training       .                 .     .       .
+LFrTMS+cognitive training -0.5072 [-1.6508; 0.6365] -0.87  0.3848
+sham+cognitive training   -0.9460 [-2.1191; 0.2270] -1.58  0.1139
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+Test of heterogeneity:
+ Q d.f. p-value
+ 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 18 participants are included in this analysis.
+The following studies were included in this analysis: Kim 2010
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10

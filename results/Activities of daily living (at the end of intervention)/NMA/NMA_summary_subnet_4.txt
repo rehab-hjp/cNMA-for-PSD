@@ -1,0 +1,83 @@
+Network meta-analysis on subnet 4.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                          treat1               treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Bornheim 2020   atDCS+usual care      sham+usual care  0.5430 0.3003     0.3003     0.3003     2         
+Duan 2023     HFrTMS+mindfulness     sham+mindfulness  0.2060 0.2923     0.3594     0.3594     3        *
+Duan 2023     HFrTMS+mindfulness      sham+usual care  0.2205 0.2924     0.3596     0.3596     3        *
+Duan 2023       sham+mindfulness      sham+usual care  0.0145 0.2887     0.3507     0.3507     3        *
+Li C 2024       dtDCS+usual care      sham+usual care  0.5315 0.2822     0.2822     0.2822     2         
+Zhao 2024       dtDCS+usual care PST+dtDCS+usual care -1.4344 0.1990     0.1990     0.1990     2         
+
+Number of treatment arms per study (by decreasing number of arms):
+              narms multiarm
+Duan 2023         3        *
+Bornheim 2020     2         
+Li C 2024         2         
+Zhao 2024         2         
+
+Results (common effects model):
+
+                          treat1               treat2     SMD             95% CI    Q leverage
+Bornheim 2020   atDCS+usual care      sham+usual care  0.5430 [-0.0455;  1.1315] 0.00     1.00
+Duan 2023     HFrTMS+mindfulness     sham+mindfulness  0.2060 [-0.3669;  0.7789] 0.00        .
+Duan 2023     HFrTMS+mindfulness      sham+usual care  0.2205 [-0.3526;  0.7935] 0.00        .
+Duan 2023       sham+mindfulness      sham+usual care  0.0145 [-0.5513;  0.5803] 0.00        .
+Li C 2024       dtDCS+usual care      sham+usual care  0.5315 [-0.0216;  1.0846] 0.00     1.00
+Zhao 2024       dtDCS+usual care PST+dtDCS+usual care -1.4344 [-1.8244; -1.0443] 0.00     1.00
+
+Results (random effects model):
+
+                          treat1               treat2     SMD             95% CI
+Bornheim 2020   atDCS+usual care      sham+usual care  0.5430 [-0.0455;  1.1315]
+Duan 2023     HFrTMS+mindfulness     sham+mindfulness  0.2060 [-0.3669;  0.7789]
+Duan 2023     HFrTMS+mindfulness      sham+usual care  0.2205 [-0.3526;  0.7935]
+Duan 2023       sham+mindfulness      sham+usual care  0.0145 [-0.5513;  0.5803]
+Li C 2024       dtDCS+usual care      sham+usual care  0.5315 [-0.0216;  1.0846]
+Zhao 2024       dtDCS+usual care PST+dtDCS+usual care -1.4344 [-1.8244; -1.0443]
+
+Number of studies: k = 4
+Number of pairwise comparisons: m = 6
+Number of treatments: n = 6
+Number of designs: d = 4
+
+Common effects model
+
+Treatment estimate (other treatments vs 'sham+usual care'):
+                        SMD            95% CI    z  p-value
+atDCS+usual care     0.5430 [-0.0455; 1.1315] 1.81   0.0706
+dtDCS+usual care     0.5315 [-0.0216; 1.0846] 1.88   0.0597
+HFrTMS+mindfulness   0.2205 [-0.3526; 0.7935] 0.75   0.4509
+PST+dtDCS+usual care 1.9659 [ 1.2891; 2.6426] 5.69 < 0.0001
+sham+mindfulness     0.0145 [-0.5513; 0.5803] 0.05   0.9600
+sham+usual care           .                 .    .        .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'sham+usual care'):
+                        SMD            95% CI    z  p-value
+atDCS+usual care     0.5430 [-0.0455; 1.1315] 1.81   0.0706
+dtDCS+usual care     0.5315 [-0.0216; 1.0846] 1.88   0.0597
+HFrTMS+mindfulness   0.2205 [-0.3526; 0.7935] 0.75   0.4509
+PST+dtDCS+usual care 1.9659 [ 1.2891; 2.6426] 5.69 < 0.0001
+sham+mindfulness     0.0145 [-0.5513; 0.5803] 0.05   0.9600
+sham+usual care           .                 .    .        .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 6 treatments are included in the network.
+A total of 4 studies are included in this analysis.
+A total of 296 participants are included in this analysis.
+The following studies were included in this analysis: Bornheim 2020 Duan 2023 Li C 2024 Zhao 2024
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = -- (Q = 0, d.o.f. = 0)
+
+File created on 2026-11-10
