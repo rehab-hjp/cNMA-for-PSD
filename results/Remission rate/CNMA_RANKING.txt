@@ -1,0 +1,21 @@
+                                                                      P-score (common) P-score (random)
+HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care           0.9372           0.9372
+dtDCS                                                                           0.9012           0.9012
+HFrTMS                                                                          0.8859           0.8859
+HFrTMS+citalopram+usual care                                                    0.7660           0.7660
+HFrTMS+sertraline+usual care                                                    0.7660           0.7660
+HFrTMS+usual care                                                               0.7660           0.7660
+ecosystem focused therapy                                                       0.7511           0.7511
+behavioural therapy                                                             0.5817           0.5817
+psychoeducation+supportive psychotherapy+citalopram+usual care                  0.5773           0.5773
+escitalopram                                                                    0.4642           0.4642
+LFrTMS+fluoxetine+psychological counselling+usual care                          0.4433           0.4433
+sham                                                                            0.4088           0.4088
+LFrTMS+mirtazapine+usual care                                                   0.3907           0.3907
+placebo                                                                         0.3360           0.3360
+fluoxetine+psychological counselling+usual care                                 0.2368           0.2368
+sham+sertraline+usual care                                                      0.2249           0.2249
+sham+usual care                                                                 0.2249           0.2249
+mirtazapine+usual care                                                          0.1389           0.1389
+usual care                                                                      0.1389           0.1389
+attention control                                                               0.0773           0.0773
