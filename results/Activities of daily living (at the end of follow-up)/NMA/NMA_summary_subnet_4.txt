@@ -1,0 +1,63 @@
+Network meta-analysis on subnet 4.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                               treat1                         treat2      TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Chen 2019     escitalopram+usual care LFrTMS+escitalopram+usual care -1.8667 0.2647     0.3340     0.3340     3        *
+Chen 2019 CBT+escitalopram+usual care        escitalopram+usual care  1.7976 0.2668     0.3407     0.3407     3        *
+Chen 2019 CBT+escitalopram+usual care LFrTMS+escitalopram+usual care -0.0691 0.2343     0.2690     0.2690     3        *
+
+Number of treatment arms per study:
+          narms multiarm
+Chen 2019     3        *
+
+Results (common effects model):
+
+                               treat1                         treat2     SMD             95% CI    Q
+Chen 2019     escitalopram+usual care LFrTMS+escitalopram+usual care -1.8667 [-2.3855; -1.3479] 0.00
+Chen 2019 CBT+escitalopram+usual care        escitalopram+usual care  1.7976 [ 1.2747;  2.3204] 0.00
+Chen 2019 CBT+escitalopram+usual care LFrTMS+escitalopram+usual care -0.0691 [-0.5284;  0.3901] 0.00
+
+Results (random effects model):
+
+                               treat1                         treat2     SMD             95% CI
+Chen 2019     escitalopram+usual care LFrTMS+escitalopram+usual care -1.8667 [-2.3855; -1.3479]
+Chen 2019 CBT+escitalopram+usual care        escitalopram+usual care  1.7976 [ 1.2747;  2.3204]
+Chen 2019 CBT+escitalopram+usual care LFrTMS+escitalopram+usual care -0.0691 [-0.5284;  0.3901]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 3
+Number of treatments: n = 3
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate (other treatments vs 'CBT+escitalopram+usual care'):
+                                   SMD             95% CI     z  p-value
+CBT+escitalopram+usual care          .                  .     .        .
+escitalopram+usual care        -1.7976 [-2.3204; -1.2747] -6.74 < 0.0001
+LFrTMS+escitalopram+usual care  0.0691 [-0.3901;  0.5284]  0.30   0.7680
+
+Random effects model
+
+Treatment estimate (other treatments vs 'CBT+escitalopram+usual care'):
+                                   SMD             95% CI     z  p-value
+CBT+escitalopram+usual care          .                  .     .        .
+escitalopram+usual care        -1.7976 [-2.3204; -1.2747] -6.74 < 0.0001
+LFrTMS+escitalopram+usual care  0.0691 [-0.3901;  0.5284]  0.30   0.7680
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+Test of heterogeneity:
+ Q d.f. p-value
+ 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 109 participants are included in this analysis.
+The following studies were included in this analysis: Chen 2019
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10

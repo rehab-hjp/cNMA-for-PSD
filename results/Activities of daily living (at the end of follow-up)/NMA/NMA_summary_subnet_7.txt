@@ -1,0 +1,51 @@
+Network meta-analysis on subnet 7.
+
+Original data:
+
+               treat1  treat2     TE   seTE
+Kim 2017 escitalopram placebo 0.0112 0.0915
+
+Number of treatment arms per study:
+         narms
+Kim 2017     2
+
+Results (common effects model):
+
+               treat1  treat2    SMD            95% CI    Q leverage
+Kim 2017 escitalopram placebo 0.0112 [-0.1681; 0.1905] 0.00     1.00
+
+Results (random effects model):
+
+               treat1  treat2    SMD            95% CI
+Kim 2017 escitalopram placebo 0.0112 [-0.1681; 0.1905]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('placebo' vs 'escitalopram'):
+                 SMD            95% CI     z p-value
+escitalopram       .                 .     .       .
+placebo      -0.0112 [-0.1905; 0.1681] -0.12  0.9023
+
+Random effects model
+
+Treatment estimate ('placebo' vs 'escitalopram'):
+                 SMD            95% CI     z p-value
+escitalopram       .                 .     .       .
+placebo      -0.0112 [-0.1905; 0.1681] -0.12  0.9023
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 478 participants are included in this analysis.
+The following studies were included in this analysis: Kim 2017
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10

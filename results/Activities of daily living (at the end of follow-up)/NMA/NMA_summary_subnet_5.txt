@@ -1,0 +1,51 @@
+Network meta-analysis on subnet 5.
+
+Original data:
+
+                                     treat1                                        treat2      TE   seTE
+Liu 2013 cognitive restructuring+usual care fluoxetine+cognitive restructuring+usual care -0.9436 0.2722
+
+Number of treatment arms per study:
+         narms
+Liu 2013     2
+
+Results (common effects model):
+
+                                     treat1                                        treat2     SMD             95% CI    Q leverage
+Liu 2013 cognitive restructuring+usual care fluoxetine+cognitive restructuring+usual care -0.9436 [-1.4771; -0.4101] 0.00     1.00
+
+Results (random effects model):
+
+                                     treat1                                        treat2     SMD             95% CI
+Liu 2013 cognitive restructuring+usual care fluoxetine+cognitive restructuring+usual care -0.9436 [-1.4771; -0.4101]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('fluoxetine+cognitive restructuring+usual care' vs 'cognitive restructuring+usual care'):
+                                                 SMD           95% CI    z p-value
+cognitive restructuring+usual care                 .                .    .       .
+fluoxetine+cognitive restructuring+usual care 0.9436 [0.4101; 1.4771] 3.47  0.0005
+
+Random effects model
+
+Treatment estimate ('fluoxetine+cognitive restructuring+usual care' vs 'cognitive restructuring+usual care'):
+                                                 SMD           95% CI    z p-value
+cognitive restructuring+usual care                 .                .    .       .
+fluoxetine+cognitive restructuring+usual care 0.9436 [0.4101; 1.4771] 3.47  0.0005
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 60 participants are included in this analysis.
+The following studies were included in this analysis: Liu 2013
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10

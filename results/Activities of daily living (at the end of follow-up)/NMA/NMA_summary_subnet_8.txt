@@ -1,0 +1,63 @@
+Network meta-analysis on subnet 8.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                   treat1            treat2     TE   seTE seTE.adj.c seTE.adj.r narms multiarm
+Xu 2024 HFrTMS+paroxetine LFrTMS+paroxetine 0.0971 0.2749     0.3166     0.3166     3        *
+Xu 2024 LFrTMS+paroxetine   sham+paroxetine 1.4276 0.3088     0.3904     0.3904     3        *
+Xu 2024 HFrTMS+paroxetine   sham+paroxetine 1.5248 0.3095     0.3928     0.3928     3        *
+
+Number of treatment arms per study:
+        narms multiarm
+Xu 2024     3        *
+
+Results (common effects model):
+
+                   treat1            treat2    SMD            95% CI    Q
+Xu 2024 HFrTMS+paroxetine LFrTMS+paroxetine 0.0971 [-0.4416; 0.6359] 0.00
+Xu 2024 LFrTMS+paroxetine   sham+paroxetine 1.4276 [ 0.8224; 2.0328] 0.00
+Xu 2024 HFrTMS+paroxetine   sham+paroxetine 1.5248 [ 0.9181; 2.1314] 0.00
+
+Results (random effects model):
+
+                   treat1            treat2    SMD            95% CI
+Xu 2024 HFrTMS+paroxetine LFrTMS+paroxetine 0.0971 [-0.4416; 0.6359]
+Xu 2024 LFrTMS+paroxetine   sham+paroxetine 1.4276 [ 0.8224; 2.0328]
+Xu 2024 HFrTMS+paroxetine   sham+paroxetine 1.5248 [ 0.9181; 2.1314]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 3
+Number of treatments: n = 3
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate (other treatments vs 'HFrTMS+paroxetine'):
+                      SMD             95% CI     z  p-value
+HFrTMS+paroxetine       .                  .     .        .
+LFrTMS+paroxetine -0.0971 [-0.6359;  0.4416] -0.35   0.7238
+sham+paroxetine   -1.5248 [-2.1314; -0.9181] -4.93 < 0.0001
+
+Random effects model
+
+Treatment estimate (other treatments vs 'HFrTMS+paroxetine'):
+                      SMD             95% CI     z  p-value
+HFrTMS+paroxetine       .                  .     .        .
+LFrTMS+paroxetine -0.0971 [-0.6359;  0.4416] -0.35   0.7238
+sham+paroxetine   -1.5248 [-2.1314; -0.9181] -4.93 < 0.0001
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+Test of heterogeneity:
+ Q d.f. p-value
+ 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 76 participants are included in this analysis.
+The following studies were included in this analysis: Xu 2024
+Estimated heterogeneity tau-squaredNA
+Global test for inconsistency, p-value = NA (Q = NA, d.o.f. = NA)
+
+File created on 2026-11-10
