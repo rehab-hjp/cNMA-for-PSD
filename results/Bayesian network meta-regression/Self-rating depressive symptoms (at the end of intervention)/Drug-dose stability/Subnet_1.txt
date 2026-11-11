@@ -1,0 +1,74 @@
+Results on the Mean Difference scale
+Iterations = 10001:110000
+Thinning interval = 20
+Number of chains = 4
+Sample size per chain = 5000
+
+-- Regression settings:
+Regression on "Stable drug dose" (Binary 0/1), shared coefficients, "usual care" as control
+Input values: 0 (No/Ref) and 1 (Yes/Present). NO standardization applied.
+Handling of NA: Complete Case Analysis (NA rows removed)
+Observed proportion of '1': 0.926
+Missing Data Note: 30 studies excluded due to missing covariate.
+
+
+1. Empirical mean and standard deviation for each variable,
+ plus standard error of the mean:
+Variable                                                                                   Mean                 SD                 Naive SE             Time-series SE
+d.usual care.CBT+usual care                                                                 -0.314741922634217  0.676636790228078  0.00478454462770573  0.00487483084930669
+d.usual care.mindfulness+usual care                                                         -0.116595410768993  0.435622146359305  0.00308031373725703  0.00325623982015731
+d.usual care.dtDCS+usual care                                                               0.0286444143029094  0.700161134700246  0.00495088686269812  0.00522934446063525
+d.usual care.atDCS+usual care                                                              -0.0964197637010391  0.567252340155529  0.00401107976367912  0.00437550854218978
+d.usual care.CBT                                                                            -0.985647553916228  0.601556515201475  0.00425364691165911  0.00462728046718647
+d.usual care.psychoeducation                                                                 0.337962400027626  0.548392020621968  0.00387771716530386  0.00395825020864531
+d.usual care.mindfulness                                                                    -0.161051785703196  0.781725995497088  0.00552763752445795  0.00735100094955467
+d.usual care.sham+usual care                                                                 0.628205677989321  0.554293297341762  0.00391944549316611  0.00437409434411232
+d.usual care.HFrTMS+usual care                                                              -0.364475298825274  0.538853248699109  0.00381026786219541  0.00459046219718836
+d.usual care.fluoxetine+usual care                                                           0.155921516847165  0.392851761727584  0.00277788144718657    0.003858429194215
+d.usual care.CBT+humanistic psychotherapy+usual care                                        -0.219221451295281  0.461065193179821  0.00326022324666537   0.0039957570353861
+d.usual care.HFrTMS+fluoxetine+usual care                                                     -1.5890162320592  0.758942659652786  0.00536653501172239  0.00694396978210798
+d.usual care.motor imagery+usual care                                                        -1.04120816499732  0.509767513487019  0.00360460065615276  0.00454163077440216
+d.usual care.psychological counselling+relaxation+supportive psychotherapy+CBT+usual care    -1.10121408771228  0.606646529994017  0.00428963875142058  0.00520259634425813
+d.usual care.group psychotherapy+fluoxetine+usual care                                       -1.30944875787276  0.608716063642781  0.00430427256418993  0.00598401093045762
+d.usual care.active control                                                                  0.167926043060948   0.78697936980699  0.00556478449044438  0.00739114741545787
+d.usual care.iTBS+usual care                                                                -0.475448150157668  0.647219546570223  0.00457653330296287  0.00524421319279613
+d.usual care.CBT+humanistic psychotherapy+fluoxetine+usual care                             -0.522316266134965  0.511091768260799  0.00361396455145834  0.00473393547360303
+d.usual care.CBT+drTMS+usual care                                                            -2.06171370613739  0.706929212236225  0.00499874439791098  0.00640671254149479
+sd.d                                                                                         0.672506170015285  0.221553805832532  0.00156662198501871  0.00239265877635657
+B                                                                                          -0.0826700923758365  0.248788564166402  0.00175920080803728  0.00241419541312445
+
+2. Quantiles for each variable:
+Variable                                                                                   X2.5.               X25.                 X50.                 X75.                 X97.5.
+d.usual care.CBT+usual care                                                                 -1.63323766466958   -0.772737812390515    -0.32290058666605    0.131218932222109      1.04637344505934
+d.usual care.mindfulness+usual care                                                        -0.955907338280862    -0.41059037138827   -0.121403402121617     0.16665599505208     0.765958596440059
+d.usual care.dtDCS+usual care                                                               -1.34566792752732   -0.437834923656844   0.0268544996545623    0.491122059609871      1.40963140956558
+d.usual care.atDCS+usual care                                                               -1.19125985502294   -0.478230049361355  -0.0991812702262755    0.277145923140478      1.03513353956337
+d.usual care.CBT                                                                            -2.11528049013423    -1.39312582348297     -1.0030599046184   -0.593012961361096      0.25513290956531
+d.usual care.psychoeducation                                                               -0.739540746286364  -0.0234600827944297    0.332601662953268    0.697853871680903      1.41905149381503
+d.usual care.mindfulness                                                                     -1.6916182026346   -0.686768578136141   -0.160249925159365     0.35700463862202      1.37030474239147
+d.usual care.sham+usual care                                                               -0.460279393870518    0.256987546385726    0.630021033589379    0.995737927547656      1.73073105887642
+d.usual care.HFrTMS+usual care                                                              -1.38768166482009   -0.724638786056939   -0.374375567548337  -0.0139512107590472     0.730328806619392
+d.usual care.fluoxetine+usual care                                                          -0.55041905392278   -0.115179585896814    0.130919215514416    0.400331747787372     0.997330031725789
+d.usual care.CBT+humanistic psychotherapy+usual care                                        -1.09559698739742   -0.525129636989746   -0.231084233652283   0.0760505536107196     0.734111773468411
+d.usual care.HFrTMS+fluoxetine+usual care                                                   -2.97244466580294    -2.11485893787214    -1.62738904430325    -1.09808879157051  -0.00161217145261275
+d.usual care.motor imagery+usual care                                                       -1.98124696434698      -1.390131428139    -1.06229421507588   -0.722554677104006    0.0322129010302823
+d.usual care.psychological counselling+relaxation+supportive psychotherapy+CBT+usual care   -2.20739989017944    -1.51194920291852    -1.13916659268651   -0.724156193857376     0.176666039826206
+d.usual care.group psychotherapy+fluoxetine+usual care                                      -2.39094192536023     -1.7348647929178    -1.34930568898986   -0.925615781312599  -0.00751219753837125
+d.usual care.active control                                                                 -1.39106471245259    -0.35833593474921    0.175929903945658    0.696357929168425      1.70529560122556
+d.usual care.iTBS+usual care                                                                -1.73150142944581   -0.910774083082872    -0.48123635494798  -0.0455702842878694     0.825247585740482
+d.usual care.CBT+humanistic psychotherapy+fluoxetine+usual care                             -1.51043183083579   -0.862216122074847   -0.528929608454921   -0.194964495569975     0.533104012857644
+d.usual care.CBT+drTMS+usual care                                                           -3.32003867774927    -2.55936016473608    -2.10792906332021    -1.61928221355005    -0.550151325043179
+sd.d                                                                                        0.319739141281765    0.511468930878472    0.644036048148431    0.801797359014622      1.18790966366013
+B                                                                                          -0.578448164721501   -0.247148249318488  -0.0788289537039766   0.0827659802044135     0.402731038963954
+
+-- Convergence Diagnostics (R-hat & ESS):
+Beta R-hat = 1.0003
+Tau R-hat  = 1.0002
+Beta ESS   = 10619.7914
+Tau ESS    = 8574.2649
+
+
+-- Model fit (residual deviance):
+Dbar              pD                DIC
+26.2116666741931  25.4385433591428  51.6502100333359
+27 data points, ratio 0.971, I^2 = 31.1%
