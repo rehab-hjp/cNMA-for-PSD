@@ -1,0 +1,51 @@
+Complete-case primary analysis; effects on SMD scale
+Iterations = 7002:27000
+Thinning interval = 2
+Number of chains = 4
+Sample size per chain = 10000
+-- Regression settings:
+Regression on "year", hierarchical treatment-specific slopes, "mirtazapine+usual care" as control
+Input transformation: x' = (year - 2016.25) / 2.753785
+Treatment effects at the centering value: year = 2016.25
+4 independent studies; 4 contrasts; 0 multiarm studies; 3 treatments
+d.reference.treatment = treatment effect versus reference; B.reference.treatment = its covariate slope; B.mean = hierarchical mean; sd.B = slope SD; sd.d = tau.
+
+
+1. Empirical mean and standard deviation, plus standard error of the mean:
+Variable                                                Mean                 SD                 Naive SE             Time-series SE
+d.mirtazapine+usual care.CBT+mirtazapine+usual care       -0.71173010769912  0.692564546433847  0.00346282273216924  0.00682954354635863
+d.mirtazapine+usual care.LFrTMS+mirtazapine+usual care   -0.697419583591962  0.646161639226972  0.00323080819613486  0.00555816694906788
+B.mirtazapine+usual care.CBT+mirtazapine+usual care     -0.0550280793706252  0.713168435328382  0.00356584217664191  0.00739086014285783
+B.mirtazapine+usual care.LFrTMS+mirtazapine+usual care   -0.180597791401503  0.639671631342112  0.00319835815671056  0.00596378742635612
+B.mean                                                   -0.109026957382551  0.632120553779476  0.00316060276889738  0.00665378206932214
+sd.B                                                      0.373575779187834  0.282551270860645  0.00141275635430323  0.00185559979945277
+sd.d                                                      0.420231426103685  0.367814382497594  0.00183907191248797  0.00400403836253584
+
+
+2. Quantiles for each variable:
+Variable                                                2.5%                25%                 50%                  75%                 97.5%
+d.mirtazapine+usual care.CBT+mirtazapine+usual care      -2.12124197263464   -1.12509335807932   -0.709491270499459  -0.295806596869413  0.686381041921595
+d.mirtazapine+usual care.LFrTMS+mirtazapine+usual care   -1.95502697818147   -1.08175334329268   -0.717552039653254  -0.337454641418875  0.680322067485582
+B.mirtazapine+usual care.CBT+mirtazapine+usual care      -1.46883085428605  -0.500762513251607  -0.0678943705367248   0.380058628879552    1.4060666905487
+B.mirtazapine+usual care.LFrTMS+mirtazapine+usual care   -1.43471378480991  -0.581377428975762   -0.194563857082746    0.20566558501051   1.14536516008556
+B.mean                                                    -1.3668847721095  -0.514143867511558   -0.116750163398584   0.288223288596839   1.16081775557193
+sd.B                                                    0.0148301582003726   0.149019440862558    0.314435852081269   0.539722190931987   1.05079765435048
+sd.d                                                    0.0145720120700602   0.153170012425377    0.321365589507836   0.579732003164695   1.39605601613152
+
+
+3. Convergence Diagnostics (R-hat & ESS):
+Variable                                                Rhat              ESS_bulk          ESS_tail          MCSE_mean
+d.mirtazapine+usual care.CBT+mirtazapine+usual care     1.00046628617598  9926.47716618788   17385.388340805  0.00682954354635863
+d.mirtazapine+usual care.LFrTMS+mirtazapine+usual care  1.00034337120577  13002.2720926076  19769.4245821484  0.00555816694906788
+B.mirtazapine+usual care.CBT+mirtazapine+usual care     1.00049062748704  9163.65304703611  16713.4364813098  0.00739086014285783
+B.mirtazapine+usual care.LFrTMS+mirtazapine+usual care  1.00040842202131  11291.0409937377  19488.9754704949  0.00596378742635612
+B.mean                                                  1.00048324919784  8898.20354844417  17275.7746847531  0.00665378206932214
+sd.B                                                    1.00001252343623    24033.42758966    29125.12437988  0.00185559979945277
+sd.d                                                     1.0002035462399  9652.32531925892  12481.2623104798  0.00400403836253584
+
+
+-- Model fit (residual deviance):
+Dbar              pD                DIC
+3.83935221673734  3.63413260541431  7.47348482215165
+
+4 data points (4 independent studies), ratio 0.960, I^2 = 57.5%
