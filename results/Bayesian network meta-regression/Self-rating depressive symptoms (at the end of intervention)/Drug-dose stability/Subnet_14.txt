@@ -1,0 +1,42 @@
+Results on the Mean Difference scale
+Iterations = 10001:110000
+Thinning interval = 20
+Number of chains = 4
+Sample size per chain = 5000
+
+-- Regression settings:
+Regression on "Stable drug dose" (Binary 0/1), shared coefficients, "placebo" as control
+Input values: 0 (No/Ref) and 1 (Yes/Present). NO standardization applied.
+Handling of NA: Complete Case Analysis (NA rows removed)
+Observed proportion of '1': 0.333
+Missing Data Note: 0 studies excluded due to missing covariate.
+
+
+1. Empirical mean and standard deviation for each variable,
+ plus standard error of the mean:
+Variable                 Mean                 SD                 Naive SE             Time-series SE
+d.placebo.fluoxetine     -0.0605123384083258  0.666145615245106  0.00471036081797499  0.00502507001131036
+d.placebo.nortriptyline   -0.318507504904532  0.689650185070038  0.00487656322509581  0.00497622724680262
+d.placebo.reboxetine      -0.984303016071906  0.865154829139337  0.00611756846460714  0.00611756846460713
+sd.d                       0.915026231310688  0.557535265014584  0.00394236966642451  0.00451363736906043
+B                         -0.970172164868651  0.871080658207261  0.00615947040378795  0.00624268521153827
+
+2. Quantiles for each variable:
+Variable                 X2.5.               X25.                X50.                 X75.                X97.5.
+d.placebo.fluoxetine      -1.40822108028157   -0.45980473436974  -0.0721789013222297   0.329805534518994   1.34381091414527
+d.placebo.nortriptyline   -1.63063970733655  -0.763327862097084   -0.349107982039615  0.0983849496353139   1.13572227602334
+d.placebo.reboxetine      -2.63593078968648   -1.57772991126146   -0.992687323200538  -0.407600873231979  0.758718105366233
+sd.d                     0.0440614678567393     0.4372335403522    0.876151312697745    1.36973273939463   1.93002382087395
+B                         -2.61867828422637   -1.56972664886602   -0.996650000565072  -0.399862304987522  0.833251070947552
+
+-- Convergence Diagnostics (R-hat & ESS):
+Beta R-hat = 1.0001
+Tau R-hat  = 1.0000
+Beta ESS   = 19470.3550
+Tau ESS    = 15257.7803
+
+
+-- Model fit (residual deviance):
+Dbar              pD                DIC
+3.09384905506735  3.10841153067779  6.20226058574515
+3 data points, ratio 1.031, I^2 = 45.6%

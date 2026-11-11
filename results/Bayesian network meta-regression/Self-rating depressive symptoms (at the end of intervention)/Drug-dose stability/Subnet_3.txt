@@ -1,0 +1,38 @@
+Results on the Mean Difference scale
+Iterations = 10001:110000
+Thinning interval = 20
+Number of chains = 4
+Sample size per chain = 5000
+
+-- Regression settings:
+Regression on "Stable drug dose" (Binary 0/1), shared coefficients, "CBT+atDCS" as control
+Input values: 0 (No/Ref) and 1 (Yes/Present). NO standardization applied.
+Handling of NA: Complete Case Analysis (NA rows removed)
+Observed proportion of '1': 1
+Missing Data Note: 0 studies excluded due to missing covariate.
+
+
+1. Empirical mean and standard deviation for each variable,
+ plus standard error of the mean:
+Variable                      Mean                SD                 Naive SE             Time-series SE
+d.CBT+atDCS.CBT+escitalopram  -0.454350850794486  0.576560795564927  0.00407690048310271  0.00414966310986592
+d.CBT+atDCS.no treatment       0.648816714178536  0.732113573704709  0.00517682472565317  0.00539900059401389
+sd.d                            0.68439197327575  0.520387245944369  0.00367969350450255  0.00426996404288783
+B                             -0.291488266593012  0.577801731284767  0.00408567522372786  0.00427855816706738
+
+2. Quantiles for each variable:
+Variable  X2.5.               X25.                X50.                X75.                X97.5.
+sd.d      0.0239659271785629   0.253770867023443   0.562425279617949    1.02990706889508   1.85451628843441
+B          -1.44317984088796  -0.662791004640359  -0.292300257638916  0.0804343253218717  0.856450357327455
+
+-- Convergence Diagnostics (R-hat & ESS):
+Beta R-hat = 1.0003
+Tau R-hat  = 1.0000
+Beta ESS   = 18237.3947
+Tau ESS    = 14852.6810
+
+
+-- Model fit (residual deviance):
+Dbar            pD                DIC
+2.682964746332  2.47716375378493  5.16012850011693
+3 data points, ratio 0.894, I^2 = 31.9%

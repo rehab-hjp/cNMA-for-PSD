@@ -1,0 +1,38 @@
+Results on the Mean Difference scale
+Iterations = 10001:110000
+Thinning interval = 20
+Number of chains = 4
+Sample size per chain = 5000
+
+-- Regression settings:
+Regression on "Stable drug dose" (Binary 0/1), shared coefficients, "placebo+usual care" as control
+Input values: 0 (No/Ref) and 1 (Yes/Present). NO standardization applied.
+Handling of NA: Complete Case Analysis (NA rows removed)
+Observed proportion of '1': 0.667
+Missing Data Note: 0 studies excluded due to missing covariate.
+
+
+1. Empirical mean and standard deviation for each variable,
+ plus standard error of the mean:
+Variable                                           Mean                SD                 Naive SE             Time-series SE
+d.placebo+usual care.dextroamphetamine+usual care  -0.112469619510896  0.693777602448258  0.00490574847326508  0.00515115773784064
+d.placebo+usual care.methylphenidate+usual care    -0.495071074361077  0.573091205658948  0.00405236677759817  0.00430610760276569
+sd.d                                                0.684555856026374  0.507646859452206  0.00358960536766709   0.0041344996446923
+B                                                   0.124511379613216  0.616790629088336  0.00436136836400679  0.00479950689402004
+
+2. Quantiles for each variable:
+Variable  X2.5.               X25.               X50.               X75.               X97.5.
+sd.d      0.0258735111942614  0.262997563387971  0.575665613603359   1.01561071404401  1.83409653773693
+B          -1.16254621388563  -0.25680575364213  0.148298692678236  0.534982201610536   1.2995660522679
+
+-- Convergence Diagnostics (R-hat & ESS):
+Beta R-hat = 1.0003
+Tau R-hat  = 1.0000
+Beta ESS   = 16515.1413
+Tau ESS    = 15075.7001
+
+
+-- Model fit (residual deviance):
+Dbar              pD               DIC
+2.79998289012171  2.6078309290914  5.40781381921311
+3 data points, ratio 0.933, I^2 = 31.9%

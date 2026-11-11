@@ -1,0 +1,37 @@
+Results on the Mean Difference scale
+Iterations = 10001:110000
+Thinning interval = 20
+Number of chains = 4
+Sample size per chain = 5000
+
+-- Regression settings:
+Regression on "Stable drug dose" (Binary 0/1), shared coefficients, "HFrTMS+paroxetine" as control
+Input values: 0 (No/Ref) and 1 (Yes/Present). NO standardization applied.
+Handling of NA: Complete Case Analysis (NA rows removed)
+Observed proportion of '1': 1
+Missing Data Note: 0 studies excluded due to missing covariate.
+
+
+1. Empirical mean and standard deviation for each variable,
+ plus standard error of the mean:
+Variable                        Mean               SD                 Naive SE             Time-series SE
+d.HFrTMS+paroxetine.paroxetine  0.465713095808341  0.775517153092258  0.00548373437878022  0.00700713872444252
+sd.d                            0.881617721319609    0.5239357730603  0.00370478538037154  0.00394716288107021
+B                                0.46451419970039  0.772244329058871  0.00546059201810383   0.0070267950490967
+
+2. Quantiles for each variable:
+Variable  X2.5.               X25.                 X50.               X75.               X97.5.
+sd.d      0.0767503813565612    0.447344003865672  0.803444402241978   1.27863649909278  1.90812089697989
+B          -1.06772895716594  -0.0450259301202391  0.472373158823843  0.978512518136755   1.9831157932411
+
+-- Convergence Diagnostics (R-hat & ESS):
+Beta R-hat = 1.0003
+Tau R-hat  = 1.0002
+Beta ESS   = 12077.9960
+Tau ESS    = 17619.1928
+
+
+-- Model fit (residual deviance):
+Dbar              pD                DIC
+2.22107327234299  2.17153785816211  4.3926111305051
+2 data points, ratio 1.111, I^2 = 43.7%

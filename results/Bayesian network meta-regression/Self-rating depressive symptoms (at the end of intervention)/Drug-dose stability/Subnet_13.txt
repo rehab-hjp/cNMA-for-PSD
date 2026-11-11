@@ -1,0 +1,39 @@
+Results on the Mean Difference scale
+Iterations = 10001:110000
+Thinning interval = 20
+Number of chains = 4
+Sample size per chain = 5000
+
+-- Regression settings:
+Regression on "Stable drug dose" (Binary 0/1), shared coefficients, "escitalopram+usual care" as control
+Input values: 0 (No/Ref) and 1 (Yes/Present). NO standardization applied.
+Handling of NA: Complete Case Analysis (NA rows removed)
+Observed proportion of '1': 0.75
+Missing Data Note: 0 studies excluded due to missing covariate.
+
+
+1. Empirical mean and standard deviation for each variable,
+ plus standard error of the mean:
+Variable                                                                       Mean                SD                 Naive SE             Time-series SE
+d.escitalopram+usual care.HFrTMS+escitalopram+usual care                       -0.674196203676949  0.603996489500548  0.00427090013538707  0.00583390421459318
+d.escitalopram+usual care.HFrTMS+reminiscence therapy+escitalopram+usual care  -0.942467487584145  0.692348439434831  0.00489564276468293   0.0063959012697935
+d.escitalopram+usual care.LFrTMS+escitalopram+usual care                       -0.327880194350532  0.732567407649452  0.00518003381625178  0.00718795572861616
+sd.d                                                                            0.742408877556889   0.51727191623305   0.0036576647968575  0.00540204549590227
+B                                                                               0.390328903990647  0.573463513039411  0.00405499938833228  0.00548870323696238
+
+2. Quantiles for each variable:
+Variable  X2.5.               X25.                X50.               X75.              X97.5.
+sd.d      0.0313972639572319   0.309553492038432  0.648010876143208  1.10321893976921  1.86142686508881
+B         -0.751612554438678  0.0264017863256209  0.384697455915747  0.75609818487264  1.54166293392809
+
+-- Convergence Diagnostics (R-hat & ESS):
+Beta R-hat = 1.0000
+Tau R-hat  = 1.0002
+Beta ESS   = 10916.2150
+Tau ESS    = 9168.9863
+
+
+-- Model fit (residual deviance):
+Dbar              pD                DIC
+3.98072124341894  3.94161342399533  7.92233466741427
+4 data points, ratio 0.995, I^2 = 35.5%
