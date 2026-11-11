@@ -1,0 +1,45 @@
+Complete-case primary analysis; effects on SMD scale
+Iterations = 7002:27000
+Thinning interval = 2
+Number of chains = 4
+Sample size per chain = 10000
+-- Regression settings:
+Regression on "age", hierarchical treatment-specific slopes, "HFrTMS+sertraline+cognitive training+usual care" as control
+Input transformation: x' = (age - 57.4) / 4.745819
+Treatment effects at the centering value: age = 57.4
+3 independent studies; 3 contrasts; 0 multiarm studies; 2 treatments
+d.reference.treatment = treatment effect versus reference; B.reference.treatment = its covariate slope; B.mean = hierarchical mean; sd.B = slope SD; sd.d = tau.
+
+
+1. Empirical mean and standard deviation, plus standard error of the mean:
+Variable                                                                                         Mean               SD                 Naive SE             Time-series SE
+d.HFrTMS+sertraline+cognitive training+usual care.sham+sertraline+cognitive training+usual care  0.808467781976779  0.404753270524722  0.00202376635262361  0.00204733495530459
+B.HFrTMS+sertraline+cognitive training+usual care.sham+sertraline+cognitive training+usual care  0.117013465176253  0.420940588822639  0.00210470294411319  0.00212956462803521
+B.mean                                                                                           0.100230528147638  0.527280754294269  0.00263640377147135  0.00337426066529612
+sd.B                                                                                             0.375359873448562  0.284876254159153  0.00142438127079577  0.00157648502417214
+sd.d                                                                                              0.47438796873555  0.426365435801396  0.00213182717900698  0.00379014635711533
+
+
+2. Quantiles for each variable:
+Variable                                                                                         2.5%                 25%                 50%                75%                97.5%
+d.HFrTMS+sertraline+cognitive training+usual care.sham+sertraline+cognitive training+usual care  -0.0497394498533142   0.605227828972339  0.813896912990233   1.02173937409113   1.62032720055782
+B.HFrTMS+sertraline+cognitive training+usual care.sham+sertraline+cognitive training+usual care   -0.763483598369714  -0.114642919368468  0.120557047528187  0.355080535833191  0.977258310844749
+B.mean                                                                                             -1.00203590848782  -0.210941745903965  0.108608088893575  0.418401443730862     1.158325089368
+sd.B                                                                                              0.0149090823780128   0.149421760237306   0.31567111803066  0.538120242033232    1.0565367177098
+sd.d                                                                                              0.0151852218327041   0.157946552336289   0.35368748936958  0.669068697345321   1.58718733816471
+
+
+3. Convergence Diagnostics (R-hat & ESS):
+Variable                                                                                         Rhat               ESS_bulk          ESS_tail          MCSE_mean
+d.HFrTMS+sertraline+cognitive training+usual care.sham+sertraline+cognitive training+usual care   1.00003193115635  39473.5323728903  30361.0703585349  0.00204733495530459
+B.HFrTMS+sertraline+cognitive training+usual care.sham+sertraline+cognitive training+usual care   1.00014602162024  38887.1199043475  32918.2208257445  0.00212956462803521
+B.mean                                                                                            1.00008968534873  24571.3422956619  27412.9465682993  0.00337426066529612
+sd.B                                                                                             0.999962615540078  33254.6128333712  38023.7757342343  0.00157648502417214
+sd.d                                                                                              1.00028099034824  14788.6644890242  16807.9519994728  0.00379014635711533
+
+
+-- Model fit (residual deviance):
+Dbar              pD                DIC
+2.41983761426709  2.41873165798536  4.83856927225244
+
+3 data points (3 independent studies), ratio 0.807, I^2 = 47.7%

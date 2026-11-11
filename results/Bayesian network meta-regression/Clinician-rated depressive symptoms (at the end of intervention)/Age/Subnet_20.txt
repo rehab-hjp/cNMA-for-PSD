@@ -1,0 +1,45 @@
+Complete-case primary analysis; effects on SMD scale
+Iterations = 7002:27000
+Thinning interval = 2
+Number of chains = 4
+Sample size per chain = 10000
+-- Regression settings:
+Regression on "age", hierarchical treatment-specific slopes, "LFrTMS+fluoxetine+psychological counselling+usual care" as control
+Input transformation: x' = (age - 55.38667) / 0.3202083
+Treatment effects at the centering value: age = 55.38667
+3 independent studies; 3 contrasts; 0 multiarm studies; 2 treatments
+d.reference.treatment = treatment effect versus reference; B.reference.treatment = its covariate slope; B.mean = hierarchical mean; sd.B = slope SD; sd.d = tau.
+
+
+1. Empirical mean and standard deviation, plus standard error of the mean:
+Variable                                                                                                  Mean                SD                 Naive SE             Time-series SE
+d.LFrTMS+fluoxetine+psychological counselling+usual care.fluoxetine+psychological counselling+usual care    1.47504376867767   0.48136368507743  0.00240681842538715   0.0024213635810174
+B.LFrTMS+fluoxetine+psychological counselling+usual care.fluoxetine+psychological counselling+usual care  0.0401761297061133  0.482240874263758  0.00241120437131879  0.00244186191820877
+B.mean                                                                                                    0.0362832654409559    0.5639061589366    0.002819530794683  0.00341800127948114
+sd.B                                                                                                       0.374545003307095  0.283164971272657  0.00141582485636328  0.00150410624854899
+sd.d                                                                                                       0.709932826273105  0.452834917694629  0.00226417458847314   0.0037927478869443
+
+
+2. Quantiles for each variable:
+Variable                                                                                                  2.5%                25%                 50%                 75%                97.5%
+d.LFrTMS+fluoxetine+psychological counselling+usual care.fluoxetine+psychological counselling+usual care   0.392673877598999    1.25202495775036    1.49666513805105   1.72262099397708  2.43068149959222
+B.LFrTMS+fluoxetine+psychological counselling+usual care.fluoxetine+psychological counselling+usual care  -0.976228329814418  -0.219805627808604  0.0403647494984902  0.301899947863618  1.04885310040325
+B.mean                                                                                                      -1.1323019421383  -0.295364296681398  0.0402557519067593  0.376743215090095  1.18618645814211
+sd.B                                                                                                       0.014395171062429   0.149978887156475    0.31730339257401  0.537704854814538  1.05091295727896
+sd.d                                                                                                       0.102638233905753   0.380691378973632   0.612054446899889  0.940701141207551  1.83353813478736
+
+
+3. Convergence Diagnostics (R-hat & ESS):
+Variable                                                                                                  Rhat              ESS_bulk          ESS_tail          MCSE_mean
+d.LFrTMS+fluoxetine+psychological counselling+usual care.fluoxetine+psychological counselling+usual care  1.00027335235806  39925.6984650062  29841.2365177941   0.0024213635810174
+B.LFrTMS+fluoxetine+psychological counselling+usual care.fluoxetine+psychological counselling+usual care  1.00019462628964  38343.4897509222  33713.4080576821  0.00244186191820877
+B.mean                                                                                                    1.00004853190937  27278.7683859392    30845.46513758  0.00341800127948114
+sd.B                                                                                                      1.00005464409448  35840.9024772314  37333.1589759268  0.00150410624854899
+sd.d                                                                                                      1.00041407304913  15810.5912035232  18933.7087057874   0.0037927478869443
+
+
+-- Model fit (residual deviance):
+Dbar              pD                DIC
+3.28008795823311  3.06902563870746  6.34911359694057
+
+3 data points (3 independent studies), ratio 1.093, I^2 = 82.2%
