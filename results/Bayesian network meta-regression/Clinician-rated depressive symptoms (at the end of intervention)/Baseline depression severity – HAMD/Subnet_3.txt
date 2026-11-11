@@ -1,0 +1,57 @@
+Complete-case primary analysis; effects on SMD scale
+Iterations = 7002:27000
+Thinning interval = 2
+Number of chains = 4
+Sample size per chain = 10000
+-- Regression settings:
+Regression on "baseline depressive symptoms-HAMD", hierarchical treatment-specific slopes, "venlafaxine" as control
+Input transformation: x' = (baseline depressive symptoms-HAMD - 26.226) / 2.107873
+Treatment effects at the centering value: baseline depressive symptoms-HAMD = 26.226
+5 independent studies; 5 contrasts; 0 multiarm studies; 4 treatments
+d.reference.treatment = treatment effect versus reference; B.reference.treatment = its covariate slope; B.mean = hierarchical mean; sd.B = slope SD; sd.d = tau.
+
+
+1. Empirical mean and standard deviation, plus standard error of the mean:
+Variable                          Mean                SD                 Naive SE             Time-series SE
+d.venlafaxine.amitriptyline        0.293940349705612   1.28588279974416  0.00642941399872081   0.0207373739300169
+d.venlafaxine.amitriptyline+CBT   -0.783132802765744   1.41182964340982  0.00705914821704911   0.0211026894271415
+d.venlafaxine.HFrTMS+venlafaxine   -1.28965150081035  0.525325317519387  0.00262662658759694  0.00534587049844961
+B.venlafaxine.amitriptyline       0.0136134119309674  0.722715136636729  0.00361357568318364   0.0113083974207655
+B.venlafaxine.amitriptyline+CBT   0.0583145248127947  0.861391221064649  0.00430695610532325   0.0110678419030077
+B.venlafaxine.HFrTMS+venlafaxine  0.0884563377504988  0.820896780667572  0.00410448390333786   0.0107629807595296
+B.mean                             0.049910873592419  0.719036528849245  0.00359518264424623   0.0107773607248941
+sd.B                               0.371934822425544  0.281226328262329  0.00140613164131164  0.00186327329171724
+sd.d                               0.509545917873768  0.367815223293693  0.00183907611646846  0.00345650595517854
+
+
+2. Quantiles for each variable:
+Variable                          2.5%                25%                 50%                 75%                 97.5%
+d.venlafaxine.amitriptyline        -2.24220573461933  -0.567173300937595    0.29935193026064    1.16221825759858    2.81536379306369
+d.venlafaxine.amitriptyline+CBT    -3.56321348918387   -1.71799392862574  -0.784556205587301   0.154115920913829    1.99853182392427
+d.venlafaxine.HFrTMS+venlafaxine   -2.31213184880925   -1.61762900987551   -1.30056093916227  -0.972424486089223  -0.199237345569755
+B.venlafaxine.amitriptyline        -1.39472776010909  -0.471613423477565  0.0103581819802535   0.497074227118312     1.4486602141681
+B.venlafaxine.amitriptyline+CBT    -1.62478142855419  -0.492147285697732  0.0522336848693177   0.606604933619538    1.79143663359025
+B.venlafaxine.HFrTMS+venlafaxine    -1.4913563112936   -0.44666999076636  0.0689978134756054   0.618501979209736    1.74559417848605
+B.mean                              -1.3540114927853  -0.432442239683327   0.044182049268503   0.533281278408844    1.47396131665463
+sd.B                              0.0149993412917742   0.149185820617531   0.312796696393595   0.535195043683805    1.05296823405359
+sd.d                              0.0339869889048144   0.248143353947817    0.43248352571334   0.682953453740327    1.45019985215303
+
+
+3. Convergence Diagnostics (R-hat & ESS):
+Variable                          Rhat              ESS_bulk          ESS_tail          MCSE_mean
+d.venlafaxine.amitriptyline        1.0014861809519  3844.21411317533   7370.4757479077   0.0207373739300169
+d.venlafaxine.amitriptyline+CBT   1.00105498141349  4466.53564804237  9435.12871399675   0.0211026894271415
+d.venlafaxine.HFrTMS+venlafaxine  1.00059895905467  9244.73021126072  22124.6656611864  0.00534587049844961
+B.venlafaxine.amitriptyline       1.00146460931137  4082.11440358928  8278.60296106617   0.0113083974207655
+B.venlafaxine.amitriptyline+CBT   1.00107128519083  5921.50011353518  15076.6018424512   0.0110678419030077
+B.venlafaxine.HFrTMS+venlafaxine   1.0010849060999  5757.65534968805  14201.8884260347   0.0107629807595296
+B.mean                            1.00141267437755  4448.32635894471  9530.44058299676   0.0107773607248941
+sd.B                              1.00008318593376  23844.4577007555  30158.2322123911  0.00186327329171724
+sd.d                              1.00021802309237  13050.4525657321  15588.9790048079  0.00345650595517854
+
+
+-- Model fit (residual deviance):
+Dbar              pD                DIC
+5.30811195813427  4.72159299851505  10.0297049566493
+
+5 data points (5 independent studies), ratio 1.062, I^2 = 64.0%
