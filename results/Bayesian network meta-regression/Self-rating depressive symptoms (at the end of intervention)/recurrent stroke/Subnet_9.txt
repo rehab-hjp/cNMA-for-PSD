@@ -1,0 +1,51 @@
+Complete-case primary analysis; effects on SMD scale
+Iterations = 7002:27000
+Thinning interval = 2
+Number of chains = 4
+Sample size per chain = 10000
+-- Regression settings:
+Regression on "recurrent stroke", hierarchical treatment-specific slopes, "placebo+usual care" as control
+Input transformation: x' = (recurrent stroke - 0.17) / 0.1044031
+Treatment effects at the centering value: recurrent stroke = 0.17
+3 independent studies; 3 contrasts; 0 multiarm studies; 3 treatments
+d.reference.treatment = treatment effect versus reference; B.reference.treatment = its covariate slope; B.mean = hierarchical mean; sd.B = slope SD; sd.d = tau.
+
+
+1. Empirical mean and standard deviation, plus standard error of the mean:
+Variable                                           Mean                 SD                 Naive SE             Time-series SE
+d.placebo+usual care.dextroamphetamine+usual care  -0.0786051503314749   0.82723096812141  0.00413615484060705  0.00444188328822167
+d.placebo+usual care.methylphenidate+usual care     -0.492646426672363  0.601577016774169  0.00300788508387084  0.00305613564674351
+B.placebo+usual care.dextroamphetamine+usual care   -0.191055396297152  0.752104654532805  0.00376052327266403  0.00458495639084967
+B.placebo+usual care.methylphenidate+usual care     -0.232977861315244  0.530401553656481  0.00265200776828241  0.00286386497338346
+B.mean                                              -0.191900299788265  0.594268784771127  0.00297134392385563  0.00366634588091504
+sd.B                                                  0.37656488811786  0.286524033945842  0.00143262016972921  0.00153987109970767
+sd.d                                                 0.658440169074217  0.510544040287837  0.00255272020143919  0.00487267689525853
+
+
+2. Quantiles for each variable:
+Variable                                           2.5%                25%                 50%                  75%                 97.5%
+d.placebo+usual care.dextroamphetamine+usual care   -1.79649839933956   -0.52089626022618  -0.0944954724121777   0.350484512066846   1.67366674075603
+d.placebo+usual care.methylphenidate+usual care     -1.72969257820299  -0.808525367666017   -0.503462365798281  -0.195663166691839  0.820824806080204
+B.placebo+usual care.dextroamphetamine+usual care   -1.70408252089844  -0.632207907554619   -0.207216495977244   0.237938201630609   1.38522118021253
+B.placebo+usual care.methylphenidate+usual care     -1.28948284979749  -0.547702998457148   -0.248709819477698  0.0688059265530548  0.899483618836105
+B.mean                                               -1.3663702127139  -0.564374946947413   -0.205872393892073   0.168286144507933   1.03677811903301
+sd.B                                               0.0152399955757699   0.149603296049115    0.315936213802944   0.542045254768882   1.06682876357131
+sd.d                                               0.0248103472432662   0.257429579109483    0.549378187177601   0.943567574042397    1.9060225282042
+
+
+3. Convergence Diagnostics (R-hat & ESS):
+Variable                                           Rhat               ESS_bulk          ESS_tail          MCSE_mean
+d.placebo+usual care.dextroamphetamine+usual care   1.00021522342827  33930.0140128724   29752.397180121  0.00444188328822167
+d.placebo+usual care.methylphenidate+usual care     1.00019038252553  38432.5493678429  31411.6114160824  0.00305613564674351
+B.placebo+usual care.dextroamphetamine+usual care  0.999978604434916  27051.7620212385  32981.6754198292  0.00458495639084967
+B.placebo+usual care.methylphenidate+usual care    0.999955919472442  34199.9037288045  31757.2184598998  0.00286386497338346
+B.mean                                              1.00005243423547  26320.7554093134  29837.5170035325  0.00366634588091504
+sd.B                                                1.00001848103766  35167.0214924709  38178.0656816495  0.00153987109970767
+sd.d                                                1.00032164147998  11561.0192750973    17741.00700457  0.00487267689525853
+
+
+-- Model fit (residual deviance):
+Dbar              pD                DIC
+2.92602098534404  2.92234762192466  5.8483686072687
+
+3 data points (3 independent studies), ratio 0.975, I^2 = 62.3%
