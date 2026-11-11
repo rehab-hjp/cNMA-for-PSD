@@ -1,0 +1,453 @@
+Complete-case primary analysis; effects on SMD scale
+Iterations = 7002:27000
+Thinning interval = 2
+Number of chains = 4
+Sample size per chain = 10000
+-- Regression settings:
+Regression on "time since stroke", hierarchical treatment-specific slopes, "usual care" as control
+Input transformation: x' = (time since stroke - 16.086) / 32.48995
+Treatment effects at the centering value: time since stroke = 16.086
+50 independent studies; 64 contrasts; 13 multiarm studies; 70 treatments
+d.reference.treatment = treatment effect versus reference; B.reference.treatment = its covariate slope; B.mean = hierarchical mean; sd.B = slope SD; sd.d = tau.
+
+
+1. Empirical mean and standard deviation, plus standard error of the mean:
+Variable                                                                                  Mean                  SD                 Naive SE              Time-series SE
+d.usual care.ACT+sertraline+usual care                                                       0.672814074690589   1.27501009922959   0.00637505049614794  0.00860626070600214
+d.usual care.agomelatine+usual care                                                         -0.161811331789668   1.02948657634246   0.00514743288171232   0.0075379090277983
+d.usual care.amitriptyline+usual care                                                        0.332637326182261   1.24914090772941   0.00624570453864705  0.00850645326149573
+d.usual care.atDCS+fluoxetine+usual care                                                    -0.573228578791601   1.03726615447815   0.00518633077239077   0.0083698379382631
+d.usual care.behavioural therapy                                                          -0.00813997754602696   2.50107996313379     0.012505399815669   0.0124633233924415
+d.usual care.supportive psychotherapy+behavioural therapy+usual care                      -0.00763742154133039   2.51319562265186    0.0125659781132593   0.0126503922945409
+d.usual care.behavioural therapy+usual care                                                 -0.557000695849557     1.163327132438   0.00581663566218999  0.00622191862631384
+d.usual care.HFrTMS+escitalopram+CBT+usual care                                           -0.00367879585329932   2.50301761468513    0.0125150880734257   0.0124469549078598
+d.usual care.CBT+escitalopram+usual care                                                    -0.605416004352695   1.07054724311316    0.0053527362155658  0.00847173254730822
+d.usual care.CBT+humanistic psychotherapy+paroxetine+usual care                           -0.00964822546937062      2.50336226046       0.0125168113023   0.0124832935325745
+d.usual care.CBT+sertraline+usual care                                                    -0.00685057156777379   2.48653963688241     0.012432698184412   0.0123833087014152
+d.usual care.CES+escitalopram+usual care                                                  0.000190515652338104   2.50617982092997    0.0125308991046498   0.0126551631719906
+d.usual care.psychoeducation+supportive psychotherapy+cognitive restructuring+usual care      -1.3543313675488   1.12120698463451   0.00560603492317255   0.0057197536073779
+d.usual care.supportive psychotherapy+cognitive restructuring+usual care                    0.0164295542958206   2.49780564149368    0.0124890282074684   0.0125067694152502
+d.usual care.desipramine+usual care                                                           0.30515734720747   1.18745570360394   0.00593727851801971  0.00810042708111639
+d.usual care.drTMS+fluoxetine+usual care                                                    -0.174926848576905   1.21441567081189   0.00607207835405946  0.00827918382828381
+d.usual care.drTMS+sertraline+usual care                                                     -1.13493336887141    1.3335582314131    0.0066677911570655   0.0139956023249733
+d.usual care.drTMS+usual care                                                                0.443017803439478   1.31242729049349   0.00656213645246747  0.00917431702629294
+d.usual care.dtDCS+sertraline+usual care                                                   -0.0347883171308119   1.42195550657249   0.00710977753286244   0.0134593148518191
+d.usual care.HFrTMS+reminiscence therapy+escitalopram+usual care                            -0.384048093088466   1.21008112634236   0.00605040563171182  0.00867976143287327
+d.usual care.HFrTMS+escitalopram+usual care                                                  -1.59106878287864  0.795618714298063   0.00397809357149032  0.00786093854907485
+d.usual care.LFrTMS+escitalopram+usual care                                                 -0.629788417624239  0.951453874408009   0.00475726937204005  0.00837791847645356
+d.usual care.sham+escitalopram+usual care                                                    -0.72068893743448   1.14745665693022   0.00573728328465108  0.00913164968684239
+d.usual care.supportive psychotherapy+escitalopram+usual care                                0.233798659044507   1.36928178040362   0.00684640890201809  0.00930599838944244
+d.usual care.taVNS+escitalopram+usual care                                                   -1.11646591235374   1.42954339349491   0.00714771696747455   0.0101195706571276
+d.usual care.escitalopram+usual care                                                         0.121664499675261  0.718063051650712   0.00359031525825356  0.00763966464583885
+d.usual care.HFrTMS+fluoxetine+usual care                                                   -0.528739062168277  0.844218383925649   0.00422109191962825  0.00788804318839049
+d.usual care.LFrTMS+fluoxetine+usual care                                                  -0.0803883649530805    1.2053077464716   0.00602653873235798  0.00822410383091012
+d.usual care.sham+fluoxetine+usual care                                                       0.40636006462596  0.998469208281794   0.00499234604140897  0.00826221802279633
+d.usual care.fluoxetine+usual care                                                            0.34930809862374  0.671870462938449   0.00335935231469224  0.00706469322519601
+d.usual care.GACT+usual care                                                               0.00392266241283425   2.49585074439505    0.0124792537219753   0.0124750296345618
+d.usual care.peer support+group psychotherapy                                             1.31783420244973e-05   2.50033969142554    0.0125016984571277   0.0125285136771685
+d.usual care.group psychotherapy+usual care                                                 0.0137819860349583   2.50159719534692    0.0125079859767346   0.0124991972396457
+d.usual care.HFrTMS+mindfulness                                                              0.549987517958187   1.25760452812084   0.00628802264060418  0.00936857793793795
+d.usual care.HFrTMS+sertraline+usual care                                                   -0.341297591914334   1.12697286767106   0.00563486433835531   0.0146605984311563
+d.usual care.trazodone+HFrTMS+usual care                                                  -0.00690247388591239   2.50344927882222    0.0125172463941111   0.0125770051596896
+d.usual care.HFrTMS+usual care                                                              -0.857523301412445  0.769787977308126   0.00384893988654063  0.00721345062695758
+d.usual care.imipramine+usual care                                                           -1.50176369722669   1.08226750062748   0.00541133750313741  0.00624578294647001
+d.usual care.interpersonal psychotherapy                                                    -0.204017593219679   1.23511906339177   0.00617559531695886  0.00878948672036204
+d.usual care.interpersonal psychotherapy+sertraline                                         0.0657008938102878   1.23491011083936   0.00617455055419679  0.00880651864686536
+d.usual care.iTBS+sertraline+usual care                                                      0.172081568371125   1.25784405423532   0.00628922027117658   0.0144028169997017
+d.usual care.iTBS+usual care                                                                -0.386412435198427   1.16096709576632   0.00580483547883158  0.00834829069153504
+d.usual care.knowledge and behaviour therapy+usual care                                     -0.719600109110727   1.06639724032479   0.00533198620162397  0.00541926993370908
+d.usual care.LFrTMS+paroxetine+usual care                                                  -0.0083264721287302   2.48783794058105    0.0124391897029053   0.0125475875527107
+d.usual care.LFrTMS+sertraline+usual care                                                     0.20174665122597   1.20635772770134    0.0060317886385067   0.0141889439215561
+d.usual care.LFrTMS+trazodone+usual care                                                    -0.513820875898244   1.39821551000926   0.00699107755004628  0.00954339615230943
+d.usual care.LFrTMS+usual care                                                             -0.0157036303840302   2.49833594147944    0.0124916797073972   0.0128234613274702
+d.usual care.LFrTMS+venlafaxine+usual care                                                 0.00481375743259788   2.51577872841184    0.0125788936420592   0.0125981848017607
+d.usual care.maprotiline+usual care                                                          0.473301498412353  0.930930710453938   0.00465465355226969  0.00651122597815383
+d.usual care.MES+usual care                                                                 0.0125039534155732   2.48537064676443    0.0124268532338221   0.0123567639440259
+d.usual care.methylphenidate+usual care                                                      0.232142872071645    1.2793615596975   0.00639680779848751  0.00811101396257227
+d.usual care.SFBT+mindfulness+usual care                                                     -1.26661628927109   1.14028433163434    0.0057014216581717  0.00596611192393911
+d.usual care.sham+mindfulness                                                                0.692450413293186    1.2474480309267   0.00623724015463351     0.00953228657558
+d.usual care.mindfulness+usual care                                                          -1.28409882983363  0.832024992422081   0.00416012496211041  0.00428281686655845
+d.usual care.Morita therapy+paroxetine+usual care                                            -1.70593812444509   1.30237336807829   0.00651186684039146  0.00817830582524349
+d.usual care.psychoeducation+Morita therapy+venlafaxine+usual care                         -0.0083264515467265   2.50082093086927    0.0125041046543463    0.012541696318082
+d.usual care.paroxetine+usual care                                                           -1.00663445779262  0.882800490536355   0.00441400245268178  0.00598984409622494
+d.usual care.placebo+usual care                                                               1.29146391453409  0.779015097485637   0.00389507548742818  0.00652964295141711
+d.usual care.psychoeducation+supportive psychotherapy+usual care                           0.00146977080456432   2.48896026027411    0.0124448013013706    0.012515513548105
+d.usual care.REBT+sertraline+usual care                                                     0.0197428609872564   2.50654954050246    0.0125327477025123   0.0125269602220412
+d.usual care.reminiscence therapy                                                            -1.05518411602127   1.07789255347035   0.00538946276735173   0.0054027982387396
+d.usual care.reminiscence therapy+usual care                                               0.00552498443542274    2.4960454285363    0.0124802271426815   0.0124715209143737
+d.usual care.SFBT+sertraline+usual care                                                     -0.580678936207886    1.2851343493812   0.00642567174690598  0.00887055675538194
+d.usual care.sham+sertraline+usual care                                                       1.05520832400849    1.1287405925522   0.00564370296276101   0.0145199200323957
+d.usual care.sertraline+usual care                                                          -0.143650945201596  0.857115493268575   0.00428557746634287  0.00756305635593885
+d.usual care.sham+usual care                                                                  1.05767480864458  0.905974906568841   0.00452987453284421  0.00844009769068411
+d.usual care.supportive psychotherapy+usual care                                          -0.00264362686065504   2.49156707571333    0.0124578353785667   0.0128041423049903
+d.usual care.trazodone+usual care                                                            0.208982429485792   1.13019561643399   0.00565097808216993  0.00852989118899985
+d.usual care.venlafaxine+usual care                                                           -3.9332787356709   1.33443728950857   0.00667218644754286  0.00858787923397844
+B.usual care.ACT+sertraline+usual care                                                       0.746845811899748  0.990307717872645   0.00495153858936323   0.0056072429811477
+B.usual care.agomelatine+usual care                                                          0.747020043852622  0.985568077679094   0.00492784038839547  0.00558883886147801
+B.usual care.amitriptyline+usual care                                                        0.757873096332229  0.985297206712174   0.00492648603356087  0.00566446217999001
+B.usual care.atDCS+fluoxetine+usual care                                                     0.759346083195847  0.989220472743781    0.0049461023637189   0.0055825884822629
+B.usual care.behavioural therapy                                                             0.749860068980418  0.988996084680576   0.00494498042340288  0.00564046199367288
+B.usual care.supportive psychotherapy+behavioural therapy+usual care                         0.748154838782546  0.990370969146309   0.00495185484573154  0.00561853464582405
+B.usual care.behavioural therapy+usual care                                                  0.741226651223184  0.981464632717106   0.00490732316358553  0.00564506380283211
+B.usual care.HFrTMS+escitalopram+CBT+usual care                                              0.748390406729751  0.989679862475913   0.00494839931237956  0.00563989582471003
+B.usual care.CBT+escitalopram+usual care                                                     0.753401135760118  0.990348556064053   0.00495174278032026  0.00563785730099303
+B.usual care.CBT+humanistic psychotherapy+paroxetine+usual care                              0.744869179631661  0.989203578853375   0.00494601789426687  0.00559028987687189
+B.usual care.CBT+sertraline+usual care                                                       0.751228018539803   0.98701566056735   0.00493507830283675  0.00565563418405749
+B.usual care.CES+escitalopram+usual care                                                     0.751541987096317  0.988542976691909   0.00494271488345954  0.00559500908798471
+B.usual care.psychoeducation+supportive psychotherapy+cognitive restructuring+usual care     0.756471866200048  0.984994282033783   0.00492497141016892  0.00560348683366635
+B.usual care.supportive psychotherapy+cognitive restructuring+usual care                     0.746551039877871  0.990453648030419    0.0049522682401521   0.0056342308646805
+B.usual care.desipramine+usual care                                                          0.746571738432857  0.991804013953478   0.00495902006976739  0.00564186546544595
+B.usual care.drTMS+fluoxetine+usual care                                                     0.747043615137023  0.988271332944187   0.00494135666472094  0.00564264696147243
+B.usual care.drTMS+sertraline+usual care                                                     0.753223564593515  0.992373059801972   0.00496186529900986  0.00568397174220119
+B.usual care.drTMS+usual care                                                                0.744085972448865  0.989075906913906   0.00494537953456953  0.00561576843409841
+B.usual care.dtDCS+sertraline+usual care                                                     0.749565071479496  0.987396914956854   0.00493698457478427  0.00558851952418689
+B.usual care.HFrTMS+reminiscence therapy+escitalopram+usual care                             0.749828541423363  0.988921794313895   0.00494460897156948  0.00557775411606856
+B.usual care.HFrTMS+escitalopram+usual care                                                  0.782606322134246  0.988644390941448   0.00494322195470724  0.00562283608102332
+B.usual care.LFrTMS+escitalopram+usual care                                                  0.754938428195702  0.985215732312277   0.00492607866156139  0.00556862774979032
+B.usual care.sham+escitalopram+usual care                                                    0.754939494197445  0.989889835868266   0.00494944917934133  0.00563913248704083
+B.usual care.supportive psychotherapy+escitalopram+usual care                                0.747246093958466  0.988852992437615   0.00494426496218808  0.00562536157917039
+B.usual care.taVNS+escitalopram+usual care                                                   0.755896690737915  0.984908418205941    0.0049245420910297  0.00562054273047671
+B.usual care.escitalopram+usual care                                                         0.706057502506574  0.985247115526596   0.00492623557763298  0.00568294059111463
+B.usual care.HFrTMS+fluoxetine+usual care                                                    0.703739999527707  0.982985633114573   0.00491492816557286  0.00562986804820323
+B.usual care.LFrTMS+fluoxetine+usual care                                                    0.754533224647564  0.984873313677241   0.00492436656838621  0.00559578119009472
+B.usual care.sham+fluoxetine+usual care                                                      0.748309842041662  0.992201335671145   0.00496100667835573  0.00564361806128072
+B.usual care.fluoxetine+usual care                                                           0.785825186995556  0.971259896699223   0.00485629948349611  0.00559158655605621
+B.usual care.GACT+usual care                                                                 0.745840107972173  0.988786098449051   0.00494393049224525  0.00564229596200665
+B.usual care.peer support+group psychotherapy                                                0.747596756463958  0.990879115113171   0.00495439557556586  0.00560990203441569
+B.usual care.group psychotherapy+usual care                                                  0.746877851239057  0.987118225229725   0.00493559112614862   0.0056006469626974
+B.usual care.HFrTMS+mindfulness                                                              0.744206607160554  0.988202371240186   0.00494101185620093  0.00564790913678932
+B.usual care.HFrTMS+sertraline+usual care                                                    0.744693675546088  0.990249405415803   0.00495124702707901  0.00562955031913404
+B.usual care.trazodone+HFrTMS+usual care                                                     0.747129893632741   0.99073173835931   0.00495365869179655  0.00562890098312167
+B.usual care.HFrTMS+usual care                                                               0.802684890047968  0.954577368456893   0.00477288684228447  0.00571237594798109
+B.usual care.imipramine+usual care                                                            0.76805023571827  0.985317768123264   0.00492658884061632  0.00564174681290481
+B.usual care.interpersonal psychotherapy                                                     0.751567389654483  0.989356900959523   0.00494678450479762  0.00560461620318879
+B.usual care.interpersonal psychotherapy+sertraline                                          0.750949096478245  0.986761100840895   0.00493380550420447  0.00565297088300089
+B.usual care.iTBS+sertraline+usual care                                                        0.7499123195478  0.988578601230791   0.00494289300615396  0.00565228566167274
+B.usual care.iTBS+usual care                                                                 0.750008134695586  0.987249545679609   0.00493624772839804  0.00560703212371181
+B.usual care.knowledge and behaviour therapy+usual care                                        0.7419503141611  0.990963729220017   0.00495481864610008  0.00561528738367643
+B.usual care.LFrTMS+paroxetine+usual care                                                    0.749907943559583  0.989687674533366   0.00494843837266683  0.00565577671369223
+B.usual care.LFrTMS+sertraline+usual care                                                    0.750090883507173  0.986151564380327   0.00493075782190163  0.00560167155435685
+B.usual care.LFrTMS+trazodone+usual care                                                     0.754056075405937  0.989890268578378   0.00494945134289189  0.00559404825401351
+B.usual care.LFrTMS+usual care                                                               0.750986338544303   0.98694245223467   0.00493471226117335  0.00561389084418064
+B.usual care.LFrTMS+venlafaxine+usual care                                                   0.746296578323354  0.989890702361479    0.0049494535118074  0.00558795425506845
+B.usual care.maprotiline+usual care                                                          0.614670070857053   1.00655559142717   0.00503277795713583  0.00600897340803053
+B.usual care.MES+usual care                                                                  0.747746899102754  0.987693238607538   0.00493846619303769  0.00560010363207409
+B.usual care.methylphenidate+usual care                                                      0.745850429825866  0.986691809738028   0.00493345904869014  0.00564758236520015
+B.usual care.SFBT+mindfulness+usual care                                                     0.759103376075539  0.980884537584976   0.00490442268792488  0.00561407881313334
+B.usual care.sham+mindfulness                                                                0.743671871070959  0.990264261501877   0.00495132130750939  0.00565355221428367
+B.usual care.mindfulness+usual care                                                          0.740476165856118  0.982847806324687   0.00491423903162344  0.00563750444509294
+B.usual care.Morita therapy+paroxetine+usual care                                            0.755599972490475  0.986908441376547   0.00493454220688273  0.00563713632604528
+B.usual care.psychoeducation+Morita therapy+venlafaxine+usual care                           0.750554183989234   0.98678262405439   0.00493391312027195  0.00559030369191871
+B.usual care.paroxetine+usual care                                                           0.931181345602602  0.982836254246539   0.00491418127123269  0.00572172666365024
+B.usual care.placebo+usual care                                                              0.727287517815606  0.988819238184463   0.00494409619092232  0.00570520072569873
+B.usual care.psychoeducation+supportive psychotherapy+usual care                             0.747424011680988  0.987278678683712   0.00493639339341856  0.00565098633866914
+B.usual care.REBT+sertraline+usual care                                                      0.752571811528299  0.989055337641336   0.00494527668820668  0.00561568786598292
+B.usual care.reminiscence therapy                                                            0.754588921663136  0.983013649725031   0.00491506824862516  0.00556307077226659
+B.usual care.reminiscence therapy+usual care                                                 0.749149143954235  0.989375625709838   0.00494687812854919  0.00557044307007278
+B.usual care.SFBT+sertraline+usual care                                                      0.753035968579179   0.98675546122181   0.00493377730610905  0.00564091315628586
+B.usual care.sham+sertraline+usual care                                                      0.749349930841783  0.988049315261574   0.00494024657630787  0.00564347702246071
+B.usual care.sertraline+usual care                                                           0.743274371488591  0.985901319990037   0.00492950659995018  0.00560636498801428
+B.usual care.sham+usual care                                                                  0.67694018901285  0.954872898782664   0.00477436449391332  0.00572550368084062
+B.usual care.supportive psychotherapy+usual care                                              0.75026560305245  0.990714828063831   0.00495357414031915  0.00559689962408652
+B.usual care.trazodone+usual care                                                            0.746924207930502  0.986772167353541    0.0049338608367677  0.00556059489034908
+B.usual care.venlafaxine+usual care                                                          0.780952924192567  0.990501344170389   0.00495250672085194  0.00560522159274354
+B.mean                                                                                       0.748476628233193   0.91004327656556    0.0045502163828278  0.00527720145939587
+sd.B                                                                                         0.298840625966595  0.245155457672678   0.00122577728836339  0.00174808146025342
+sd.d                                                                                          1.14896537160636  0.181866384546489  0.000909331922732447  0.00167204820222212
+
+
+2. Quantiles for each variable:
+Variable                                                                                  2.5%                25%                  50%                    75%                   97.5%
+d.usual care.ACT+sertraline+usual care                                                     -1.84317712802572   -0.173804530058404      0.670115962300201      1.52347659019247      3.18662070702444
+d.usual care.agomelatine+usual care                                                        -2.16777903814636   -0.852739689923577     -0.168118675874139     0.523397868140305      1.89101497446514
+d.usual care.amitriptyline+usual care                                                      -2.13137166283232   -0.495939685353517      0.324380233728858       1.1622120709928       2.7722891100585
+d.usual care.atDCS+fluoxetine+usual care                                                   -2.60569195204437    -1.26485504639678     -0.574361017893497     0.118136403544676      1.48507950122492
+d.usual care.behavioural therapy                                                           -4.93009361469427    -1.68539583627022    -0.0124828665531591      1.67059761307618      4.88166590056515
+d.usual care.supportive psychotherapy+behavioural therapy+usual care                       -4.95310489681662    -1.70398457752308   -0.00242752578973859      1.69332101469159      4.91034611977151
+d.usual care.behavioural therapy+usual care                                                  -2.814680882187    -1.33734322346399     -0.561212644327601     0.217515451028223      1.74995651658467
+d.usual care.HFrTMS+escitalopram+CBT+usual care                                            -4.91796414269295    -1.70772680028598  -0.000372512975189868      1.71259714695865      4.85746092426878
+d.usual care.CBT+escitalopram+usual care                                                   -2.68809285327894    -1.32638925939804      -0.60876364950904     0.107366779034645      1.50568523612612
+d.usual care.CBT+humanistic psychotherapy+paroxetine+usual care                            -4.89234820057636    -1.69348528745908    -0.0158896508512698       1.6863457150593      4.90399774613265
+d.usual care.CBT+sertraline+usual care                                                     -4.85434728335766     -1.6874100970033    -0.0154652796580447      1.66865317662033      4.88630307670154
+d.usual care.CES+escitalopram+usual care                                                   -4.94203500828014    -1.68869860516547     0.0123352520552087      1.68718062732302      4.90415619409308
+d.usual care.psychoeducation+supportive psychotherapy+cognitive restructuring+usual care   -3.55531457680547    -2.09853668729087      -1.35493129093323    -0.611569698995157     0.856424977199278
+d.usual care.supportive psychotherapy+cognitive restructuring+usual care                   -4.86375561535643    -1.66785770345264     0.0235229778394581      1.69647270004526      4.88778086613366
+d.usual care.desipramine+usual care                                                        -2.01012354452161   -0.491967274557492      0.303495450348684      1.10408524857308      2.63457279483804
+d.usual care.drTMS+fluoxetine+usual care                                                   -2.58294981557645   -0.974137786534801     -0.171172622181748     0.632313289018596      2.22427472527928
+d.usual care.drTMS+sertraline+usual care                                                   -3.73202678480058    -2.03627170535139      -1.13392968318846    -0.232043338225414      1.48885164451368
+d.usual care.drTMS+usual care                                                              -2.13145917026731   -0.437261879031488      0.445335635115728      1.32712426150108      3.00439801628566
+d.usual care.dtDCS+sertraline+usual care                                                   -2.82821736909405   -0.984794048629522    -0.0344081245611888     0.915638245109079      2.74530390903487
+d.usual care.HFrTMS+reminiscence therapy+escitalopram+usual care                           -2.75941043360375    -1.19367170724308      -0.39314410427227     0.415946503318056      2.03133656597135
+d.usual care.HFrTMS+escitalopram+usual care                                                -3.13624799684394    -2.12831548083713      -1.59836919649261     -1.06524923042241  -0.00415259572223524
+d.usual care.LFrTMS+escitalopram+usual care                                                -2.48371992892982    -1.26062386884355     -0.637101208795495  -0.00157092257887102      1.26750141615449
+d.usual care.sham+escitalopram+usual care                                                  -2.92945997888152    -1.49276343533884     -0.739709895415931    0.0488535558910146      1.54674211789456
+d.usual care.supportive psychotherapy+escitalopram+usual care                              -2.44218061001595   -0.687822573418796      0.231170793430515      1.14647015928943      2.94316091056255
+d.usual care.taVNS+escitalopram+usual care                                                 -3.89050239306936    -2.07904575737188      -1.13088342031452    -0.166638432353791      1.72002256274276
+d.usual care.escitalopram+usual care                                                       -1.27017318781829   -0.360251541082471      0.113970991242173     0.601420480109004      1.55331771017508
+d.usual care.HFrTMS+fluoxetine+usual care                                                  -2.18210053791203    -1.09306863346591     -0.527491459530952    0.0322880774774646      1.13994843881111
+d.usual care.LFrTMS+fluoxetine+usual care                                                  -2.45661528739541   -0.890143376557911    -0.0769719580436074     0.716240857054011      2.28343531180034
+d.usual care.sham+fluoxetine+usual care                                                    -1.57056387550768   -0.256125649728979      0.405099844353937      1.07101187629692      2.36011066896889
+d.usual care.fluoxetine+usual care                                                        -0.962819824281525  -0.0994355461308781      0.348756239323374      0.80406656331019      1.65197183873087
+d.usual care.GACT+usual care                                                               -4.84691513874925    -1.68395704229694   -0.00660789463634888      1.68607803773271      4.89261186668964
+d.usual care.peer support+group psychotherapy                                              -4.89600461124978    -1.69049140927597    -0.0128899118639241      1.68475508537542      4.89301459347233
+d.usual care.group psychotherapy+usual care                                                -4.87762908875796    -1.66913788971642    0.00681846302623985      1.70774791475777      4.87203826399742
+d.usual care.HFrTMS+mindfulness                                                            -1.93846297734148   -0.283496943368002      0.550716977222621      1.38364957204362      3.00447074747293
+d.usual care.HFrTMS+sertraline+usual care                                                  -2.55840212778814    -1.09737295522866     -0.349689392364559     0.412340314591105      1.87229401533226
+d.usual care.trazodone+HFrTMS+usual care                                                   -4.85245032730741    -1.70164968390597    -0.0173655425427393       1.6741553578314      4.93181989025111
+d.usual care.HFrTMS+usual care                                                             -2.36090985625452    -1.37899926610813      -0.85428549102792    -0.342791284603868     0.663183714621934
+d.usual care.imipramine+usual care                                                         -3.60890388862134    -2.22321238745257      -1.50782505636666    -0.792196009738243     0.650801457555076
+d.usual care.interpersonal psychotherapy                                                   -2.65789286309521    -1.03434431732143      -0.19669066665111     0.624398281984501      2.20575155647462
+d.usual care.interpersonal psychotherapy+sertraline                                        -2.33378791050394   -0.755289629530605     0.0626690058334168     0.886586236146018       2.5031584710938
+d.usual care.iTBS+sertraline+usual care                                                    -2.29275326988578   -0.676509477747952      0.164642206534046      1.02751592140932      2.65738575728802
+d.usual care.iTBS+usual care                                                               -2.66382129104948    -1.16415877413433     -0.395616402492649     0.381603884504137       1.9001002129046
+d.usual care.knowledge and behaviour therapy+usual care                                    -2.79842220369701    -1.42609669828956     -0.729975277776902   -0.0215528139431704      1.39883748703934
+d.usual care.LFrTMS+paroxetine+usual care                                                  -4.88527329256699      -1.696617846123    -0.0116116209560528      1.68085131554624      4.83913002287768
+d.usual care.LFrTMS+sertraline+usual care                                                   -2.1513252435598   -0.611153233462451      0.200225704294654      1.00587223640365       2.5917321875657
+d.usual care.LFrTMS+trazodone+usual care                                                   -3.27219881509637    -1.44473202960714     -0.515252646774776     0.420437356940134      2.23446153601627
+d.usual care.LFrTMS+usual care                                                             -4.92466338693327     -1.7044707154649   -0.00967188918842902      1.67011537632677      4.88836492378514
+d.usual care.LFrTMS+venlafaxine+usual care                                                 -4.95647345336492    -1.68746592132893   -0.00544958886940292      1.70534916812446       4.9327533635246
+d.usual care.maprotiline+usual care                                                        -1.35189250973294   -0.151823959866818      0.471149970225283      1.09625380514532      2.30768073350531
+d.usual care.MES+usual care                                                                -4.80904658808023    -1.66408385014028     0.0233502569352494      1.68710769609724      4.90974981989325
+d.usual care.methylphenidate+usual care                                                    -2.27387208419695     -0.6289127705474      0.228246305660808      1.08716446309318        2.758282570717
+d.usual care.SFBT+mindfulness+usual care                                                   -3.50605454718399    -2.02915381890141      -1.27180497506607    -0.511263931342321     0.992831988883434
+d.usual care.sham+mindfulness                                                              -1.78143394149059   -0.145119129994631       0.70199832478208      1.53294744707156      3.10694182756654
+d.usual care.mindfulness+usual care                                                        -2.93422590072696    -1.83289828690353      -1.28489290452743    -0.737918071370085     0.358145106634307
+d.usual care.Morita therapy+paroxetine+usual care                                          -4.24051442379752    -2.57751006858283      -1.71752252173294    -0.850155201481723     0.892421799748696
+d.usual care.psychoeducation+Morita therapy+venlafaxine+usual care                         -4.89672705239364    -1.70854959798302   -0.00812249123085814      1.69401690420169      4.92703613392625
+d.usual care.paroxetine+usual care                                                         -2.71990626944863    -1.60123318887948      -1.01237421417273    -0.422050090009338      0.75473387581682
+d.usual care.placebo+usual care                                                           -0.219798927067399    0.769901600172179       1.28510562257221      1.80545533923718      2.83026856227161
+d.usual care.psychoeducation+supportive psychotherapy+usual care                           -4.85337971718708    -1.66750154302206   0.000720192169559421        1.681222248649      4.91464045143418
+d.usual care.REBT+sertraline+usual care                                                    -4.88909811047301    -1.67026663781933     0.0230926976290684      1.71198099309137      4.91565053047305
+d.usual care.reminiscence therapy                                                          -3.17479553903427    -1.76896596830031      -1.06208941631939     -0.34428297369919      1.08963823341986
+d.usual care.reminiscence therapy+usual care                                               -4.84297027496198    -1.66995100951645   0.000750213288126646      1.68518342637078      4.94003659467344
+d.usual care.SFBT+sertraline+usual care                                                    -3.07105921542491    -1.44438434997682     -0.583359705422022     0.268872956388897      1.95755370860299
+d.usual care.sham+sertraline+usual care                                                    -1.16160985567474    0.296688698385413       1.05468860063548      1.81238916830405      3.28355722995837
+d.usual care.sertraline+usual care                                                         -1.81460351512884    -0.71977902404385     -0.149080363419945      0.42632002939751      1.55671213410773
+d.usual care.sham+usual care                                                              -0.717258824986776    0.447869054369897       1.05994892453347      1.67177441891112      2.82103117820537
+d.usual care.supportive psychotherapy+usual care                                           -4.87924395591525    -1.69699590912433     0.0155755101519595      1.68915561399604      4.84509646105627
+d.usual care.trazodone+usual care                                                          -2.02504098003727   -0.549900085372833      0.213707463445618     0.965429907015138      2.43163119895743
+d.usual care.venlafaxine+usual care                                                        -6.49074254687959    -4.83857049278045      -3.95267194603635      -3.0505547203557     -1.26926034480224
+B.usual care.ACT+sertraline+usual care                                                     -1.20311775164886   0.0922094188182497      0.752011928230714      1.40822802101626      2.67453363430676
+B.usual care.agomelatine+usual care                                                        -1.18486113693912   0.0961210173149943      0.750832214962971      1.40017277790899      2.67206347670061
+B.usual care.amitriptyline+usual care                                                       -1.1763514331077   0.0993867110459748      0.758039122525815      1.41910181860111      2.68041680361153
+B.usual care.atDCS+fluoxetine+usual care                                                   -1.17662726575965    0.100538507785361      0.757818000923514      1.41585664000772      2.71450412896311
+B.usual care.behavioural therapy                                                           -1.19529378814119   0.0918163535038388      0.754127858278535      1.40795961209838      2.68009541342728
+B.usual care.supportive psychotherapy+behavioural therapy+usual care                       -1.19063749154069   0.0942437551229894      0.751808915169643       1.4086145079766       2.6883180698231
+B.usual care.behavioural therapy+usual care                                                -1.19243348092592   0.0875604059703272      0.748419410777521      1.40115928417239      2.66407841309339
+B.usual care.HFrTMS+escitalopram+CBT+usual care                                             -1.1924423214619   0.0910951537929783      0.753603076914706      1.40606015411114      2.67713782774264
+B.usual care.CBT+escitalopram+usual care                                                   -1.18805519204405    0.093663918950191      0.754983166839013      1.41745934217701      2.67717645732122
+B.usual care.CBT+humanistic psychotherapy+paroxetine+usual care                             -1.2043372762384   0.0884229111457422      0.745736160209967      1.40166382142118      2.67217532986325
+B.usual care.CBT+sertraline+usual care                                                     -1.20070623543209     0.09503065694471       0.75465574563787       1.4117079489675      2.69172469414485
+B.usual care.CES+escitalopram+usual care                                                   -1.20852092737076   0.0933360394601405      0.757539507141007      1.40628899392732      2.68387192075154
+B.usual care.psychoeducation+supportive psychotherapy+cognitive restructuring+usual care   -1.18041152904227    0.107751865605082      0.763305450669584      1.41026913457338      2.68091981473969
+B.usual care.supportive psychotherapy+cognitive restructuring+usual care                   -1.20260906789235   0.0900282075718939      0.749224286334693      1.40476669579438      2.68158389906165
+B.usual care.desipramine+usual care                                                        -1.20985340627647   0.0903978088350664      0.753117634554088      1.40359994926055      2.67431232647026
+B.usual care.drTMS+fluoxetine+usual care                                                   -1.20615484908883   0.0914443313080255       0.75460377984634      1.40871098519724      2.67095760819603
+B.usual care.drTMS+sertraline+usual care                                                   -1.19602635240609   0.0955055236440062       0.75494347857172      1.41389011484318      2.69248878730192
+B.usual care.drTMS+usual care                                                              -1.19191696558946   0.0878990076560113      0.751517997205284      1.40427484170137      2.67060331242083
+B.usual care.dtDCS+sertraline+usual care                                                   -1.18586858185887   0.0915714817942978      0.754018463416878      1.40994389051927      2.68515889633686
+B.usual care.HFrTMS+reminiscence therapy+escitalopram+usual care                           -1.19527523211252   0.0960855618541783      0.758474962746979       1.4068356204591      2.68151913181089
+B.usual care.HFrTMS+escitalopram+usual care                                                -1.15299038893347    0.123777221681725       0.77739099759309      1.44085204156284      2.73017513364488
+B.usual care.LFrTMS+escitalopram+usual care                                                -1.17635935760981    0.102869573657473      0.756162917254139      1.40938919999581      2.67960252218515
+B.usual care.sham+escitalopram+usual care                                                  -1.18902947546521    0.102323325430111      0.759601790719518      1.41072779083426      2.68053483133837
+B.usual care.supportive psychotherapy+escitalopram+usual care                              -1.18446741391871   0.0933162408465866      0.751697479952783      1.40781106357096       2.6626089885141
+B.usual care.taVNS+escitalopram+usual care                                                 -1.16295585980896    0.097537303980899      0.755230518113865      1.41210280281081      2.69282948306275
+B.usual care.escitalopram+usual care                                                       -1.23293297042471    0.052432052222945      0.718920556468925      1.36612255349998       2.6196126498588
+B.usual care.HFrTMS+fluoxetine+usual care                                                  -1.23993534752835   0.0534131243244092      0.713161152417729      1.36347691264285      2.61223431171055
+B.usual care.LFrTMS+fluoxetine+usual care                                                  -1.17625061108378   0.0981095194578889      0.756959792711203      1.41058139473463       2.6741922212016
+B.usual care.sham+fluoxetine+usual care                                                    -1.20511663367882   0.0973881953283543      0.753883085975637      1.40595198558489      2.68258889714202
+B.usual care.fluoxetine+usual care                                                          -1.1119697909531    0.135864613728838       0.78786328316346      1.43424848056135      2.68781286103725
+B.usual care.GACT+usual care                                                               -1.19271060477581   0.0905898738115254      0.746067962123847      1.40913395660697      2.67400003851491
+B.usual care.peer support+group psychotherapy                                              -1.19742745363956   0.0920481299600479      0.750824248938588      1.41092962354185      2.68485983853698
+B.usual care.group psychotherapy+usual care                                                -1.19246986012037   0.0923467363497338      0.749465208570404      1.40665901971996      2.67715658866624
+B.usual care.HFrTMS+mindfulness                                                            -1.20530825026047   0.0878630999852251      0.749714365257135      1.40216805059674      2.66979717709495
+B.usual care.HFrTMS+sertraline+usual care                                                  -1.19780651504753   0.0881876008020882      0.748796104693102      1.40794320990727      2.67698989659189
+B.usual care.trazodone+HFrTMS+usual care                                                    -1.2138643475119   0.0985407458890392      0.748722265687682      1.40546220710713      2.67627060271098
+B.usual care.HFrTMS+usual care                                                              -1.0640102537194     0.16049637440793      0.806151277914165      1.44566932857161       2.6743877306716
+B.usual care.imipramine+usual care                                                         -1.15940523307489    0.110835075902758      0.770683470152977      1.42349026972105      2.68745645460813
+B.usual care.interpersonal psychotherapy                                                    -1.1823778296771   0.0999754059401964      0.759505753831487      1.41275857143849      2.68666523943873
+B.usual care.interpersonal psychotherapy+sertraline                                        -1.18517784551338   0.0954114103133987      0.754366138561249      1.40282715910494      2.67794841685083
+B.usual care.iTBS+sertraline+usual care                                                    -1.19984860679364   0.0954001606482797      0.753378569244069      1.41131838576261      2.67499739119989
+B.usual care.iTBS+usual care                                                               -1.18686639311612   0.0903632858705083      0.753600157711425      1.40705953195943      2.69429766201385
+B.usual care.knowledge and behaviour therapy+usual care                                    -1.20882372482455   0.0847641784214418      0.748576493353163      1.40157208751035      2.67235013680938
+B.usual care.LFrTMS+paroxetine+usual care                                                  -1.19608871246309   0.0981950094888222      0.753511574957225      1.40452354056413      2.67431645842548
+B.usual care.LFrTMS+sertraline+usual care                                                  -1.18294686959875   0.0979767198831892      0.758254615318328      1.40617262650434      2.67995971780266
+B.usual care.LFrTMS+trazodone+usual care                                                   -1.19571111825212   0.0955289707704074      0.759400917584756      1.41685925570693      2.68733308083273
+B.usual care.LFrTMS+usual care                                                             -1.18543279004963   0.0905283529856503      0.754533745711962      1.41109059602065      2.67600756973864
+B.usual care.LFrTMS+venlafaxine+usual care                                                 -1.21432437523747   0.0879145885589314       0.75093196217593      1.41081214477696      2.69012583875066
+B.usual care.maprotiline+usual care                                                        -1.39392549459102  -0.0417014768488891      0.633811330560515      1.29226950551203      2.53773666246555
+B.usual care.MES+usual care                                                                -1.19967792630364   0.0914924748595514      0.748263502891361      1.40905867846516      2.66854712012473
+B.usual care.methylphenidate+usual care                                                    -1.20027175847888   0.0940575646876978      0.750778275741536      1.40692218763373      2.66989882622815
+B.usual care.SFBT+mindfulness+usual care                                                   -1.17526344664546    0.108557025538321      0.764809983958015      1.41530048060635      2.67521159955752
+B.usual care.sham+mindfulness                                                              -1.20097705422988   0.0879934893834934      0.751724054552892      1.40480274130655      2.66638846140125
+B.usual care.mindfulness+usual care                                                        -1.20657030022609   0.0889981498912471      0.746895416041824      1.39175891869811      2.65548153760218
+B.usual care.Morita therapy+paroxetine+usual care                                           -1.1824378427134   0.0999798576574026      0.760281750518769      1.41817293432587      2.67536646562661
+B.usual care.psychoeducation+Morita therapy+venlafaxine+usual care                         -1.19300178543501   0.0942920479669369      0.751461539289085      1.41327466564182      2.67915238070007
+B.usual care.paroxetine+usual care                                                        -0.957999993425638    0.270045045811497      0.916753594663836      1.57879743748017      2.88645591266581
+B.usual care.placebo+usual care                                                            -1.22195805962668   0.0731213791530643      0.733860219590413      1.38659633359386       2.6473619269171
+B.usual care.psychoeducation+supportive psychotherapy+usual care                           -1.18907443214913   0.0845677445839063      0.750753427280678      1.40956012070912      2.67146996794674
+B.usual care.REBT+sertraline+usual care                                                     -1.1866372970072   0.0978045888436342      0.755337658854378      1.41517525996705      2.68834808140187
+B.usual care.reminiscence therapy                                                          -1.17226692854092    0.106799133974522      0.761022442958476       1.4123273279492      2.68835542671383
+B.usual care.reminiscence therapy+usual care                                               -1.19485419676542   0.0901371895011734      0.754176257274525      1.40718927955264      2.68627337116445
+B.usual care.SFBT+sertraline+usual care                                                    -1.18704964669331   0.0956855479634347      0.748251658962748       1.4174638011059      2.69001898006318
+B.usual care.sham+sertraline+usual care                                                      -1.195947375326   0.0947077037776977      0.756670992476648      1.40964984233427      2.66868642266655
+B.usual care.sertraline+usual care                                                         -1.18938228019679   0.0936808926642412       0.74530591057061      1.40110597442896       2.6576425667957
+B.usual care.sham+usual care                                                               -1.19523177260642   0.0374109757388268      0.683477501071929      1.32230836615365      2.53050033791585
+B.usual care.supportive psychotherapy+usual care                                           -1.19983345116195   0.0902872530200803      0.749934047922676      1.41124706154408      2.67761400415287
+B.usual care.trazodone+usual care                                                          -1.19066476052194   0.0938637396139334      0.747798776776148      1.40239684276976      2.67116263338256
+B.usual care.venlafaxine+usual care                                                         -1.1569345263678    0.121030768250985      0.776837502753899       1.4419665554797      2.73413401344756
+B.mean                                                                                     -1.02870728462902    0.133613617215325      0.750315944181551      1.35786213598521      2.53427235677137
+sd.B                                                                                      0.0117167155275655    0.108919746714934      0.238440070037936     0.427580067940893     0.919518227871702
+sd.d                                                                                       0.831810768225591     1.02154822376376       1.13560971924792      1.26170694266285      1.54785188732613
+
+
+3. Convergence Diagnostics (R-hat & ESS):
+Variable                                                                                  Rhat               ESS_bulk          ESS_tail          MCSE_mean
+d.usual care.ACT+sertraline+usual care                                                     1.00011927431301  21939.4962207297  32878.5353788136  0.00860626070600214
+d.usual care.agomelatine+usual care                                                        1.00011031502785  18664.9311787394   28801.626429972   0.0075379090277983
+d.usual care.amitriptyline+usual care                                                      1.00000732772639   21560.233245323  32653.7543304534  0.00850645326149573
+d.usual care.atDCS+fluoxetine+usual care                                                   1.00023968095304  15353.5948869408  27434.8610543351   0.0083698379382631
+d.usual care.behavioural therapy                                                             1.000001224503  40261.4931855564  39249.0456571089   0.0124633233924415
+d.usual care.supportive psychotherapy+behavioural therapy+usual care                       1.00000897575086  39483.6519782349  39764.5689054075   0.0126503922945409
+d.usual care.behavioural therapy+usual care                                                1.00003827665044   34954.671032217  37944.1334926362  0.00622191862631384
+d.usual care.HFrTMS+escitalopram+CBT+usual care                                             1.0000002072755  40431.3259983138   39047.498660622   0.0124469549078598
+d.usual care.CBT+escitalopram+usual care                                                   1.00006073342753  15963.7142258956  26984.2522030494  0.00847173254730822
+d.usual care.CBT+humanistic psychotherapy+paroxetine+usual care                             1.0000108839603  40219.8960676061  39689.0633017077   0.0124832935325745
+d.usual care.CBT+sertraline+usual care                                                     1.00001883099575  40319.9463369618  39889.3468080733   0.0123833087014152
+d.usual care.CES+escitalopram+usual care                                                  0.999984794429864  39214.6051122736  39056.3448533632   0.0126551631719906
+d.usual care.psychoeducation+supportive psychotherapy+cognitive restructuring+usual care  0.999940703002454  38414.5521014275  37638.5919002217   0.0057197536073779
+d.usual care.supportive psychotherapy+cognitive restructuring+usual care                   1.00023631618257  39887.8927924085  39719.9508649341   0.0125067694152502
+d.usual care.desipramine+usual care                                                        1.00026782525786  21484.0966855432  32048.1950080165  0.00810042708111639
+d.usual care.drTMS+fluoxetine+usual care                                                   1.00020388083759   21510.438753004  31240.4231251602  0.00827918382828381
+d.usual care.drTMS+sertraline+usual care                                                   1.00028706221451  9075.81158396822  19178.5131637592   0.0139956023249733
+d.usual care.drTMS+usual care                                                              1.00005007717339  20447.2944487341  31897.4792559351  0.00917431702629294
+d.usual care.dtDCS+sertraline+usual care                                                   1.00024007741203  11160.0734885823  22020.3191443168   0.0134593148518191
+d.usual care.HFrTMS+reminiscence therapy+escitalopram+usual care                           1.00000600153692  19475.9210738366  31363.2486128577  0.00867976143287327
+d.usual care.HFrTMS+escitalopram+usual care                                                1.00019748628467  10240.0322775057  19954.2127877716  0.00786093854907485
+d.usual care.LFrTMS+escitalopram+usual care                                                1.00006611520151   12894.903578429  24098.2859524593  0.00837791847645356
+d.usual care.sham+escitalopram+usual care                                                  1.00003354750986  15815.8557477868  29060.5178106609  0.00913164968684239
+d.usual care.supportive psychotherapy+escitalopram+usual care                              1.00012993293657  21616.5137149127  32151.1456022683  0.00930599838944244
+d.usual care.taVNS+escitalopram+usual care                                                0.999988740673021  20049.8772868649  31873.0291829968   0.0101195706571276
+d.usual care.escitalopram+usual care                                                       1.00010367264159  8838.35458568588  17654.8845651912  0.00763966464583885
+d.usual care.HFrTMS+fluoxetine+usual care                                                  1.00049687882005  11449.0808932097  22177.3962567953  0.00788804318839049
+d.usual care.LFrTMS+fluoxetine+usual care                                                  1.00002860179704  21436.4493823496  32777.4466481534  0.00822410383091012
+d.usual care.sham+fluoxetine+usual care                                                    1.00022281372829  14594.3947662055  25761.8982245854  0.00826221802279633
+d.usual care.fluoxetine+usual care                                                         1.00062776507045  9045.97013353352  17562.3277086903  0.00706469322519601
+d.usual care.GACT+usual care                                                              0.999994318014014  40027.7972671781   38817.026666325   0.0124750296345618
+d.usual care.peer support+group psychotherapy                                             0.999993207422217  39830.8600383165  39407.0669662213   0.0125285136771685
+d.usual care.group psychotherapy+usual care                                                1.00001757783306  40052.5172796196  39095.2580497241   0.0124991972396457
+d.usual care.HFrTMS+mindfulness                                                            1.00017755498207  18014.9334712074  28959.9863386743  0.00936857793793795
+d.usual care.HFrTMS+sertraline+usual care                                                  1.00053091278305  5910.83004096814  12028.5071132592   0.0146605984311563
+d.usual care.trazodone+HFrTMS+usual care                                                   1.00004863406085  39611.2604053262  39556.6702095292   0.0125770051596896
+d.usual care.HFrTMS+usual care                                                             1.00032047821629  11387.0453295421  22839.7220692636  0.00721345062695758
+d.usual care.imipramine+usual care                                                         1.00005093233776  30049.6129120916  35762.0964067508  0.00624578294647001
+d.usual care.interpersonal psychotherapy                                                    1.0001064466834   19731.069525189    31309.11024672  0.00878948672036204
+d.usual care.interpersonal psychotherapy+sertraline                                          1.000094490743  19644.7284617971  30823.9459513687  0.00880651864686536
+d.usual care.iTBS+sertraline+usual care                                                     1.0005299665028  7625.42520093449  17074.8641656569   0.0144028169997017
+d.usual care.iTBS+usual care                                                               1.00011737893344  19332.1089325374  30388.1380850141  0.00834829069153504
+d.usual care.knowledge and behaviour therapy+usual care                                   0.999987524864021  38721.0641203946  38319.5134303655  0.00541926993370908
+d.usual care.LFrTMS+paroxetine+usual care                                                  1.00013233799902  39309.4957168063   39557.472763018   0.0125475875527107
+d.usual care.LFrTMS+sertraline+usual care                                                  1.00056898479949  7230.04380605164   14646.879046308   0.0141889439215561
+d.usual care.LFrTMS+trazodone+usual care                                                   1.00004271463184  21460.6345510016  32420.3654736203  0.00954339615230943
+d.usual care.LFrTMS+usual care                                                             1.00003561568282  37947.9427698231  38911.6232150173   0.0128234613274702
+d.usual care.LFrTMS+venlafaxine+usual care                                                 1.00008872684774  39867.6441444692  39236.0171184462   0.0125981848017607
+d.usual care.maprotiline+usual care                                                        1.00016018603485  20436.1950698779    30900.27349111  0.00651122597815383
+d.usual care.MES+usual care                                                                1.00002128494977  40454.8479005512  39204.2467353215   0.0123567639440259
+d.usual care.methylphenidate+usual care                                                    1.00018881512631  24878.7777500429  35013.8286926637  0.00811101396257227
+d.usual care.SFBT+mindfulness+usual care                                                  0.999997188178081  36522.8223715407  38051.9420929532  0.00596611192393911
+d.usual care.sham+mindfulness                                                              1.00019085406306  17128.4374900155   28747.756493733     0.00953228657558
+d.usual care.mindfulness+usual care                                                        1.00013282688458  37759.8007067174   37509.273812907  0.00428281686655845
+d.usual care.Morita therapy+paroxetine+usual care                                          1.00003561046865  25341.5782157977  33302.4675541698  0.00817830582524349
+d.usual care.psychoeducation+Morita therapy+venlafaxine+usual care                         1.00006236181734  39760.3708568793  39288.3339205504    0.012541696318082
+d.usual care.paroxetine+usual care                                                         1.00006416486913  21723.8482634817  30189.2555659808  0.00598984409622494
+d.usual care.placebo+usual care                                                              1.000331997786   14220.101400511  26460.5417577254  0.00652964295141711
+d.usual care.psychoeducation+supportive psychotherapy+usual care                          0.999990701033313  39550.4023478785  40113.1125562588    0.012515513548105
+d.usual care.REBT+sertraline+usual care                                                   0.999965473927743  40043.7318863794  39865.8275062617   0.0125269602220412
+d.usual care.reminiscence therapy                                                          1.00000535811399  39784.1611248515  38293.7926433231   0.0054027982387396
+d.usual care.reminiscence therapy+usual care                                               1.00008568333258   40062.994304511  38666.4936308288   0.0124715209143737
+d.usual care.SFBT+sertraline+usual care                                                   0.999934803919148  20976.7143333949  32502.4397353943  0.00887055675538194
+d.usual care.sham+sertraline+usual care                                                    1.00061008554534  6043.25864537412   12718.711884025   0.0145199200323957
+d.usual care.sertraline+usual care                                                         1.00011748057881  12832.1658033963  24419.5738089517  0.00756305635593885
+d.usual care.sham+usual care                                                               1.00031417952972  11518.9970064668  21160.0626263823  0.00844009769068411
+d.usual care.supportive psychotherapy+usual care                                           1.00011644493075  37855.9139648504  38919.8693713834   0.0128041423049903
+d.usual care.trazodone+usual care                                                          1.00010359551502  17545.7803861117   28683.900751223  0.00852989118899985
+d.usual care.venlafaxine+usual care                                                         1.0000704090529  24160.2481997821   32814.369451993  0.00858787923397844
+B.usual care.ACT+sertraline+usual care                                                     1.00005082827321  31148.0813234316  36569.1752687799   0.0056072429811477
+B.usual care.agomelatine+usual care                                                        1.00007913993116  31089.1213020553  37186.7680337258  0.00558883886147801
+B.usual care.amitriptyline+usual care                                                      1.00008511740129  30238.6659127238  36603.7274540175  0.00566446217999001
+B.usual care.atDCS+fluoxetine+usual care                                                   1.00004348073146   31378.627548274  37295.1705638273   0.0055825884822629
+B.usual care.behavioural therapy                                                          0.999985955143185  30700.2024238486   36000.110558697  0.00564046199367288
+B.usual care.supportive psychotherapy+behavioural therapy+usual care                      0.999993107225041  31064.5109218912  36732.5931338127  0.00561853464582405
+B.usual care.behavioural therapy+usual care                                                 1.0000527313151  30223.3534997828  36638.3062075473  0.00564506380283211
+B.usual care.HFrTMS+escitalopram+CBT+usual care                                            1.00009966472792  30798.6434913713  35765.7458188195  0.00563989582471003
+B.usual care.CBT+escitalopram+usual care                                                    1.0000905505562   30836.297208179  36823.9274977666  0.00563785730099303
+B.usual care.CBT+humanistic psychotherapy+paroxetine+usual care                            1.00001091895363  31300.2423538246  37143.9676927566  0.00559028987687189
+B.usual care.CBT+sertraline+usual care                                                     1.00009389740968  30440.5464615592  37330.9670771418  0.00565563418405749
+B.usual care.CES+escitalopram+usual care                                                   1.00001812444782  31220.0788753251  36823.6010300578  0.00559500908798471
+B.usual care.psychoeducation+supportive psychotherapy+cognitive restructuring+usual care   1.00006139945478  30875.2822562904   35633.635809023  0.00560348683366635
+B.usual care.supportive psychotherapy+cognitive restructuring+usual care                   1.00008173017316  30911.6654933238   37181.743128513   0.0056342308646805
+B.usual care.desipramine+usual care                                                         1.0000047380697  30888.3914241316   37047.123290121  0.00564186546544595
+B.usual care.drTMS+fluoxetine+usual care                                                   1.00003519806498  30666.6675874473  36809.6842560732  0.00564264696147243
+B.usual care.drTMS+sertraline+usual care                                                   1.00004719402159  30455.3842792817   36969.245706997  0.00568397174220119
+B.usual care.drTMS+usual care                                                               1.0000682800655  30997.2883508785  37178.4675940122  0.00561576843409841
+B.usual care.dtDCS+sertraline+usual care                                                   1.00005205061613   31198.882963944  37382.8598486429  0.00558851952418689
+B.usual care.HFrTMS+reminiscence therapy+escitalopram+usual care                           1.00001340477794  31425.1525350044  37311.0549713868  0.00557775411606856
+B.usual care.HFrTMS+escitalopram+usual care                                                1.00005212476512  30924.4760118277  36974.9821789634  0.00562283608102332
+B.usual care.LFrTMS+escitalopram+usual care                                                1.00003740809182  31277.9139018795   37111.758741793  0.00556862774979032
+B.usual care.sham+escitalopram+usual care                                                  1.00003845984929  30786.1503419672  36545.1913279629  0.00563913248704083
+B.usual care.supportive psychotherapy+escitalopram+usual care                               1.0000747588464  30885.3333549689  36432.0147196308  0.00562536157917039
+B.usual care.taVNS+escitalopram+usual care                                                 1.00002148556989  30687.3330148872  37195.0116147091  0.00562054273047671
+B.usual care.escitalopram+usual care                                                       1.00000649873897  30053.7543847416   36752.650469225  0.00568294059111463
+B.usual care.HFrTMS+fluoxetine+usual care                                                  1.00003215968163  30485.7793654062  36568.7026221772  0.00562986804820323
+B.usual care.LFrTMS+fluoxetine+usual care                                                  1.00007275394627  30962.1014775539  37408.0617980289  0.00559578119009472
+B.usual care.sham+fluoxetine+usual care                                                    1.00003309773086  30891.1144797112  37281.4299677602  0.00564361806128072
+B.usual care.fluoxetine+usual care                                                         1.00003178011698  30162.0149567676  37145.3176982054  0.00559158655605621
+B.usual care.GACT+usual care                                                               1.00012880313503  30700.5492160288  37325.1926666233  0.00564229596200665
+B.usual care.peer support+group psychotherapy                                              1.00001375215422  31178.0530220928  37047.4945008067  0.00560990203441569
+B.usual care.group psychotherapy+usual care                                                1.00002192898372   31057.754209529   37258.381746383   0.0056006469626974
+B.usual care.HFrTMS+mindfulness                                                            1.00002607609483   30582.033487336    37007.57458645  0.00564790913678932
+B.usual care.HFrTMS+sertraline+usual care                                                  1.00001469033988  30957.0892726257  35736.8008941692  0.00562955031913404
+B.usual care.trazodone+HFrTMS+usual care                                                   1.00003858699927  30970.9166423325  37434.6989240324  0.00562890098312167
+B.usual care.HFrTMS+usual care                                                             1.00001979008732  27933.6982777189  35476.3733631073  0.00571237594798109
+B.usual care.imipramine+usual care                                                         1.00000103534188  30481.0265742668  37031.0277961297  0.00564174681290481
+B.usual care.interpersonal psychotherapy                                                  0.999986722626159  31146.5903702655  36437.7872214209  0.00560461620318879
+B.usual care.interpersonal psychotherapy+sertraline                                       0.999992089544125  30457.3184602747  36944.5246939514  0.00565297088300089
+B.usual care.iTBS+sertraline+usual care                                                    1.00010187816826  30566.5033981855  36092.7531401396  0.00565228566167274
+B.usual care.iTBS+usual care                                                               1.00005920010023  30992.8792371935  36895.0321567046  0.00560703212371181
+B.usual care.knowledge and behaviour therapy+usual care                                   0.999994490089501  31126.8401665138  36054.8027246924  0.00561528738367643
+B.usual care.LFrTMS+paroxetine+usual care                                                  1.00005937462893  30591.7697170722  36777.1646029708  0.00565577671369223
+B.usual care.LFrTMS+sertraline+usual care                                                  1.00006063221423  30991.7670277809  37558.8080427217  0.00560167155435685
+B.usual care.LFrTMS+trazodone+usual care                                                   1.00011656194954  31277.1672930967  35860.2551369025  0.00559404825401351
+B.usual care.LFrTMS+usual care                                                              1.0000104337389  30896.2034818021  36789.4977392853  0.00561389084418064
+B.usual care.LFrTMS+venlafaxine+usual care                                                0.999995324755337  31364.2254403999  36710.9410709267  0.00558795425506845
+B.usual care.maprotiline+usual care                                                        1.00007742689117  28126.8838493682  35184.5908974691  0.00600897340803053
+B.usual care.MES+usual care                                                                1.00005358812193  31112.4528674104  37034.3758222308  0.00560010363207409
+B.usual care.methylphenidate+usual care                                                    1.00009029816773  30511.4609992426  36815.3909028529  0.00564758236520015
+B.usual care.SFBT+mindfulness+usual care                                                   0.99999643600768  30524.2596670055  36393.5369064154  0.00561407881313334
+B.usual care.sham+mindfulness                                                             0.999976273285335  30656.1151232942  36540.6893469887  0.00565355221428367
+B.usual care.mindfulness+usual care                                                        1.00006527300516  30367.8084016364  37391.6719918406  0.00563750444509294
+B.usual care.Morita therapy+paroxetine+usual care                                          1.00003875232798  30646.9936524561  37074.8736982048  0.00563713632604528
+B.usual care.psychoeducation+Morita therapy+venlafaxine+usual care                         1.00004782471732  31159.2394715237  37094.0186529087  0.00559030369191871
+B.usual care.paroxetine+usual care                                                         1.00008954725431  29525.1333018252  34925.3147076336  0.00572172666365024
+B.usual care.placebo+usual care                                                            1.00003729582163  30049.5879294091   36401.402654653  0.00570520072569873
+B.usual care.psychoeducation+supportive psychotherapy+usual care                          0.999998343041168  30492.4086701363  37091.0992269858  0.00565098633866914
+B.usual care.REBT+sertraline+usual care                                                    1.00009651190951   30995.940395059  37823.0215364732  0.00561568786598292
+B.usual care.reminiscence therapy                                                          1.00004862737426  31208.4831795119  36650.2797396364  0.00556307077226659
+B.usual care.reminiscence therapy+usual care                                               1.00008985398755  31534.1424884297  36892.2470981069  0.00557044307007278
+B.usual care.SFBT+sertraline+usual care                                                    1.00001959291365  30596.1827121063  37104.3857540921  0.00564091315628586
+B.usual care.sham+sertraline+usual care                                                    1.00012043041253  30627.6853164943  37321.3880841909  0.00564347702246071
+B.usual care.sertraline+usual care                                                        0.999994905289539  30917.7082742116  36309.0365382022  0.00560636498801428
+B.usual care.sham+usual care                                                               1.00003193302407  27832.7756544022  35313.2684432375  0.00572550368084062
+B.usual care.supportive psychotherapy+usual care                                            1.0001018291647  31281.3321820145   37137.607697259  0.00559689962408652
+B.usual care.trazodone+usual care                                                          1.00007694333829  31456.7390356277  37328.5825766772  0.00556059489034908
+B.usual care.venlafaxine+usual care                                                        1.00001712083753  31213.8203982754  36148.2583807675  0.00560522159274354
+B.mean                                                                                     1.00000986062136  29746.6195643099  36588.7310325069  0.00527720145939587
+sd.B                                                                                       1.00012389819789  20970.2116826577  26856.0293771342  0.00174808146025342
+sd.d                                                                                       1.00010024074261  11909.9814799155  18959.5725096979  0.00167204820222212
+
+
+-- Model fit (residual deviance):
+Dbar              pD                DIC
+66.8012116211014  62.3091685010837  129.110380122185
+
+64 data points (50 independent studies), ratio 1.044, I^2 = 92.4%
