@@ -1,0 +1,51 @@
+Complete-case primary analysis; effects on SMD scale
+Iterations = 7002:27000
+Thinning interval = 2
+Number of chains = 4
+Sample size per chain = 10000
+-- Regression settings:
+Regression on "sex", hierarchical treatment-specific slopes, "duloxetine+usual care" as control
+Input transformation: x' = (sex - 0.524) / 0.04669047
+Treatment effects at the centering value: sex = 0.524
+5 independent studies; 5 contrasts; 0 multiarm studies; 3 treatments
+d.reference.treatment = treatment effect versus reference; B.reference.treatment = its covariate slope; B.mean = hierarchical mean; sd.B = slope SD; sd.d = tau.
+
+
+1. Empirical mean and standard deviation, plus standard error of the mean:
+Variable                                              Mean                SD                 Naive SE             Time-series SE
+d.duloxetine+usual care.HFrTMS+duloxetine+usual care   -1.84404132206812  0.523264343255728  0.00261632171627864  0.00276047475536765
+d.duloxetine+usual care.LFrTMS+duloxetine+usual care   -1.19372517349126  0.626967688953052  0.00313483844476526  0.00324819927828798
+B.duloxetine+usual care.HFrTMS+duloxetine+usual care   0.333007557523254  0.749958164244908  0.00374979082122454  0.00635078242516842
+B.duloxetine+usual care.LFrTMS+duloxetine+usual care  -0.385663946622307  0.441670332679299   0.0022083516633965  0.00247719909511992
+B.mean                                                -0.036136736626994  0.553160743452751  0.00276580371726376  0.00456289869241108
+sd.B                                                   0.514105746535647   0.32648020402391  0.00163240102011955  0.00258079762454451
+sd.d                                                   0.766424222623265  0.473211141530799    0.002366055707654  0.00510613195524866
+
+
+2. Quantiles for each variable:
+Variable                                              2.5%                25%                 50%                  75%                 97.5%
+d.duloxetine+usual care.HFrTMS+duloxetine+usual care   -2.87972606534231   -2.12019788465921    -1.85896405144694   -1.59292547833008  -0.680328427611599
+d.duloxetine+usual care.LFrTMS+duloxetine+usual care   -2.45646649319505   -1.51987227556986    -1.21907277564404  -0.893224526748885    0.20836319818023
+B.duloxetine+usual care.HFrTMS+duloxetine+usual care   -1.09226189183198  -0.201348528323723    0.320302898946229    0.88919364280492    1.72404802055597
+B.duloxetine+usual care.LFrTMS+duloxetine+usual care   -1.19389188826732  -0.652606133353228   -0.431553374875985  -0.145390716862125   0.598758742745658
+B.mean                                                 -1.12345588143912  -0.392069622226742  -0.0457624985875101    0.31028162393793    1.08266182023301
+sd.B                                                  0.0245098695362265   0.249795455730837    0.488395059672146   0.731223781420358    1.21850777537675
+sd.d                                                  0.0447094210422105     0.4184394452628    0.714056327487246    1.04503920846217    1.85711245364153
+
+
+3. Convergence Diagnostics (R-hat & ESS):
+Variable                                              Rhat              ESS_bulk          ESS_tail          MCSE_mean
+d.duloxetine+usual care.HFrTMS+duloxetine+usual care  1.00017346206847  35453.2974438797   29930.709897115  0.00276047475536765
+d.duloxetine+usual care.LFrTMS+duloxetine+usual care  1.00020542277938  38307.0374432183  29264.6935240846  0.00324819927828798
+B.duloxetine+usual care.HFrTMS+duloxetine+usual care  1.00051711534191  14214.2916283015  32048.4627242374  0.00635078242516842
+B.duloxetine+usual care.LFrTMS+duloxetine+usual care  1.00003781899993  32914.8857716164  30628.0035976236  0.00247719909511992
+B.mean                                                1.00056193057602  14819.5676664639  16935.4897105647  0.00456289869241108
+sd.B                                                  1.00022854691689  16353.8503224124  26982.3750820872  0.00258079762454451
+sd.d                                                  1.00052970234089  8382.45899875712  18030.6026809012  0.00510613195524866
+
+
+-- Model fit (residual deviance):
+Dbar              pD                DIC
+5.10633667979574  4.83533579985626  9.941672479652
+
+5 data points (5 independent studies), ratio 1.021, I^2 = 77.3%
