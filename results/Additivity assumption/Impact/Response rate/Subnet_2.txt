@@ -1,0 +1,12 @@
+Treatment                                           Component RR [95% CI] (CNMA)  Non-component RR [95% CI] (NMA)  Assessment
+versus paroxetine+usual care
+CBT+escitalopram+usual care                         1.46 [0.31; 6.93]             1.46 [0.31; 6.93]                No concerns
+CBT+humanistic psychotherapy+paroxetine+usual care  1.63 [1.06; 2.52]             1.63 [1.06; 2.52]                No concerns
+escitalopram+usual care                             0.98 [0.21; 4.59]             0.98 [0.21; 4.59]                No concerns
+HFrTMS+escitalopram+CBT+usual care                  2.29 [0.47; 11.27]            2.29 [0.47; 11.27]               No concerns
+imipramine+usual care                               0.95 [0.67; 1.36]             0.95 [0.67; 1.36]                No concerns
+LFrTMS+escitalopram+usual care                      1.49 [0.32; 6.85]             1.49 [0.32; 6.85]                No concerns
+maprotiline+usual care                              0.83 [0.58; 1.19]             0.83 [0.58; 1.19]                No concerns
+Morita therapy+paroxetine+usual care                1.63 [1.03; 2.56]             1.63 [1.03; 2.56]                No concerns
+supportive psychotherapy+usual care                 0.84 [0.37; 1.92]             0.84 [0.37; 1.92]                No concerns
+usual care                                          0.38 [0.20; 0.72]             0.38 [0.20; 0.72]                No concerns
