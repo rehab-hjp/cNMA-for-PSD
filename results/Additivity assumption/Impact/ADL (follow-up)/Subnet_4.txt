@@ -1,0 +1,4 @@
+Treatment                     Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus placebo+usual care
+dextroamphetamine+usual care  0.04 [-0.45; 0.53]             0.04 [-0.45; 0.53]                No concerns
+methylphenidate+usual care    0.29 [-0.34; 0.92]             0.29 [-0.34; 0.92]                No concerns
