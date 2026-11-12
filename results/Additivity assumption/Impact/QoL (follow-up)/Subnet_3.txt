@@ -1,0 +1,6 @@
+Treatment                          Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus usual care
+behavioural activation+usual care  -0.39 [-1.05; 0.26]            -0.39 [-1.05; 0.26]               No concerns
+gact                               -0.22 [-0.76; 0.32]            -0.22 [-0.76; 0.32]               No concerns
+gact+usual care                    1.32 [0.95; 1.68]              1.32 [0.95; 1.68]                 No concerns
+mindfulness+usual care             2.49 [1.81; 3.17]              2.49 [1.81; 3.17]                 No concerns

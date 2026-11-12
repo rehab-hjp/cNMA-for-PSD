@@ -1,0 +1,3 @@
+Treatment            Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus escitalopram
+placebo              0.00 [-0.18; 0.18]             0.00 [-0.18; 0.18]                No concerns
