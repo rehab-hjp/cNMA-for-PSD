@@ -1,0 +1,4 @@
+Treatment                  Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus paroxetine
+morita therapy+paroxetine  0.37 [-0.14; 0.88]             0.37 [-0.14; 0.88]                No concerns
+paroxetine+relaxation      1.80 [1.28; 2.32]              1.80 [1.28; 2.32]                 No concerns

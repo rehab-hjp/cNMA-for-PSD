@@ -1,0 +1,4 @@
+Treatment           Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus mindfulness
+active control      -1.18 [-1.55; -0.82]           -1.18 [-1.55; -0.82]              No concerns
+psychoeducation     0.14 [-0.64; 0.93]             0.14 [-0.64; 0.93]                No concerns

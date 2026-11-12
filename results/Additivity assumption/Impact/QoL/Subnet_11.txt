@@ -1,0 +1,4 @@
+Treatment                                                                     Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus citalopram+hfrtms+psychoeducation+supportive psychotherapy+usual care
+citalopram+hfrtms+usual care                                                  -0.76 [-1.09; -0.44]           -0.76 [-1.09; -0.44]              No concerns
+citalopram+psychoeducation+supportive psychotherapy+usual care                -1.46 [-1.81; -1.12]           -1.46 [-1.81; -1.12]              No concerns

@@ -1,0 +1,6 @@
+Treatment            Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus escitalopram
+atdcs                -0.13 [-0.66; 0.41]            -0.13 [-0.66; 0.41]               No concerns
+atdcs+escitalopram   1.77 [1.17; 2.37]              1.77 [1.17; 2.37]                 No concerns
+placebo              -0.07 [-0.28; 0.14]            -0.07 [-0.28; 0.14]               No concerns
+sertraline           0.57 [0.02; 1.12]              0.57 [0.02; 1.12]                 No concerns

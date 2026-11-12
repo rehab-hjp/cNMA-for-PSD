@@ -1,0 +1,12 @@
+Treatment                                   Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus usual care
+cbt+drtms+usual care                        1.00 [-0.13; 2.13]             1.00 [-0.13; 2.13]                No concerns
+cbt+usual care                              0.40 [-0.88; 1.68]             0.40 [-0.88; 1.68]                No concerns
+gact                                        0.13 [-1.05; 1.31]             0.13 [-1.05; 1.31]                No concerns
+gact+usual care                             1.19 [0.07; 2.30]              1.19 [0.07; 2.30]                 No concerns
+group psychotherapy+usual care              0.79 [-0.39; 1.97]             0.79 [-0.39; 1.97]                No concerns
+knowledge and behaviour therapy+usual care  0.51 [-0.65; 1.68]             0.51 [-0.65; 1.68]                No concerns
+mindfulness+sfbt+usual care                 2.12 [0.88; 3.36]              2.12 [0.88; 3.36]                 No concerns
+mindfulness+usual care                      0.03 [-0.78; 0.84]             0.03 [-0.78; 0.84]                No concerns
+motor imagery+usual care                    1.39 [0.58; 2.20]              1.39 [0.58; 2.20]                 No concerns
+supportive psychotherapy+usual care         0.74 [-0.46; 1.94]             0.74 [-0.46; 1.94]                No concerns

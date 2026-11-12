@@ -1,0 +1,4 @@
+Treatment                                  Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus fluoxetine+usual care
+fluoxetine+group psychotherapy+usual care  0.99 [0.17; 1.80]              0.99 [0.17; 1.80]                 No concerns
+fluoxetine+rebt+usual care                 0.96 [-0.22; 2.15]             0.96 [-0.22; 2.15]                No concerns

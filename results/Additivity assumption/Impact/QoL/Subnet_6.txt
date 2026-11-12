@@ -1,0 +1,3 @@
+Treatment                           Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus ces+escitalopram+usual care
+escitalopram+usual care             -0.92 [-1.25; -0.59]           -0.92 [-1.25; -0.59]              No concerns

@@ -1,0 +1,4 @@
+Treatment                           Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus drtms+sertraline+usual care
+hfrtms+sertraline+usual care        0.00 [-0.44; 0.45]             0.00 [-0.44; 0.45]                No concerns
+lfrtms+sertraline+usual care        -0.31 [-0.76; 0.14]            -0.31 [-0.76; 0.14]               No concerns
