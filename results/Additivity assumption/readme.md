@@ -1,0 +1,1 @@
+We assessed the plausibility of the additivity assumption by comparing study-specific estimates across different treatment backgrounds,14,19 comparing effect estimates from additive cNMA and standard NMA for estimable comparisons, and exploring two-way component interactions using Bayesian cNMA with shrinkage.
