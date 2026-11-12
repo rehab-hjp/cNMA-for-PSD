@@ -1,0 +1,3 @@
+Treatment                            Component RR [95% CI] (CNMA)  Non-component RR [95% CI] (NMA)  Assessment
+versus HFrTMS+sertraline+usual care
+sham+sertraline+usual care           0.25 [0.01; 4.59]             0.25 [0.01; 4.59]                No concerns

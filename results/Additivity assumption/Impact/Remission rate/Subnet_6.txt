@@ -1,0 +1,4 @@
+Treatment                                                              Component RR [95% CI] (CNMA)  Non-component RR [95% CI] (NMA)  Assessment
+versus HFrTMS+citalopram+usual care
+HFrTMS+psychoeducation+supportive psychotherapy+citalopram+usual care  1.81 [1.08; 3.05]             1.81 [1.08; 3.05]                No concerns
+psychoeducation+supportive psychotherapy+citalopram+usual care         0.69 [0.34; 1.38]             0.69 [0.34; 1.38]                No concerns

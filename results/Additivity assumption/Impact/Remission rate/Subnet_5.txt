@@ -1,0 +1,3 @@
+Treatment                                               Component RR [95% CI] (CNMA)  Non-component RR [95% CI] (NMA)  Assessment
+versus fluoxetine+psychological counselling+usual care
+LFrTMS+fluoxetine+psychological counselling+usual care  1.36 [1.09; 1.71]             1.36 [1.09; 1.71]                No concerns

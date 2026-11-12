@@ -1,0 +1,3 @@
+Treatment                  Component RR [95% CI] (CNMA)  Non-component RR [95% CI] (NMA)  Assessment
+versus attention control
+ecosystem focused therapy  4.00 [1.06; 15.08]            4.00 [1.06; 15.08]               No concerns
