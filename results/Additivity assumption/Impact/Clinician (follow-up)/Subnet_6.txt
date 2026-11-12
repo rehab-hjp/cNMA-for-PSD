@@ -1,0 +1,4 @@
+Treatment       Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus placebo
+escitalopram    -0.86 [-1.06; -0.67]           -0.86 [-1.06; -0.67]              No concerns
+fluoxetine      -0.86 [-1.51; -0.21]           -0.86 [-1.51; -0.21]              No concerns

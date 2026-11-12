@@ -1,0 +1,7 @@
+Treatment               Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus sham+usual care
+drtms+usual care        -0.40 [-2.27; 1.46]            -0.40 [-2.17; 1.36]               No concerns
+hfrtms+mindfulness      -0.89 [-2.58; 0.80]            -0.45 [-2.19; 1.30]               No concerns
+hfrtms+usual care       -1.05 [-2.16; 0.06]            -1.55 [-2.87; -0.23]              No concerns
+itbs+usual care         -1.19 [-2.93; 0.55]            -1.45 [-3.14; 0.25]               Some concerns
+mindfulness+sham        0.16 [-1.53; 1.85]             -0.29 [-2.03; 1.46]               No concerns
