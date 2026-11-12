@@ -1,0 +1,7 @@
+Treatment       Component RR [95% CI] (CNMA)  Non-component RR [95% CI] (NMA)  Assessment
+versus placebo
+citalopram      3.50 [0.78; 15.62]            3.50 [0.78; 15.62]               No concerns
+escitalopram    1.30 [0.86; 1.97]             1.30 [0.86; 1.97]                No concerns
+fluoxetine      1.46 [0.70; 3.02]             1.46 [0.70; 3.02]                No concerns
+nortriptyline   0.93 [0.40; 2.18]             0.93 [0.40; 2.18]                No concerns
+sertraline      0.80 [0.54; 1.19]             0.80 [0.54; 1.19]                No concerns

@@ -1,0 +1,44 @@
+Treatment                                           Component RR [95% CI] (CNMA)  Non-component RR [95% CI] (NMA)  Assessment
+versus usual care
+active control                                      0.59 [0.22; 1.55]             0.57 [0.18; 1.76]                No concerns
+atDCS+usual care                                    0.47 [0.19; 1.18]             0.52 [0.20; 1.38]                No concerns
+attention control                                   0.37 [0.04; 3.28]             0.32 [0.03; 2.93]                No concerns
+behavioural activation+usual care                   3.10 [0.71; 13.44]            3.10 [0.71; 13.44]               No concerns
+behavioural therapy                                 0.95 [0.27; 3.28]             3.31 [0.14; 79.33]               No concerns
+behavioural therapy+usual care                      1.86 [0.75; 4.59]             1.67 [0.65; 4.26]                No concerns
+CBT                                                 0.64 [0.13; 3.08]             0.35 [0.04; 3.23]                No concerns
+CBT+humanistic psychotherapy+fluoxetine+usual care  4.14 [0.32; 53.26]            4.58 [0.34; 61.38]               No concerns
+CBT+humanistic psychotherapy+usual care             1.00 [0.15; 6.82]             1.53 [0.05; 47.79]               No concerns
+CBT+usual care                                      1.25 [0.27; 5.87]             2.04 [0.28; 15.12]               No concerns
+cognitive training                                  0.19 [0.02; 1.65]             0.10 [0.01; 1.50]                No concerns
+desipramine+usual care                              7.38 [1.01; 54.10]            9.50 [0.95; 94.93]               No concerns
+dextroamphetamine+usual care                        0.18 [0.00; 9.17]             0.22 [0.00; 13.10]               No concerns
+ecosystem focused therapy                           1.10 [0.05; 23.17]            0.95 [0.04; 20.53]               No concerns
+escitalopram+usual care                             0.31 [0.08; 1.21]             0.30 [0.08; 1.20]                No concerns
+fluoxetine+usual care                               4.14 [0.77; 22.35]            5.25 [0.66; 41.72]               No concerns
+GACT                                                0.31 [0.08; 1.15]             0.26 [0.03; 2.17]                Some concerns
+GACT+usual care                                     0.61 [0.19; 1.92]             0.65 [0.17; 2.44]                Some concerns
+HFrTMS+escitalopram+usual care                      0.21 [0.04; 1.03]             0.24 [0.03; 1.86]                No concerns
+HFrTMS+mindfulness                                  0.53 [0.15; 1.87]             1.93 [0.05; 74.88]               Some concerns
+HFrTMS+usual care                                   0.67 [0.26; 1.69]             0.87 [0.10; 7.44]                Some concerns
+imipramine+usual care                               13.06 [1.35; 126.41]          14.65 [1.41; 152.61]             No concerns
+iTBS+usual care                                     0.51 [0.04; 6.26]             0.73 [0.04; 13.08]               No concerns
+knowledge and behaviour therapy+usual care          0.78 [0.27; 2.32]             0.78 [0.27; 2.32]                No concerns
+LFrTMS+escitalopram+usual care                      0.33 [0.10; 1.07]             0.33 [0.10; 1.08]                No concerns
+maprotiline+usual care                              6.52 [0.84; 50.38]            7.95 [0.82; 77.29]               No concerns
+MES+usual care                                      3.00 [0.13; 71.91]            3.00 [0.13; 71.91]               No concerns
+methylphenidate+usual care                          2.06 [0.08; 56.39]            2.55 [0.08; 82.73]               No concerns
+mindfulness                                         0.79 [0.34; 1.86]             0.76 [0.27; 2.14]                Some concerns
+mindfulness+usual care                              1.55 [0.92; 2.61]             1.57 [0.91; 2.71]                No concerns
+motor imagery+usual care                            0.18 [0.04; 0.93]             0.18 [0.04; 0.93]                No concerns
+paroxetine+usual care                               3.96 [0.45; 35.25]            4.62 [0.46; 46.81]               No concerns
+placebo+usual care                                  1.96 [0.13; 29.64]            2.43 [0.13; 45.03]               No concerns
+psychoeducation                                     0.84 [0.21; 3.26]             0.80 [0.18; 3.53]                No concerns
+REBT+fluoxetine+usual care                          3.10 [0.44; 21.70]            3.94 [0.40; 38.80]               No concerns
+SFBT+mindfulness+usual care                         3.00 [0.33; 27.23]            3.00 [0.33; 27.23]               No concerns
+sham+escitalopram+usual care                        0.12 [0.02; 0.68]             0.14 [0.01; 1.33]                No concerns
+sham+mindfulness                                    0.31 [0.07; 1.31]             0.62 [0.01; 45.59]               Some concerns
+sham+usual care                                     0.39 [0.12; 1.20]             0.62 [0.10; 3.97]                Some concerns
+trazodone+HFrTMS+usual care                         1.83 [0.27; 12.24]            1.67 [0.17; 16.36]               No concerns
+trazodone+usual care                                2.74 [0.65; 11.59]            3.71 [0.49; 27.79]               Some concerns
+venlafaxine+usual care                              2.62 [0.12; 55.74]            3.24 [0.13; 82.85]               No concerns

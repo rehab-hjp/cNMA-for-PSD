@@ -1,0 +1,7 @@
+Treatment                            Component RR [95% CI] (CNMA)  Non-component RR [95% CI] (NMA)  Assessment
+versus HFrTMS+sertraline+usual care
+drTMS+sertraline+usual care          0.50 [0.05; 5.30]             0.50 [0.05; 5.30]                No concerns
+dtDCS+sertraline+usual care          0.28 [0.01; 8.81]             0.28 [0.01; 8.81]                No concerns
+iTBS+sertraline+usual care           0.28 [0.01; 14.61]            0.28 [0.01; 14.61]               No concerns
+LFrTMS+sertraline+usual care         2.00 [0.39; 10.32]            2.00 [0.39; 10.32]               No concerns
+sham+sertraline+usual care           0.28 [0.02; 5.11]             0.28 [0.02; 5.11]                No concerns
