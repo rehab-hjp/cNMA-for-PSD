@@ -1,0 +1,3 @@
+Treatment                             Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus lfrtms+mirtazapine+usual care
+mirtazapine+usual care                -0.51 [-1.03; 0.00]            -0.51 [-1.03; 0.00]               No concerns

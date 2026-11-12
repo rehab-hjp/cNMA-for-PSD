@@ -1,0 +1,4 @@
+Treatment                                    Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus cognitive training+hfrtms+usual care
+cognitive training+sham+usual care           -1.70 [-2.57; -0.84]           -1.70 [-2.57; -0.84]              No concerns
+cognitive training+usual care                -1.47 [-1.95; -0.99]           -1.47 [-1.95; -0.99]              No concerns

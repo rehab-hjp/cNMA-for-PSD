@@ -1,0 +1,4 @@
+Treatment                     Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus duloxetine+usual care
+duloxetine+hfrtms+usual care  0.98 [0.47; 1.48]              0.98 [0.47; 1.48]                 No concerns
+duloxetine+lfrtms+usual care  2.25 [1.86; 2.63]              2.25 [1.86; 2.63]                 No concerns

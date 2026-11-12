@@ -1,0 +1,4 @@
+Treatment                          Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus paroxetine+sham+usual care
+atdcs+paroxetine+usual care        0.66 [0.21; 1.11]              0.66 [0.21; 1.11]                 No concerns
+hfrtms+paroxetine+usual care       0.46 [-0.12; 1.03]             0.46 [-0.12; 1.03]                No concerns

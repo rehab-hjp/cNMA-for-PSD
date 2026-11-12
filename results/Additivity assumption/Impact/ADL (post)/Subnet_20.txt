@@ -1,0 +1,3 @@
+Treatment                                               Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus cognitive training+hfrtms+sertraline+usual care
+cognitive training+sertraline+sham+usual care           -1.04 [-1.54; -0.54]           -1.04 [-1.54; -0.54]              No concerns

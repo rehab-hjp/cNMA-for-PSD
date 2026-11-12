@@ -1,0 +1,3 @@
+Treatment                                                      Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus fluoxetine+lfrtms+psychological counselling+usual care
+fluoxetine+psychological counselling+usual care                -2.48 [-3.13; -1.83]           -2.48 [-3.13; -1.83]              No concerns

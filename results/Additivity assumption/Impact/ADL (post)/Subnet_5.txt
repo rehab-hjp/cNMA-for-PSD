@@ -1,0 +1,3 @@
+Treatment                                Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus cbt+lfrtms+paroxetine+usual care
+cbt+paroxetine+usual care                -2.49 [-3.11; -1.86]           -2.49 [-3.11; -1.86]              No concerns
