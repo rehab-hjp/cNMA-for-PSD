@@ -1,0 +1,5 @@
+Treatment           Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus venlafaxine
+amitriptyline       0.30 [-0.48; 1.08]             0.30 [-0.48; 1.08]                No concerns
+amitriptyline+cbt   -0.88 [-2.09; 0.33]            -0.88 [-2.09; 0.33]               No concerns
+hfrtms+venlafaxine  -1.37 [-1.84; -0.91]           -1.37 [-1.84; -0.91]              No concerns

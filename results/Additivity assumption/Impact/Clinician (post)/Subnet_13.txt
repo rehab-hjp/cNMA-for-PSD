@@ -1,0 +1,3 @@
+Treatment                     Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus desipramine+mianserin
+imipramine+mianserin          -0.26 [-1.14; 0.62]            -0.26 [-1.14; 0.62]               No concerns

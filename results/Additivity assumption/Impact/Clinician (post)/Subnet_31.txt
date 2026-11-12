@@ -1,0 +1,3 @@
+Treatment                                                               Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus agomelatine+psychoeducation+supportive psychotherapy+usual care
+escitalopram+psychoeducation+supportive psychotherapy+usual care        0.76 [0.38; 1.14]              0.76 [0.38; 1.14]                 No concerns

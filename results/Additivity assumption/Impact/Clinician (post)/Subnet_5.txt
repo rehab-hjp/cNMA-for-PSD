@@ -1,0 +1,8 @@
+Treatment                                                              Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus citalopram+hfrtms+usual care
+atdcs+citalopram+usual care                                            0.34 [-2.63; 3.31]             0.34 [-0.38; 1.06]                Some concerns
+citalopram+hfrtms+psychoeducation+supportive psychotherapy+usual care  -0.77 [-2.70; 1.16]            -1.14 [-1.48; -0.81]              Major concerns
+citalopram+psychoeducation+supportive psychotherapy+usual care         0.26 [-1.68; 2.19]             0.63 [0.30; 0.95]                 Some concerns
+citalopram+sham+usual care                                             1.00 [-1.08; 3.08]             1.00 [0.59; 1.42]                 Major concerns
+citalopram+usual care                                                  1.03 [-0.45; 2.50]             0.27 [-0.20; 0.74]                No concerns
+reboxetine+usual care                                                  1.38 [-1.18; 3.94]             0.62 [-0.05; 1.29]                Some concerns

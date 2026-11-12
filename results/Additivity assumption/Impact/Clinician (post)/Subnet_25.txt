@@ -1,0 +1,3 @@
+Treatment                                                                                                  Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus cognitive training+hfrtms+psychological counselling+sertraline+supportive psychotherapy+usual care
+cognitive training+psychological counselling+sertraline+supportive psychotherapy+usual care                0.93 [0.18; 1.68]              0.93 [0.18; 1.68]                 No concerns

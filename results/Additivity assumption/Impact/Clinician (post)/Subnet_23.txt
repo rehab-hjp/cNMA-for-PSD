@@ -1,0 +1,8 @@
+Treatment                  Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus paroxetine
+cbt+paroxetine             -0.93 [-5.04; 3.19]            -0.93 [-5.04; 3.19]               No concerns
+hfrtms+paroxetine          -2.63 [-5.56; 0.30]            -2.63 [-5.56; 0.30]               No concerns
+lfrtms+paroxetine          -2.27 [-7.33; 2.78]            -2.27 [-7.33; 2.78]               No concerns
+morita therapy+paroxetine  -0.87 [-4.99; 3.25]            -0.87 [-4.99; 3.25]               No concerns
+paroxetine+relaxation      -2.81 [-6.94; 1.32]            -2.81 [-6.94; 1.32]               No concerns
+paroxetine+sham            -1.35 [-6.41; 3.71]            -1.35 [-6.41; 3.71]               No concerns

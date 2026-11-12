@@ -1,0 +1,4 @@
+Treatment                            Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus attention control+citalopram
+attention control+placebo            0.14 [-0.16; 0.44]             0.14 [-0.16; 0.44]                No concerns
+cbt+placebo                          0.14 [-0.16; 0.44]             0.14 [-0.16; 0.44]                No concerns

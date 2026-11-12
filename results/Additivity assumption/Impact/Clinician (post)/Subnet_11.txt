@@ -1,0 +1,3 @@
+Treatment                                               Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus cognitive training+escitalopram+itbs+usual care
+cognitive training+escitalopram+usual care              0.70 [0.06; 1.34]              0.70 [0.06; 1.34]                 No concerns

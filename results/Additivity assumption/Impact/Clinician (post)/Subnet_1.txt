@@ -1,0 +1,71 @@
+Treatment                                                                    Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus usual care
+act+sertraline+usual care                                                    0.48 [-1.51; 2.46]             -0.59 [-3.18; 1.99]               No concerns
+agomelatine+usual care                                                       -0.76 [-2.31; 0.78]            -1.59 [-3.45; 0.27]               Some concerns
+amitriptyline+usual care                                                     -0.32 [-2.39; 1.75]            -0.90 [-3.21; 1.41]               No concerns
+atdcs+fluoxetine+usual care                                                  -1.53 [-3.25; 0.20]            -2.02 [-4.03; -0.00]              No concerns
+behavioural therapy                                                          -0.80 [-2.06; 0.46]            -1.17 [-2.95; 0.60]               Some concerns
+behavioural therapy+supportive psychotherapy+usual care                      -1.98 [-3.15; -0.80]           -1.76 [-3.59; 0.06]               Some concerns
+behavioural therapy+usual care                                               -0.41 [-1.51; 0.70]            -0.23 [-2.01; 1.55]               No concerns
+cbt+escitalopram+hfrtms+usual care                                           -3.65 [-4.67; -2.63]           -3.03 [-5.13; -0.93]              No concerns
+cbt+escitalopram+usual care                                                  -2.32 [-3.26; -1.38]           -2.28 [-3.40; -1.15]              No concerns
+cbt+humanistic psychotherapy+paroxetine+usual care                           -2.52 [-4.76; -0.27]           -2.82 [-5.18; -0.47]              No concerns
+cbt+sertraline+usual care                                                    -2.06 [-3.27; -0.86]           -3.97 [-6.59; -1.36]              No concerns
+ces+escitalopram+usual care                                                  -1.66 [-3.49; 0.17]            -2.04 [-4.02; -0.06]              No concerns
+cognitive restructuring+psychoeducation+supportive psychotherapy+usual care  -1.61 [-3.02; -0.19]           -1.96 [-3.78; -0.14]              No concerns
+cognitive restructuring+supportive psychotherapy+usual care                  -2.60 [-4.01; -1.19]           -2.25 [-4.07; -0.44]              Some concerns
+desipramine+usual care                                                       -0.59 [-2.52; 1.34]            -1.09 [-3.26; 1.09]               No concerns
+drtms+fluoxetine+usual care                                                  -1.77 [-3.31; -0.23]           -1.51 [-3.82; 0.80]               Some concerns
+drtms+sertraline+usual care                                                  -1.92 [-3.34; -0.51]           -4.30 [-7.39; -1.21]              No concerns
+drtms+usual care                                                             -1.42 [-2.40; -0.44]           -0.81 [-3.23; 1.61]               Some concerns
+dtdcs+sertraline+usual care                                                  -1.94 [-4.06; 0.18]            -2.94 [-6.28; 0.39]               No concerns
+escitalopram+hfrtms+reminiscence therapy+usual care                          -1.67 [-2.99; -0.36]           -1.75 [-3.75; 0.25]               No concerns
+escitalopram+hfrtms+usual care                                               -2.09 [-2.91; -1.27]           -2.42 [-3.51; -1.33]              No concerns
+escitalopram+lfrtms+usual care                                               -1.82 [-2.62; -1.01]           -2.12 [-3.09; -1.15]              No concerns
+escitalopram+sham+usual care                                                 -1.07 [-1.99; -0.15]           -1.85 [-3.52; -0.19]              No concerns
+escitalopram+supportive psychotherapy+usual care                             -2.34 [-3.40; -1.27]           -1.36 [-3.49; 0.76]               Major concerns
+escitalopram+tavns+usual care                                                -1.71 [-3.65; 0.23]            -2.49 [-4.93; -0.06]              No concerns
+escitalopram+usual care                                                      -0.77 [-1.49; -0.04]           -1.15 [-2.06; -0.23]              No concerns
+fluoxetine+hfrtms+usual care                                                 -1.68 [-2.95; -0.41]           -2.36 [-3.94; -0.79]              Some concerns
+fluoxetine+lfrtms+usual care                                                 -1.40 [-2.66; -0.14]           -1.80 [-3.71; 0.12]               No concerns
+fluoxetine+sham+usual care                                                   -0.66 [-1.99; 0.67]            -1.05 [-2.88; 0.78]               No concerns
+fluoxetine+usual care                                                        -0.35 [-1.52; 0.81]            -0.93 [-2.40; 0.53]               No concerns
+gact+usual care                                                              -0.91 [-2.11; 0.29]            -0.91 [-2.17; 0.34]               No concerns
+group psychotherapy+peer support                                             -1.07 [-2.80; 0.67]            -1.07 [-2.87; 0.74]               No concerns
+group psychotherapy+usual care                                               -0.13 [-1.85; 1.60]            -0.13 [-1.93; 1.67]               No concerns
+hfrtms+mindfulness                                                           -2.50 [-3.72; -1.29]           -0.59 [-2.99; 1.81]               Major concerns
+hfrtms+sertraline+usual care                                                 -1.83 [-2.91; -0.76]           -3.30 [-5.90; -0.70]              No concerns
+hfrtms+trazodone+usual care                                                  -2.31 [-3.46; -1.15]           -2.35 [-4.00; -0.70]              No concerns
+hfrtms+usual care                                                            -1.33 [-1.68; -0.98]           -1.70 [-2.91; -0.49]              Some concerns
+imipramine+usual care                                                        -2.26 [-3.97; -0.56]           -2.43 [-4.21; -0.65]              No concerns
+interpersonal psychotherapy                                                  -0.21 [-1.80; 1.38]            -1.67 [-4.27; 0.92]               No concerns
+interpersonal psychotherapy+sertraline                                       -0.71 [-2.84; 1.41]            -1.38 [-3.97; 1.22]               No concerns
+itbs+sertraline+usual care                                                   -1.66 [-3.13; -0.18]           -2.73 [-5.69; 0.23]               No concerns
+itbs+usual care                                                              -1.15 [-2.21; -0.08]           -1.57 [-3.65; 0.52]               Some concerns
+knowledge and behaviour therapy+usual care                                   -0.83 [-2.55; 0.90]            -0.83 [-2.62; 0.97]               No concerns
+lfrtms+paroxetine+usual care                                                 -2.81 [-4.35; -1.28]           -4.15 [-6.51; -1.80]              No concerns
+lfrtms+sertraline+usual care                                                 -1.56 [-2.69; -0.42]           -2.77 [-5.63; 0.10]               No concerns
+lfrtms+trazodone+usual care                                                  -2.03 [-3.20; -0.86]           -2.72 [-4.66; -0.78]              No concerns
+lfrtms+usual care                                                            -1.05 [-1.49; -0.61]           -1.82 [-4.41; 0.76]               Major concerns
+lfrtms+usual care+venlafaxine                                                -5.22 [-7.13; -3.32]           -7.40 [-10.58; -4.23]             No concerns
+maprotiline+usual care                                                       -0.33 [-1.83; 1.17]            -0.91 [-2.57; 0.75]               No concerns
+mes+usual care                                                               -2.36 [-4.08; -0.63]           -2.36 [-4.16; -0.56]              No concerns
+methylphenidate+usual care                                                   -0.25 [-2.49; 1.99]            -1.31 [-3.79; 1.18]               No concerns
+mindfulness+sfbt+usual care                                                  -1.63 [-2.93; -0.32]           -1.93 [-3.76; -0.09]              No concerns
+mindfulness+sham                                                             -1.48 [-2.81; -0.15]           -0.43 [-2.83; 1.97]               Some concerns
+mindfulness+usual care                                                       -0.78 [-1.63; 0.07]            -1.31 [-2.35; -0.27]              No concerns
+morita therapy+paroxetine+usual care                                         -1.82 [-3.89; 0.25]            -3.12 [-5.49; -0.75]              Some concerns
+morita therapy+psychoeducation+usual care+venlafaxine                        -3.24 [-4.76; -1.71]           -2.24 [-4.03; -0.46]              Some concerns
+paroxetine+usual care                                                        -1.76 [-3.23; -0.30]           -2.07 [-3.63; -0.52]              Some concerns
+placebo+usual care                                                           0.80 [-0.41; 2.01]             -0.25 [-1.79; 1.29]               Some concerns
+psychoeducation+supportive psychotherapy+usual care                          -0.58 [-1.92; 0.76]            -1.23 [-3.01; 0.55]               No concerns
+rebt+sertraline+usual care                                                   -1.05 [-3.03; 0.94]            -2.11 [-4.69; 0.47]               Some concerns
+reminiscence therapy                                                         0.03 [-1.23; 1.28]             -1.46 [-3.25; 0.33]               Some concerns
+reminiscence therapy+usual care                                              0.42 [-0.66; 1.50]             1.67 [-0.17; 3.50]                Some concerns
+sertraline+sfbt+usual care                                                   -1.36 [-2.99; 0.28]            -2.14 [-4.72; 0.43]               No concerns
+sertraline+sham+usual care                                                   -0.81 [-1.97; 0.35]            -1.82 [-4.59; 0.96]               Some concerns
+sertraline+usual care                                                        -0.51 [-1.50; 0.49]            -1.57 [-3.43; 0.28]               No concerns
+sham+usual care                                                              -0.30 [-0.85; 0.25]            -0.27 [-1.84; 1.30]               Some concerns
+supportive psychotherapy+usual care                                          -1.57 [-2.36; -0.79]           -1.73 [-2.77; -0.68]              No concerns
+trazodone+usual care                                                         -0.98 [-2.07; 0.11]            -1.41 [-2.89; 0.07]               No concerns
+usual care+venlafaxine                                                       -4.18 [-6.03; -2.32]           -6.69 [-9.32; -4.05]              No concerns

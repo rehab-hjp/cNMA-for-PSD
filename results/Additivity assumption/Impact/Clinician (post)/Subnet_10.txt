@@ -1,0 +1,3 @@
+Treatment                                             Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus cognitive restructuring+fluoxetine+usual care
+cognitive restructuring+usual care                    0.53 [0.02; 1.05]              0.53 [0.02; 1.05]                 No concerns

@@ -1,0 +1,3 @@
+Treatment                    Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus dtdcs+pst+usual care
+dtdcs+usual care             0.89 [0.52; 1.25]              0.89 [0.52; 1.25]                 No concerns

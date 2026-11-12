@@ -1,0 +1,7 @@
+Treatment                    Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus hfrtms
+dtdcs+sertraline             -0.36 [-1.92; 1.21]            -0.36 [-1.92; 1.21]               No concerns
+hfrtms+reminiscence therapy  -1.19 [-1.66; -0.71]           -1.19 [-1.66; -0.71]              No concerns
+hfrtms+sertraline            -0.68 [-1.94; 0.59]            -0.68 [-1.94; 0.59]               No concerns
+lfrtms                       0.18 [-1.01; 1.37]             0.18 [-1.01; 1.37]                No concerns
+sertraline+sham              -0.00 [-1.31; 1.31]            0.00 [-1.31; 1.31]                No concerns

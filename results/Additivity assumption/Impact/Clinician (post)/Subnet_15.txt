@@ -1,0 +1,3 @@
+Treatment     Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus dtdcs
+sham          1.02 [0.42; 1.62]              1.02 [0.42; 1.62]                 No concerns
