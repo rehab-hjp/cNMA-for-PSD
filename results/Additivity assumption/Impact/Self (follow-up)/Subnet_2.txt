@@ -1,0 +1,14 @@
+Treatment                                           Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus usual care
+attention control                                   -0.32 [-0.76; 0.11]            -0.29 [-0.74; 0.15]               No concerns
+behavioural activation+usual care                   -0.72 [-1.37; -0.07]           -0.72 [-1.37; -0.07]              No concerns
+cbt                                                 -0.30 [-0.71; 0.12]            -0.24 [-0.71; 0.23]               No concerns
+cbt+fluoxetine+humanistic psychotherapy+usual care  -1.53 [-2.03; -1.04]           -1.46 [-1.97; -0.96]              No concerns
+cbt+humanistic psychotherapy+usual care             -0.88 [-1.18; -0.57]           -1.02 [-1.40; -0.64]              No concerns
+cbt+usual care                                      -0.81 [-1.22; -0.39]           -0.86 [-1.33; -0.40]              No concerns
+cognitive training                                  -0.42 [-1.15; 0.31]            -0.36 [-1.12; 0.40]               No concerns
+fluoxetine+usual care                               -0.66 [-1.03; -0.29]           -0.87 [-1.36; -0.38]              No concerns
+gact                                                -0.21 [-0.75; 0.33]            -0.21 [-0.75; 0.33]               No concerns
+mindfulness                                         -0.57 [-1.06; -0.08]           -0.67 [-1.27; -0.07]              No concerns
+mindfulness+usual care                              -1.08 [-1.51; -0.64]           -1.01 [-1.51; -0.51]              No concerns
+motivational interviewing                           -0.05 [-0.71; 0.62]            -0.05 [-0.71; 0.62]               No concerns

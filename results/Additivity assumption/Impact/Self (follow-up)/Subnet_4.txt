@@ -1,0 +1,4 @@
+Treatment         Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus atdcs+cbt
+cbt+escitalopram  -0.40 [-1.12; 0.32]            -0.40 [-1.12; 0.32]               No concerns
+no treatment      1.05 [0.30; 1.79]              1.05 [0.30; 1.79]                 No concerns
