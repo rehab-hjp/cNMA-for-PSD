@@ -1,0 +1,3 @@
+Treatment                                     Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus active control+behavioural activation
+behavioural activation+mental imagery         -1.82 [-2.51; -1.12]           -1.82 [-2.51; -1.12]              No concerns

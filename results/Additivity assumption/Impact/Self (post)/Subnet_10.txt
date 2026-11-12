@@ -1,0 +1,3 @@
+Treatment                            Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus drtms+mirtazapine+usual care
+mirtazapine+sham+usual care          2.42 [1.75; 3.08]              2.42 [1.75; 3.08]                 No concerns

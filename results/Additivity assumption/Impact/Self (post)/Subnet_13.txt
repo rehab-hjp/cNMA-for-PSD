@@ -1,0 +1,5 @@
+Treatment                                            Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus escitalopram+usual care
+escitalopram+hfrtms+reminiscence therapy+usual care  -1.46 [-1.92; -0.99]           -1.46 [-1.92; -0.99]              No concerns
+escitalopram+hfrtms+usual care                       -1.24 [-1.74; -0.74]           -1.24 [-1.74; -0.74]              No concerns
+escitalopram+lfrtms+usual care                       -1.07 [-1.55; -0.60]           -1.07 [-1.55; -0.60]              No concerns

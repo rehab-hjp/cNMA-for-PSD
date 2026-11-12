@@ -1,0 +1,3 @@
+Treatment          Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus citalopram
+citalopram+hfrtms  -0.93 [-1.39; -0.47]           -0.93 [-1.39; -0.47]              No concerns

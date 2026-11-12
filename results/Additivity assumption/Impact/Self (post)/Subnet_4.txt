@@ -1,0 +1,3 @@
+Treatment                                         Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus cbt+escitalopram+usual care
+escitalopram+supportive psychotherapy+usual care  0.55 [0.03; 1.06]              0.55 [0.03; 1.06]                 No concerns

@@ -1,0 +1,5 @@
+Treatment                               Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus sertraline+usual care
+interpersonal psychotherapy             -0.25 [-0.80; 0.30]            -0.25 [-0.80; 0.30]               No concerns
+interpersonal psychotherapy+sertraline  0.04 [-0.54; 0.61]             0.04 [-0.54; 0.61]                No concerns
+sertraline+sfbt+usual care              -0.49 [-0.86; -0.13]           -0.49 [-0.86; -0.13]              No concerns

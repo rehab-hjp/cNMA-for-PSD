@@ -1,0 +1,5 @@
+Treatment       Component SMD [95% CI] (CNMA)  Non-component SMD [95% CI] (NMA)  Assessment
+versus placebo
+fluoxetine      -0.11 [-0.66; 0.45]            -0.11 [-0.66; 0.45]               No concerns
+nortriptyline   -0.60 [-1.39; 0.20]            -0.60 [-1.39; 0.20]               No concerns
+reboxetine      -3.06 [-4.09; -2.02]           -3.06 [-4.09; -2.02]              No concerns
