@@ -1,1 +1,1 @@
-cNMA-for-PSD/results/Sensitivity analysis/Clinician depression (post)/Studies only at ischaemic stroke
+We did sensitivity analyses restricting analysis to studies only with ischaemic stroke.
