@@ -1,0 +1,1 @@
+We provide interactive displays of estimated effects for individual components and treatments evaluated in the included trials, with clinician-reported and self-reported depressive symptom outcomes shown alongside acceptability.
