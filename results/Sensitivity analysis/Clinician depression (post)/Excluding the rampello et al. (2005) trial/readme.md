@@ -1,1 +1,1 @@
-cNMA-for-PSD/results/Sensitivity analysis/Clinician depression (post)/Excluding the rampello et al. (2005) trial
+We conducted a post-hoc sensitivity analysis excluding the placebo-controlled reboxetine trial by Rampello et al. (2005).
