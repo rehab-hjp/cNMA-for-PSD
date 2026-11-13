@@ -1,0 +1,1 @@
+We visualise pairwise comparisons between components for self-reported depressive symptoms. In each cell, colour indicates which component is favoured, and the point and line show the estimated SMD and its 95% CI.
