@@ -1,1 +1,1 @@
-cNMA-for-PSD/results/Sensitivity analysis/Self depression (post)/excluded studies reporting COI
+We did sensitivity analysis excluding studies reporting conflicts of interest.
