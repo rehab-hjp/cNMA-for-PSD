@@ -4,8 +4,6 @@ This repository contains the analysis data and supplementary results for a compo
 
 ## Analysis data
 
-The outcome-specific worksheets in `data.xlsx` contain one row per trial and numbered columns for trial arms. Treatment labels use `+` to separate components in combination treatments.
-
 We used standardised mean differences (SMDs) for continuous outcomes and risk ratios (RRs) for binary outcomes. We fitted random-effects standard NMA models within connected subnetworks and additive cNMA models across the overall network.
 
 ## Key R functions
