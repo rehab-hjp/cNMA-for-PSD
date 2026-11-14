@@ -1,0 +1,65 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                treat1                       treat2      TE   seTE seTE.adj.c
+Shan 2022 HFrTMS+sertraline+usual care LFrTMS+sertraline+usual care -1.0986 1.6182     1.8058
+Shan 2022  drTMS+sertraline+usual care HFrTMS+sertraline+usual care -0.0000 1.9879     3.1667
+Shan 2022  drTMS+sertraline+usual care LFrTMS+sertraline+usual care -1.0986 1.6182     1.8058
+          seTE.adj.r narms multiarm
+Shan 2022     1.8058     3        *
+Shan 2022     3.1667     3        *
+Shan 2022     1.8058     3        *
+
+Number of treatment arms per study:
+          narms multiarm
+Shan 2022     3        *
+
+Results (common effects model):
+
+                                treat1                       treat2     RR            95% CI    Q
+Shan 2022 HFrTMS+sertraline+usual care LFrTMS+sertraline+usual care 0.3333 [0.0140;  7.9482] 0.00
+Shan 2022  drTMS+sertraline+usual care HFrTMS+sertraline+usual care 1.0000 [0.0203; 49.2172] 0.00
+Shan 2022  drTMS+sertraline+usual care LFrTMS+sertraline+usual care 0.3333 [0.0140;  7.9482] 0.00
+
+Results (random effects model):
+
+                                treat1                       treat2     RR            95% CI
+Shan 2022 HFrTMS+sertraline+usual care LFrTMS+sertraline+usual care 0.3333 [0.0140;  7.9482]
+Shan 2022  drTMS+sertraline+usual care HFrTMS+sertraline+usual care 1.0000 [0.0203; 49.2172]
+Shan 2022  drTMS+sertraline+usual care LFrTMS+sertraline+usual care 0.3333 [0.0140;  7.9482]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 3
+Number of observations: o = 123
+Number of treatments: n = 3
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate (other treatments vs 'drTMS+sertraline+usual care'):
+                                 RR            95% CI    z p-value
+drTMS+sertraline+usual care       .                 .    .       .
+HFrTMS+sertraline+usual care 1.0000 [0.0203; 49.2172] 0.00  1.0000
+LFrTMS+sertraline+usual care 3.0000 [0.1258; 71.5336] 0.68  0.4972
+
+Random effects model
+
+Treatment estimate (other treatments vs 'drTMS+sertraline+usual care'):
+                                 RR            95% CI    z p-value
+drTMS+sertraline+usual care       .                 .    .       .
+HFrTMS+sertraline+usual care 1.0000 [0.0203; 49.2172] 0.00  1.0000
+LFrTMS+sertraline+usual care 3.0000 [0.1258; 71.5336] 0.68  0.4972
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+Test of heterogeneity:
+ Q d.f. p-value
+ 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 123 participants are included in this analysis.
+The following studies were included in this analysis: Shan 2022
+

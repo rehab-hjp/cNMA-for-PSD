@@ -1,0 +1,49 @@
+Network meta-analysis on main network.
+
+Original data:
+
+                             treat1                treat2     TE   seTE
+Rampello 2004 citalopram+usual care reboxetine+usual care 0.0000 1.3950
+
+Number of treatment arms per study:
+              narms
+Rampello 2004     2
+
+Results (common effects model):
+
+                             treat1                treat2     RR            95% CI    Q leverage
+Rampello 2004 citalopram+usual care reboxetine+usual care 1.0000 [0.0650; 15.3958] 0.00     1.00
+
+Results (random effects model):
+
+                             treat1                treat2     RR            95% CI
+Rampello 2004 citalopram+usual care reboxetine+usual care 1.0000 [0.0650; 15.3958]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 1
+Number of observations: o = 74
+Number of treatments: n = 2
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate ('reboxetine+usual care' vs 'citalopram+usual care'):
+                          RR            95% CI    z p-value
+citalopram+usual care      .                 .    .       .
+reboxetine+usual care 1.0000 [0.0650; 15.3958] 0.00  1.0000
+
+Random effects model
+
+Treatment estimate ('reboxetine+usual care' vs 'citalopram+usual care'):
+                          RR            95% CI    z p-value
+citalopram+usual care      .                 .    .       .
+reboxetine+usual care 1.0000 [0.0650; 15.3958] 0.00  1.0000
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+A total of 2 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 74 participants are included in this analysis.
+The following studies were included in this analysis: Rampello 2004
+

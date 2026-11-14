@@ -1,0 +1,65 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                               treat1                    treat2     TE   seTE seTE.adj.c seTE.adj.r
+Gao 2017 citalopram+attention control placebo+attention control 1.6094 1.0854     1.1692     1.1692
+Gao 2017    placebo+attention control               placebo+CBT 0.0109 1.4065     2.6747     2.6747
+Gao 2017 citalopram+attention control               placebo+CBT 1.6204 1.0854     1.1693     1.1693
+         narms multiarm
+Gao 2017     3        *
+Gao 2017     3        *
+Gao 2017     3        *
+
+Number of treatment arms per study:
+         narms multiarm
+Gao 2017     3        *
+
+Results (common effects model):
+
+                               treat1                    treat2     RR            95% CI    Q
+Gao 2017 citalopram+attention control placebo+attention control 5.0000 [0.5958; 41.9601] 0.00
+Gao 2017    placebo+attention control               placebo+CBT 1.0110 [0.0642; 15.9196] 0.00
+Gao 2017 citalopram+attention control               placebo+CBT 5.0549 [0.6023; 42.4257] 0.00
+
+Results (random effects model):
+
+                               treat1                    treat2     RR            95% CI
+Gao 2017 citalopram+attention control placebo+attention control 5.0000 [0.5958; 41.9601]
+Gao 2017    placebo+attention control               placebo+CBT 1.0110 [0.0642; 15.9196]
+Gao 2017 citalopram+attention control               placebo+CBT 5.0549 [0.6023; 42.4257]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 3
+Number of observations: o = 274
+Number of treatments: n = 3
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate (other treatments vs 'citalopram+attention control'):
+                                 RR           95% CI     z p-value
+citalopram+attention control      .                .     .       .
+placebo+attention control    0.2000 [0.0238; 1.6784] -1.48  0.1381
+placebo+CBT                  0.1978 [0.0236; 1.6603] -1.49  0.1355
+
+Random effects model
+
+Treatment estimate (other treatments vs 'citalopram+attention control'):
+                                 RR           95% CI     z p-value
+citalopram+attention control      .                .     .       .
+placebo+attention control    0.2000 [0.0238; 1.6784] -1.48  0.1381
+placebo+CBT                  0.1978 [0.0236; 1.6603] -1.49  0.1355
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+Test of heterogeneity:
+ Q d.f. p-value
+ 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 274 participants are included in this analysis.
+The following studies were included in this analysis: Gao 2017
+

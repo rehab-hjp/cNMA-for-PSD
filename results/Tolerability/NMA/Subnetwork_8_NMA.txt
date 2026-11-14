@@ -1,0 +1,74 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                           treat1            treat2      TE   seTE seTE.adj.c seTE.adj.r narms
+Li HY 2018       dtDCS+sertraline   sham+sertraline -1.0986 1.5870     1.5870     1.5870     2
+Terachinda 2021            HFrTMS   sham+sertraline -0.2007 1.8963     3.2035     3.2035     3
+Terachinda 2021            HFrTMS HFrTMS+sertraline -1.0986 1.5176     1.6730     1.6730     3
+Terachinda 2021 HFrTMS+sertraline   sham+sertraline  0.8979 1.5042     1.6543     1.6543     3
+                multiarm
+Li HY 2018              
+Terachinda 2021        *
+Terachinda 2021        *
+Terachinda 2021        *
+
+Number of treatment arms per study (by decreasing number of arms):
+                narms multiarm
+Terachinda 2021     3        *
+Li HY 2018          2         
+
+Results (common effects model):
+
+                           treat1            treat2     RR            95% CI    Q leverage
+Li HY 2018       dtDCS+sertraline   sham+sertraline 0.3333 [0.0149;  7.4769] 0.00     1.00
+Terachinda 2021            HFrTMS   sham+sertraline 0.8182 [0.0199; 33.6500] 0.00        .
+Terachinda 2021            HFrTMS HFrTMS+sertraline 0.3333 [0.0170;  6.5259] 0.00        .
+Terachinda 2021 HFrTMS+sertraline   sham+sertraline 2.4545 [0.1287; 46.8113] 0.00        .
+
+Results (random effects model):
+
+                           treat1            treat2     RR            95% CI
+Li HY 2018       dtDCS+sertraline   sham+sertraline 0.3333 [0.0149;  7.4769]
+Terachinda 2021            HFrTMS   sham+sertraline 0.8182 [0.0199; 33.6500]
+Terachinda 2021            HFrTMS HFrTMS+sertraline 0.3333 [0.0170;  6.5259]
+Terachinda 2021 HFrTMS+sertraline   sham+sertraline 2.4545 [0.1287; 46.8113]
+
+Number of studies: k = 2
+Number of pairwise comparisons: m = 4
+Number of observations: o = 40
+Number of treatments: n = 4
+Number of designs: d = 2
+
+Common effects model
+
+Treatment estimate (other treatments vs 'sham+sertraline'):
+                      RR            95% CI     z p-value
+dtDCS+sertraline  0.3333 [0.0149;  7.4769] -0.69  0.4888
+HFrTMS            0.8182 [0.0199; 33.6500] -0.11  0.9157
+HFrTMS+sertraline 2.4545 [0.1287; 46.8113]  0.60  0.5505
+sham+sertraline        .                 .     .       .
+
+Random effects model
+
+Treatment estimate (other treatments vs 'sham+sertraline'):
+                      RR            95% CI     z p-value
+dtDCS+sertraline  0.3333 [0.0149;  7.4769] -0.69  0.4888
+HFrTMS            0.8182 [0.0199; 33.6500] -0.11  0.9157
+HFrTMS+sertraline 2.4545 [0.1287; 46.8113]  0.60  0.5505
+sham+sertraline        .                 .     .       .
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = NA; tau = NA
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                Q d.f. p-value
+Total           0    0      --
+Within designs  0    0      --
+Between designs 0    0      --
+
+A total of 4 treatments are included in the network.
+A total of 2 studies are included in this analysis.
+A total of 40 participants are included in this analysis.
+The following studies were included in this analysis: Li HY 2018 Terachinda 2021
+

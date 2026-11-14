@@ -1,0 +1,65 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                         treat1           treat2      TE   seTE seTE.adj.c seTE.adj.r narms
+Moshtaghi 2024        CBT+atDCS CBT+escitalopram -1.0986 1.6013     2.7712     2.7712     3
+Moshtaghi 2024        CBT+atDCS     no treatment -1.9459 1.4775     1.7104     1.7104     3
+Moshtaghi 2024 CBT+escitalopram     no treatment -0.8473 0.9219     0.9612     0.9612     3
+               multiarm
+Moshtaghi 2024        *
+Moshtaghi 2024        *
+Moshtaghi 2024        *
+
+Number of treatment arms per study:
+               narms multiarm
+Moshtaghi 2024     3        *
+
+Results (common effects model):
+
+                         treat1           treat2     RR           95% CI    Q
+Moshtaghi 2024        CBT+atDCS CBT+escitalopram 0.3333 [0.0144; 7.6894] 0.00
+Moshtaghi 2024        CBT+atDCS     no treatment 0.1429 [0.0079; 2.5858] 0.00
+Moshtaghi 2024 CBT+escitalopram     no treatment 0.4286 [0.0704; 2.6104] 0.00
+
+Results (random effects model):
+
+                         treat1           treat2     RR           95% CI
+Moshtaghi 2024        CBT+atDCS CBT+escitalopram 0.3333 [0.0144; 7.6894]
+Moshtaghi 2024        CBT+atDCS     no treatment 0.1429 [0.0079; 2.5858]
+Moshtaghi 2024 CBT+escitalopram     no treatment 0.4286 [0.0704; 2.6104]
+
+Number of studies: k = 1
+Number of pairwise comparisons: m = 3
+Number of observations: o = 57
+Number of treatments: n = 3
+Number of designs: d = 1
+
+Common effects model
+
+Treatment estimate (other treatments vs 'CBT+atDCS'):
+                     RR             95% CI    z p-value
+CBT+atDCS             .                  .    .       .
+CBT+escitalopram 3.0000 [0.1300;  69.2045] 0.69  0.4927
+no treatment     7.0000 [0.3867; 126.7038] 1.32  0.1878
+
+Random effects model
+
+Treatment estimate (other treatments vs 'CBT+atDCS'):
+                     RR             95% CI    z p-value
+CBT+atDCS             .                  .    .       .
+CBT+escitalopram 3.0000 [0.1300;  69.2045] 0.69  0.4927
+no treatment     7.0000 [0.3867; 126.7038] 1.32  0.1878
+
+Quantifying heterogeneity:
+tau^2 = NA; tau = NA
+
+Test of heterogeneity:
+ Q d.f. p-value
+ 0    0      --
+
+A total of 3 treatments are included in the network.
+A total of 1 studies are included in this analysis.
+A total of 57 participants are included in this analysis.
+The following studies were included in this analysis: Moshtaghi 2024
+

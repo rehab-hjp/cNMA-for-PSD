@@ -1,0 +1,455 @@
+Network meta-analysis on main network.
+
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                                                       treat1
+Bornheim 2020                                                atDCS+usual care
+Dam 1996                                                fluoxetine+usual care
+Dam 1996                                                fluoxetine+usual care
+Dam 1996                                               maprotiline+usual care
+Goldstein 2018                                   dextroamphetamine+usual care
+Grade 1998                                         methylphenidate+usual care
+Lincoln 2003                                                attention control
+Lincoln 2003                                                              CBT
+Lincoln 2003                                                attention control
+Niu 2022                                                      GACT+usual care
+Zhang 2025 (Zhang ZJ 2025)                             mindfulness+usual care
+Jin 2023                                                 trazodone+usual care
+Jin 2023                                                    HFrTMS+usual care
+Jin 2023                                          trazodone+HFrTMS+usual care
+Jin 2023                                                    HFrTMS+usual care
+Jin 2023                                          trazodone+HFrTMS+usual care
+Jin 2023                                                    HFrTMS+usual care
+Shan 2025                                                   HFrTMS+usual care
+Shan 2025                                                     iTBS+usual care
+Shan 2025                                                   HFrTMS+usual care
+Chu 2006                                                fluoxetine+usual care
+Chu 2006                              CBT+humanistic psychotherapy+usual care
+Chu 2006                   CBT+humanistic psychotherapy+fluoxetine+usual care
+Chu 2006                              CBT+humanistic psychotherapy+usual care
+Chu 2006                   CBT+humanistic psychotherapy+fluoxetine+usual care
+Chu 2006                   CBT+humanistic psychotherapy+fluoxetine+usual care
+Miyai 1998                                             desipramine+usual care
+Miyai 1998                                             desipramine+usual care
+Miyai 1998                                              fluoxetine+usual care
+Ma 2008                                                maprotiline+usual care
+Pan 2010                                                   placebo+usual care
+Ye 2006                                                 imipramine+usual care
+Ye 2006                                                 paroxetine+usual care
+Ye 2006                                                 imipramine+usual care
+Zhu 2008                                                       MES+usual care
+Thomas 2013                                    behavioural therapy+usual care
+Lawrence 2025                                                     mindfulness
+Mitchell 2009                                             behavioural therapy
+                                                            treat2      TE   seTE seTE.adj.c
+Bornheim 2020                                      sham+usual care  0.0000 1.3856     1.3856
+Dam 1996                                    maprotiline+usual care  0.5596 1.1688     1.3414
+Dam 1996                                        placebo+usual care  0.6931 1.1726     1.3479
+Dam 1996                                        placebo+usual care  0.1335 1.3660     1.9636
+Goldstein 2018                                  placebo+usual care -1.6094 1.5292     1.5292
+Grade 1998                                      placebo+usual care  0.0953 1.3450     1.3450
+Lincoln 2003                                                   CBT -0.0965 1.9879     3.7865
+Lincoln 2003                                            usual care -1.5600 1.5332     1.6511
+Lincoln 2003                                            usual care -1.6565 1.5339     1.6520
+Niu 2022                                                usual care -0.6931 1.2089     1.2089
+Zhang 2025 (Zhang ZJ 2025)                              usual care  1.0778 1.6202     1.6202
+Jin 2023                                                usual care  2.5143 1.4612     1.5651
+Jin 2023                                                usual care  0.0222 1.9889     5.5524
+Jin 2023                                                usual care  0.0450 1.9887     5.5516
+Jin 2023                                      trazodone+usual care -2.4921 1.4610     1.5649
+Jin 2023                                      trazodone+usual care -2.4694 1.4609     1.5647
+Jin 2023                               trazodone+HFrTMS+usual care -0.0227 1.9886     5.5509
+Shan 2025                                          sham+usual care  1.0986 1.5954     1.7753
+Shan 2025                                          sham+usual care -0.0000 1.9695     3.1757
+Shan 2025                                          iTBS+usual care  1.0986 1.5954     1.7753
+Chu 2006                                                usual care  1.0986 1.6128     1.9669
+Chu 2006                                                usual care -0.0000 1.9835     3.4651
+Chu 2006                                                usual care -0.0000 1.9835     3.4651
+Chu 2006                                     fluoxetine+usual care -1.0986 1.6128     1.9669
+Chu 2006                                     fluoxetine+usual care -1.0986 1.6128     1.9669
+Chu 2006                   CBT+humanistic psychotherapy+usual care -0.0000 1.9835     3.4651
+Miyai 1998                                    trazodone+usual care  1.6670 1.3978     1.5376
+Miyai 1998                                   fluoxetine+usual care  0.4013 0.7698     0.7880
+Miyai 1998                                    trazodone+usual care  1.2657 1.5268     3.2617
+Ma 2008                                      paroxetine+usual care  1.0986 1.1289     1.1289
+Pan 2010                                    venlafaxine+usual care -0.0000 0.9661     0.9661
+Ye 2006                                      paroxetine+usual care  1.9147 1.4910     1.5743
+Ye 2006                                                 usual care -0.0323 1.9838     4.3730
+Ye 2006                                                 usual care  1.8824 1.4907     1.5738
+Zhu 2008                                                usual care  1.0986 1.6208     1.6208
+Thomas 2013                                             usual care -1.0986 1.1386     1.1386
+Lawrence 2025                                           usual care  0.0645 0.9672     0.9672
+Mitchell 2009                                           usual care  1.1967 1.6209     1.6209
+                           seTE.adj.r narms multiarm
+Bornheim 2020                  1.3856     2         
+Dam 1996                       1.3414     3        *
+Dam 1996                       1.3479     3        *
+Dam 1996                       1.9636     3        *
+Goldstein 2018                 1.5292     2         
+Grade 1998                     1.3450     2         
+Lincoln 2003                   3.7865     3        *
+Lincoln 2003                   1.6511     3        *
+Lincoln 2003                   1.6520     3        *
+Niu 2022                       1.2089     2         
+Zhang 2025 (Zhang ZJ 2025)     1.6202     2         
+Jin 2023                       1.5651     4        *
+Jin 2023                       5.5524     4        *
+Jin 2023                       5.5516     4        *
+Jin 2023                       1.5649     4        *
+Jin 2023                       1.5647     4        *
+Jin 2023                       5.5509     4        *
+Shan 2025                      1.7753     3        *
+Shan 2025                      3.1757     3        *
+Shan 2025                      1.7753     3        *
+Chu 2006                       1.9669     4        *
+Chu 2006                       3.4651     4        *
+Chu 2006                       3.4651     4        *
+Chu 2006                       1.9669     4        *
+Chu 2006                       1.9669     4        *
+Chu 2006                       3.4651     4        *
+Miyai 1998                     1.5376     3        *
+Miyai 1998                     0.7880     3        *
+Miyai 1998                     3.2617     3        *
+Ma 2008                        1.1289     2         
+Pan 2010                       0.9661     2         
+Ye 2006                        1.5743     3        *
+Ye 2006                        4.3730     3        *
+Ye 2006                        1.5738     3        *
+Zhu 2008                       1.6208     2         
+Thomas 2013                    1.1386     2         
+Lawrence 2025                  0.9672     2         
+Mitchell 2009                  1.6209     2         
+
+Number of treatment arms per study (by decreasing number of arms):
+                           narms multiarm
+Jin 2023                       4        *
+Chu 2006                       4        *
+Dam 1996                       3        *
+Lincoln 2003                   3        *
+Shan 2025                      3        *
+Miyai 1998                     3        *
+Ye 2006                        3        *
+Bornheim 2020                  2         
+Goldstein 2018                 2         
+Grade 1998                     2         
+Niu 2022                       2         
+Zhang 2025 (Zhang ZJ 2025)     2         
+Ma 2008                        2         
+Pan 2010                       2         
+Zhu 2008                       2         
+Thomas 2013                    2         
+Lawrence 2025                  2         
+Mitchell 2009                  2         
+
+Results (common effects model):
+
+                                                                       treat1
+Bornheim 2020                                                atDCS+usual care
+Dam 1996                                                fluoxetine+usual care
+Dam 1996                                                fluoxetine+usual care
+Dam 1996                                               maprotiline+usual care
+Goldstein 2018                                   dextroamphetamine+usual care
+Grade 1998                                         methylphenidate+usual care
+Lincoln 2003                                                attention control
+Lincoln 2003                                                              CBT
+Lincoln 2003                                                attention control
+Niu 2022                                                      GACT+usual care
+Zhang 2025 (Zhang ZJ 2025)                             mindfulness+usual care
+Jin 2023                                                 trazodone+usual care
+Jin 2023                                                    HFrTMS+usual care
+Jin 2023                                          trazodone+HFrTMS+usual care
+Jin 2023                                                    HFrTMS+usual care
+Jin 2023                                          trazodone+HFrTMS+usual care
+Jin 2023                                                    HFrTMS+usual care
+Shan 2025                                                   HFrTMS+usual care
+Shan 2025                                                     iTBS+usual care
+Shan 2025                                                   HFrTMS+usual care
+Chu 2006                                                fluoxetine+usual care
+Chu 2006                              CBT+humanistic psychotherapy+usual care
+Chu 2006                   CBT+humanistic psychotherapy+fluoxetine+usual care
+Chu 2006                              CBT+humanistic psychotherapy+usual care
+Chu 2006                   CBT+humanistic psychotherapy+fluoxetine+usual care
+Chu 2006                   CBT+humanistic psychotherapy+fluoxetine+usual care
+Miyai 1998                                             desipramine+usual care
+Miyai 1998                                             desipramine+usual care
+Miyai 1998                                              fluoxetine+usual care
+Ma 2008                                                maprotiline+usual care
+Pan 2010                                                   placebo+usual care
+Ye 2006                                                 imipramine+usual care
+Ye 2006                                                 paroxetine+usual care
+Ye 2006                                                 imipramine+usual care
+Zhu 2008                                                       MES+usual care
+Thomas 2013                                    behavioural therapy+usual care
+Lawrence 2025                                                     mindfulness
+Mitchell 2009                                             behavioural therapy
+                                                            treat2     RR            95% CI    Q
+Bornheim 2020                                      sham+usual care 1.0000 [0.0662; 15.1168] 0.00
+Dam 1996                                    maprotiline+usual care 1.8889 [0.2332; 15.2988] 0.00
+Dam 1996                                        placebo+usual care 2.0495 [0.2099; 20.0118] 0.00
+Dam 1996                                        placebo+usual care 1.0850 [0.0805; 14.6241] 0.00
+Goldstein 2018                                  placebo+usual care 0.2000 [0.0100;  4.0058] 0.00
+Grade 1998                                      placebo+usual care 1.1000 [0.0788; 15.3561] 0.00
+Lincoln 2003                                                   CBT 0.9080 [0.0185; 44.6890] 0.00
+Lincoln 2003                                            usual care 0.2101 [0.0104;  4.2414] 0.00
+Lincoln 2003                                            usual care 0.1908 [0.0094;  3.8571] 0.00
+Niu 2022                                                usual care 0.5000 [0.0468;  5.3459] 0.00
+Zhang 2025 (Zhang ZJ 2025)                              usual care 2.9381 [0.1227; 70.3357] 0.00
+Jin 2023                                                usual care 5.2608 [0.5111; 54.1466] 0.30
+Jin 2023                                                usual care 0.4635 [0.0129; 16.6373] 0.02
+Jin 2023                                                usual care 0.4742 [0.0132; 17.0151] 0.02
+Jin 2023                                      trazodone+usual care 0.0881 [0.0050;  1.5399] 0.00
+Jin 2023                                      trazodone+usual care 0.0901 [0.0052;  1.5748] 0.00
+Jin 2023                               trazodone+HFrTMS+usual care 0.9775 [0.0198; 48.1760] 0.00
+Shan 2025                                          sham+usual care 3.0000 [0.1315; 68.4178] 0.00
+Shan 2025                                          sham+usual care 1.0000 [0.0211; 47.4691] 0.00
+Shan 2025                                          iTBS+usual care 3.0000 [0.1315; 68.4178] 0.00
+Chu 2006                                                usual care 7.3419 [0.7757; 69.4907] 0.21
+Chu 2006                                                usual care 1.9677 [0.0591; 65.5176] 0.04
+Chu 2006                                                usual care 1.9677 [0.0591; 65.5176] 0.04
+Chu 2006                                     fluoxetine+usual care 0.2680 [0.0119;  6.0348] 0.01
+Chu 2006                                     fluoxetine+usual care 0.2680 [0.0119;  6.0348] 0.01
+Chu 2006                   CBT+humanistic psychotherapy+usual care 1.0000 [0.0205; 48.7968] 0.00
+Miyai 1998                                    trazodone+usual care 2.5309 [0.2458; 26.0603] 0.23
+Miyai 1998                                   fluoxetine+usual care 1.8135 [0.4209;  7.8147] 0.06
+Miyai 1998                                    trazodone+usual care 1.3956 [0.1294; 15.0557] 0.08
+Ma 2008                                      paroxetine+usual care 3.2215 [0.4214; 24.6255] 0.00
+Pan 2010                                    venlafaxine+usual care 1.0000 [0.1505;  6.6426] 0.00
+Ye 2006                                      paroxetine+usual care 6.0777 [0.4540; 81.3546] 0.00
+Ye 2006                                                 usual care 1.2065 [0.0729; 19.9822] 0.00
+Ye 2006                                                 usual care 7.3329 [0.5480; 98.1171] 0.00
+Zhu 2008                                                usual care 3.0000 [0.1252; 71.9063] 0.00
+Thomas 2013                                             usual care 0.3333 [0.0358;  3.1047] 0.00
+Lawrence 2025                                           usual care 1.0667 [0.1602;  7.1004] 0.00
+Mitchell 2009                                           usual care 3.3093 [0.1380; 79.3334] 0.00
+                           leverage
+Bornheim 2020                  1.00
+Dam 1996                          .
+Dam 1996                          .
+Dam 1996                          .
+Goldstein 2018                 1.00
+Grade 1998                     1.00
+Lincoln 2003                      .
+Lincoln 2003                      .
+Lincoln 2003                      .
+Niu 2022                       1.00
+Zhang 2025 (Zhang ZJ 2025)     1.00
+Jin 2023                          .
+Jin 2023                          .
+Jin 2023                          .
+Jin 2023                          .
+Jin 2023                          .
+Jin 2023                          .
+Shan 2025                         .
+Shan 2025                         .
+Shan 2025                         .
+Chu 2006                          .
+Chu 2006                          .
+Chu 2006                          .
+Chu 2006                          .
+Chu 2006                          .
+Chu 2006                          .
+Miyai 1998                        .
+Miyai 1998                        .
+Miyai 1998                        .
+Ma 2008                        0.84
+Pan 2010                       1.00
+Ye 2006                           .
+Ye 2006                           .
+Ye 2006                           .
+Zhu 2008                       1.00
+Thomas 2013                    1.00
+Lawrence 2025                  1.00
+Mitchell 2009                  1.00
+
+Results (random effects model):
+
+                                                                       treat1
+Bornheim 2020                                                atDCS+usual care
+Dam 1996                                                fluoxetine+usual care
+Dam 1996                                                fluoxetine+usual care
+Dam 1996                                               maprotiline+usual care
+Goldstein 2018                                   dextroamphetamine+usual care
+Grade 1998                                         methylphenidate+usual care
+Lincoln 2003                                                attention control
+Lincoln 2003                                                              CBT
+Lincoln 2003                                                attention control
+Niu 2022                                                      GACT+usual care
+Zhang 2025 (Zhang ZJ 2025)                             mindfulness+usual care
+Jin 2023                                                 trazodone+usual care
+Jin 2023                                                    HFrTMS+usual care
+Jin 2023                                          trazodone+HFrTMS+usual care
+Jin 2023                                                    HFrTMS+usual care
+Jin 2023                                          trazodone+HFrTMS+usual care
+Jin 2023                                                    HFrTMS+usual care
+Shan 2025                                                   HFrTMS+usual care
+Shan 2025                                                     iTBS+usual care
+Shan 2025                                                   HFrTMS+usual care
+Chu 2006                                                fluoxetine+usual care
+Chu 2006                              CBT+humanistic psychotherapy+usual care
+Chu 2006                   CBT+humanistic psychotherapy+fluoxetine+usual care
+Chu 2006                              CBT+humanistic psychotherapy+usual care
+Chu 2006                   CBT+humanistic psychotherapy+fluoxetine+usual care
+Chu 2006                   CBT+humanistic psychotherapy+fluoxetine+usual care
+Miyai 1998                                             desipramine+usual care
+Miyai 1998                                             desipramine+usual care
+Miyai 1998                                              fluoxetine+usual care
+Ma 2008                                                maprotiline+usual care
+Pan 2010                                                   placebo+usual care
+Ye 2006                                                 imipramine+usual care
+Ye 2006                                                 paroxetine+usual care
+Ye 2006                                                 imipramine+usual care
+Zhu 2008                                                       MES+usual care
+Thomas 2013                                    behavioural therapy+usual care
+Lawrence 2025                                                     mindfulness
+Mitchell 2009                                             behavioural therapy
+                                                            treat2     RR            95% CI
+Bornheim 2020                                      sham+usual care 1.0000 [0.0662; 15.1168]
+Dam 1996                                    maprotiline+usual care 1.8889 [0.2332; 15.2988]
+Dam 1996                                        placebo+usual care 2.0495 [0.2099; 20.0118]
+Dam 1996                                        placebo+usual care 1.0850 [0.0805; 14.6241]
+Goldstein 2018                                  placebo+usual care 0.2000 [0.0100;  4.0058]
+Grade 1998                                      placebo+usual care 1.1000 [0.0788; 15.3561]
+Lincoln 2003                                                   CBT 0.9080 [0.0185; 44.6890]
+Lincoln 2003                                            usual care 0.2101 [0.0104;  4.2414]
+Lincoln 2003                                            usual care 0.1908 [0.0094;  3.8571]
+Niu 2022                                                usual care 0.5000 [0.0468;  5.3459]
+Zhang 2025 (Zhang ZJ 2025)                              usual care 2.9381 [0.1227; 70.3357]
+Jin 2023                                                usual care 5.2608 [0.5111; 54.1466]
+Jin 2023                                                usual care 0.4635 [0.0129; 16.6373]
+Jin 2023                                                usual care 0.4742 [0.0132; 17.0151]
+Jin 2023                                      trazodone+usual care 0.0881 [0.0050;  1.5399]
+Jin 2023                                      trazodone+usual care 0.0901 [0.0052;  1.5748]
+Jin 2023                               trazodone+HFrTMS+usual care 0.9775 [0.0198; 48.1760]
+Shan 2025                                          sham+usual care 3.0000 [0.1315; 68.4178]
+Shan 2025                                          sham+usual care 1.0000 [0.0211; 47.4691]
+Shan 2025                                          iTBS+usual care 3.0000 [0.1315; 68.4178]
+Chu 2006                                                usual care 7.3419 [0.7757; 69.4907]
+Chu 2006                                                usual care 1.9677 [0.0591; 65.5176]
+Chu 2006                                                usual care 1.9677 [0.0591; 65.5176]
+Chu 2006                                     fluoxetine+usual care 0.2680 [0.0119;  6.0348]
+Chu 2006                                     fluoxetine+usual care 0.2680 [0.0119;  6.0348]
+Chu 2006                   CBT+humanistic psychotherapy+usual care 1.0000 [0.0205; 48.7968]
+Miyai 1998                                    trazodone+usual care 2.5309 [0.2458; 26.0603]
+Miyai 1998                                   fluoxetine+usual care 1.8135 [0.4209;  7.8147]
+Miyai 1998                                    trazodone+usual care 1.3956 [0.1294; 15.0557]
+Ma 2008                                      paroxetine+usual care 3.2215 [0.4214; 24.6255]
+Pan 2010                                    venlafaxine+usual care 1.0000 [0.1505;  6.6426]
+Ye 2006                                      paroxetine+usual care 6.0777 [0.4540; 81.3546]
+Ye 2006                                                 usual care 1.2065 [0.0729; 19.9822]
+Ye 2006                                                 usual care 7.3329 [0.5480; 98.1171]
+Zhu 2008                                                usual care 3.0000 [0.1252; 71.9063]
+Thomas 2013                                             usual care 0.3333 [0.0358;  3.1047]
+Lawrence 2025                                           usual care 1.0667 [0.1602;  7.1004]
+Mitchell 2009                                           usual care 3.3093 [0.1380; 79.3334]
+
+Number of studies: k = 18
+Number of pairwise comparisons: m = 38
+Number of observations: o = 1459
+Number of treatments: n = 26
+Number of designs: d = 18
+
+Common effects model
+
+Treatment estimate (other treatments vs 'usual care'):
+                                                        RR             95% CI     z p-value
+atDCS+usual care                                    0.1545 [0.0006;  36.8678] -0.67  0.5038
+attention control                                   0.1908 [0.0094;   3.8571] -1.08  0.2802
+behavioural therapy                                 3.3093 [0.1380;  79.3334]  0.74  0.4603
+behavioural therapy+usual care                      0.3333 [0.0358;   3.1047] -0.96  0.3346
+CBT                                                 0.2101 [0.0104;   4.2414] -1.02  0.3089
+CBT+humanistic psychotherapy+fluoxetine+usual care  1.9677 [0.0591;  65.5176]  0.38  0.7051
+CBT+humanistic psychotherapy+usual care             1.9677 [0.0591;  65.5176]  0.38  0.7051
+desipramine+usual care                             13.3146 [1.1290; 157.0211]  2.06  0.0397
+dextroamphetamine+usual care                        0.7164 [0.0096;  53.2035] -0.15  0.8794
+fluoxetine+usual care                               7.3419 [0.7757;  69.4907]  1.74  0.0821
+GACT+usual care                                     0.5000 [0.0468;   5.3459] -0.57  0.5664
+HFrTMS+usual care                                   0.4635 [0.0129;  16.6373] -0.42  0.6738
+imipramine+usual care                               7.3329 [0.5480;  98.1171]  1.51  0.1322
+iTBS+usual care                                     0.1545 [0.0013;  17.9264] -0.77  0.4413
+maprotiline+usual care                              3.8869 [0.2594;  58.2486]  0.98  0.3256
+MES+usual care                                      3.0000 [0.1252;  71.9063]  0.68  0.4979
+methylphenidate+usual care                          3.9405 [0.0677; 229.5175]  0.66  0.5085
+mindfulness                                         1.0667 [0.1602;   7.1004]  0.07  0.9468
+mindfulness+usual care                              2.9381 [0.1227;  70.3357]  0.67  0.5059
+paroxetine+usual care                               1.2065 [0.0729;  19.9822]  0.13  0.8957
+placebo+usual care                                  3.5822 [0.1624;  79.0331]  0.81  0.4189
+sham+usual care                                     0.1545 [0.0013;  17.9264] -0.77  0.4413
+trazodone+HFrTMS+usual care                         0.4742 [0.0132;  17.0151] -0.41  0.6829
+trazodone+usual care                                5.2608 [0.5111;  54.1466]  1.40  0.1628
+usual care                                               .                  .     .       .
+venlafaxine+usual care                              3.5822 [0.0952; 134.7347]  0.69  0.4905
+
+Random effects model
+
+Treatment estimate (other treatments vs 'usual care'):
+                                                        RR             95% CI     z p-value 
+atDCS+usual care                                    0.1545 [0.0006;  36.8678] -0.67  0.5038 
+attention control                                   0.1908 [0.0094;   3.8571] -1.08  0.2802 
+behavioural therapy                                 3.3093 [0.1380;  79.3334]  0.74  0.4603 
+behavioural therapy+usual care                      0.3333 [0.0358;   3.1047] -0.96  0.3346 
+CBT                                                 0.2101 [0.0104;   4.2414] -1.02  0.3089 
+CBT+humanistic psychotherapy+fluoxetine+usual care  1.9677 [0.0591;  65.5176]  0.38  0.7051 
+CBT+humanistic psychotherapy+usual care             1.9677 [0.0591;  65.5176]  0.38  0.7051 
+desipramine+usual care                             13.3146 [1.1290; 157.0211]  2.06  0.0397 
+dextroamphetamine+usual care                        0.7164 [0.0096;  53.2035] -0.15  0.8794 
+fluoxetine+usual care                               7.3419 [0.7757;  69.4907]  1.74  0.0821 
+GACT+usual care                                     0.5000 [0.0468;   5.3459] -0.57  0.5664 
+HFrTMS+usual care                                   0.4635 [0.0129;  16.6373] -0.42  0.6738 
+imipramine+usual care                               7.3329 [0.5480;  98.1171]  1.51  0.1322 
+iTBS+usual care                                     0.1545 [0.0013;  17.9264] -0.77  0.4413 
+maprotiline+usual care                              3.8869 [0.2594;  58.2486]  0.98  0.3256 
+MES+usual care                                      3.0000 [0.1252;  71.9063]  0.68  0.4979 
+methylphenidate+usual care                          3.9405 [0.0677; 229.5175]  0.66  0.5085 
+mindfulness                                         1.0667 [0.1602;   7.1004]  0.07  0.9468 
+mindfulness+usual care                              2.9381 [0.1227;  70.3357]  0.67  0.5059 
+paroxetine+usual care                               1.2065 [0.0729;  19.9822]  0.13  0.8957 
+placebo+usual care                                  3.5822 [0.1624;  79.0331]  0.81  0.4189 
+sham+usual care                                     0.1545 [0.0013;  17.9264] -0.77  0.4413 
+trazodone+HFrTMS+usual care                         0.4742 [0.0132;  17.0151] -0.41  0.6829 
+trazodone+usual care                                5.2608 [0.5111;  54.1466]  1.40  0.1628 
+usual care                                               .                  .     .       . 
+venlafaxine+usual care                              3.5822 [0.0952; 134.7347]  0.69  0.4905 
+                                                                 95% PI
+atDCS+usual care                                   [0.0000; 25625.1911]
+attention control                                  [0.0003;   140.2499]
+behavioural therapy                                [0.0031;  3536.7116]
+behavioural therapy+usual care                     [0.0025;    44.7089]
+CBT                                                [0.0003;   153.9489]
+CBT+humanistic psychotherapy+fluoxetine+usual care [0.0009;  4325.4576]
+CBT+humanistic psychotherapy+usual care            [0.0009;  4325.4576]
+desipramine+usual care                             [0.0591;  2998.0929]
+dextroamphetamine+usual care                       [0.0001;  9162.2140]
+fluoxetine+usual care                              [0.0528;  1020.1313]
+GACT+usual care                                    [0.0028;    90.7861]
+HFrTMS+usual care                                  [0.0002;  1201.6301]
+imipramine+usual care                              [0.0247;  2178.6178]
+iTBS+usual care                                    [0.0000;  5262.6714]
+maprotiline+usual care                             [0.0102;  1480.9740]
+MES+usual care                                     [0.0028;  3204.9278]
+methylphenidate+usual care                         [0.0005; 29565.9015]
+mindfulness                                        [0.0166;    68.4383]
+mindfulness+usual care                             [0.0028;  3130.2444]
+paroxetine+usual care                              [0.0025;   572.5422]
+placebo+usual care                                 [0.0040;  3190.3705]
+sham+usual care                                    [0.0000;  5262.6714]
+trazodone+HFrTMS+usual care                        [0.0002;  1228.5061]
+trazodone+usual care                               [0.0315;   878.6299]
+usual care                                                            .
+venlafaxine+usual care                             [0.0012; 10290.1188]
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0; tau = 0; I^2 = 0% [0.0%; 89.6%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                   Q d.f. p-value
+Total           1.04    2  0.5936
+Within designs  0.00    0      --
+Between designs 1.04    2  0.5936
+
+A total of 26 treatments are included in the network.
+A total of 18 studies are included in this analysis.
+A total of 1459 participants are included in this analysis.
+The following studies were included in this analysis: Bornheim 2020 Dam 1996 Goldstein 2018 Grade 1998 Lincoln 2003 Niu 2022 Zhang 2025 (Zhang ZJ 2025) Jin 2023 Shan 2025 Chu 2006 Miyai 1998 Ma 2008 Pan 2010 Ye 2006 Zhu 2008 Thomas 2013 Lawrence 2025 Mitchell 2009
+Estimated heterogeneity tau-squared0.00
+Global test for inconsistency, p-value = 0.5936 (Q =   1, d.o.f. = 2)
+
