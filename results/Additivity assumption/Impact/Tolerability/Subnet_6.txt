@@ -1,0 +1,3 @@
+Treatment                     Component RR [95% CI] (CNMA)  Non-component RR [95% CI] (NMA)  Assessment
+versus citalopram+usual care
+reboxetine+usual care         1.00 [0.06; 15.40]            1.00 [0.06; 15.40]               No concerns
