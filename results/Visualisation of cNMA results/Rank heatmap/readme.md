@@ -1,0 +1,1 @@
+We summarise the cNMA rankings of intervention components across the primary and secondary outcomes using a rank heatmap. Components were ranked separately for each outcome using P-scores, with higher values indicating a more favourable relative ranking for that outcome.
