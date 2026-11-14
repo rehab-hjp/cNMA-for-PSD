@@ -1,0 +1,677 @@
+Separate indirect from direct evidence (SIDE) using back-calculation method
+
+Common effects model: 
+
+                                                                                 comparison k prop   nma direct            indir.     RoR     z p-value
+                                                         atDCS+usual care:attention control 0    0  0.81      .              0.81       .     .       .
+                                                       atDCS+usual care:behavioural therapy 0    0  0.05      .              0.05       .     .       .
+                                            atDCS+usual care:behavioural therapy+usual care 0    0  0.46      .              0.46       .     .       .
+                                                                       atDCS+usual care:CBT 0    0  0.74      .              0.74       .     .       .
+                        atDCS+usual care:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  0.08      .              0.08       .     .       .
+                                   atDCS+usual care:CBT+humanistic psychotherapy+usual care 0    0  0.08      .              0.08       .     .       .
+                                                    atDCS+usual care:desipramine+usual care 0    0  0.01      .              0.01       .     .       .
+                                              atDCS+usual care:dextroamphetamine+usual care 0    0  0.22      .              0.22       .     .       .
+                                                     atDCS+usual care:fluoxetine+usual care 0    0  0.02      .              0.02       .     .       .
+                                                           atDCS+usual care:GACT+usual care 0    0  0.31      .              0.31       .     .       .
+                                                         atDCS+usual care:HFrTMS+usual care 0    0  0.33      .              0.33       .     .       .
+                                                     atDCS+usual care:imipramine+usual care 0    0  0.02      .              0.02       .     .       .
+                                                           atDCS+usual care:iTBS+usual care 0    0  1.00      .              1.00       .     .       .
+                                                    atDCS+usual care:maprotiline+usual care 0    0  0.04      .              0.04       .     .       .
+                                                            atDCS+usual care:MES+usual care 0    0  0.05      .              0.05       .     .       .
+                                                atDCS+usual care:methylphenidate+usual care 0    0  0.04      .              0.04       .     .       .
+                                                               atDCS+usual care:mindfulness 0    0  0.14      .              0.14       .     .       .
+                                                    atDCS+usual care:mindfulness+usual care 0    0  0.05      .              0.05       .     .       .
+                                                     atDCS+usual care:paroxetine+usual care 0    0  0.13      .              0.13       .     .       .
+                                                        atDCS+usual care:placebo+usual care 0    0  0.04      .              0.04       .     .       .
+                                                           atDCS+usual care:sham+usual care 1 1.00  1.00   1.00                 .       .     .       .
+                                               atDCS+usual care:trazodone+HFrTMS+usual care 0    0  0.33      .              0.33       .     .       .
+                                                      atDCS+usual care:trazodone+usual care 0    0  0.03      .              0.03       .     .       .
+                                                                atDCS+usual care:usual care 0    0  0.15      .              0.15       .     .       .
+                                                    atDCS+usual care:venlafaxine+usual care 0    0  0.04      .              0.04       .     .       .
+                                                      attention control:behavioural therapy 0    0  0.06      .              0.06       .     .       .
+                                           attention control:behavioural therapy+usual care 0    0  0.57      .              0.57       .     .       .
+                                                                      attention control:CBT 1 1.00  0.91   0.91                 .       .     .       .
+                       attention control:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  0.10      .              0.10       .     .       .
+                                  attention control:CBT+humanistic psychotherapy+usual care 0    0  0.10      .              0.10       .     .       .
+                                                   attention control:desipramine+usual care 0    0  0.01      .              0.01       .     .       .
+                                             attention control:dextroamphetamine+usual care 0    0  0.27      .              0.27       .     .       .
+                                                    attention control:fluoxetine+usual care 0    0  0.03      .              0.03       .     .       .
+                                                          attention control:GACT+usual care 0    0  0.38      .              0.38       .     .       .
+                                                        attention control:HFrTMS+usual care 0    0  0.41      .              0.41       .     .       .
+                                                    attention control:imipramine+usual care 0    0  0.03      .              0.03       .     .       .
+                                                          attention control:iTBS+usual care 0    0  1.23      .              1.23       .     .       .
+                                                   attention control:maprotiline+usual care 0    0  0.05      .              0.05       .     .       .
+                                                           attention control:MES+usual care 0    0  0.06      .              0.06       .     .       .
+                                               attention control:methylphenidate+usual care 0    0  0.05      .              0.05       .     .       .
+                                                              attention control:mindfulness 0    0  0.18      .              0.18       .     .       .
+                                                   attention control:mindfulness+usual care 0    0  0.06      .              0.06       .     .       .
+                                                    attention control:paroxetine+usual care 0    0  0.16      .              0.16       .     .       .
+                                                       attention control:placebo+usual care 0    0  0.05      .              0.05       .     .       .
+                                                          attention control:sham+usual care 0    0  1.23      .              1.23       .     .       .
+                                              attention control:trazodone+HFrTMS+usual care 0    0  0.40      .              0.40       .     .       .
+                                                     attention control:trazodone+usual care 0    0  0.04      .              0.04       .     .       .
+                                                               attention control:usual care 1 1.00  0.19   0.19                 .       .     .       .
+                                                   attention control:venlafaxine+usual care 0    0  0.05      .              0.05       .     .       .
+                                         behavioural therapy:behavioural therapy+usual care 0    0  9.93      .              9.93       .     .       .
+                                                                    behavioural therapy:CBT 0    0 15.75      .             15.75       .     .       .
+                     behavioural therapy:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  1.68      .              1.68       .     .       .
+                                behavioural therapy:CBT+humanistic psychotherapy+usual care 0    0  1.68      .              1.68       .     .       .
+                                                 behavioural therapy:desipramine+usual care 0    0  0.25      .              0.25       .     .       .
+                                           behavioural therapy:dextroamphetamine+usual care 0    0  4.62      .              4.62       .     .       .
+                                                  behavioural therapy:fluoxetine+usual care 0    0  0.45      .              0.45       .     .       .
+                                                        behavioural therapy:GACT+usual care 0    0  6.62      .              6.62       .     .       .
+                                                      behavioural therapy:HFrTMS+usual care 0    0  7.14      .              7.14       .     .       .
+                                                  behavioural therapy:imipramine+usual care 0    0  0.45      .              0.45       .     .       .
+                                                        behavioural therapy:iTBS+usual care 0    0 21.42      .             21.42       .     .       .
+                                                 behavioural therapy:maprotiline+usual care 0    0  0.85      .              0.85       .     .       .
+                                                         behavioural therapy:MES+usual care 0    0  1.10      .              1.10       .     .       .
+                                             behavioural therapy:methylphenidate+usual care 0    0  0.84      .              0.84       .     .       .
+                                                            behavioural therapy:mindfulness 0    0  3.10      .              3.10       .     .       .
+                                                 behavioural therapy:mindfulness+usual care 0    0  1.13      .              1.13       .     .       .
+                                                  behavioural therapy:paroxetine+usual care 0    0  2.74      .              2.74       .     .       .
+                                                     behavioural therapy:placebo+usual care 0    0  0.92      .              0.92       .     .       .
+                                                        behavioural therapy:sham+usual care 0    0 21.42      .             21.42       .     .       .
+                                            behavioural therapy:trazodone+HFrTMS+usual care 0    0  6.98      .              6.98       .     .       .
+                                                   behavioural therapy:trazodone+usual care 0    0  0.63      .              0.63       .     .       .
+                                                             behavioural therapy:usual care 1 1.00  3.31   3.31                 .       .     .       .
+                                                 behavioural therapy:venlafaxine+usual care 0    0  0.92      .              0.92       .     .       .
+                                                         behavioural therapy+usual care:CBT 0    0  1.59      .              1.59       .     .       .
+          behavioural therapy+usual care:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  0.17      .              0.17       .     .       .
+                     behavioural therapy+usual care:CBT+humanistic psychotherapy+usual care 0    0  0.17      .              0.17       .     .       .
+                                      behavioural therapy+usual care:desipramine+usual care 0    0  0.03      .              0.03       .     .       .
+                                behavioural therapy+usual care:dextroamphetamine+usual care 0    0  0.47      .              0.47       .     .       .
+                                       behavioural therapy+usual care:fluoxetine+usual care 0    0  0.05      .              0.05       .     .       .
+                                             behavioural therapy+usual care:GACT+usual care 0    0  0.67      .              0.67       .     .       .
+                                           behavioural therapy+usual care:HFrTMS+usual care 0    0  0.72      .              0.72       .     .       .
+                                       behavioural therapy+usual care:imipramine+usual care 0    0  0.05      .              0.05       .     .       .
+                                             behavioural therapy+usual care:iTBS+usual care 0    0  2.16      .              2.16       .     .       .
+                                      behavioural therapy+usual care:maprotiline+usual care 0    0  0.09      .              0.09       .     .       .
+                                              behavioural therapy+usual care:MES+usual care 0    0  0.11      .              0.11       .     .       .
+                                  behavioural therapy+usual care:methylphenidate+usual care 0    0  0.08      .              0.08       .     .       .
+                                                 behavioural therapy+usual care:mindfulness 0    0  0.31      .              0.31       .     .       .
+                                      behavioural therapy+usual care:mindfulness+usual care 0    0  0.11      .              0.11       .     .       .
+                                       behavioural therapy+usual care:paroxetine+usual care 0    0  0.28      .              0.28       .     .       .
+                                          behavioural therapy+usual care:placebo+usual care 0    0  0.09      .              0.09       .     .       .
+                                             behavioural therapy+usual care:sham+usual care 0    0  2.16      .              2.16       .     .       .
+                                 behavioural therapy+usual care:trazodone+HFrTMS+usual care 0    0  0.70      .              0.70       .     .       .
+                                        behavioural therapy+usual care:trazodone+usual care 0    0  0.06      .              0.06       .     .       .
+                                                  behavioural therapy+usual care:usual care 1 1.00  0.33   0.33                 .       .     .       .
+                                      behavioural therapy+usual care:venlafaxine+usual care 0    0  0.09      .              0.09       .     .       .
+                                     CBT:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  0.11      .              0.11       .     .       .
+                                                CBT:CBT+humanistic psychotherapy+usual care 0    0  0.11      .              0.11       .     .       .
+                                                                 CBT:desipramine+usual care 0    0  0.02      .              0.02       .     .       .
+                                                           CBT:dextroamphetamine+usual care 0    0  0.29      .              0.29       .     .       .
+                                                                  CBT:fluoxetine+usual care 0    0  0.03      .              0.03       .     .       .
+                                                                        CBT:GACT+usual care 0    0  0.42      .              0.42       .     .       .
+                                                                      CBT:HFrTMS+usual care 0    0  0.45      .              0.45       .     .       .
+                                                                  CBT:imipramine+usual care 0    0  0.03      .              0.03       .     .       .
+                                                                        CBT:iTBS+usual care 0    0  1.36      .              1.36       .     .       .
+                                                                 CBT:maprotiline+usual care 0    0  0.05      .              0.05       .     .       .
+                                                                         CBT:MES+usual care 0    0  0.07      .              0.07       .     .       .
+                                                             CBT:methylphenidate+usual care 0    0  0.05      .              0.05       .     .       .
+                                                                            CBT:mindfulness 0    0  0.20      .              0.20       .     .       .
+                                                                 CBT:mindfulness+usual care 0    0  0.07      .              0.07       .     .       .
+                                                                  CBT:paroxetine+usual care 0    0  0.17      .              0.17       .     .       .
+                                                                     CBT:placebo+usual care 0    0  0.06      .              0.06       .     .       .
+                                                                        CBT:sham+usual care 0    0  1.36      .              1.36       .     .       .
+                                                            CBT:trazodone+HFrTMS+usual care 0    0  0.44      .              0.44       .     .       .
+                                                                   CBT:trazodone+usual care 0    0  0.04      .              0.04       .     .       .
+                                                                             CBT:usual care 1 1.00  0.21   0.21                 .       .     .       .
+                                                                 CBT:venlafaxine+usual care 0    0  0.06      .              0.06       .     .       .
+ CBT+humanistic psychotherapy+fluoxetine+usual care:CBT+humanistic psychotherapy+usual care 1 1.00  1.00   1.00                 .       .     .       .
+                  CBT+humanistic psychotherapy+fluoxetine+usual care:desipramine+usual care 0    0  0.15      .              0.15       .     .       .
+            CBT+humanistic psychotherapy+fluoxetine+usual care:dextroamphetamine+usual care 0    0  2.75      .              2.75       .     .       .
+                   CBT+humanistic psychotherapy+fluoxetine+usual care:fluoxetine+usual care 1 0.97  0.27   0.33              0.00 1682.17  0.79  0.4300
+                         CBT+humanistic psychotherapy+fluoxetine+usual care:GACT+usual care 0    0  3.94      .              3.94       .     .       .
+                       CBT+humanistic psychotherapy+fluoxetine+usual care:HFrTMS+usual care 0    0  4.25      .              4.25       .     .       .
+                   CBT+humanistic psychotherapy+fluoxetine+usual care:imipramine+usual care 0    0  0.27      .              0.27       .     .       .
+                         CBT+humanistic psychotherapy+fluoxetine+usual care:iTBS+usual care 0    0 12.74      .             12.74       .     .       .
+                  CBT+humanistic psychotherapy+fluoxetine+usual care:maprotiline+usual care 0    0  0.51      .              0.51       .     .       .
+                          CBT+humanistic psychotherapy+fluoxetine+usual care:MES+usual care 0    0  0.66      .              0.66       .     .       .
+              CBT+humanistic psychotherapy+fluoxetine+usual care:methylphenidate+usual care 0    0  0.50      .              0.50       .     .       .
+                             CBT+humanistic psychotherapy+fluoxetine+usual care:mindfulness 0    0  1.84      .              1.84       .     .       .
+                  CBT+humanistic psychotherapy+fluoxetine+usual care:mindfulness+usual care 0    0  0.67      .              0.67       .     .       .
+                   CBT+humanistic psychotherapy+fluoxetine+usual care:paroxetine+usual care 0    0  1.63      .              1.63       .     .       .
+                      CBT+humanistic psychotherapy+fluoxetine+usual care:placebo+usual care 0    0  0.55      .              0.55       .     .       .
+                         CBT+humanistic psychotherapy+fluoxetine+usual care:sham+usual care 0    0 12.74      .             12.74       .     .       .
+             CBT+humanistic psychotherapy+fluoxetine+usual care:trazodone+HFrTMS+usual care 0    0  4.15      .              4.15       .     .       .
+                    CBT+humanistic psychotherapy+fluoxetine+usual care:trazodone+usual care 0    0  0.37      .              0.37       .     .       .
+                              CBT+humanistic psychotherapy+fluoxetine+usual care:usual care 1 0.81  1.97   1.00             37.35    0.03 -0.79  0.4300
+                  CBT+humanistic psychotherapy+fluoxetine+usual care:venlafaxine+usual care 0    0  0.55      .              0.55       .     .       .
+                             CBT+humanistic psychotherapy+usual care:desipramine+usual care 0    0  0.15      .              0.15       .     .       .
+                       CBT+humanistic psychotherapy+usual care:dextroamphetamine+usual care 0    0  2.75      .              2.75       .     .       .
+                              CBT+humanistic psychotherapy+usual care:fluoxetine+usual care 1 0.97  0.27   0.33              0.00 1682.17  0.79  0.4300
+                                    CBT+humanistic psychotherapy+usual care:GACT+usual care 0    0  3.94      .              3.94       .     .       .
+                                  CBT+humanistic psychotherapy+usual care:HFrTMS+usual care 0    0  4.25      .              4.25       .     .       .
+                              CBT+humanistic psychotherapy+usual care:imipramine+usual care 0    0  0.27      .              0.27       .     .       .
+                                    CBT+humanistic psychotherapy+usual care:iTBS+usual care 0    0 12.74      .             12.74       .     .       .
+                             CBT+humanistic psychotherapy+usual care:maprotiline+usual care 0    0  0.51      .              0.51       .     .       .
+                                     CBT+humanistic psychotherapy+usual care:MES+usual care 0    0  0.66      .              0.66       .     .       .
+                         CBT+humanistic psychotherapy+usual care:methylphenidate+usual care 0    0  0.50      .              0.50       .     .       .
+                                        CBT+humanistic psychotherapy+usual care:mindfulness 0    0  1.84      .              1.84       .     .       .
+                             CBT+humanistic psychotherapy+usual care:mindfulness+usual care 0    0  0.67      .              0.67       .     .       .
+                              CBT+humanistic psychotherapy+usual care:paroxetine+usual care 0    0  1.63      .              1.63       .     .       .
+                                 CBT+humanistic psychotherapy+usual care:placebo+usual care 0    0  0.55      .              0.55       .     .       .
+                                    CBT+humanistic psychotherapy+usual care:sham+usual care 0    0 12.74      .             12.74       .     .       .
+                        CBT+humanistic psychotherapy+usual care:trazodone+HFrTMS+usual care 0    0  4.15      .              4.15       .     .       .
+                               CBT+humanistic psychotherapy+usual care:trazodone+usual care 0    0  0.37      .              0.37       .     .       .
+                                         CBT+humanistic psychotherapy+usual care:usual care 1 0.81  1.97   1.00             37.35    0.03 -0.79  0.4300
+                             CBT+humanistic psychotherapy+usual care:venlafaxine+usual care 0    0  0.55      .              0.55       .     .       .
+                                        desipramine+usual care:dextroamphetamine+usual care 0    0 18.58      .             18.58       .     .       .
+                                               desipramine+usual care:fluoxetine+usual care 1 0.94  1.81   1.49             32.98    0.05 -1.01  0.3143
+                                                     desipramine+usual care:GACT+usual care 0    0 26.63      .             26.63       .     .       .
+                                                   desipramine+usual care:HFrTMS+usual care 0    0 28.73      .             28.73       .     .       .
+                                               desipramine+usual care:imipramine+usual care 0    0  1.82      .              1.82       .     .       .
+                                                     desipramine+usual care:iTBS+usual care 0    0 86.18      .             86.18       .     .       .
+                                              desipramine+usual care:maprotiline+usual care 0    0  3.43      .              3.43       .     .       .
+                                                      desipramine+usual care:MES+usual care 0    0  4.44      .              4.44       .     .       .
+                                          desipramine+usual care:methylphenidate+usual care 0    0  3.38      .              3.38       .     .       .
+                                                         desipramine+usual care:mindfulness 0    0 12.48      .             12.48       .     .       .
+                                              desipramine+usual care:mindfulness+usual care 0    0  4.53      .              4.53       .     .       .
+                                               desipramine+usual care:paroxetine+usual care 0    0 11.04      .             11.04       .     .       .
+                                                  desipramine+usual care:placebo+usual care 0    0  3.72      .              3.72       .     .       .
+                                                     desipramine+usual care:sham+usual care 0    0 86.18      .             86.18       .     .       .
+                                         desipramine+usual care:trazodone+HFrTMS+usual care 0    0 28.08      .             28.08       .     .       .
+                                                desipramine+usual care:trazodone+usual care 1 0.72  2.53   5.30              0.36   14.58  1.01  0.3143
+                                                          desipramine+usual care:usual care 0    0 13.31      .             13.31       .     .       .
+                                              desipramine+usual care:venlafaxine+usual care 0    0  3.72      .              3.72       .     .       .
+                                         dextroamphetamine+usual care:fluoxetine+usual care 0    0  0.10      .              0.10       .     .       .
+                                               dextroamphetamine+usual care:GACT+usual care 0    0  1.43      .              1.43       .     .       .
+                                             dextroamphetamine+usual care:HFrTMS+usual care 0    0  1.55      .              1.55       .     .       .
+                                         dextroamphetamine+usual care:imipramine+usual care 0    0  0.10      .              0.10       .     .       .
+                                               dextroamphetamine+usual care:iTBS+usual care 0    0  4.64      .              4.64       .     .       .
+                                        dextroamphetamine+usual care:maprotiline+usual care 0    0  0.18      .              0.18       .     .       .
+                                                dextroamphetamine+usual care:MES+usual care 0    0  0.24      .              0.24       .     .       .
+                                    dextroamphetamine+usual care:methylphenidate+usual care 0    0  0.18      .              0.18       .     .       .
+                                                   dextroamphetamine+usual care:mindfulness 0    0  0.67      .              0.67       .     .       .
+                                        dextroamphetamine+usual care:mindfulness+usual care 0    0  0.24      .              0.24       .     .       .
+                                         dextroamphetamine+usual care:paroxetine+usual care 0    0  0.59      .              0.59       .     .       .
+                                            dextroamphetamine+usual care:placebo+usual care 1 1.00  0.20   0.20                 .       .     .       .
+                                               dextroamphetamine+usual care:sham+usual care 0    0  4.64      .              4.64       .     .       .
+                                   dextroamphetamine+usual care:trazodone+HFrTMS+usual care 0    0  1.51      .              1.51       .     .       .
+                                          dextroamphetamine+usual care:trazodone+usual care 0    0  0.14      .              0.14       .     .       .
+                                                    dextroamphetamine+usual care:usual care 0    0  0.72      .              0.72       .     .       .
+                                        dextroamphetamine+usual care:venlafaxine+usual care 0    0  0.20      .              0.20       .     .       .
+                                                      fluoxetine+usual care:GACT+usual care 0    0 14.68      .             14.68       .     .       .
+                                                    fluoxetine+usual care:HFrTMS+usual care 0    0 15.84      .             15.84       .     .       .
+                                                fluoxetine+usual care:imipramine+usual care 0    0  1.00      .              1.00       .     .       .
+                                                      fluoxetine+usual care:iTBS+usual care 0    0 47.52      .             47.52       .     .       .
+                                               fluoxetine+usual care:maprotiline+usual care 1 0.83  1.89   1.75              2.77    0.63 -0.16  0.8727
+                                                       fluoxetine+usual care:MES+usual care 0    0  2.45      .              2.45       .     .       .
+                                           fluoxetine+usual care:methylphenidate+usual care 0    0  1.86      .              1.86       .     .       .
+                                                          fluoxetine+usual care:mindfulness 0    0  6.88      .              6.88       .     .       .
+                                               fluoxetine+usual care:mindfulness+usual care 0    0  2.50      .              2.50       .     .       .
+                                                fluoxetine+usual care:paroxetine+usual care 0    0  6.09      .              6.09       .     .       .
+                                                   fluoxetine+usual care:placebo+usual care 1 0.98  2.05   2.00              8.48    0.24 -0.16  0.8727
+                                                      fluoxetine+usual care:sham+usual care 0    0 47.52      .             47.52       .     .       .
+                                          fluoxetine+usual care:trazodone+HFrTMS+usual care 0    0 15.48      .             15.48       .     .       .
+                                                 fluoxetine+usual care:trazodone+usual care 1 0.63  1.40   3.55              0.28   12.58  1.01  0.3143
+                                                           fluoxetine+usual care:usual care 1 0.51  7.34   3.00             18.33    0.16 -0.79  0.4300
+                                               fluoxetine+usual care:venlafaxine+usual care 0    0  2.05      .              2.05       .     .       .
+                                                          GACT+usual care:HFrTMS+usual care 0    0  1.08      .              1.08       .     .       .
+                                                      GACT+usual care:imipramine+usual care 0    0  0.07      .              0.07       .     .       .
+                                                            GACT+usual care:iTBS+usual care 0    0  3.24      .              3.24       .     .       .
+                                                     GACT+usual care:maprotiline+usual care 0    0  0.13      .              0.13       .     .       .
+                                                             GACT+usual care:MES+usual care 0    0  0.17      .              0.17       .     .       .
+                                                 GACT+usual care:methylphenidate+usual care 0    0  0.13      .              0.13       .     .       .
+                                                                GACT+usual care:mindfulness 0    0  0.47      .              0.47       .     .       .
+                                                     GACT+usual care:mindfulness+usual care 0    0  0.17      .              0.17       .     .       .
+                                                      GACT+usual care:paroxetine+usual care 0    0  0.41      .              0.41       .     .       .
+                                                         GACT+usual care:placebo+usual care 0    0  0.14      .              0.14       .     .       .
+                                                            GACT+usual care:sham+usual care 0    0  3.24      .              3.24       .     .       .
+                                                GACT+usual care:trazodone+HFrTMS+usual care 0    0  1.05      .              1.05       .     .       .
+                                                       GACT+usual care:trazodone+usual care 0    0  0.10      .              0.10       .     .       .
+                                                                 GACT+usual care:usual care 1 1.00  0.50   0.50                 .       .     .       .
+                                                     GACT+usual care:venlafaxine+usual care 0    0  0.14      .              0.14       .     .       .
+                                                    HFrTMS+usual care:imipramine+usual care 0    0  0.06      .              0.06       .     .       .
+                                                          HFrTMS+usual care:iTBS+usual care 1 1.00  3.00   3.00                 .       .     .       .
+                                                   HFrTMS+usual care:maprotiline+usual care 0    0  0.12      .              0.12       .     .       .
+                                                           HFrTMS+usual care:MES+usual care 0    0  0.15      .              0.15       .     .       .
+                                               HFrTMS+usual care:methylphenidate+usual care 0    0  0.12      .              0.12       .     .       .
+                                                              HFrTMS+usual care:mindfulness 0    0  0.43      .              0.43       .     .       .
+                                                   HFrTMS+usual care:mindfulness+usual care 0    0  0.16      .              0.16       .     .       .
+                                                    HFrTMS+usual care:paroxetine+usual care 0    0  0.38      .              0.38       .     .       .
+                                                       HFrTMS+usual care:placebo+usual care 0    0  0.13      .              0.13       .     .       .
+                                                          HFrTMS+usual care:sham+usual care 1 1.00  3.00   3.00                 .       .     .       .
+                                              HFrTMS+usual care:trazodone+HFrTMS+usual care 1 1.00  0.98   0.98                 .       .     .       .
+                                                     HFrTMS+usual care:trazodone+usual care 1 1.00  0.09   0.08 71810610651264.12    0.00 -1.01  0.3143
+                                                               HFrTMS+usual care:usual care 1 0.84  0.46   1.02              0.01  158.09  1.01  0.3143
+                                                   HFrTMS+usual care:venlafaxine+usual care 0    0  0.13      .              0.13       .     .       .
+                                                      imipramine+usual care:iTBS+usual care 0    0 47.46      .             47.46       .     .       .
+                                               imipramine+usual care:maprotiline+usual care 0    0  1.89      .              1.89       .     .       .
+                                                       imipramine+usual care:MES+usual care 0    0  2.44      .              2.44       .     .       .
+                                           imipramine+usual care:methylphenidate+usual care 0    0  1.86      .              1.86       .     .       .
+                                                          imipramine+usual care:mindfulness 0    0  6.87      .              6.87       .     .       .
+                                               imipramine+usual care:mindfulness+usual care 0    0  2.50      .              2.50       .     .       .
+                                                imipramine+usual care:paroxetine+usual care 1 0.79  6.08   6.78              4.04    1.68  0.16  0.8727
+                                                   imipramine+usual care:placebo+usual care 0    0  2.05      .              2.05       .     .       .
+                                                      imipramine+usual care:sham+usual care 0    0 47.46      .             47.46       .     .       .
+                                          imipramine+usual care:trazodone+HFrTMS+usual care 0    0 15.47      .             15.47       .     .       .
+                                                 imipramine+usual care:trazodone+usual care 0    0  1.39      .              1.39       .     .       .
+                                                           imipramine+usual care:usual care 1 0.79  7.33   6.57             11.04    0.60 -0.16  0.8727
+                                               imipramine+usual care:venlafaxine+usual care 0    0  2.05      .              2.05       .     .       .
+                                                     iTBS+usual care:maprotiline+usual care 0    0  0.04      .              0.04       .     .       .
+                                                             iTBS+usual care:MES+usual care 0    0  0.05      .              0.05       .     .       .
+                                                 iTBS+usual care:methylphenidate+usual care 0    0  0.04      .              0.04       .     .       .
+                                                                iTBS+usual care:mindfulness 0    0  0.14      .              0.14       .     .       .
+                                                     iTBS+usual care:mindfulness+usual care 0    0  0.05      .              0.05       .     .       .
+                                                      iTBS+usual care:paroxetine+usual care 0    0  0.13      .              0.13       .     .       .
+                                                         iTBS+usual care:placebo+usual care 0    0  0.04      .              0.04       .     .       .
+                                                            iTBS+usual care:sham+usual care 1 1.00  1.00   1.00                 .       .     .       .
+                                                iTBS+usual care:trazodone+HFrTMS+usual care 0    0  0.33      .              0.33       .     .       .
+                                                       iTBS+usual care:trazodone+usual care 0    0  0.03      .              0.03       .     .       .
+                                                                 iTBS+usual care:usual care 0    0  0.15      .              0.15       .     .       .
+                                                     iTBS+usual care:venlafaxine+usual care 0    0  0.04      .              0.04       .     .       .
+                                                      maprotiline+usual care:MES+usual care 0    0  1.30      .              1.30       .     .       .
+                                          maprotiline+usual care:methylphenidate+usual care 0    0  0.99      .              0.99       .     .       .
+                                                         maprotiline+usual care:mindfulness 0    0  3.64      .              3.64       .     .       .
+                                              maprotiline+usual care:mindfulness+usual care 0    0  1.32      .              1.32       .     .       .
+                                               maprotiline+usual care:paroxetine+usual care 1 0.84  3.22   3.00              4.75    0.63 -0.16  0.8727
+                                                  maprotiline+usual care:placebo+usual care 1 0.94  1.09   1.14              0.45    2.52  0.16  0.8727
+                                                     maprotiline+usual care:sham+usual care 0    0 25.16      .             25.16       .     .       .
+                                         maprotiline+usual care:trazodone+HFrTMS+usual care 0    0  8.20      .              8.20       .     .       .
+                                                maprotiline+usual care:trazodone+usual care 0    0  0.74      .              0.74       .     .       .
+                                                          maprotiline+usual care:usual care 0    0  3.89      .              3.89       .     .       .
+                                              maprotiline+usual care:venlafaxine+usual care 0    0  1.09      .              1.09       .     .       .
+                                                  MES+usual care:methylphenidate+usual care 0    0  0.76      .              0.76       .     .       .
+                                                                 MES+usual care:mindfulness 0    0  2.81      .              2.81       .     .       .
+                                                      MES+usual care:mindfulness+usual care 0    0  1.02      .              1.02       .     .       .
+                                                       MES+usual care:paroxetine+usual care 0    0  2.49      .              2.49       .     .       .
+                                                          MES+usual care:placebo+usual care 0    0  0.84      .              0.84       .     .       .
+                                                             MES+usual care:sham+usual care 0    0 19.42      .             19.42       .     .       .
+                                                 MES+usual care:trazodone+HFrTMS+usual care 0    0  6.33      .              6.33       .     .       .
+                                                        MES+usual care:trazodone+usual care 0    0  0.57      .              0.57       .     .       .
+                                                                  MES+usual care:usual care 1 1.00  3.00   3.00                 .       .     .       .
+                                                      MES+usual care:venlafaxine+usual care 0    0  0.84      .              0.84       .     .       .
+                                                     methylphenidate+usual care:mindfulness 0    0  3.69      .              3.69       .     .       .
+                                          methylphenidate+usual care:mindfulness+usual care 0    0  1.34      .              1.34       .     .       .
+                                           methylphenidate+usual care:paroxetine+usual care 0    0  3.27      .              3.27       .     .       .
+                                              methylphenidate+usual care:placebo+usual care 1 1.00  1.10   1.10                 .       .     .       .
+                                                 methylphenidate+usual care:sham+usual care 0    0 25.50      .             25.50       .     .       .
+                                     methylphenidate+usual care:trazodone+HFrTMS+usual care 0    0  8.31      .              8.31       .     .       .
+                                            methylphenidate+usual care:trazodone+usual care 0    0  0.75      .              0.75       .     .       .
+                                                      methylphenidate+usual care:usual care 0    0  3.94      .              3.94       .     .       .
+                                          methylphenidate+usual care:venlafaxine+usual care 0    0  1.10      .              1.10       .     .       .
+                                                         mindfulness:mindfulness+usual care 0    0  0.36      .              0.36       .     .       .
+                                                          mindfulness:paroxetine+usual care 0    0  0.88      .              0.88       .     .       .
+                                                             mindfulness:placebo+usual care 0    0  0.30      .              0.30       .     .       .
+                                                                mindfulness:sham+usual care 0    0  6.90      .              6.90       .     .       .
+                                                    mindfulness:trazodone+HFrTMS+usual care 0    0  2.25      .              2.25       .     .       .
+                                                           mindfulness:trazodone+usual care 0    0  0.20      .              0.20       .     .       .
+                                                                     mindfulness:usual care 1 1.00  1.07   1.07                 .       .     .       .
+                                                         mindfulness:venlafaxine+usual care 0    0  0.30      .              0.30       .     .       .
+                                               mindfulness+usual care:paroxetine+usual care 0    0  2.44      .              2.44       .     .       .
+                                                  mindfulness+usual care:placebo+usual care 0    0  0.82      .              0.82       .     .       .
+                                                     mindfulness+usual care:sham+usual care 0    0 19.02      .             19.02       .     .       .
+                                         mindfulness+usual care:trazodone+HFrTMS+usual care 0    0  6.20      .              6.20       .     .       .
+                                                mindfulness+usual care:trazodone+usual care 0    0  0.56      .              0.56       .     .       .
+                                                          mindfulness+usual care:usual care 1 1.00  2.94   2.94                 .       .     .       .
+                                              mindfulness+usual care:venlafaxine+usual care 0    0  0.82      .              0.82       .     .       .
+                                                   paroxetine+usual care:placebo+usual care 0    0  0.34      .              0.34       .     .       .
+                                                      paroxetine+usual care:sham+usual care 0    0  7.81      .              7.81       .     .       .
+                                          paroxetine+usual care:trazodone+HFrTMS+usual care 0    0  2.54      .              2.54       .     .       .
+                                                 paroxetine+usual care:trazodone+usual care 0    0  0.23      .              0.23       .     .       .
+                                                           paroxetine+usual care:usual care 1 0.52  1.21   0.97              1.53    0.63 -0.16  0.8727
+                                               paroxetine+usual care:venlafaxine+usual care 0    0  0.34      .              0.34       .     .       .
+                                                         placebo+usual care:sham+usual care 0    0 23.19      .             23.19       .     .       .
+                                             placebo+usual care:trazodone+HFrTMS+usual care 0    0  7.55      .              7.55       .     .       .
+                                                    placebo+usual care:trazodone+usual care 0    0  0.68      .              0.68       .     .       .
+                                                              placebo+usual care:usual care 0    0  3.58      .              3.58       .     .       .
+                                                  placebo+usual care:venlafaxine+usual care 1 1.00  1.00   1.00                 .       .     .       .
+                                                sham+usual care:trazodone+HFrTMS+usual care 0    0  0.33      .              0.33       .     .       .
+                                                       sham+usual care:trazodone+usual care 0    0  0.03      .              0.03       .     .       .
+                                                                 sham+usual care:usual care 0    0  0.15      .              0.15       .     .       .
+                                                     sham+usual care:venlafaxine+usual care 0    0  0.04      .              0.04       .     .       .
+                                           trazodone+HFrTMS+usual care:trazodone+usual care 1 1.00  0.09   0.08 72852455815432.94    0.00 -1.01  0.3143
+                                                     trazodone+HFrTMS+usual care:usual care 1 0.84  0.47   1.05              0.01  157.98  1.01  0.3143
+                                         trazodone+HFrTMS+usual care:venlafaxine+usual care 0    0  0.13      .              0.13       .     .       .
+                                                            trazodone+usual care:usual care 1 0.66  5.26  12.36              0.98   12.58  1.01  0.3143
+                                                trazodone+usual care:venlafaxine+usual care 0    0  1.47      .              1.47       .     .       .
+                                                          venlafaxine+usual care:usual care 0    0  3.58      .              3.58       .     .       .
+
+Random effects model: 
+
+                                                                                 comparison k prop   nma direct            indir.     RoR     z p-value
+                                                         atDCS+usual care:attention control 0    0  0.81      .              0.81       .     .       .
+                                                       atDCS+usual care:behavioural therapy 0    0  0.05      .              0.05       .     .       .
+                                            atDCS+usual care:behavioural therapy+usual care 0    0  0.46      .              0.46       .     .       .
+                                                                       atDCS+usual care:CBT 0    0  0.74      .              0.74       .     .       .
+                        atDCS+usual care:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  0.08      .              0.08       .     .       .
+                                   atDCS+usual care:CBT+humanistic psychotherapy+usual care 0    0  0.08      .              0.08       .     .       .
+                                                    atDCS+usual care:desipramine+usual care 0    0  0.01      .              0.01       .     .       .
+                                              atDCS+usual care:dextroamphetamine+usual care 0    0  0.22      .              0.22       .     .       .
+                                                     atDCS+usual care:fluoxetine+usual care 0    0  0.02      .              0.02       .     .       .
+                                                           atDCS+usual care:GACT+usual care 0    0  0.31      .              0.31       .     .       .
+                                                         atDCS+usual care:HFrTMS+usual care 0    0  0.33      .              0.33       .     .       .
+                                                     atDCS+usual care:imipramine+usual care 0    0  0.02      .              0.02       .     .       .
+                                                           atDCS+usual care:iTBS+usual care 0    0  1.00      .              1.00       .     .       .
+                                                    atDCS+usual care:maprotiline+usual care 0    0  0.04      .              0.04       .     .       .
+                                                            atDCS+usual care:MES+usual care 0    0  0.05      .              0.05       .     .       .
+                                                atDCS+usual care:methylphenidate+usual care 0    0  0.04      .              0.04       .     .       .
+                                                               atDCS+usual care:mindfulness 0    0  0.14      .              0.14       .     .       .
+                                                    atDCS+usual care:mindfulness+usual care 0    0  0.05      .              0.05       .     .       .
+                                                     atDCS+usual care:paroxetine+usual care 0    0  0.13      .              0.13       .     .       .
+                                                        atDCS+usual care:placebo+usual care 0    0  0.04      .              0.04       .     .       .
+                                                           atDCS+usual care:sham+usual care 1 1.00  1.00   1.00                 .       .     .       .
+                                               atDCS+usual care:trazodone+HFrTMS+usual care 0    0  0.33      .              0.33       .     .       .
+                                                      atDCS+usual care:trazodone+usual care 0    0  0.03      .              0.03       .     .       .
+                                                                atDCS+usual care:usual care 0    0  0.15      .              0.15       .     .       .
+                                                    atDCS+usual care:venlafaxine+usual care 0    0  0.04      .              0.04       .     .       .
+                                                      attention control:behavioural therapy 0    0  0.06      .              0.06       .     .       .
+                                           attention control:behavioural therapy+usual care 0    0  0.57      .              0.57       .     .       .
+                                                                      attention control:CBT 1 1.00  0.91   0.91                 .       .     .       .
+                       attention control:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  0.10      .              0.10       .     .       .
+                                  attention control:CBT+humanistic psychotherapy+usual care 0    0  0.10      .              0.10       .     .       .
+                                                   attention control:desipramine+usual care 0    0  0.01      .              0.01       .     .       .
+                                             attention control:dextroamphetamine+usual care 0    0  0.27      .              0.27       .     .       .
+                                                    attention control:fluoxetine+usual care 0    0  0.03      .              0.03       .     .       .
+                                                          attention control:GACT+usual care 0    0  0.38      .              0.38       .     .       .
+                                                        attention control:HFrTMS+usual care 0    0  0.41      .              0.41       .     .       .
+                                                    attention control:imipramine+usual care 0    0  0.03      .              0.03       .     .       .
+                                                          attention control:iTBS+usual care 0    0  1.23      .              1.23       .     .       .
+                                                   attention control:maprotiline+usual care 0    0  0.05      .              0.05       .     .       .
+                                                           attention control:MES+usual care 0    0  0.06      .              0.06       .     .       .
+                                               attention control:methylphenidate+usual care 0    0  0.05      .              0.05       .     .       .
+                                                              attention control:mindfulness 0    0  0.18      .              0.18       .     .       .
+                                                   attention control:mindfulness+usual care 0    0  0.06      .              0.06       .     .       .
+                                                    attention control:paroxetine+usual care 0    0  0.16      .              0.16       .     .       .
+                                                       attention control:placebo+usual care 0    0  0.05      .              0.05       .     .       .
+                                                          attention control:sham+usual care 0    0  1.23      .              1.23       .     .       .
+                                              attention control:trazodone+HFrTMS+usual care 0    0  0.40      .              0.40       .     .       .
+                                                     attention control:trazodone+usual care 0    0  0.04      .              0.04       .     .       .
+                                                               attention control:usual care 1 1.00  0.19   0.19                 .       .     .       .
+                                                   attention control:venlafaxine+usual care 0    0  0.05      .              0.05       .     .       .
+                                         behavioural therapy:behavioural therapy+usual care 0    0  9.93      .              9.93       .     .       .
+                                                                    behavioural therapy:CBT 0    0 15.75      .             15.75       .     .       .
+                     behavioural therapy:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  1.68      .              1.68       .     .       .
+                                behavioural therapy:CBT+humanistic psychotherapy+usual care 0    0  1.68      .              1.68       .     .       .
+                                                 behavioural therapy:desipramine+usual care 0    0  0.25      .              0.25       .     .       .
+                                           behavioural therapy:dextroamphetamine+usual care 0    0  4.62      .              4.62       .     .       .
+                                                  behavioural therapy:fluoxetine+usual care 0    0  0.45      .              0.45       .     .       .
+                                                        behavioural therapy:GACT+usual care 0    0  6.62      .              6.62       .     .       .
+                                                      behavioural therapy:HFrTMS+usual care 0    0  7.14      .              7.14       .     .       .
+                                                  behavioural therapy:imipramine+usual care 0    0  0.45      .              0.45       .     .       .
+                                                        behavioural therapy:iTBS+usual care 0    0 21.42      .             21.42       .     .       .
+                                                 behavioural therapy:maprotiline+usual care 0    0  0.85      .              0.85       .     .       .
+                                                         behavioural therapy:MES+usual care 0    0  1.10      .              1.10       .     .       .
+                                             behavioural therapy:methylphenidate+usual care 0    0  0.84      .              0.84       .     .       .
+                                                            behavioural therapy:mindfulness 0    0  3.10      .              3.10       .     .       .
+                                                 behavioural therapy:mindfulness+usual care 0    0  1.13      .              1.13       .     .       .
+                                                  behavioural therapy:paroxetine+usual care 0    0  2.74      .              2.74       .     .       .
+                                                     behavioural therapy:placebo+usual care 0    0  0.92      .              0.92       .     .       .
+                                                        behavioural therapy:sham+usual care 0    0 21.42      .             21.42       .     .       .
+                                            behavioural therapy:trazodone+HFrTMS+usual care 0    0  6.98      .              6.98       .     .       .
+                                                   behavioural therapy:trazodone+usual care 0    0  0.63      .              0.63       .     .       .
+                                                             behavioural therapy:usual care 1 1.00  3.31   3.31                 .       .     .       .
+                                                 behavioural therapy:venlafaxine+usual care 0    0  0.92      .              0.92       .     .       .
+                                                         behavioural therapy+usual care:CBT 0    0  1.59      .              1.59       .     .       .
+          behavioural therapy+usual care:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  0.17      .              0.17       .     .       .
+                     behavioural therapy+usual care:CBT+humanistic psychotherapy+usual care 0    0  0.17      .              0.17       .     .       .
+                                      behavioural therapy+usual care:desipramine+usual care 0    0  0.03      .              0.03       .     .       .
+                                behavioural therapy+usual care:dextroamphetamine+usual care 0    0  0.47      .              0.47       .     .       .
+                                       behavioural therapy+usual care:fluoxetine+usual care 0    0  0.05      .              0.05       .     .       .
+                                             behavioural therapy+usual care:GACT+usual care 0    0  0.67      .              0.67       .     .       .
+                                           behavioural therapy+usual care:HFrTMS+usual care 0    0  0.72      .              0.72       .     .       .
+                                       behavioural therapy+usual care:imipramine+usual care 0    0  0.05      .              0.05       .     .       .
+                                             behavioural therapy+usual care:iTBS+usual care 0    0  2.16      .              2.16       .     .       .
+                                      behavioural therapy+usual care:maprotiline+usual care 0    0  0.09      .              0.09       .     .       .
+                                              behavioural therapy+usual care:MES+usual care 0    0  0.11      .              0.11       .     .       .
+                                  behavioural therapy+usual care:methylphenidate+usual care 0    0  0.08      .              0.08       .     .       .
+                                                 behavioural therapy+usual care:mindfulness 0    0  0.31      .              0.31       .     .       .
+                                      behavioural therapy+usual care:mindfulness+usual care 0    0  0.11      .              0.11       .     .       .
+                                       behavioural therapy+usual care:paroxetine+usual care 0    0  0.28      .              0.28       .     .       .
+                                          behavioural therapy+usual care:placebo+usual care 0    0  0.09      .              0.09       .     .       .
+                                             behavioural therapy+usual care:sham+usual care 0    0  2.16      .              2.16       .     .       .
+                                 behavioural therapy+usual care:trazodone+HFrTMS+usual care 0    0  0.70      .              0.70       .     .       .
+                                        behavioural therapy+usual care:trazodone+usual care 0    0  0.06      .              0.06       .     .       .
+                                                  behavioural therapy+usual care:usual care 1 1.00  0.33   0.33                 .       .     .       .
+                                      behavioural therapy+usual care:venlafaxine+usual care 0    0  0.09      .              0.09       .     .       .
+                                     CBT:CBT+humanistic psychotherapy+fluoxetine+usual care 0    0  0.11      .              0.11       .     .       .
+                                                CBT:CBT+humanistic psychotherapy+usual care 0    0  0.11      .              0.11       .     .       .
+                                                                 CBT:desipramine+usual care 0    0  0.02      .              0.02       .     .       .
+                                                           CBT:dextroamphetamine+usual care 0    0  0.29      .              0.29       .     .       .
+                                                                  CBT:fluoxetine+usual care 0    0  0.03      .              0.03       .     .       .
+                                                                        CBT:GACT+usual care 0    0  0.42      .              0.42       .     .       .
+                                                                      CBT:HFrTMS+usual care 0    0  0.45      .              0.45       .     .       .
+                                                                  CBT:imipramine+usual care 0    0  0.03      .              0.03       .     .       .
+                                                                        CBT:iTBS+usual care 0    0  1.36      .              1.36       .     .       .
+                                                                 CBT:maprotiline+usual care 0    0  0.05      .              0.05       .     .       .
+                                                                         CBT:MES+usual care 0    0  0.07      .              0.07       .     .       .
+                                                             CBT:methylphenidate+usual care 0    0  0.05      .              0.05       .     .       .
+                                                                            CBT:mindfulness 0    0  0.20      .              0.20       .     .       .
+                                                                 CBT:mindfulness+usual care 0    0  0.07      .              0.07       .     .       .
+                                                                  CBT:paroxetine+usual care 0    0  0.17      .              0.17       .     .       .
+                                                                     CBT:placebo+usual care 0    0  0.06      .              0.06       .     .       .
+                                                                        CBT:sham+usual care 0    0  1.36      .              1.36       .     .       .
+                                                            CBT:trazodone+HFrTMS+usual care 0    0  0.44      .              0.44       .     .       .
+                                                                   CBT:trazodone+usual care 0    0  0.04      .              0.04       .     .       .
+                                                                             CBT:usual care 1 1.00  0.21   0.21                 .       .     .       .
+                                                                 CBT:venlafaxine+usual care 0    0  0.06      .              0.06       .     .       .
+ CBT+humanistic psychotherapy+fluoxetine+usual care:CBT+humanistic psychotherapy+usual care 1 1.00  1.00   1.00                 .       .     .       .
+                  CBT+humanistic psychotherapy+fluoxetine+usual care:desipramine+usual care 0    0  0.15      .              0.15       .     .       .
+            CBT+humanistic psychotherapy+fluoxetine+usual care:dextroamphetamine+usual care 0    0  2.75      .              2.75       .     .       .
+                   CBT+humanistic psychotherapy+fluoxetine+usual care:fluoxetine+usual care 1 0.97  0.27   0.33              0.00 1682.17  0.79  0.4300
+                         CBT+humanistic psychotherapy+fluoxetine+usual care:GACT+usual care 0    0  3.94      .              3.94       .     .       .
+                       CBT+humanistic psychotherapy+fluoxetine+usual care:HFrTMS+usual care 0    0  4.25      .              4.25       .     .       .
+                   CBT+humanistic psychotherapy+fluoxetine+usual care:imipramine+usual care 0    0  0.27      .              0.27       .     .       .
+                         CBT+humanistic psychotherapy+fluoxetine+usual care:iTBS+usual care 0    0 12.74      .             12.74       .     .       .
+                  CBT+humanistic psychotherapy+fluoxetine+usual care:maprotiline+usual care 0    0  0.51      .              0.51       .     .       .
+                          CBT+humanistic psychotherapy+fluoxetine+usual care:MES+usual care 0    0  0.66      .              0.66       .     .       .
+              CBT+humanistic psychotherapy+fluoxetine+usual care:methylphenidate+usual care 0    0  0.50      .              0.50       .     .       .
+                             CBT+humanistic psychotherapy+fluoxetine+usual care:mindfulness 0    0  1.84      .              1.84       .     .       .
+                  CBT+humanistic psychotherapy+fluoxetine+usual care:mindfulness+usual care 0    0  0.67      .              0.67       .     .       .
+                   CBT+humanistic psychotherapy+fluoxetine+usual care:paroxetine+usual care 0    0  1.63      .              1.63       .     .       .
+                      CBT+humanistic psychotherapy+fluoxetine+usual care:placebo+usual care 0    0  0.55      .              0.55       .     .       .
+                         CBT+humanistic psychotherapy+fluoxetine+usual care:sham+usual care 0    0 12.74      .             12.74       .     .       .
+             CBT+humanistic psychotherapy+fluoxetine+usual care:trazodone+HFrTMS+usual care 0    0  4.15      .              4.15       .     .       .
+                    CBT+humanistic psychotherapy+fluoxetine+usual care:trazodone+usual care 0    0  0.37      .              0.37       .     .       .
+                              CBT+humanistic psychotherapy+fluoxetine+usual care:usual care 1 0.81  1.97   1.00             37.35    0.03 -0.79  0.4300
+                  CBT+humanistic psychotherapy+fluoxetine+usual care:venlafaxine+usual care 0    0  0.55      .              0.55       .     .       .
+                             CBT+humanistic psychotherapy+usual care:desipramine+usual care 0    0  0.15      .              0.15       .     .       .
+                       CBT+humanistic psychotherapy+usual care:dextroamphetamine+usual care 0    0  2.75      .              2.75       .     .       .
+                              CBT+humanistic psychotherapy+usual care:fluoxetine+usual care 1 0.97  0.27   0.33              0.00 1682.17  0.79  0.4300
+                                    CBT+humanistic psychotherapy+usual care:GACT+usual care 0    0  3.94      .              3.94       .     .       .
+                                  CBT+humanistic psychotherapy+usual care:HFrTMS+usual care 0    0  4.25      .              4.25       .     .       .
+                              CBT+humanistic psychotherapy+usual care:imipramine+usual care 0    0  0.27      .              0.27       .     .       .
+                                    CBT+humanistic psychotherapy+usual care:iTBS+usual care 0    0 12.74      .             12.74       .     .       .
+                             CBT+humanistic psychotherapy+usual care:maprotiline+usual care 0    0  0.51      .              0.51       .     .       .
+                                     CBT+humanistic psychotherapy+usual care:MES+usual care 0    0  0.66      .              0.66       .     .       .
+                         CBT+humanistic psychotherapy+usual care:methylphenidate+usual care 0    0  0.50      .              0.50       .     .       .
+                                        CBT+humanistic psychotherapy+usual care:mindfulness 0    0  1.84      .              1.84       .     .       .
+                             CBT+humanistic psychotherapy+usual care:mindfulness+usual care 0    0  0.67      .              0.67       .     .       .
+                              CBT+humanistic psychotherapy+usual care:paroxetine+usual care 0    0  1.63      .              1.63       .     .       .
+                                 CBT+humanistic psychotherapy+usual care:placebo+usual care 0    0  0.55      .              0.55       .     .       .
+                                    CBT+humanistic psychotherapy+usual care:sham+usual care 0    0 12.74      .             12.74       .     .       .
+                        CBT+humanistic psychotherapy+usual care:trazodone+HFrTMS+usual care 0    0  4.15      .              4.15       .     .       .
+                               CBT+humanistic psychotherapy+usual care:trazodone+usual care 0    0  0.37      .              0.37       .     .       .
+                                         CBT+humanistic psychotherapy+usual care:usual care 1 0.81  1.97   1.00             37.35    0.03 -0.79  0.4300
+                             CBT+humanistic psychotherapy+usual care:venlafaxine+usual care 0    0  0.55      .              0.55       .     .       .
+                                        desipramine+usual care:dextroamphetamine+usual care 0    0 18.58      .             18.58       .     .       .
+                                               desipramine+usual care:fluoxetine+usual care 1 0.94  1.81   1.49             32.98    0.05 -1.01  0.3143
+                                                     desipramine+usual care:GACT+usual care 0    0 26.63      .             26.63       .     .       .
+                                                   desipramine+usual care:HFrTMS+usual care 0    0 28.73      .             28.73       .     .       .
+                                               desipramine+usual care:imipramine+usual care 0    0  1.82      .              1.82       .     .       .
+                                                     desipramine+usual care:iTBS+usual care 0    0 86.18      .             86.18       .     .       .
+                                              desipramine+usual care:maprotiline+usual care 0    0  3.43      .              3.43       .     .       .
+                                                      desipramine+usual care:MES+usual care 0    0  4.44      .              4.44       .     .       .
+                                          desipramine+usual care:methylphenidate+usual care 0    0  3.38      .              3.38       .     .       .
+                                                         desipramine+usual care:mindfulness 0    0 12.48      .             12.48       .     .       .
+                                              desipramine+usual care:mindfulness+usual care 0    0  4.53      .              4.53       .     .       .
+                                               desipramine+usual care:paroxetine+usual care 0    0 11.04      .             11.04       .     .       .
+                                                  desipramine+usual care:placebo+usual care 0    0  3.72      .              3.72       .     .       .
+                                                     desipramine+usual care:sham+usual care 0    0 86.18      .             86.18       .     .       .
+                                         desipramine+usual care:trazodone+HFrTMS+usual care 0    0 28.08      .             28.08       .     .       .
+                                                desipramine+usual care:trazodone+usual care 1 0.72  2.53   5.30              0.36   14.58  1.01  0.3143
+                                                          desipramine+usual care:usual care 0    0 13.31      .             13.31       .     .       .
+                                              desipramine+usual care:venlafaxine+usual care 0    0  3.72      .              3.72       .     .       .
+                                         dextroamphetamine+usual care:fluoxetine+usual care 0    0  0.10      .              0.10       .     .       .
+                                               dextroamphetamine+usual care:GACT+usual care 0    0  1.43      .              1.43       .     .       .
+                                             dextroamphetamine+usual care:HFrTMS+usual care 0    0  1.55      .              1.55       .     .       .
+                                         dextroamphetamine+usual care:imipramine+usual care 0    0  0.10      .              0.10       .     .       .
+                                               dextroamphetamine+usual care:iTBS+usual care 0    0  4.64      .              4.64       .     .       .
+                                        dextroamphetamine+usual care:maprotiline+usual care 0    0  0.18      .              0.18       .     .       .
+                                                dextroamphetamine+usual care:MES+usual care 0    0  0.24      .              0.24       .     .       .
+                                    dextroamphetamine+usual care:methylphenidate+usual care 0    0  0.18      .              0.18       .     .       .
+                                                   dextroamphetamine+usual care:mindfulness 0    0  0.67      .              0.67       .     .       .
+                                        dextroamphetamine+usual care:mindfulness+usual care 0    0  0.24      .              0.24       .     .       .
+                                         dextroamphetamine+usual care:paroxetine+usual care 0    0  0.59      .              0.59       .     .       .
+                                            dextroamphetamine+usual care:placebo+usual care 1 1.00  0.20   0.20                 .       .     .       .
+                                               dextroamphetamine+usual care:sham+usual care 0    0  4.64      .              4.64       .     .       .
+                                   dextroamphetamine+usual care:trazodone+HFrTMS+usual care 0    0  1.51      .              1.51       .     .       .
+                                          dextroamphetamine+usual care:trazodone+usual care 0    0  0.14      .              0.14       .     .       .
+                                                    dextroamphetamine+usual care:usual care 0    0  0.72      .              0.72       .     .       .
+                                        dextroamphetamine+usual care:venlafaxine+usual care 0    0  0.20      .              0.20       .     .       .
+                                                      fluoxetine+usual care:GACT+usual care 0    0 14.68      .             14.68       .     .       .
+                                                    fluoxetine+usual care:HFrTMS+usual care 0    0 15.84      .             15.84       .     .       .
+                                                fluoxetine+usual care:imipramine+usual care 0    0  1.00      .              1.00       .     .       .
+                                                      fluoxetine+usual care:iTBS+usual care 0    0 47.52      .             47.52       .     .       .
+                                               fluoxetine+usual care:maprotiline+usual care 1 0.83  1.89   1.75              2.77    0.63 -0.16  0.8727
+                                                       fluoxetine+usual care:MES+usual care 0    0  2.45      .              2.45       .     .       .
+                                           fluoxetine+usual care:methylphenidate+usual care 0    0  1.86      .              1.86       .     .       .
+                                                          fluoxetine+usual care:mindfulness 0    0  6.88      .              6.88       .     .       .
+                                               fluoxetine+usual care:mindfulness+usual care 0    0  2.50      .              2.50       .     .       .
+                                                fluoxetine+usual care:paroxetine+usual care 0    0  6.09      .              6.09       .     .       .
+                                                   fluoxetine+usual care:placebo+usual care 1 0.98  2.05   2.00              8.48    0.24 -0.16  0.8727
+                                                      fluoxetine+usual care:sham+usual care 0    0 47.52      .             47.52       .     .       .
+                                          fluoxetine+usual care:trazodone+HFrTMS+usual care 0    0 15.48      .             15.48       .     .       .
+                                                 fluoxetine+usual care:trazodone+usual care 1 0.63  1.40   3.55              0.28   12.58  1.01  0.3143
+                                                           fluoxetine+usual care:usual care 1 0.51  7.34   3.00             18.33    0.16 -0.79  0.4300
+                                               fluoxetine+usual care:venlafaxine+usual care 0    0  2.05      .              2.05       .     .       .
+                                                          GACT+usual care:HFrTMS+usual care 0    0  1.08      .              1.08       .     .       .
+                                                      GACT+usual care:imipramine+usual care 0    0  0.07      .              0.07       .     .       .
+                                                            GACT+usual care:iTBS+usual care 0    0  3.24      .              3.24       .     .       .
+                                                     GACT+usual care:maprotiline+usual care 0    0  0.13      .              0.13       .     .       .
+                                                             GACT+usual care:MES+usual care 0    0  0.17      .              0.17       .     .       .
+                                                 GACT+usual care:methylphenidate+usual care 0    0  0.13      .              0.13       .     .       .
+                                                                GACT+usual care:mindfulness 0    0  0.47      .              0.47       .     .       .
+                                                     GACT+usual care:mindfulness+usual care 0    0  0.17      .              0.17       .     .       .
+                                                      GACT+usual care:paroxetine+usual care 0    0  0.41      .              0.41       .     .       .
+                                                         GACT+usual care:placebo+usual care 0    0  0.14      .              0.14       .     .       .
+                                                            GACT+usual care:sham+usual care 0    0  3.24      .              3.24       .     .       .
+                                                GACT+usual care:trazodone+HFrTMS+usual care 0    0  1.05      .              1.05       .     .       .
+                                                       GACT+usual care:trazodone+usual care 0    0  0.10      .              0.10       .     .       .
+                                                                 GACT+usual care:usual care 1 1.00  0.50   0.50                 .       .     .       .
+                                                     GACT+usual care:venlafaxine+usual care 0    0  0.14      .              0.14       .     .       .
+                                                    HFrTMS+usual care:imipramine+usual care 0    0  0.06      .              0.06       .     .       .
+                                                          HFrTMS+usual care:iTBS+usual care 1 1.00  3.00   3.00                 .       .     .       .
+                                                   HFrTMS+usual care:maprotiline+usual care 0    0  0.12      .              0.12       .     .       .
+                                                           HFrTMS+usual care:MES+usual care 0    0  0.15      .              0.15       .     .       .
+                                               HFrTMS+usual care:methylphenidate+usual care 0    0  0.12      .              0.12       .     .       .
+                                                              HFrTMS+usual care:mindfulness 0    0  0.43      .              0.43       .     .       .
+                                                   HFrTMS+usual care:mindfulness+usual care 0    0  0.16      .              0.16       .     .       .
+                                                    HFrTMS+usual care:paroxetine+usual care 0    0  0.38      .              0.38       .     .       .
+                                                       HFrTMS+usual care:placebo+usual care 0    0  0.13      .              0.13       .     .       .
+                                                          HFrTMS+usual care:sham+usual care 1 1.00  3.00   3.00                 .       .     .       .
+                                              HFrTMS+usual care:trazodone+HFrTMS+usual care 1 1.00  0.98   0.98                 .       .     .       .
+                                                     HFrTMS+usual care:trazodone+usual care 1 1.00  0.09   0.08 71810610651264.12    0.00 -1.01  0.3143
+                                                               HFrTMS+usual care:usual care 1 0.84  0.46   1.02              0.01  158.09  1.01  0.3143
+                                                   HFrTMS+usual care:venlafaxine+usual care 0    0  0.13      .              0.13       .     .       .
+                                                      imipramine+usual care:iTBS+usual care 0    0 47.46      .             47.46       .     .       .
+                                               imipramine+usual care:maprotiline+usual care 0    0  1.89      .              1.89       .     .       .
+                                                       imipramine+usual care:MES+usual care 0    0  2.44      .              2.44       .     .       .
+                                           imipramine+usual care:methylphenidate+usual care 0    0  1.86      .              1.86       .     .       .
+                                                          imipramine+usual care:mindfulness 0    0  6.87      .              6.87       .     .       .
+                                               imipramine+usual care:mindfulness+usual care 0    0  2.50      .              2.50       .     .       .
+                                                imipramine+usual care:paroxetine+usual care 1 0.79  6.08   6.78              4.04    1.68  0.16  0.8727
+                                                   imipramine+usual care:placebo+usual care 0    0  2.05      .              2.05       .     .       .
+                                                      imipramine+usual care:sham+usual care 0    0 47.46      .             47.46       .     .       .
+                                          imipramine+usual care:trazodone+HFrTMS+usual care 0    0 15.47      .             15.47       .     .       .
+                                                 imipramine+usual care:trazodone+usual care 0    0  1.39      .              1.39       .     .       .
+                                                           imipramine+usual care:usual care 1 0.79  7.33   6.57             11.04    0.60 -0.16  0.8727
+                                               imipramine+usual care:venlafaxine+usual care 0    0  2.05      .              2.05       .     .       .
+                                                     iTBS+usual care:maprotiline+usual care 0    0  0.04      .              0.04       .     .       .
+                                                             iTBS+usual care:MES+usual care 0    0  0.05      .              0.05       .     .       .
+                                                 iTBS+usual care:methylphenidate+usual care 0    0  0.04      .              0.04       .     .       .
+                                                                iTBS+usual care:mindfulness 0    0  0.14      .              0.14       .     .       .
+                                                     iTBS+usual care:mindfulness+usual care 0    0  0.05      .              0.05       .     .       .
+                                                      iTBS+usual care:paroxetine+usual care 0    0  0.13      .              0.13       .     .       .
+                                                         iTBS+usual care:placebo+usual care 0    0  0.04      .              0.04       .     .       .
+                                                            iTBS+usual care:sham+usual care 1 1.00  1.00   1.00                 .       .     .       .
+                                                iTBS+usual care:trazodone+HFrTMS+usual care 0    0  0.33      .              0.33       .     .       .
+                                                       iTBS+usual care:trazodone+usual care 0    0  0.03      .              0.03       .     .       .
+                                                                 iTBS+usual care:usual care 0    0  0.15      .              0.15       .     .       .
+                                                     iTBS+usual care:venlafaxine+usual care 0    0  0.04      .              0.04       .     .       .
+                                                      maprotiline+usual care:MES+usual care 0    0  1.30      .              1.30       .     .       .
+                                          maprotiline+usual care:methylphenidate+usual care 0    0  0.99      .              0.99       .     .       .
+                                                         maprotiline+usual care:mindfulness 0    0  3.64      .              3.64       .     .       .
+                                              maprotiline+usual care:mindfulness+usual care 0    0  1.32      .              1.32       .     .       .
+                                               maprotiline+usual care:paroxetine+usual care 1 0.84  3.22   3.00              4.75    0.63 -0.16  0.8727
+                                                  maprotiline+usual care:placebo+usual care 1 0.94  1.09   1.14              0.45    2.52  0.16  0.8727
+                                                     maprotiline+usual care:sham+usual care 0    0 25.16      .             25.16       .     .       .
+                                         maprotiline+usual care:trazodone+HFrTMS+usual care 0    0  8.20      .              8.20       .     .       .
+                                                maprotiline+usual care:trazodone+usual care 0    0  0.74      .              0.74       .     .       .
+                                                          maprotiline+usual care:usual care 0    0  3.89      .              3.89       .     .       .
+                                              maprotiline+usual care:venlafaxine+usual care 0    0  1.09      .              1.09       .     .       .
+                                                  MES+usual care:methylphenidate+usual care 0    0  0.76      .              0.76       .     .       .
+                                                                 MES+usual care:mindfulness 0    0  2.81      .              2.81       .     .       .
+                                                      MES+usual care:mindfulness+usual care 0    0  1.02      .              1.02       .     .       .
+                                                       MES+usual care:paroxetine+usual care 0    0  2.49      .              2.49       .     .       .
+                                                          MES+usual care:placebo+usual care 0    0  0.84      .              0.84       .     .       .
+                                                             MES+usual care:sham+usual care 0    0 19.42      .             19.42       .     .       .
+                                                 MES+usual care:trazodone+HFrTMS+usual care 0    0  6.33      .              6.33       .     .       .
+                                                        MES+usual care:trazodone+usual care 0    0  0.57      .              0.57       .     .       .
+                                                                  MES+usual care:usual care 1 1.00  3.00   3.00                 .       .     .       .
+                                                      MES+usual care:venlafaxine+usual care 0    0  0.84      .              0.84       .     .       .
+                                                     methylphenidate+usual care:mindfulness 0    0  3.69      .              3.69       .     .       .
+                                          methylphenidate+usual care:mindfulness+usual care 0    0  1.34      .              1.34       .     .       .
+                                           methylphenidate+usual care:paroxetine+usual care 0    0  3.27      .              3.27       .     .       .
+                                              methylphenidate+usual care:placebo+usual care 1 1.00  1.10   1.10                 .       .     .       .
+                                                 methylphenidate+usual care:sham+usual care 0    0 25.50      .             25.50       .     .       .
+                                     methylphenidate+usual care:trazodone+HFrTMS+usual care 0    0  8.31      .              8.31       .     .       .
+                                            methylphenidate+usual care:trazodone+usual care 0    0  0.75      .              0.75       .     .       .
+                                                      methylphenidate+usual care:usual care 0    0  3.94      .              3.94       .     .       .
+                                          methylphenidate+usual care:venlafaxine+usual care 0    0  1.10      .              1.10       .     .       .
+                                                         mindfulness:mindfulness+usual care 0    0  0.36      .              0.36       .     .       .
+                                                          mindfulness:paroxetine+usual care 0    0  0.88      .              0.88       .     .       .
+                                                             mindfulness:placebo+usual care 0    0  0.30      .              0.30       .     .       .
+                                                                mindfulness:sham+usual care 0    0  6.90      .              6.90       .     .       .
+                                                    mindfulness:trazodone+HFrTMS+usual care 0    0  2.25      .              2.25       .     .       .
+                                                           mindfulness:trazodone+usual care 0    0  0.20      .              0.20       .     .       .
+                                                                     mindfulness:usual care 1 1.00  1.07   1.07                 .       .     .       .
+                                                         mindfulness:venlafaxine+usual care 0    0  0.30      .              0.30       .     .       .
+                                               mindfulness+usual care:paroxetine+usual care 0    0  2.44      .              2.44       .     .       .
+                                                  mindfulness+usual care:placebo+usual care 0    0  0.82      .              0.82       .     .       .
+                                                     mindfulness+usual care:sham+usual care 0    0 19.02      .             19.02       .     .       .
+                                         mindfulness+usual care:trazodone+HFrTMS+usual care 0    0  6.20      .              6.20       .     .       .
+                                                mindfulness+usual care:trazodone+usual care 0    0  0.56      .              0.56       .     .       .
+                                                          mindfulness+usual care:usual care 1 1.00  2.94   2.94                 .       .     .       .
+                                              mindfulness+usual care:venlafaxine+usual care 0    0  0.82      .              0.82       .     .       .
+                                                   paroxetine+usual care:placebo+usual care 0    0  0.34      .              0.34       .     .       .
+                                                      paroxetine+usual care:sham+usual care 0    0  7.81      .              7.81       .     .       .
+                                          paroxetine+usual care:trazodone+HFrTMS+usual care 0    0  2.54      .              2.54       .     .       .
+                                                 paroxetine+usual care:trazodone+usual care 0    0  0.23      .              0.23       .     .       .
+                                                           paroxetine+usual care:usual care 1 0.52  1.21   0.97              1.53    0.63 -0.16  0.8727
+                                               paroxetine+usual care:venlafaxine+usual care 0    0  0.34      .              0.34       .     .       .
+                                                         placebo+usual care:sham+usual care 0    0 23.19      .             23.19       .     .       .
+                                             placebo+usual care:trazodone+HFrTMS+usual care 0    0  7.55      .              7.55       .     .       .
+                                                    placebo+usual care:trazodone+usual care 0    0  0.68      .              0.68       .     .       .
+                                                              placebo+usual care:usual care 0    0  3.58      .              3.58       .     .       .
+                                                  placebo+usual care:venlafaxine+usual care 1 1.00  1.00   1.00                 .       .     .       .
+                                                sham+usual care:trazodone+HFrTMS+usual care 0    0  0.33      .              0.33       .     .       .
+                                                       sham+usual care:trazodone+usual care 0    0  0.03      .              0.03       .     .       .
+                                                                 sham+usual care:usual care 0    0  0.15      .              0.15       .     .       .
+                                                     sham+usual care:venlafaxine+usual care 0    0  0.04      .              0.04       .     .       .
+                                           trazodone+HFrTMS+usual care:trazodone+usual care 1 1.00  0.09   0.08 72852455815432.94    0.00 -1.01  0.3143
+                                                     trazodone+HFrTMS+usual care:usual care 1 0.84  0.47   1.05              0.01  157.98  1.01  0.3143
+                                         trazodone+HFrTMS+usual care:venlafaxine+usual care 0    0  0.13      .              0.13       .     .       .
+                                                            trazodone+usual care:usual care 1 0.66  5.26  12.36              0.98   12.58  1.01  0.3143
+                                                trazodone+usual care:venlafaxine+usual care 0    0  1.47      .              1.47       .     .       .
+                                                          venlafaxine+usual care:usual care 0    0  3.58      .              3.58       .     .       .
+
+Legend:
+ comparison - Treatment comparison
+ k          - Number of studies providing direct evidence
+ prop       - Direct evidence proportion
+ nma        - Estimated treatment effect (RR) in network meta-analysis
+ direct     - Estimated treatment effect (RR) derived from direct evidence
+ indir.     - Estimated treatment effect (RR) derived from indirect evidence
+ RoR        - Ratio of Ratios (direct versus indirect)
+ z          - z-value of test for disagreement (direct versus indirect)
+ p-value    - p-value of test for disagreement (direct versus indirect)
+
+Common effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 20 comparisons).
+
+Random effects model:
+Percent of comparisons where there is some evidence (p-value<0.05) of disagreement between direct and indirect sources: 0 (0 out of 20 comparisons).
+
