@@ -1,0 +1,60 @@
+                                                   P-score (common) P-score (random)
+CBT+atDCS                                                    0.9316           0.9316
+CBT                                                          0.8650           0.8650
+attention control                                            0.8482           0.8482
+atDCS+usual care                                             0.7884           0.7884
+sham+usual care                                              0.7747           0.7747
+iTBS+usual care                                              0.7701           0.7701
+CBT+escitalopram                                             0.7405           0.7405
+GACT+usual care                                              0.7277           0.7277
+behavioural therapy+usual care                               0.7249           0.7249
+CBT+humanistic psychotherapy+usual care                      0.7103           0.7103
+mindfulness+psychoeducation+usual care                       0.6977           0.6977
+mindfulness+usual care                                       0.6977           0.6977
+placebo+CBT                                                  0.6946           0.6946
+dextroamphetamine+usual care                                 0.6758           0.6758
+placebo+attention control                                    0.6738           0.6738
+HFrTMS+usual care                                            0.6648           0.6648
+paroxetine+usual care                                        0.6548           0.6548
+HFrTMS+duloxetine+usual care                                 0.6475           0.6475
+psychoeducation+usual care                                   0.6362           0.6362
+usual care                                                   0.6362           0.6362
+no treatment                                                 0.6168           0.6168
+duloxetine+usual care                                        0.6080           0.6080
+atDCS+fluoxetine+usual care                                  0.5872           0.5872
+behavioural therapy                                          0.5708           0.5708
+sham+fluoxetine+usual care                                   0.5627           0.5627
+mindfulness                                                  0.5378           0.5378
+HFrTMS+paroxetine                                            0.5202           0.5202
+dtDCS+sertraline+usual care                                  0.5059           0.5059
+CBT+humanistic psychotherapy+fluoxetine+usual care           0.5048           0.5048
+sham+sertraline+usual care                                   0.5025           0.5025
+paroxetine                                                   0.4964           0.4964
+HFrTMS                                                       0.4830           0.4830
+HFrTMS+escitalopram+usual care                               0.4735           0.4735
+maprotiline+usual care                                       0.4478           0.4478
+escitalopram+usual care                                      0.4427           0.4427
+citalopram+attention control                                 0.4134           0.4134
+MES+usual care                                               0.4125           0.4125
+drTMS+sertraline+usual care                                  0.4013           0.4013
+venlafaxine+usual care                                       0.3875           0.3875
+fluoxetine+usual care                                        0.3822           0.3822
+methylphenidate+usual care                                   0.3811           0.3811
+placebo+usual care                                           0.3709           0.3709
+dtDCS+sertraline                                             0.3688           0.3688
+sham+sertraline                                              0.3565           0.3565
+HFrTMS+sertraline+usual care                                 0.3516           0.3516
+trazodone+HFrTMS+usual care                                  0.3474           0.3474
+trazodone+usual care                                         0.3156           0.3156
+escitalopram                                                 0.3014           0.3014
+imipramine+usual care                                        0.2797           0.2797
+fluoxetine                                                   0.2482           0.2482
+desipramine+usual care                                       0.2454           0.2454
+nortriptyline                                                0.2428           0.2428
+placebo                                                      0.2385           0.2385
+LFrTMS+sertraline+usual care                                 0.2275           0.2275
+HFrTMS+sertraline                                            0.2228           0.2228
+sertraline                                                   0.1956           0.1956
+reboxetine+usual care                                        0.1951           0.1951
+citalopram+usual care                                        0.1391           0.1391
+citalopram                                                   0.0661           0.0661
